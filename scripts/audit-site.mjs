@@ -7,7 +7,11 @@ const { chromium } = await import(
   process.env.PLAYWRIGHT_MODULE ? pathToFileURL(process.env.PLAYWRIGHT_MODULE).href : 'playwright'
 );
 const base = process.argv[2] || 'http://127.0.0.1:4321';
-const origin = 'https://japanese-ramen-simulator-wiki.pages.dev';
+const configuredDomain = fs
+  .readFileSync('src/config/site.ts', 'utf8')
+  .match(/^\s*domain:\s*'([^']+)'/m)?.[1];
+if (!configuredDomain && !process.env.SITE_URL) throw new Error('未找到站点正式域名配置。');
+const origin = (process.env.SITE_URL || `https://${configuredDomain}`).replace(/\/$/, '');
 const output = process.argv[3] || 'research/technical-audit.json';
 const paths = [];
 function walk(dir) {

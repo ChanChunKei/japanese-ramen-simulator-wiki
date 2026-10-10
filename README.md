@@ -2,14 +2,15 @@
 
 面向全球英文玩家的独立攻略站。基于 [PNGTRID/AnvilWiki](https://github.com/PNGTRID/AnvilWiki) v2.37.0（基线提交 `8172383d4ee58d062f1e987007ea062e90cc745c`），保留 Astro、MDX、Tailwind、Pagefind 与 Cloudflare Pages 架构及原 MIT 许可证。
 
-| 项目         | 地址/说明                                                    |
-| ------------ | ------------------------------------------------------------ |
-| 网站         | https://japanese-ramen-simulator-wiki.pages.dev/             |
-| 仓库         | https://github.com/ChanChunKei/japanese-ramen-simulator-wiki |
-| 正文         | `src/content/wiki/en/`，20篇；5个非空分类                    |
-| 证据与矩阵   | `research/`；数值版本 v0.1.48.17626                          |
-| 首发质量报告 | `research/final-content-audit.md`                            |
-| 维护策略     | `research/maintenance-strategy.md`                           |
+| 项目         | 地址/说明                                                        |
+| ------------ | ---------------------------------------------------------------- |
+| 正式域名     | https://japaneseramensimulatorwikis.wiki/（等待HTTPS验收与发布） |
+| 当前可用网址 | https://japanese-ramen-simulator-wiki.pages.dev/                 |
+| 仓库         | https://github.com/ChanChunKei/japanese-ramen-simulator-wiki     |
+| 正文         | `src/content/wiki/en/`，20篇；5个非空分类                        |
+| 证据与矩阵   | `research/`；数值版本 v0.1.48.17626                              |
+| 首发质量报告 | `research/final-content-audit.md`                                |
+| 维护策略     | `research/maintenance-strategy.md`                               |
 
 ## 本地运行
 
@@ -31,7 +32,7 @@ pnpm preview
 pnpm check-sitemap http://localhost:4321
 ```
 
-`src/config/site.ts` 与 `wrangler.toml [vars].SITE_URL` 已统一Pages地址。构建默认从本站配置获取域名；显式环境变量 `SITE_URL` 可用于受控预览。
+`src/config/site.ts`、`wrangler.toml [vars].SITE_URL` 与CI构建地址已统一正式域名。构建默认从本站配置获取域名；显式环境变量 `SITE_URL` 可用于受控预览。域名迁移的DNS、HTTPS与发布状态见 [域名接入记录](research/domain-migration-audit.md)。
 
 ## 发布
 
@@ -41,10 +42,10 @@ pnpm check-sitemap http://localhost:4321
 pnpm build
 pnpm check-links
 npx wrangler pages deploy dist --project-name japanese-ramen-simulator-wiki --branch main
-pnpm check-sitemap https://japanese-ramen-simulator-wiki.pages.dev
+pnpm check-sitemap https://japaneseramensimulatorwikis.wiki
 ```
 
-部署认证仅保存在本机或受控环境，不进入仓库。未配置广告、分析或评论凭据。正式域名与GSC接入待后续安排；当前不购买域名或服务。
+部署认证仅保存在本机或受控环境，不进入仓库。用户已在Spaceship购买正式域名；先完成DNS与HTTPS验证，再部署正式域名版本。未配置广告、分析或评论凭据，GSC所有权验证与sitemap提交仍待完成。
 
 ## 内容与授权
 

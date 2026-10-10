@@ -74,7 +74,7 @@ export const site: SiteConfig = {
   shortName: 'JRS Wiki',
   description:
     'Japanese Ramen Simulator guides for cooking, shop management, co-op, achievements and launch-day fixes, with sources and clear version notes.',
-  domain: 'japanese-ramen-simulator-wiki.pages.dev',
+  domain: 'japaneseramensimulatorwikis.wiki',
   tagline: 'A field guide for your next ramen shift.',
   legalNotice:
     'Independent fan wiki. Japanese Ramen Simulator is developed by Wild Dog; this site is not affiliated with the developer.',
