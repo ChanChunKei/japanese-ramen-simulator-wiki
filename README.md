@@ -13,6 +13,8 @@
 
 ## 本地运行
 
+本次配图与公网画廊验收见 [图文增强报告](research/media-update-audit.md)，原始素材台账为 `research/media-ledger.json`。
+
 Node.js >=22.13，包管理器 pnpm 11.1.1。`package.json` 的2.37.0保留所采用模板版本。
 
 ```sh

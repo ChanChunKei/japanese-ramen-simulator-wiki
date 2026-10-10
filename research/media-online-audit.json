@@ -1,0 +1,4694 @@
+{
+  "checkedAt": "2026-10-10T04:30:56.092Z",
+  "base": "https://japanese-ramen-simulator-wiki.pages.dev",
+  "totalPages": 54,
+  "indexablePages": 32,
+  "pages": [
+    {
+      "pathname": "/404.html",
+      "status": 200,
+      "title": "404 - Page Not Found — Japanese Ramen Simulator Wiki",
+      "description": "The page you are looking for does not exist.",
+      "canonical": "https://japanese-ramen-simulator-wiki.pages.dev/404/",
+      "robots": "noindex, nofollow",
+      "h1": [
+        "404"
+      ],
+      "language": "en",
+      "ogImage": "https://japanese-ramen-simulator-wiki.pages.dev/images/hero.webp",
+      "schemas": [
+        {
+          "@context": "https://schema.org",
+          "@type": "Organization",
+          "name": "Japanese Ramen Simulator Wiki",
+          "url": "https://japanese-ramen-simulator-wiki.pages.dev",
+          "logo": "https://japanese-ramen-simulator-wiki.pages.dev/android-chrome-512x512.png",
+          "image": "https://japanese-ramen-simulator-wiki.pages.dev/images/hero.webp",
+          "description": "Japanese Ramen Simulator guides for cooking, shop management, co-op, achievements and launch-day fixes, with sources and clear version notes."
+        }
+      ],
+      "missingAlt": 0,
+      "brokenImages": [],
+      "placeholder": false,
+      "desktopOverflow": false,
+      "headingJumps": false,
+      "navigationTimeMs": 2021.9000000059605,
+      "transferredBytes": 89907,
+      "mobileOverflow": false,
+      "imageLoads": [],
+      "galleryItems": 0,
+      "galleryChecks": [],
+      "issues": []
+    },
+    {
+      "pathname": "/about/",
+      "status": 200,
+      "title": "About — Japanese Ramen Simulator Wiki",
+      "description": "About for Japanese Ramen Simulator Wiki.",
+      "canonical": "https://japanese-ramen-simulator-wiki.pages.dev/about/",
+      "robots": "max-image-preview:large",
+      "h1": [
+        "About"
+      ],
+      "language": "en",
+      "ogImage": "https://japanese-ramen-simulator-wiki.pages.dev/images/hero.webp",
+      "schemas": [
+        {
+          "@context": "https://schema.org",
+          "@type": "Organization",
+          "name": "Japanese Ramen Simulator Wiki",
+          "url": "https://japanese-ramen-simulator-wiki.pages.dev",
+          "logo": "https://japanese-ramen-simulator-wiki.pages.dev/android-chrome-512x512.png",
+          "image": "https://japanese-ramen-simulator-wiki.pages.dev/images/hero.webp",
+          "description": "Japanese Ramen Simulator guides for cooking, shop management, co-op, achievements and launch-day fixes, with sources and clear version notes."
+        }
+      ],
+      "missingAlt": 0,
+      "brokenImages": [],
+      "placeholder": false,
+      "desktopOverflow": false,
+      "headingJumps": false,
+      "navigationTimeMs": 308.30000001192093,
+      "transferredBytes": 900,
+      "mobileOverflow": false,
+      "imageLoads": [],
+      "galleryItems": 0,
+      "galleryChecks": [],
+      "issues": []
+    },
+    {
+      "pathname": "/contact/",
+      "status": 200,
+      "title": "Contact — Japanese Ramen Simulator Wiki",
+      "description": "Contact for Japanese Ramen Simulator Wiki.",
+      "canonical": "https://japanese-ramen-simulator-wiki.pages.dev/contact/",
+      "robots": "max-image-preview:large",
+      "h1": [
+        "Contact"
+      ],
+      "language": "en",
+      "ogImage": "https://japanese-ramen-simulator-wiki.pages.dev/images/hero.webp",
+      "schemas": [
+        {
+          "@context": "https://schema.org",
+          "@type": "Organization",
+          "name": "Japanese Ramen Simulator Wiki",
+          "url": "https://japanese-ramen-simulator-wiki.pages.dev",
+          "logo": "https://japanese-ramen-simulator-wiki.pages.dev/android-chrome-512x512.png",
+          "image": "https://japanese-ramen-simulator-wiki.pages.dev/images/hero.webp",
+          "description": "Japanese Ramen Simulator guides for cooking, shop management, co-op, achievements and launch-day fixes, with sources and clear version notes."
+        }
+      ],
+      "missingAlt": 0,
+      "brokenImages": [],
+      "placeholder": false,
+      "desktopOverflow": false,
+      "headingJumps": false,
+      "navigationTimeMs": 388.69999998807907,
+      "transferredBytes": 900,
+      "mobileOverflow": false,
+      "imageLoads": [],
+      "galleryItems": 0,
+      "galleryChecks": [],
+      "issues": []
+    },
+    {
+      "pathname": "/cooking/beer/",
+      "status": 200,
+      "title": "Japanese Ramen Simulator: Beer Guide: Fill Level, Foam & Tutorial",
+      "description": "Understand the confirmed beer fill threshold, foam comments, tutorial changes and first-beer achievement without assuming a perfect ratio.",
+      "canonical": "https://japanese-ramen-simulator-wiki.pages.dev/cooking/beer/",
+      "robots": "max-image-preview:large",
+      "h1": [
+        "Japanese Ramen Simulator: Beer Guide: Fill Level, Foam & Tutorial"
+      ],
+      "language": "en",
+      "ogImage": "https://japanese-ramen-simulator-wiki.pages.dev/_astro/en-cooking-beer.CgcKc3dF.webp",
+      "schemas": [
+        {
+          "@context": "https://schema.org",
+          "@type": "Organization",
+          "name": "Japanese Ramen Simulator Wiki",
+          "url": "https://japanese-ramen-simulator-wiki.pages.dev",
+          "logo": "https://japanese-ramen-simulator-wiki.pages.dev/android-chrome-512x512.png",
+          "image": "https://japanese-ramen-simulator-wiki.pages.dev/images/hero.webp",
+          "description": "Japanese Ramen Simulator guides for cooking, shop management, co-op, achievements and launch-day fixes, with sources and clear version notes."
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "Article",
+          "headline": "Japanese Ramen Simulator: Beer Guide: Fill Level, Foam & Tutorial",
+          "description": "Understand the confirmed beer fill threshold, foam comments, tutorial changes and first-beer achievement without assuming a perfect ratio.",
+          "image": "https://japanese-ramen-simulator-wiki.pages.dev/_astro/en-cooking-beer.CgcKc3dF.webp",
+          "datePublished": "2026-10-10T00:00:00.000Z",
+          "dateModified": "2026-10-10T00:00:00.000Z",
+          "author": {
+            "@type": "Organization",
+            "name": "Japanese Ramen Simulator Wiki"
+          },
+          "publisher": {
+            "@type": "Organization",
+            "name": "Japanese Ramen Simulator Wiki",
+            "logo": {
+              "@type": "ImageObject",
+              "url": "https://japanese-ramen-simulator-wiki.pages.dev/android-chrome-512x512.png"
+            }
+          },
+          "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://japanese-ramen-simulator-wiki.pages.dev/cooking/beer/"
+          }
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Home",
+              "item": "https://japanese-ramen-simulator-wiki.pages.dev/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "Cooking & Menu Guides",
+              "item": "https://japanese-ramen-simulator-wiki.pages.dev/cooking/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "name": "Japanese Ramen Simulator: Beer Guide: Fill Level, Foam & Tutorial",
+              "item": "https://japanese-ramen-simulator-wiki.pages.dev/cooking/beer/"
+            }
+          ]
+        }
+      ],
+      "missingAlt": 0,
+      "brokenImages": [],
+      "placeholder": false,
+      "desktopOverflow": false,
+      "headingJumps": false,
+      "navigationTimeMs": 270.19999998807907,
+      "transferredBytes": 2165,
+      "mobileOverflow": false,
+      "imageLoads": [
+        {
+          "src": "https://japanese-ramen-simulator-wiki.pages.dev/_astro/beer-fill.-9Jx6K6w.svg",
+          "loaded": true
+        }
+      ],
+      "galleryItems": 0,
+      "galleryChecks": [],
+      "issues": []
+    },
+    {
+      "pathname": "/cooking/broth-and-tare/",
+      "status": 200,
+      "title": "Japanese Ramen Simulator: Broth & Tare: Preparation and Bottle Handling",
+      "description": "Prepare broth and handle tare bottles using confirmed launch-patch rules, including carrying five bottles and pouring while holding one.",
+      "canonical": "https://japanese-ramen-simulator-wiki.pages.dev/cooking/broth-and-tare/",
+      "robots": "max-image-preview:large",
+      "h1": [
+        "Japanese Ramen Simulator: Broth & Tare: Preparation and Bottle Handling"
+      ],
+      "language": "en",
+      "ogImage": "https://japanese-ramen-simulator-wiki.pages.dev/_astro/en-cooking-broth-and-tare.BY8PZW_4.webp",
+      "schemas": [
+        {
+          "@context": "https://schema.org",
+          "@type": "Organization",
+          "name": "Japanese Ramen Simulator Wiki",
+          "url": "https://japanese-ramen-simulator-wiki.pages.dev",
+          "logo": "https://japanese-ramen-simulator-wiki.pages.dev/android-chrome-512x512.png",
+          "image": "https://japanese-ramen-simulator-wiki.pages.dev/images/hero.webp",
+          "description": "Japanese Ramen Simulator guides for cooking, shop management, co-op, achievements and launch-day fixes, with sources and clear version notes."
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "Article",
+          "headline": "Japanese Ramen Simulator: Broth & Tare: Preparation and Bottle Handling",
+          "description": "Prepare broth and handle tare bottles using confirmed launch-patch rules, including carrying five bottles and pouring while holding one.",
+          "image": "https://japanese-ramen-simulator-wiki.pages.dev/_astro/en-cooking-broth-and-tare.BY8PZW_4.webp",
+          "datePublished": "2026-10-10T00:00:00.000Z",
+          "dateModified": "2026-10-10T00:00:00.000Z",
+          "author": {
+            "@type": "Organization",
+            "name": "Japanese Ramen Simulator Wiki"
+          },
+          "publisher": {
+            "@type": "Organization",
+            "name": "Japanese Ramen Simulator Wiki",
+            "logo": {
+              "@type": "ImageObject",
+              "url": "https://japanese-ramen-simulator-wiki.pages.dev/android-chrome-512x512.png"
+            }
+          },
+          "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://japanese-ramen-simulator-wiki.pages.dev/cooking/broth-and-tare/"
+          }
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Home",
+              "item": "https://japanese-ramen-simulator-wiki.pages.dev/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "Cooking & Menu Guides",
+              "item": "https://japanese-ramen-simulator-wiki.pages.dev/cooking/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "name": "Japanese Ramen Simulator: Broth & Tare: Preparation and Bottle Handling",
+              "item": "https://japanese-ramen-simulator-wiki.pages.dev/cooking/broth-and-tare/"
+            }
+          ]
+        }
+      ],
+      "missingAlt": 0,
+      "brokenImages": [],
+      "placeholder": false,
+      "desktopOverflow": false,
+      "headingJumps": false,
+      "navigationTimeMs": 266.40000000596046,
+      "transferredBytes": 115356,
+      "mobileOverflow": false,
+      "imageLoads": [
+        {
+          "src": "https://japanese-ramen-simulator-wiki.pages.dev/_astro/steam-2.DSoClwT1_Z1nboxP.webp",
+          "loaded": true
+        },
+        {
+          "src": "https://japanese-ramen-simulator-wiki.pages.dev/_astro/steam-5.CX_nTyPQ_ZFPafi.webp",
+          "loaded": true
+        }
+      ],
+      "galleryItems": 0,
+      "galleryChecks": [],
+      "issues": []
+    },
+    {
+      "pathname": "/cooking/gyoza-and-rice-bowls/",
+      "status": 200,
+      "title": "Japanese Ramen Simulator: Gyoza & Rice Bowls Guide",
+      "description": "Plan gyoza and rice-bowl service, distinguish confirmed menu names and check launch-patch fixes for rice heating and loaded gyoza.",
+      "canonical": "https://japanese-ramen-simulator-wiki.pages.dev/cooking/gyoza-and-rice-bowls/",
+      "robots": "max-image-preview:large",
+      "h1": [
+        "Japanese Ramen Simulator: Gyoza & Rice Bowls Guide"
+      ],
+      "language": "en",
+      "ogImage": "https://japanese-ramen-simulator-wiki.pages.dev/_astro/en-cooking-gyoza-and-rice-bowls.X3yQZDU0.webp",
+      "schemas": [
+        {
+          "@context": "https://schema.org",
+          "@type": "Organization",
+          "name": "Japanese Ramen Simulator Wiki",
+          "url": "https://japanese-ramen-simulator-wiki.pages.dev",
+          "logo": "https://japanese-ramen-simulator-wiki.pages.dev/android-chrome-512x512.png",
+          "image": "https://japanese-ramen-simulator-wiki.pages.dev/images/hero.webp",
+          "description": "Japanese Ramen Simulator guides for cooking, shop management, co-op, achievements and launch-day fixes, with sources and clear version notes."
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "Article",
+          "headline": "Japanese Ramen Simulator: Gyoza & Rice Bowls Guide",
+          "description": "Plan gyoza and rice-bowl service, distinguish confirmed menu names and check launch-patch fixes for rice heating and loaded gyoza.",
+          "image": "https://japanese-ramen-simulator-wiki.pages.dev/_astro/en-cooking-gyoza-and-rice-bowls.X3yQZDU0.webp",
+          "datePublished": "2026-10-10T00:00:00.000Z",
+          "dateModified": "2026-10-10T00:00:00.000Z",
+          "author": {
+            "@type": "Organization",
+            "name": "Japanese Ramen Simulator Wiki"
+          },
+          "publisher": {
+            "@type": "Organization",
+            "name": "Japanese Ramen Simulator Wiki",
+            "logo": {
+              "@type": "ImageObject",
+              "url": "https://japanese-ramen-simulator-wiki.pages.dev/android-chrome-512x512.png"
+            }
+          },
+          "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://japanese-ramen-simulator-wiki.pages.dev/cooking/gyoza-and-rice-bowls/"
+          }
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Home",
+              "item": "https://japanese-ramen-simulator-wiki.pages.dev/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "Cooking & Menu Guides",
+              "item": "https://japanese-ramen-simulator-wiki.pages.dev/cooking/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "name": "Japanese Ramen Simulator: Gyoza & Rice Bowls Guide",
+              "item": "https://japanese-ramen-simulator-wiki.pages.dev/cooking/gyoza-and-rice-bowls/"
+            }
+          ]
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "ImageObject",
+          "contentUrl": "https://japanese-ramen-simulator-wiki.pages.dev/_astro/steam-4.C-kq87MY.jpg",
+          "name": "Gyoza browning on an open griddle in the restaurant kitchen.",
+          "description": "Official Steam store screenshot · © Wild Dog. Gyoza browning on an open griddle in the restaurant kitchen."
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "ImageObject",
+          "contentUrl": "https://japanese-ramen-simulator-wiki.pages.dev/_astro/steam-0.BB9jTzVt.jpg",
+          "name": "Two finished ramen bowls with sliced pork, egg and greens.",
+          "description": "Official Steam store screenshot · © Wild Dog. Two finished ramen bowls with sliced pork, egg and greens."
+        }
+      ],
+      "missingAlt": 0,
+      "brokenImages": [],
+      "placeholder": false,
+      "desktopOverflow": false,
+      "headingJumps": false,
+      "navigationTimeMs": 237.40000000596046,
+      "transferredBytes": 153338,
+      "mobileOverflow": false,
+      "imageLoads": [
+        {
+          "src": "https://japanese-ramen-simulator-wiki.pages.dev/_astro/steam-4.C-kq87MY_Z28CnOc.webp",
+          "loaded": true
+        },
+        {
+          "src": "https://japanese-ramen-simulator-wiki.pages.dev/_astro/steam-4.C-kq87MY_Z1REubO.webp",
+          "loaded": true
+        },
+        {
+          "src": "https://japanese-ramen-simulator-wiki.pages.dev/_astro/steam-0.BB9jTzVt_16Uq0g.webp",
+          "loaded": true
+        }
+      ],
+      "galleryItems": 2,
+      "galleryChecks": [
+        {
+          "width": 1440,
+          "firstLoaded": true,
+          "nextLoaded": true,
+          "changed": true,
+          "previous": true,
+          "fits": true,
+          "closed": true
+        },
+        {
+          "width": 390,
+          "firstLoaded": true,
+          "nextLoaded": true,
+          "changed": true,
+          "previous": true,
+          "fits": true,
+          "closed": true
+        }
+      ],
+      "issues": []
+    },
+    {
+      "pathname": "/cooking/",
+      "status": 200,
+      "title": "Cooking & Menu Guides — Japanese Ramen Simulator Wiki",
+      "description": "Prepare ramen, broth, tare, gyoza, rice bowls and beer in Japanese Ramen Simulator, using confirmed mechanics and clear recipe limits.",
+      "canonical": "https://japanese-ramen-simulator-wiki.pages.dev/cooking/",
+      "robots": "max-image-preview:large",
+      "h1": [
+        "Cooking & Menu Guides"
+      ],
+      "language": "en",
+      "ogImage": "https://japanese-ramen-simulator-wiki.pages.dev/images/hero.webp",
+      "schemas": [
+        {
+          "@context": "https://schema.org",
+          "@type": "Organization",
+          "name": "Japanese Ramen Simulator Wiki",
+          "url": "https://japanese-ramen-simulator-wiki.pages.dev",
+          "logo": "https://japanese-ramen-simulator-wiki.pages.dev/android-chrome-512x512.png",
+          "image": "https://japanese-ramen-simulator-wiki.pages.dev/images/hero.webp",
+          "description": "Japanese Ramen Simulator guides for cooking, shop management, co-op, achievements and launch-day fixes, with sources and clear version notes."
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "ItemList",
+          "name": "Cooking & Menu Guides",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Japanese Ramen Simulator: Beer Guide: Fill Level, Foam & Tutorial",
+              "url": "https://japanese-ramen-simulator-wiki.pages.dev/cooking/beer/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "Japanese Ramen Simulator: Broth & Tare: Preparation and Bottle Handling",
+              "url": "https://japanese-ramen-simulator-wiki.pages.dev/cooking/broth-and-tare/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "name": "Japanese Ramen Simulator: Gyoza & Rice Bowls Guide",
+              "url": "https://japanese-ramen-simulator-wiki.pages.dev/cooking/gyoza-and-rice-bowls/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 4,
+              "name": "Japanese Ramen Simulator: Ramen Recipes & Confirmed Menu",
+              "url": "https://japanese-ramen-simulator-wiki.pages.dev/cooking/ramen-recipes/"
+            }
+          ]
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Home",
+              "item": "https://japanese-ramen-simulator-wiki.pages.dev/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "Cooking & Menu Guides",
+              "item": "https://japanese-ramen-simulator-wiki.pages.dev/cooking/"
+            }
+          ]
+        }
+      ],
+      "missingAlt": 0,
+      "brokenImages": [],
+      "placeholder": false,
+      "desktopOverflow": false,
+      "headingJumps": false,
+      "navigationTimeMs": 242.69999998807907,
+      "transferredBytes": 159562,
+      "mobileOverflow": false,
+      "imageLoads": [],
+      "galleryItems": 0,
+      "galleryChecks": [],
+      "issues": []
+    },
+    {
+      "pathname": "/cooking/ramen-recipes/",
+      "status": 200,
+      "title": "Japanese Ramen Simulator: Ramen Recipes & Confirmed Menu",
+      "description": "Check the confirmed ramen menu, Tantanmen broth options and ingredient preparation, without relying on unverified quantities or scoring formulas.",
+      "canonical": "https://japanese-ramen-simulator-wiki.pages.dev/cooking/ramen-recipes/",
+      "robots": "max-image-preview:large",
+      "h1": [
+        "Japanese Ramen Simulator: Ramen Recipes & Confirmed Menu"
+      ],
+      "language": "en",
+      "ogImage": "https://japanese-ramen-simulator-wiki.pages.dev/_astro/en-cooking-ramen-recipes.BLnpDTK-.webp",
+      "schemas": [
+        {
+          "@context": "https://schema.org",
+          "@type": "Organization",
+          "name": "Japanese Ramen Simulator Wiki",
+          "url": "https://japanese-ramen-simulator-wiki.pages.dev",
+          "logo": "https://japanese-ramen-simulator-wiki.pages.dev/android-chrome-512x512.png",
+          "image": "https://japanese-ramen-simulator-wiki.pages.dev/images/hero.webp",
+          "description": "Japanese Ramen Simulator guides for cooking, shop management, co-op, achievements and launch-day fixes, with sources and clear version notes."
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "Article",
+          "headline": "Japanese Ramen Simulator: Ramen Recipes & Confirmed Menu",
+          "description": "Check the confirmed ramen menu, Tantanmen broth options and ingredient preparation, without relying on unverified quantities or scoring formulas.",
+          "image": "https://japanese-ramen-simulator-wiki.pages.dev/_astro/en-cooking-ramen-recipes.BLnpDTK-.webp",
+          "datePublished": "2026-10-10T00:00:00.000Z",
+          "dateModified": "2026-10-10T00:00:00.000Z",
+          "author": {
+            "@type": "Organization",
+            "name": "Japanese Ramen Simulator Wiki"
+          },
+          "publisher": {
+            "@type": "Organization",
+            "name": "Japanese Ramen Simulator Wiki",
+            "logo": {
+              "@type": "ImageObject",
+              "url": "https://japanese-ramen-simulator-wiki.pages.dev/android-chrome-512x512.png"
+            }
+          },
+          "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://japanese-ramen-simulator-wiki.pages.dev/cooking/ramen-recipes/"
+          }
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Home",
+              "item": "https://japanese-ramen-simulator-wiki.pages.dev/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "Cooking & Menu Guides",
+              "item": "https://japanese-ramen-simulator-wiki.pages.dev/cooking/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "name": "Japanese Ramen Simulator: Ramen Recipes & Confirmed Menu",
+              "item": "https://japanese-ramen-simulator-wiki.pages.dev/cooking/ramen-recipes/"
+            }
+          ]
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "ImageObject",
+          "contentUrl": "https://japanese-ramen-simulator-wiki.pages.dev/_astro/steam-0.BB9jTzVt.jpg",
+          "name": "Two finished ramen bowls with sliced pork, egg and greens.",
+          "description": "Official Steam store screenshot · © Wild Dog. Two finished ramen bowls with sliced pork, egg and greens."
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "ImageObject",
+          "contentUrl": "https://japanese-ramen-simulator-wiki.pages.dev/_astro/steam-2.DSoClwT1.jpg",
+          "name": "Ramen bowls with different toppings and condiment bottles beside them.",
+          "description": "Official Steam store screenshot · © Wild Dog. Ramen bowls with different toppings and condiment bottles beside them."
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "ImageObject",
+          "contentUrl": "https://japanese-ramen-simulator-wiki.pages.dev/_astro/steam-5.CX_nTyPQ.jpg",
+          "name": "First-person noodle preparation at a kitchen station with pots and noodle baskets.",
+          "description": "Official Steam store screenshot · © Wild Dog. First-person noodle preparation at a kitchen station with pots and noodle baskets."
+        }
+      ],
+      "missingAlt": 0,
+      "brokenImages": [],
+      "placeholder": false,
+      "desktopOverflow": false,
+      "headingJumps": false,
+      "navigationTimeMs": 384.7000000178814,
+      "transferredBytes": 179782,
+      "mobileOverflow": false,
+      "imageLoads": [
+        {
+          "src": "https://japanese-ramen-simulator-wiki.pages.dev/_astro/steam-0.BB9jTzVt_PWwmS.webp",
+          "loaded": true
+        },
+        {
+          "src": "https://japanese-ramen-simulator-wiki.pages.dev/_astro/steam-2.DSoClwT1_Z1nboxP.webp",
+          "loaded": true
+        },
+        {
+          "src": "https://japanese-ramen-simulator-wiki.pages.dev/_astro/steam-0.BB9jTzVt_16Uq0g.webp",
+          "loaded": true
+        },
+        {
+          "src": "https://japanese-ramen-simulator-wiki.pages.dev/_astro/steam-2.DSoClwT1_Z17duUs.webp",
+          "loaded": true
+        },
+        {
+          "src": "https://japanese-ramen-simulator-wiki.pages.dev/_astro/steam-5.CX_nTyPQ_ZpRgBU.webp",
+          "loaded": true
+        }
+      ],
+      "galleryItems": 3,
+      "galleryChecks": [
+        {
+          "width": 1440,
+          "firstLoaded": true,
+          "nextLoaded": true,
+          "changed": true,
+          "previous": true,
+          "fits": true,
+          "closed": true
+        },
+        {
+          "width": 390,
+          "firstLoaded": true,
+          "nextLoaded": true,
+          "changed": true,
+          "previous": true,
+          "fits": true,
+          "closed": true
+        }
+      ],
+      "issues": []
+    },
+    {
+      "pathname": "/copyright/",
+      "status": 200,
+      "title": "Copyright — Japanese Ramen Simulator Wiki",
+      "description": "Copyright for Japanese Ramen Simulator Wiki.",
+      "canonical": "https://japanese-ramen-simulator-wiki.pages.dev/copyright/",
+      "robots": "max-image-preview:large",
+      "h1": [
+        "Copyright"
+      ],
+      "language": "en",
+      "ogImage": "https://japanese-ramen-simulator-wiki.pages.dev/images/hero.webp",
+      "schemas": [
+        {
+          "@context": "https://schema.org",
+          "@type": "Organization",
+          "name": "Japanese Ramen Simulator Wiki",
+          "url": "https://japanese-ramen-simulator-wiki.pages.dev",
+          "logo": "https://japanese-ramen-simulator-wiki.pages.dev/android-chrome-512x512.png",
+          "image": "https://japanese-ramen-simulator-wiki.pages.dev/images/hero.webp",
+          "description": "Japanese Ramen Simulator guides for cooking, shop management, co-op, achievements and launch-day fixes, with sources and clear version notes."
+        }
+      ],
+      "missingAlt": 0,
+      "brokenImages": [],
+      "placeholder": false,
+      "desktopOverflow": false,
+      "headingJumps": false,
+      "navigationTimeMs": 249.19999998807907,
+      "transferredBytes": 900,
+      "mobileOverflow": false,
+      "imageLoads": [],
+      "galleryItems": 0,
+      "galleryChecks": [],
+      "issues": []
+    },
+    {
+      "pathname": "/faq/",
+      "status": 200,
+      "title": "Before you open — Japanese Ramen Simulator Wiki",
+      "description": "A few launch-day answers.",
+      "canonical": "https://japanese-ramen-simulator-wiki.pages.dev/faq/",
+      "robots": "max-image-preview:large",
+      "h1": [
+        "Before you open"
+      ],
+      "language": "en",
+      "ogImage": "https://japanese-ramen-simulator-wiki.pages.dev/images/hero.webp",
+      "schemas": [
+        {
+          "@context": "https://schema.org",
+          "@type": "Organization",
+          "name": "Japanese Ramen Simulator Wiki",
+          "url": "https://japanese-ramen-simulator-wiki.pages.dev",
+          "logo": "https://japanese-ramen-simulator-wiki.pages.dev/android-chrome-512x512.png",
+          "image": "https://japanese-ramen-simulator-wiki.pages.dev/images/hero.webp",
+          "description": "Japanese Ramen Simulator guides for cooking, shop management, co-op, achievements and launch-day fixes, with sources and clear version notes."
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "Has Japanese Ramen Simulator been released?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Yes. Wild Dog released the Windows Steam game in Early Access on October 9, 2026. The latest numerical patch verified here is v0.1.48.17626."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Can I play alone?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Yes. The official Steam listing supports single-player and NPC part-time staff. The launch patch documents dish-clearing staff; it does not establish full kitchen automation."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "How many players can join?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Steam advertises up to six. Wild Dog’s October 9 press-release headline says up to ten, with six recommended, while its body repeats six. This wiki has not tested the larger limit."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Are there exact recipes for every bowl?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "The verified sources identify menu categories and Tantanmen broth options, but do not publish a complete quantity or scoring formula. Our cooking guides show confirmed rules and mark the missing details."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Is this an official game website?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "No. This is an independent fan reference. We link official announcements and distinguish confirmed mechanics from suggested kitchen workflows."
+              }
+            }
+          ]
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Home",
+              "item": "https://japanese-ramen-simulator-wiki.pages.dev/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "Before you open",
+              "item": "https://japanese-ramen-simulator-wiki.pages.dev/faq/"
+            }
+          ]
+        }
+      ],
+      "missingAlt": 0,
+      "brokenImages": [],
+      "placeholder": false,
+      "desktopOverflow": false,
+      "headingJumps": false,
+      "navigationTimeMs": 207.5,
+      "transferredBytes": 900,
+      "mobileOverflow": false,
+      "imageLoads": [],
+      "galleryItems": 0,
+      "galleryChecks": [],
+      "issues": []
+    },
+    {
+      "pathname": "/guides/achievements/",
+      "status": 200,
+      "title": "Japanese Ramen Simulator: All 18 Achievements & Requirements",
+      "description": "Browse all 18 Steam achievements, their published requirements and related cooking, boss, customization and shop-level milestones.",
+      "canonical": "https://japanese-ramen-simulator-wiki.pages.dev/guides/achievements/",
+      "robots": "max-image-preview:large",
+      "h1": [
+        "Japanese Ramen Simulator: All 18 Achievements & Requirements"
+      ],
+      "language": "en",
+      "ogImage": "https://japanese-ramen-simulator-wiki.pages.dev/_astro/en-guides-achievements.Dw6Bj0qg.webp",
+      "schemas": [
+        {
+          "@context": "https://schema.org",
+          "@type": "Organization",
+          "name": "Japanese Ramen Simulator Wiki",
+          "url": "https://japanese-ramen-simulator-wiki.pages.dev",
+          "logo": "https://japanese-ramen-simulator-wiki.pages.dev/android-chrome-512x512.png",
+          "image": "https://japanese-ramen-simulator-wiki.pages.dev/images/hero.webp",
+          "description": "Japanese Ramen Simulator guides for cooking, shop management, co-op, achievements and launch-day fixes, with sources and clear version notes."
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "Article",
+          "headline": "Japanese Ramen Simulator: All 18 Achievements & Requirements",
+          "description": "Browse all 18 Steam achievements, their published requirements and related cooking, boss, customization and shop-level milestones.",
+          "image": "https://japanese-ramen-simulator-wiki.pages.dev/_astro/en-guides-achievements.Dw6Bj0qg.webp",
+          "datePublished": "2026-10-10T00:00:00.000Z",
+          "dateModified": "2026-10-10T00:00:00.000Z",
+          "author": {
+            "@type": "Organization",
+            "name": "Japanese Ramen Simulator Wiki"
+          },
+          "publisher": {
+            "@type": "Organization",
+            "name": "Japanese Ramen Simulator Wiki",
+            "logo": {
+              "@type": "ImageObject",
+              "url": "https://japanese-ramen-simulator-wiki.pages.dev/android-chrome-512x512.png"
+            }
+          },
+          "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://japanese-ramen-simulator-wiki.pages.dev/guides/achievements/"
+          }
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Home",
+              "item": "https://japanese-ramen-simulator-wiki.pages.dev/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "Getting Started & Game Reference",
+              "item": "https://japanese-ramen-simulator-wiki.pages.dev/guides/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "name": "Japanese Ramen Simulator: All 18 Achievements & Requirements",
+              "item": "https://japanese-ramen-simulator-wiki.pages.dev/guides/achievements/"
+            }
+          ]
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "Does The Perfect Pour require a perfect beer ratio?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "The published Steam requirement is to serve beer once. It does not specify a perfect foam ratio."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Do the level achievements confirm ingredient unlocks?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "No. The achievements name shop-level milestones; ingredient purchase and order thresholds need their own source."
+              }
+            }
+          ]
+        }
+      ],
+      "missingAlt": 0,
+      "brokenImages": [],
+      "placeholder": false,
+      "desktopOverflow": false,
+      "headingJumps": false,
+      "navigationTimeMs": 240.59999999403954,
+      "transferredBytes": 900,
+      "mobileOverflow": false,
+      "imageLoads": [
+        {
+          "src": "https://japanese-ramen-simulator-wiki.pages.dev/_astro/steam-0.BB9jTzVt_PWwmS.webp",
+          "loaded": true
+        }
+      ],
+      "galleryItems": 0,
+      "galleryChecks": [],
+      "issues": []
+    },
+    {
+      "pathname": "/guides/beginner-guide/",
+      "status": 200,
+      "title": "Japanese Ramen Simulator: Beginner Guide",
+      "description": "Start your first ramen shift with a practical preparation, cooking and service checklist, plus verified tutorial changes from the launch patch.",
+      "canonical": "https://japanese-ramen-simulator-wiki.pages.dev/guides/beginner-guide/",
+      "robots": "max-image-preview:large",
+      "h1": [
+        "Japanese Ramen Simulator: Beginner Guide"
+      ],
+      "language": "en",
+      "ogImage": "https://japanese-ramen-simulator-wiki.pages.dev/_astro/en-guides-beginner-guide.B2GeFF_I.webp",
+      "schemas": [
+        {
+          "@context": "https://schema.org",
+          "@type": "Organization",
+          "name": "Japanese Ramen Simulator Wiki",
+          "url": "https://japanese-ramen-simulator-wiki.pages.dev",
+          "logo": "https://japanese-ramen-simulator-wiki.pages.dev/android-chrome-512x512.png",
+          "image": "https://japanese-ramen-simulator-wiki.pages.dev/images/hero.webp",
+          "description": "Japanese Ramen Simulator guides for cooking, shop management, co-op, achievements and launch-day fixes, with sources and clear version notes."
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "Article",
+          "headline": "Japanese Ramen Simulator: Beginner Guide",
+          "description": "Start your first ramen shift with a practical preparation, cooking and service checklist, plus verified tutorial changes from the launch patch.",
+          "image": "https://japanese-ramen-simulator-wiki.pages.dev/_astro/en-guides-beginner-guide.B2GeFF_I.webp",
+          "datePublished": "2026-10-10T00:00:00.000Z",
+          "dateModified": "2026-10-10T00:00:00.000Z",
+          "author": {
+            "@type": "Organization",
+            "name": "Japanese Ramen Simulator Wiki"
+          },
+          "publisher": {
+            "@type": "Organization",
+            "name": "Japanese Ramen Simulator Wiki",
+            "logo": {
+              "@type": "ImageObject",
+              "url": "https://japanese-ramen-simulator-wiki.pages.dev/android-chrome-512x512.png"
+            }
+          },
+          "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://japanese-ramen-simulator-wiki.pages.dev/guides/beginner-guide/"
+          }
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Home",
+              "item": "https://japanese-ramen-simulator-wiki.pages.dev/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "Getting Started & Game Reference",
+              "item": "https://japanese-ramen-simulator-wiki.pages.dev/guides/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "name": "Japanese Ramen Simulator: Beginner Guide",
+              "item": "https://japanese-ramen-simulator-wiki.pages.dev/guides/beginner-guide/"
+            }
+          ]
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "ImageObject",
+          "contentUrl": "https://japanese-ramen-simulator-wiki.pages.dev/_astro/steam-5.CX_nTyPQ.jpg",
+          "name": "First-person noodle preparation at a kitchen station with pots and noodle baskets.",
+          "description": "Official Steam store screenshot · © Wild Dog. First-person noodle preparation at a kitchen station with pots and noodle baskets."
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "ImageObject",
+          "contentUrl": "https://japanese-ramen-simulator-wiki.pages.dev/_astro/steam-1.ErGXzs-J.jpg",
+          "name": "A ramen shop interior with a central kitchen and customers seated around the counter.",
+          "description": "Official Steam store screenshot · © Wild Dog. A ramen shop interior with a central kitchen and customers seated around the counter."
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "ImageObject",
+          "contentUrl": "https://japanese-ramen-simulator-wiki.pages.dev/_astro/steam-0.BB9jTzVt.jpg",
+          "name": "Two finished ramen bowls with sliced pork, egg and greens.",
+          "description": "Official Steam store screenshot · © Wild Dog. Two finished ramen bowls with sliced pork, egg and greens."
+        }
+      ],
+      "missingAlt": 0,
+      "brokenImages": [],
+      "placeholder": false,
+      "desktopOverflow": false,
+      "headingJumps": false,
+      "navigationTimeMs": 264.59999999403954,
+      "transferredBytes": 47776,
+      "mobileOverflow": false,
+      "imageLoads": [
+        {
+          "src": "https://japanese-ramen-simulator-wiki.pages.dev/_astro/steam-5.CX_nTyPQ_ZFPafi.webp",
+          "loaded": true
+        },
+        {
+          "src": "https://japanese-ramen-simulator-wiki.pages.dev/_astro/service-flow.SG8iZe83.svg",
+          "loaded": true
+        },
+        {
+          "src": "https://japanese-ramen-simulator-wiki.pages.dev/_astro/steam-5.CX_nTyPQ_ZpRgBU.webp",
+          "loaded": true
+        },
+        {
+          "src": "https://japanese-ramen-simulator-wiki.pages.dev/_astro/steam-1.ErGXzs-J_Z2sk5gC.webp",
+          "loaded": true
+        },
+        {
+          "src": "https://japanese-ramen-simulator-wiki.pages.dev/_astro/steam-0.BB9jTzVt_16Uq0g.webp",
+          "loaded": true
+        }
+      ],
+      "galleryItems": 3,
+      "galleryChecks": [
+        {
+          "width": 1440,
+          "firstLoaded": true,
+          "nextLoaded": true,
+          "changed": true,
+          "previous": true,
+          "fits": true,
+          "closed": true
+        },
+        {
+          "width": 390,
+          "firstLoaded": true,
+          "nextLoaded": true,
+          "changed": true,
+          "previous": true,
+          "fits": true,
+          "closed": true
+        }
+      ],
+      "issues": []
+    },
+    {
+      "pathname": "/guides/controls-and-language/",
+      "status": 200,
+      "title": "Japanese Ramen Simulator: Controls, Language & Cart Settings",
+      "description": "Check confirmed controls, interface languages, controller limits and cart changes, with careful steps for launch-day input and language problems.",
+      "canonical": "https://japanese-ramen-simulator-wiki.pages.dev/guides/controls-and-language/",
+      "robots": "max-image-preview:large",
+      "h1": [
+        "Japanese Ramen Simulator: Controls, Language & Cart Settings"
+      ],
+      "language": "en",
+      "ogImage": "https://japanese-ramen-simulator-wiki.pages.dev/_astro/en-guides-controls-and-language.BJoJIaPL.webp",
+      "schemas": [
+        {
+          "@context": "https://schema.org",
+          "@type": "Organization",
+          "name": "Japanese Ramen Simulator Wiki",
+          "url": "https://japanese-ramen-simulator-wiki.pages.dev",
+          "logo": "https://japanese-ramen-simulator-wiki.pages.dev/android-chrome-512x512.png",
+          "image": "https://japanese-ramen-simulator-wiki.pages.dev/images/hero.webp",
+          "description": "Japanese Ramen Simulator guides for cooking, shop management, co-op, achievements and launch-day fixes, with sources and clear version notes."
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "Article",
+          "headline": "Japanese Ramen Simulator: Controls, Language & Cart Settings",
+          "description": "Check confirmed controls, interface languages, controller limits and cart changes, with careful steps for launch-day input and language problems.",
+          "image": "https://japanese-ramen-simulator-wiki.pages.dev/_astro/en-guides-controls-and-language.BJoJIaPL.webp",
+          "datePublished": "2026-10-10T00:00:00.000Z",
+          "dateModified": "2026-10-10T00:00:00.000Z",
+          "author": {
+            "@type": "Organization",
+            "name": "Japanese Ramen Simulator Wiki"
+          },
+          "publisher": {
+            "@type": "Organization",
+            "name": "Japanese Ramen Simulator Wiki",
+            "logo": {
+              "@type": "ImageObject",
+              "url": "https://japanese-ramen-simulator-wiki.pages.dev/android-chrome-512x512.png"
+            }
+          },
+          "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://japanese-ramen-simulator-wiki.pages.dev/guides/controls-and-language/"
+          }
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Home",
+              "item": "https://japanese-ramen-simulator-wiki.pages.dev/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "Getting Started & Game Reference",
+              "item": "https://japanese-ramen-simulator-wiki.pages.dev/guides/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "name": "Japanese Ramen Simulator: Controls, Language & Cart Settings",
+              "item": "https://japanese-ramen-simulator-wiki.pages.dev/guides/controls-and-language/"
+            }
+          ]
+        }
+      ],
+      "missingAlt": 0,
+      "brokenImages": [],
+      "placeholder": false,
+      "desktopOverflow": false,
+      "headingJumps": false,
+      "navigationTimeMs": 262.09999999403954,
+      "transferredBytes": 900,
+      "mobileOverflow": false,
+      "imageLoads": [
+        {
+          "src": "https://japanese-ramen-simulator-wiki.pages.dev/_astro/steam-5.CX_nTyPQ_ZFPafi.webp",
+          "loaded": true
+        }
+      ],
+      "galleryItems": 0,
+      "galleryChecks": [],
+      "issues": []
+    },
+    {
+      "pathname": "/guides/",
+      "status": 200,
+      "title": "Getting Started & Game Reference — Japanese Ramen Simulator Wiki",
+      "description": "Start Japanese Ramen Simulator with beginner steps, controls, hardware requirements, platform facts, save backups and all 18 Steam achievements.",
+      "canonical": "https://japanese-ramen-simulator-wiki.pages.dev/guides/",
+      "robots": "max-image-preview:large",
+      "h1": [
+        "Getting Started & Game Reference"
+      ],
+      "language": "en",
+      "ogImage": "https://japanese-ramen-simulator-wiki.pages.dev/images/hero.webp",
+      "schemas": [
+        {
+          "@context": "https://schema.org",
+          "@type": "Organization",
+          "name": "Japanese Ramen Simulator Wiki",
+          "url": "https://japanese-ramen-simulator-wiki.pages.dev",
+          "logo": "https://japanese-ramen-simulator-wiki.pages.dev/android-chrome-512x512.png",
+          "image": "https://japanese-ramen-simulator-wiki.pages.dev/images/hero.webp",
+          "description": "Japanese Ramen Simulator guides for cooking, shop management, co-op, achievements and launch-day fixes, with sources and clear version notes."
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "ItemList",
+          "name": "Getting Started & Game Reference",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Japanese Ramen Simulator: All 18 Achievements & Requirements",
+              "url": "https://japanese-ramen-simulator-wiki.pages.dev/guides/achievements/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "Japanese Ramen Simulator: Beginner Guide",
+              "url": "https://japanese-ramen-simulator-wiki.pages.dev/guides/beginner-guide/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "name": "Japanese Ramen Simulator: Controls, Language & Cart Settings",
+              "url": "https://japanese-ramen-simulator-wiki.pages.dev/guides/controls-and-language/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 4,
+              "name": "Japanese Ramen Simulator: Platforms, Release Date, Price & Demo",
+              "url": "https://japanese-ramen-simulator-wiki.pages.dev/guides/platforms-price-and-demo/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 5,
+              "name": "Japanese Ramen Simulator: Save Location, Backups & Steam Cloud",
+              "url": "https://japanese-ramen-simulator-wiki.pages.dev/guides/save-data/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 6,
+              "name": "Japanese Ramen Simulator: System Requirements & Performance",
+              "url": "https://japanese-ramen-simulator-wiki.pages.dev/guides/system-requirements/"
+            }
+          ]
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Home",
+              "item": "https://japanese-ramen-simulator-wiki.pages.dev/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "Getting Started & Game Reference",
+              "item": "https://japanese-ramen-simulator-wiki.pages.dev/guides/"
+            }
+          ]
+        }
+      ],
+      "missingAlt": 0,
+      "brokenImages": [],
+      "placeholder": false,
+      "desktopOverflow": false,
+      "headingJumps": false,
+      "navigationTimeMs": 264.90000000596046,
+      "transferredBytes": 202878,
+      "mobileOverflow": false,
+      "imageLoads": [],
+      "galleryItems": 0,
+      "galleryChecks": [],
+      "issues": []
+    },
+    {
+      "pathname": "/guides/platforms-price-and-demo/",
+      "status": 200,
+      "title": "Japanese Ramen Simulator: Platforms, Release Date, Price & Demo",
+      "description": "Check the October 9 Early Access release, Windows availability, launch pricing and the difference between historical closed tests and a public demo.",
+      "canonical": "https://japanese-ramen-simulator-wiki.pages.dev/guides/platforms-price-and-demo/",
+      "robots": "max-image-preview:large",
+      "h1": [
+        "Japanese Ramen Simulator: Platforms, Release Date, Price & Demo"
+      ],
+      "language": "en",
+      "ogImage": "https://japanese-ramen-simulator-wiki.pages.dev/_astro/en-guides-platforms-price-and-demo.BXf5KkmI.webp",
+      "schemas": [
+        {
+          "@context": "https://schema.org",
+          "@type": "Organization",
+          "name": "Japanese Ramen Simulator Wiki",
+          "url": "https://japanese-ramen-simulator-wiki.pages.dev",
+          "logo": "https://japanese-ramen-simulator-wiki.pages.dev/android-chrome-512x512.png",
+          "image": "https://japanese-ramen-simulator-wiki.pages.dev/images/hero.webp",
+          "description": "Japanese Ramen Simulator guides for cooking, shop management, co-op, achievements and launch-day fixes, with sources and clear version notes."
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "Article",
+          "headline": "Japanese Ramen Simulator: Platforms, Release Date, Price & Demo",
+          "description": "Check the October 9 Early Access release, Windows availability, launch pricing and the difference between historical closed tests and a public demo.",
+          "image": "https://japanese-ramen-simulator-wiki.pages.dev/_astro/en-guides-platforms-price-and-demo.BXf5KkmI.webp",
+          "datePublished": "2026-10-10T00:00:00.000Z",
+          "dateModified": "2026-10-10T00:00:00.000Z",
+          "author": {
+            "@type": "Organization",
+            "name": "Japanese Ramen Simulator Wiki"
+          },
+          "publisher": {
+            "@type": "Organization",
+            "name": "Japanese Ramen Simulator Wiki",
+            "logo": {
+              "@type": "ImageObject",
+              "url": "https://japanese-ramen-simulator-wiki.pages.dev/android-chrome-512x512.png"
+            }
+          },
+          "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://japanese-ramen-simulator-wiki.pages.dev/guides/platforms-price-and-demo/"
+          }
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Home",
+              "item": "https://japanese-ramen-simulator-wiki.pages.dev/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "Getting Started & Game Reference",
+              "item": "https://japanese-ramen-simulator-wiki.pages.dev/guides/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "name": "Japanese Ramen Simulator: Platforms, Release Date, Price & Demo",
+              "item": "https://japanese-ramen-simulator-wiki.pages.dev/guides/platforms-price-and-demo/"
+            }
+          ]
+        }
+      ],
+      "missingAlt": 0,
+      "brokenImages": [],
+      "placeholder": false,
+      "desktopOverflow": false,
+      "headingJumps": false,
+      "navigationTimeMs": 231,
+      "transferredBytes": 43670,
+      "mobileOverflow": false,
+      "imageLoads": [
+        {
+          "src": "https://japanese-ramen-simulator-wiki.pages.dev/_astro/steam-3.1W_kHd1q_ZVntrx.webp",
+          "loaded": true
+        }
+      ],
+      "galleryItems": 0,
+      "galleryChecks": [],
+      "issues": []
+    },
+    {
+      "pathname": "/guides/save-data/",
+      "status": 200,
+      "title": "Japanese Ramen Simulator: Save Location, Backups & Steam Cloud",
+      "description": "Find the Steam Cloud metadata save path and follow a copy-first backup checklist, with clear limits on untested restores and co-op progress.",
+      "canonical": "https://japanese-ramen-simulator-wiki.pages.dev/guides/save-data/",
+      "robots": "max-image-preview:large",
+      "h1": [
+        "Japanese Ramen Simulator: Save Location, Backups & Steam Cloud"
+      ],
+      "language": "en",
+      "ogImage": "https://japanese-ramen-simulator-wiki.pages.dev/_astro/en-guides-save-data.BE4CXkjp.webp",
+      "schemas": [
+        {
+          "@context": "https://schema.org",
+          "@type": "Organization",
+          "name": "Japanese Ramen Simulator Wiki",
+          "url": "https://japanese-ramen-simulator-wiki.pages.dev",
+          "logo": "https://japanese-ramen-simulator-wiki.pages.dev/android-chrome-512x512.png",
+          "image": "https://japanese-ramen-simulator-wiki.pages.dev/images/hero.webp",
+          "description": "Japanese Ramen Simulator guides for cooking, shop management, co-op, achievements and launch-day fixes, with sources and clear version notes."
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "Article",
+          "headline": "Japanese Ramen Simulator: Save Location, Backups & Steam Cloud",
+          "description": "Find the Steam Cloud metadata save path and follow a copy-first backup checklist, with clear limits on untested restores and co-op progress.",
+          "image": "https://japanese-ramen-simulator-wiki.pages.dev/_astro/en-guides-save-data.BE4CXkjp.webp",
+          "datePublished": "2026-10-10T00:00:00.000Z",
+          "dateModified": "2026-10-10T00:00:00.000Z",
+          "author": {
+            "@type": "Organization",
+            "name": "Japanese Ramen Simulator Wiki"
+          },
+          "publisher": {
+            "@type": "Organization",
+            "name": "Japanese Ramen Simulator Wiki",
+            "logo": {
+              "@type": "ImageObject",
+              "url": "https://japanese-ramen-simulator-wiki.pages.dev/android-chrome-512x512.png"
+            }
+          },
+          "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://japanese-ramen-simulator-wiki.pages.dev/guides/save-data/"
+          }
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Home",
+              "item": "https://japanese-ramen-simulator-wiki.pages.dev/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "Getting Started & Game Reference",
+              "item": "https://japanese-ramen-simulator-wiki.pages.dev/guides/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "name": "Japanese Ramen Simulator: Save Location, Backups & Steam Cloud",
+              "item": "https://japanese-ramen-simulator-wiki.pages.dev/guides/save-data/"
+            }
+          ]
+        }
+      ],
+      "missingAlt": 0,
+      "brokenImages": [],
+      "placeholder": false,
+      "desktopOverflow": false,
+      "headingJumps": false,
+      "navigationTimeMs": 254.69999998807907,
+      "transferredBytes": 2343,
+      "mobileOverflow": false,
+      "imageLoads": [
+        {
+          "src": "https://japanese-ramen-simulator-wiki.pages.dev/_astro/save-backup.ppGFxJNq.svg",
+          "loaded": true
+        }
+      ],
+      "galleryItems": 0,
+      "galleryChecks": [],
+      "issues": []
+    },
+    {
+      "pathname": "/guides/system-requirements/",
+      "status": 200,
+      "title": "Japanese Ramen Simulator: System Requirements & Performance",
+      "description": "Compare official minimum and recommended Windows specifications and use a measured checklist for crashes, FSR and performance issues.",
+      "canonical": "https://japanese-ramen-simulator-wiki.pages.dev/guides/system-requirements/",
+      "robots": "max-image-preview:large",
+      "h1": [
+        "Japanese Ramen Simulator: System Requirements & Performance"
+      ],
+      "language": "en",
+      "ogImage": "https://japanese-ramen-simulator-wiki.pages.dev/_astro/en-guides-system-requirements.CAHBOfmR.webp",
+      "schemas": [
+        {
+          "@context": "https://schema.org",
+          "@type": "Organization",
+          "name": "Japanese Ramen Simulator Wiki",
+          "url": "https://japanese-ramen-simulator-wiki.pages.dev",
+          "logo": "https://japanese-ramen-simulator-wiki.pages.dev/android-chrome-512x512.png",
+          "image": "https://japanese-ramen-simulator-wiki.pages.dev/images/hero.webp",
+          "description": "Japanese Ramen Simulator guides for cooking, shop management, co-op, achievements and launch-day fixes, with sources and clear version notes."
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "Article",
+          "headline": "Japanese Ramen Simulator: System Requirements & Performance",
+          "description": "Compare official minimum and recommended Windows specifications and use a measured checklist for crashes, FSR and performance issues.",
+          "image": "https://japanese-ramen-simulator-wiki.pages.dev/_astro/en-guides-system-requirements.CAHBOfmR.webp",
+          "datePublished": "2026-10-10T00:00:00.000Z",
+          "dateModified": "2026-10-10T00:00:00.000Z",
+          "author": {
+            "@type": "Organization",
+            "name": "Japanese Ramen Simulator Wiki"
+          },
+          "publisher": {
+            "@type": "Organization",
+            "name": "Japanese Ramen Simulator Wiki",
+            "logo": {
+              "@type": "ImageObject",
+              "url": "https://japanese-ramen-simulator-wiki.pages.dev/android-chrome-512x512.png"
+            }
+          },
+          "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://japanese-ramen-simulator-wiki.pages.dev/guides/system-requirements/"
+          }
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Home",
+              "item": "https://japanese-ramen-simulator-wiki.pages.dev/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "Getting Started & Game Reference",
+              "item": "https://japanese-ramen-simulator-wiki.pages.dev/guides/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "name": "Japanese Ramen Simulator: System Requirements & Performance",
+              "item": "https://japanese-ramen-simulator-wiki.pages.dev/guides/system-requirements/"
+            }
+          ]
+        }
+      ],
+      "missingAlt": 0,
+      "brokenImages": [],
+      "placeholder": false,
+      "desktopOverflow": false,
+      "headingJumps": false,
+      "navigationTimeMs": 246.40000000596046,
+      "transferredBytes": 1976,
+      "mobileOverflow": false,
+      "imageLoads": [
+        {
+          "src": "https://japanese-ramen-simulator-wiki.pages.dev/_astro/pc-requirements.Cc-R7-4d.svg",
+          "loaded": true
+        }
+      ],
+      "galleryItems": 0,
+      "galleryChecks": [],
+      "issues": []
+    },
+    {
+      "pathname": "/",
+      "status": 200,
+      "title": "Japanese Ramen Simulator Wiki — Cooking & Co-op Guides",
+      "description": "Japanese Ramen Simulator guides for cooking, shop management, co-op, achievements and launch-day fixes, with sources and clear version notes.",
+      "canonical": "https://japanese-ramen-simulator-wiki.pages.dev/",
+      "robots": "max-image-preview:large",
+      "h1": [
+        "Japanese Ramen Simulator Wiki"
+      ],
+      "language": "en",
+      "ogImage": "https://japanese-ramen-simulator-wiki.pages.dev/images/hero.webp",
+      "schemas": [
+        {
+          "@context": "https://schema.org",
+          "@type": "Organization",
+          "name": "Japanese Ramen Simulator Wiki",
+          "url": "https://japanese-ramen-simulator-wiki.pages.dev",
+          "logo": "https://japanese-ramen-simulator-wiki.pages.dev/android-chrome-512x512.png",
+          "image": "https://japanese-ramen-simulator-wiki.pages.dev/images/hero.webp",
+          "description": "Japanese Ramen Simulator guides for cooking, shop management, co-op, achievements and launch-day fixes, with sources and clear version notes."
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "WebSite",
+          "name": "Japanese Ramen Simulator Wiki",
+          "url": "https://japanese-ramen-simulator-wiki.pages.dev",
+          "description": "Japanese Ramen Simulator guides for cooking, shop management, co-op, achievements and launch-day fixes, with sources and clear version notes.",
+          "inLanguage": "en"
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "VideoGame",
+          "name": "Japanese Ramen Simulator",
+          "description": "Japanese Ramen Simulator guides for cooking, shop management, co-op, achievements and launch-day fixes, with sources and clear version notes.",
+          "url": "https://japanese-ramen-simulator-wiki.pages.dev",
+          "genre": "Ramen shop management simulation",
+          "gamePlatform": "Steam (Windows)",
+          "publisher": {
+            "@type": "Organization",
+            "name": "Wild Dog"
+          },
+          "datePublished": "2026-10-09"
+        }
+      ],
+      "missingAlt": 0,
+      "brokenImages": [],
+      "placeholder": false,
+      "desktopOverflow": false,
+      "headingJumps": false,
+      "navigationTimeMs": 574.5,
+      "transferredBytes": 118042,
+      "mobileOverflow": false,
+      "imageLoads": [
+        {
+          "src": "https://japanese-ramen-simulator-wiki.pages.dev/images/game/steam-5-400.webp",
+          "loaded": true
+        },
+        {
+          "src": "https://japanese-ramen-simulator-wiki.pages.dev/images/game/steam-1-400.webp",
+          "loaded": true
+        },
+        {
+          "src": "https://japanese-ramen-simulator-wiki.pages.dev/images/game/steam-6-400.webp",
+          "loaded": true
+        }
+      ],
+      "galleryItems": 0,
+      "galleryChecks": [],
+      "issues": []
+    },
+    {
+      "pathname": "/multiplayer/co-op-roles/",
+      "status": 200,
+      "title": "Japanese Ramen Simulator: Co-op Roles, Voice Chat & Kitchen Workflow",
+      "description": "Assign practical kitchen roles and organize spatial voice chat, mute and push-to-talk settings for a calmer multiplayer ramen shift.",
+      "canonical": "https://japanese-ramen-simulator-wiki.pages.dev/multiplayer/co-op-roles/",
+      "robots": "max-image-preview:large",
+      "h1": [
+        "Japanese Ramen Simulator: Co-op Roles, Voice Chat & Kitchen Workflow"
+      ],
+      "language": "en",
+      "ogImage": "https://japanese-ramen-simulator-wiki.pages.dev/_astro/en-multiplayer-co-op-roles.DkwmnsAN.webp",
+      "schemas": [
+        {
+          "@context": "https://schema.org",
+          "@type": "Organization",
+          "name": "Japanese Ramen Simulator Wiki",
+          "url": "https://japanese-ramen-simulator-wiki.pages.dev",
+          "logo": "https://japanese-ramen-simulator-wiki.pages.dev/android-chrome-512x512.png",
+          "image": "https://japanese-ramen-simulator-wiki.pages.dev/images/hero.webp",
+          "description": "Japanese Ramen Simulator guides for cooking, shop management, co-op, achievements and launch-day fixes, with sources and clear version notes."
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "Article",
+          "headline": "Japanese Ramen Simulator: Co-op Roles, Voice Chat & Kitchen Workflow",
+          "description": "Assign practical kitchen roles and organize spatial voice chat, mute and push-to-talk settings for a calmer multiplayer ramen shift.",
+          "image": "https://japanese-ramen-simulator-wiki.pages.dev/_astro/en-multiplayer-co-op-roles.DkwmnsAN.webp",
+          "datePublished": "2026-10-10T00:00:00.000Z",
+          "dateModified": "2026-10-10T00:00:00.000Z",
+          "author": {
+            "@type": "Organization",
+            "name": "Japanese Ramen Simulator Wiki"
+          },
+          "publisher": {
+            "@type": "Organization",
+            "name": "Japanese Ramen Simulator Wiki",
+            "logo": {
+              "@type": "ImageObject",
+              "url": "https://japanese-ramen-simulator-wiki.pages.dev/android-chrome-512x512.png"
+            }
+          },
+          "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://japanese-ramen-simulator-wiki.pages.dev/multiplayer/co-op-roles/"
+          }
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Home",
+              "item": "https://japanese-ramen-simulator-wiki.pages.dev/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "Multiplayer & Co-op",
+              "item": "https://japanese-ramen-simulator-wiki.pages.dev/multiplayer/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "name": "Japanese Ramen Simulator: Co-op Roles, Voice Chat & Kitchen Workflow",
+              "item": "https://japanese-ramen-simulator-wiki.pages.dev/multiplayer/co-op-roles/"
+            }
+          ]
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "ImageObject",
+          "contentUrl": "https://japanese-ramen-simulator-wiki.pages.dev/_astro/steam-6.CqJrF6Cz.jpg",
+          "name": "Several characters carrying trays through the ramen shop.",
+          "description": "Official Steam store screenshot · © Wild Dog. Several characters carrying trays through the ramen shop."
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "ImageObject",
+          "contentUrl": "https://japanese-ramen-simulator-wiki.pages.dev/_astro/steam-1.ErGXzs-J.jpg",
+          "name": "A ramen shop interior with a central kitchen and customers seated around the counter.",
+          "description": "Official Steam store screenshot · © Wild Dog. A ramen shop interior with a central kitchen and customers seated around the counter."
+        }
+      ],
+      "missingAlt": 0,
+      "brokenImages": [],
+      "placeholder": false,
+      "desktopOverflow": false,
+      "headingJumps": false,
+      "navigationTimeMs": 302.59999999403954,
+      "transferredBytes": 94356,
+      "mobileOverflow": false,
+      "imageLoads": [
+        {
+          "src": "https://japanese-ramen-simulator-wiki.pages.dev/_astro/co-op-roles.DLuBeKha.svg",
+          "loaded": true
+        },
+        {
+          "src": "https://japanese-ramen-simulator-wiki.pages.dev/_astro/steam-6.CqJrF6Cz_1wbjme.webp",
+          "loaded": true
+        },
+        {
+          "src": "https://japanese-ramen-simulator-wiki.pages.dev/_astro/steam-6.CqJrF6Cz_1M9cYB.webp",
+          "loaded": true
+        },
+        {
+          "src": "https://japanese-ramen-simulator-wiki.pages.dev/_astro/steam-1.ErGXzs-J_Z2sk5gC.webp",
+          "loaded": true
+        }
+      ],
+      "galleryItems": 2,
+      "galleryChecks": [
+        {
+          "width": 1440,
+          "firstLoaded": true,
+          "nextLoaded": true,
+          "changed": true,
+          "previous": true,
+          "fits": true,
+          "closed": true
+        },
+        {
+          "width": 390,
+          "firstLoaded": true,
+          "nextLoaded": true,
+          "changed": true,
+          "previous": true,
+          "fits": true,
+          "closed": true
+        }
+      ],
+      "issues": []
+    },
+    {
+      "pathname": "/multiplayer/connection-errors/",
+      "status": 200,
+      "title": "Japanese Ramen Simulator: Connection Timeout & Co-op Troubleshooting",
+      "description": "Work through connection timeouts and invite failures, check VPN and firewall permissions, and collect useful details for a bug report.",
+      "canonical": "https://japanese-ramen-simulator-wiki.pages.dev/multiplayer/connection-errors/",
+      "robots": "max-image-preview:large",
+      "h1": [
+        "Japanese Ramen Simulator: Connection Timeout & Co-op Troubleshooting"
+      ],
+      "language": "en",
+      "ogImage": "https://japanese-ramen-simulator-wiki.pages.dev/_astro/en-multiplayer-connection-errors.C0UFSUWQ.webp",
+      "schemas": [
+        {
+          "@context": "https://schema.org",
+          "@type": "Organization",
+          "name": "Japanese Ramen Simulator Wiki",
+          "url": "https://japanese-ramen-simulator-wiki.pages.dev",
+          "logo": "https://japanese-ramen-simulator-wiki.pages.dev/android-chrome-512x512.png",
+          "image": "https://japanese-ramen-simulator-wiki.pages.dev/images/hero.webp",
+          "description": "Japanese Ramen Simulator guides for cooking, shop management, co-op, achievements and launch-day fixes, with sources and clear version notes."
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "Article",
+          "headline": "Japanese Ramen Simulator: Connection Timeout & Co-op Troubleshooting",
+          "description": "Work through connection timeouts and invite failures, check VPN and firewall permissions, and collect useful details for a bug report.",
+          "image": "https://japanese-ramen-simulator-wiki.pages.dev/_astro/en-multiplayer-connection-errors.C0UFSUWQ.webp",
+          "datePublished": "2026-10-10T00:00:00.000Z",
+          "dateModified": "2026-10-10T00:00:00.000Z",
+          "author": {
+            "@type": "Organization",
+            "name": "Japanese Ramen Simulator Wiki"
+          },
+          "publisher": {
+            "@type": "Organization",
+            "name": "Japanese Ramen Simulator Wiki",
+            "logo": {
+              "@type": "ImageObject",
+              "url": "https://japanese-ramen-simulator-wiki.pages.dev/android-chrome-512x512.png"
+            }
+          },
+          "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://japanese-ramen-simulator-wiki.pages.dev/multiplayer/connection-errors/"
+          }
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Home",
+              "item": "https://japanese-ramen-simulator-wiki.pages.dev/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "Multiplayer & Co-op",
+              "item": "https://japanese-ramen-simulator-wiki.pages.dev/multiplayer/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "name": "Japanese Ramen Simulator: Connection Timeout & Co-op Troubleshooting",
+              "item": "https://japanese-ramen-simulator-wiki.pages.dev/multiplayer/connection-errors/"
+            }
+          ]
+        }
+      ],
+      "missingAlt": 0,
+      "brokenImages": [],
+      "placeholder": false,
+      "desktopOverflow": false,
+      "headingJumps": false,
+      "navigationTimeMs": 276.2999999821186,
+      "transferredBytes": 2444,
+      "mobileOverflow": false,
+      "imageLoads": [
+        {
+          "src": "https://japanese-ramen-simulator-wiki.pages.dev/_astro/connection-checks.BqLPbDcX.svg",
+          "loaded": true
+        }
+      ],
+      "galleryItems": 0,
+      "galleryChecks": [],
+      "issues": []
+    },
+    {
+      "pathname": "/multiplayer/",
+      "status": 200,
+      "title": "Multiplayer & Co-op — Japanese Ramen Simulator Wiki",
+      "description": "Start Japanese Ramen Simulator with friends, troubleshoot connection timeouts and organize kitchen roles and spatial voice chat.",
+      "canonical": "https://japanese-ramen-simulator-wiki.pages.dev/multiplayer/",
+      "robots": "max-image-preview:large",
+      "h1": [
+        "Multiplayer & Co-op"
+      ],
+      "language": "en",
+      "ogImage": "https://japanese-ramen-simulator-wiki.pages.dev/images/hero.webp",
+      "schemas": [
+        {
+          "@context": "https://schema.org",
+          "@type": "Organization",
+          "name": "Japanese Ramen Simulator Wiki",
+          "url": "https://japanese-ramen-simulator-wiki.pages.dev",
+          "logo": "https://japanese-ramen-simulator-wiki.pages.dev/android-chrome-512x512.png",
+          "image": "https://japanese-ramen-simulator-wiki.pages.dev/images/hero.webp",
+          "description": "Japanese Ramen Simulator guides for cooking, shop management, co-op, achievements and launch-day fixes, with sources and clear version notes."
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "ItemList",
+          "name": "Multiplayer & Co-op",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Japanese Ramen Simulator: Co-op Roles, Voice Chat & Kitchen Workflow",
+              "url": "https://japanese-ramen-simulator-wiki.pages.dev/multiplayer/co-op-roles/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "Japanese Ramen Simulator: Connection Timeout & Co-op Troubleshooting",
+              "url": "https://japanese-ramen-simulator-wiki.pages.dev/multiplayer/connection-errors/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "name": "Japanese Ramen Simulator: How to Invite Friends & Start Co-op",
+              "url": "https://japanese-ramen-simulator-wiki.pages.dev/multiplayer/invite-friends/"
+            }
+          ]
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Home",
+              "item": "https://japanese-ramen-simulator-wiki.pages.dev/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "Multiplayer & Co-op",
+              "item": "https://japanese-ramen-simulator-wiki.pages.dev/multiplayer/"
+            }
+          ]
+        }
+      ],
+      "missingAlt": 0,
+      "brokenImages": [],
+      "placeholder": false,
+      "desktopOverflow": false,
+      "headingJumps": false,
+      "navigationTimeMs": 252.40000000596046,
+      "transferredBytes": 80494,
+      "mobileOverflow": false,
+      "imageLoads": [],
+      "galleryItems": 0,
+      "galleryChecks": [],
+      "issues": []
+    },
+    {
+      "pathname": "/multiplayer/invite-friends/",
+      "status": 200,
+      "title": "Japanese Ramen Simulator: How to Invite Friends & Start Co-op",
+      "description": "Start a friend co-op session using confirmed invite-code features, understand conflicting player-count claims and prepare before opening.",
+      "canonical": "https://japanese-ramen-simulator-wiki.pages.dev/multiplayer/invite-friends/",
+      "robots": "max-image-preview:large",
+      "h1": [
+        "Japanese Ramen Simulator: How to Invite Friends & Start Co-op"
+      ],
+      "language": "en",
+      "ogImage": "https://japanese-ramen-simulator-wiki.pages.dev/_astro/en-multiplayer-invite-friends.CA1MQkfn.webp",
+      "schemas": [
+        {
+          "@context": "https://schema.org",
+          "@type": "Organization",
+          "name": "Japanese Ramen Simulator Wiki",
+          "url": "https://japanese-ramen-simulator-wiki.pages.dev",
+          "logo": "https://japanese-ramen-simulator-wiki.pages.dev/android-chrome-512x512.png",
+          "image": "https://japanese-ramen-simulator-wiki.pages.dev/images/hero.webp",
+          "description": "Japanese Ramen Simulator guides for cooking, shop management, co-op, achievements and launch-day fixes, with sources and clear version notes."
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "Article",
+          "headline": "Japanese Ramen Simulator: How to Invite Friends & Start Co-op",
+          "description": "Start a friend co-op session using confirmed invite-code features, understand conflicting player-count claims and prepare before opening.",
+          "image": "https://japanese-ramen-simulator-wiki.pages.dev/_astro/en-multiplayer-invite-friends.CA1MQkfn.webp",
+          "datePublished": "2026-10-10T00:00:00.000Z",
+          "dateModified": "2026-10-10T00:00:00.000Z",
+          "author": {
+            "@type": "Organization",
+            "name": "Japanese Ramen Simulator Wiki"
+          },
+          "publisher": {
+            "@type": "Organization",
+            "name": "Japanese Ramen Simulator Wiki",
+            "logo": {
+              "@type": "ImageObject",
+              "url": "https://japanese-ramen-simulator-wiki.pages.dev/android-chrome-512x512.png"
+            }
+          },
+          "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://japanese-ramen-simulator-wiki.pages.dev/multiplayer/invite-friends/"
+          }
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Home",
+              "item": "https://japanese-ramen-simulator-wiki.pages.dev/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "Multiplayer & Co-op",
+              "item": "https://japanese-ramen-simulator-wiki.pages.dev/multiplayer/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "name": "Japanese Ramen Simulator: How to Invite Friends & Start Co-op",
+              "item": "https://japanese-ramen-simulator-wiki.pages.dev/multiplayer/invite-friends/"
+            }
+          ]
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "ImageObject",
+          "contentUrl": "https://japanese-ramen-simulator-wiki.pages.dev/_astro/steam-6.CqJrF6Cz.jpg",
+          "name": "Several characters carrying trays through the ramen shop.",
+          "description": "Official Steam store screenshot · © Wild Dog. Several characters carrying trays through the ramen shop."
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "ImageObject",
+          "contentUrl": "https://japanese-ramen-simulator-wiki.pages.dev/_astro/steam-3.1W_kHd1q.jpg",
+          "name": "Characters approaching a two-storey ramen restaurant decorated with red lanterns.",
+          "description": "Official Steam store screenshot · © Wild Dog. Characters approaching a two-storey ramen restaurant decorated with red lanterns."
+        }
+      ],
+      "missingAlt": 0,
+      "brokenImages": [],
+      "placeholder": false,
+      "desktopOverflow": false,
+      "headingJumps": false,
+      "navigationTimeMs": 284.7000000178814,
+      "transferredBytes": 40000,
+      "mobileOverflow": false,
+      "imageLoads": [
+        {
+          "src": "https://japanese-ramen-simulator-wiki.pages.dev/_astro/steam-6.CqJrF6Cz_1wbjme.webp",
+          "loaded": true
+        },
+        {
+          "src": "https://japanese-ramen-simulator-wiki.pages.dev/_astro/steam-6.CqJrF6Cz_1M9cYB.webp",
+          "loaded": true
+        },
+        {
+          "src": "https://japanese-ramen-simulator-wiki.pages.dev/_astro/steam-3.1W_kHd1q_ZFpzOa.webp",
+          "loaded": true
+        }
+      ],
+      "galleryItems": 2,
+      "galleryChecks": [
+        {
+          "width": 1440,
+          "firstLoaded": true,
+          "nextLoaded": true,
+          "changed": true,
+          "previous": true,
+          "fits": true,
+          "closed": true
+        },
+        {
+          "width": 390,
+          "firstLoaded": true,
+          "nextLoaded": true,
+          "changed": true,
+          "previous": true,
+          "fits": true,
+          "closed": true
+        }
+      ],
+      "issues": []
+    },
+    {
+      "pathname": "/privacy-policy/",
+      "status": 200,
+      "title": "Privacy Policy — Japanese Ramen Simulator Wiki",
+      "description": "Privacy Policy for Japanese Ramen Simulator Wiki.",
+      "canonical": "https://japanese-ramen-simulator-wiki.pages.dev/privacy-policy/",
+      "robots": "max-image-preview:large",
+      "h1": [
+        "Privacy Policy"
+      ],
+      "language": "en",
+      "ogImage": "https://japanese-ramen-simulator-wiki.pages.dev/images/hero.webp",
+      "schemas": [
+        {
+          "@context": "https://schema.org",
+          "@type": "Organization",
+          "name": "Japanese Ramen Simulator Wiki",
+          "url": "https://japanese-ramen-simulator-wiki.pages.dev",
+          "logo": "https://japanese-ramen-simulator-wiki.pages.dev/android-chrome-512x512.png",
+          "image": "https://japanese-ramen-simulator-wiki.pages.dev/images/hero.webp",
+          "description": "Japanese Ramen Simulator guides for cooking, shop management, co-op, achievements and launch-day fixes, with sources and clear version notes."
+        }
+      ],
+      "missingAlt": 0,
+      "brokenImages": [],
+      "placeholder": false,
+      "desktopOverflow": false,
+      "headingJumps": false,
+      "navigationTimeMs": 240.2999999821186,
+      "transferredBytes": 900,
+      "mobileOverflow": false,
+      "imageLoads": [],
+      "galleryItems": 0,
+      "galleryChecks": [],
+      "issues": []
+    },
+    {
+      "pathname": "/recent/",
+      "status": 200,
+      "title": "Recent Updates — Japanese Ramen Simulator Wiki",
+      "description": "The latest articles and updates across the wiki, newest first.",
+      "canonical": "https://japanese-ramen-simulator-wiki.pages.dev/recent/",
+      "robots": "noindex, nofollow",
+      "h1": [
+        "Recent Updates"
+      ],
+      "language": "en",
+      "ogImage": "https://japanese-ramen-simulator-wiki.pages.dev/images/hero.webp",
+      "schemas": [
+        {
+          "@context": "https://schema.org",
+          "@type": "Organization",
+          "name": "Japanese Ramen Simulator Wiki",
+          "url": "https://japanese-ramen-simulator-wiki.pages.dev",
+          "logo": "https://japanese-ramen-simulator-wiki.pages.dev/android-chrome-512x512.png",
+          "image": "https://japanese-ramen-simulator-wiki.pages.dev/images/hero.webp",
+          "description": "Japanese Ramen Simulator guides for cooking, shop management, co-op, achievements and launch-day fixes, with sources and clear version notes."
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "ItemList",
+          "name": "Recent Updates",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Japanese Ramen Simulator: Beer Guide: Fill Level, Foam & Tutorial",
+              "url": "https://japanese-ramen-simulator-wiki.pages.dev/cooking/beer/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "Japanese Ramen Simulator: Broth & Tare: Preparation and Bottle Handling",
+              "url": "https://japanese-ramen-simulator-wiki.pages.dev/cooking/broth-and-tare/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "name": "Japanese Ramen Simulator: Gyoza & Rice Bowls Guide",
+              "url": "https://japanese-ramen-simulator-wiki.pages.dev/cooking/gyoza-and-rice-bowls/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 4,
+              "name": "Japanese Ramen Simulator: Ramen Recipes & Confirmed Menu",
+              "url": "https://japanese-ramen-simulator-wiki.pages.dev/cooking/ramen-recipes/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 5,
+              "name": "Japanese Ramen Simulator: All 18 Achievements & Requirements",
+              "url": "https://japanese-ramen-simulator-wiki.pages.dev/guides/achievements/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 6,
+              "name": "Japanese Ramen Simulator: Beginner Guide",
+              "url": "https://japanese-ramen-simulator-wiki.pages.dev/guides/beginner-guide/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 7,
+              "name": "Japanese Ramen Simulator: Controls, Language & Cart Settings",
+              "url": "https://japanese-ramen-simulator-wiki.pages.dev/guides/controls-and-language/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 8,
+              "name": "Japanese Ramen Simulator: Platforms, Release Date, Price & Demo",
+              "url": "https://japanese-ramen-simulator-wiki.pages.dev/guides/platforms-price-and-demo/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 9,
+              "name": "Japanese Ramen Simulator: Save Location, Backups & Steam Cloud",
+              "url": "https://japanese-ramen-simulator-wiki.pages.dev/guides/save-data/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 10,
+              "name": "Japanese Ramen Simulator: System Requirements & Performance",
+              "url": "https://japanese-ramen-simulator-wiki.pages.dev/guides/system-requirements/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 11,
+              "name": "Japanese Ramen Simulator: Co-op Roles, Voice Chat & Kitchen Workflow",
+              "url": "https://japanese-ramen-simulator-wiki.pages.dev/multiplayer/co-op-roles/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 12,
+              "name": "Japanese Ramen Simulator: Connection Timeout & Co-op Troubleshooting",
+              "url": "https://japanese-ramen-simulator-wiki.pages.dev/multiplayer/connection-errors/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 13,
+              "name": "Japanese Ramen Simulator: How to Invite Friends & Start Co-op",
+              "url": "https://japanese-ramen-simulator-wiki.pages.dev/multiplayer/invite-friends/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 14,
+              "name": "Japanese Ramen Simulator: Food Critic & Boss Customer Guide",
+              "url": "https://japanese-ramen-simulator-wiki.pages.dev/restaurant/food-critic/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 15,
+              "name": "Japanese Ramen Simulator: Kitchen Layout, Expansion & My Designs",
+              "url": "https://japanese-ramen-simulator-wiki.pages.dev/restaurant/layout-and-my-designs/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 16,
+              "name": "Japanese Ramen Simulator: Orders, Tickets & Customer Service",
+              "url": "https://japanese-ramen-simulator-wiki.pages.dev/restaurant/orders-and-tickets/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 17,
+              "name": "Japanese Ramen Simulator: Shop Levels & Verified Ingredient Unlocks",
+              "url": "https://japanese-ramen-simulator-wiki.pages.dev/restaurant/shop-level-and-unlocks/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 18,
+              "name": "Japanese Ramen Simulator: Solo Play, NPC Staff & Cleaning",
+              "url": "https://japanese-ramen-simulator-wiki.pages.dev/restaurant/staff-and-solo-play/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 19,
+              "name": "Japanese Ramen Simulator: Thieves, Fires & Restaurant Emergencies",
+              "url": "https://japanese-ramen-simulator-wiki.pages.dev/restaurant/thieves-and-fires/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 20,
+              "name": "Japanese Ramen Simulator: Patch Notes & Early Access Version Tracker",
+              "url": "https://japanese-ramen-simulator-wiki.pages.dev/updates/patch-notes/"
+            }
+          ]
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Home",
+              "item": "https://japanese-ramen-simulator-wiki.pages.dev/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "Recent Updates",
+              "item": "https://japanese-ramen-simulator-wiki.pages.dev/recent/"
+            }
+          ]
+        }
+      ],
+      "missingAlt": 0,
+      "brokenImages": [],
+      "placeholder": false,
+      "desktopOverflow": false,
+      "headingJumps": false,
+      "navigationTimeMs": 322.19999998807907,
+      "transferredBytes": 185384,
+      "mobileOverflow": false,
+      "imageLoads": [],
+      "galleryItems": 0,
+      "galleryChecks": [],
+      "issues": []
+    },
+    {
+      "pathname": "/restaurant/food-critic/",
+      "status": 200,
+      "title": "Japanese Ramen Simulator: Food Critic & Boss Customer Guide",
+      "description": "Check the four named boss challenges, the before-opening invitation rule and first-clear rewards, without inventing fixed winning recipes.",
+      "canonical": "https://japanese-ramen-simulator-wiki.pages.dev/restaurant/food-critic/",
+      "robots": "max-image-preview:large",
+      "h1": [
+        "Japanese Ramen Simulator: Food Critic & Boss Customer Guide"
+      ],
+      "language": "en",
+      "ogImage": "https://japanese-ramen-simulator-wiki.pages.dev/_astro/en-restaurant-food-critic.CBaf9ZJg.webp",
+      "schemas": [
+        {
+          "@context": "https://schema.org",
+          "@type": "Organization",
+          "name": "Japanese Ramen Simulator Wiki",
+          "url": "https://japanese-ramen-simulator-wiki.pages.dev",
+          "logo": "https://japanese-ramen-simulator-wiki.pages.dev/android-chrome-512x512.png",
+          "image": "https://japanese-ramen-simulator-wiki.pages.dev/images/hero.webp",
+          "description": "Japanese Ramen Simulator guides for cooking, shop management, co-op, achievements and launch-day fixes, with sources and clear version notes."
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "Article",
+          "headline": "Japanese Ramen Simulator: Food Critic & Boss Customer Guide",
+          "description": "Check the four named boss challenges, the before-opening invitation rule and first-clear rewards, without inventing fixed winning recipes.",
+          "image": "https://japanese-ramen-simulator-wiki.pages.dev/_astro/en-restaurant-food-critic.CBaf9ZJg.webp",
+          "datePublished": "2026-10-10T00:00:00.000Z",
+          "dateModified": "2026-10-10T00:00:00.000Z",
+          "author": {
+            "@type": "Organization",
+            "name": "Japanese Ramen Simulator Wiki"
+          },
+          "publisher": {
+            "@type": "Organization",
+            "name": "Japanese Ramen Simulator Wiki",
+            "logo": {
+              "@type": "ImageObject",
+              "url": "https://japanese-ramen-simulator-wiki.pages.dev/android-chrome-512x512.png"
+            }
+          },
+          "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://japanese-ramen-simulator-wiki.pages.dev/restaurant/food-critic/"
+          }
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Home",
+              "item": "https://japanese-ramen-simulator-wiki.pages.dev/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "Restaurant Management",
+              "item": "https://japanese-ramen-simulator-wiki.pages.dev/restaurant/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "name": "Japanese Ramen Simulator: Food Critic & Boss Customer Guide",
+              "item": "https://japanese-ramen-simulator-wiki.pages.dev/restaurant/food-critic/"
+            }
+          ]
+        }
+      ],
+      "missingAlt": 0,
+      "brokenImages": [],
+      "placeholder": false,
+      "desktopOverflow": false,
+      "headingJumps": false,
+      "navigationTimeMs": 229.89999997615814,
+      "transferredBytes": 2224,
+      "mobileOverflow": false,
+      "imageLoads": [
+        {
+          "src": "https://japanese-ramen-simulator-wiki.pages.dev/_astro/critic-preparation.DOr5Q90V.svg",
+          "loaded": true
+        },
+        {
+          "src": "https://japanese-ramen-simulator-wiki.pages.dev/_astro/steam-0.BB9jTzVt_PWwmS.webp",
+          "loaded": true
+        }
+      ],
+      "galleryItems": 0,
+      "galleryChecks": [],
+      "issues": []
+    },
+    {
+      "pathname": "/restaurant/",
+      "status": 200,
+      "title": "Restaurant Management — Japanese Ramen Simulator Wiki",
+      "description": "Manage orders, NPC cleaning, kitchen layouts, verified unlocks, thieves, fires and critic challenges in Japanese Ramen Simulator.",
+      "canonical": "https://japanese-ramen-simulator-wiki.pages.dev/restaurant/",
+      "robots": "max-image-preview:large",
+      "h1": [
+        "Restaurant Management"
+      ],
+      "language": "en",
+      "ogImage": "https://japanese-ramen-simulator-wiki.pages.dev/images/hero.webp",
+      "schemas": [
+        {
+          "@context": "https://schema.org",
+          "@type": "Organization",
+          "name": "Japanese Ramen Simulator Wiki",
+          "url": "https://japanese-ramen-simulator-wiki.pages.dev",
+          "logo": "https://japanese-ramen-simulator-wiki.pages.dev/android-chrome-512x512.png",
+          "image": "https://japanese-ramen-simulator-wiki.pages.dev/images/hero.webp",
+          "description": "Japanese Ramen Simulator guides for cooking, shop management, co-op, achievements and launch-day fixes, with sources and clear version notes."
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "ItemList",
+          "name": "Restaurant Management",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Japanese Ramen Simulator: Food Critic & Boss Customer Guide",
+              "url": "https://japanese-ramen-simulator-wiki.pages.dev/restaurant/food-critic/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "Japanese Ramen Simulator: Kitchen Layout, Expansion & My Designs",
+              "url": "https://japanese-ramen-simulator-wiki.pages.dev/restaurant/layout-and-my-designs/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "name": "Japanese Ramen Simulator: Orders, Tickets & Customer Service",
+              "url": "https://japanese-ramen-simulator-wiki.pages.dev/restaurant/orders-and-tickets/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 4,
+              "name": "Japanese Ramen Simulator: Shop Levels & Verified Ingredient Unlocks",
+              "url": "https://japanese-ramen-simulator-wiki.pages.dev/restaurant/shop-level-and-unlocks/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 5,
+              "name": "Japanese Ramen Simulator: Solo Play, NPC Staff & Cleaning",
+              "url": "https://japanese-ramen-simulator-wiki.pages.dev/restaurant/staff-and-solo-play/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 6,
+              "name": "Japanese Ramen Simulator: Thieves, Fires & Restaurant Emergencies",
+              "url": "https://japanese-ramen-simulator-wiki.pages.dev/restaurant/thieves-and-fires/"
+            }
+          ]
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Home",
+              "item": "https://japanese-ramen-simulator-wiki.pages.dev/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "Restaurant Management",
+              "item": "https://japanese-ramen-simulator-wiki.pages.dev/restaurant/"
+            }
+          ]
+        }
+      ],
+      "missingAlt": 0,
+      "brokenImages": [],
+      "placeholder": false,
+      "desktopOverflow": false,
+      "headingJumps": false,
+      "navigationTimeMs": 240.40000000596046,
+      "transferredBytes": 900,
+      "mobileOverflow": false,
+      "imageLoads": [],
+      "galleryItems": 0,
+      "galleryChecks": [],
+      "issues": []
+    },
+    {
+      "pathname": "/restaurant/layout-and-my-designs/",
+      "status": 200,
+      "title": "Japanese Ramen Simulator: Kitchen Layout, Expansion & My Designs",
+      "description": "Plan kitchen routes, expansion and My Designs customization using confirmed features, with advice for staff stations and co-op space.",
+      "canonical": "https://japanese-ramen-simulator-wiki.pages.dev/restaurant/layout-and-my-designs/",
+      "robots": "max-image-preview:large",
+      "h1": [
+        "Japanese Ramen Simulator: Kitchen Layout, Expansion & My Designs"
+      ],
+      "language": "en",
+      "ogImage": "https://japanese-ramen-simulator-wiki.pages.dev/_astro/en-restaurant-layout-and-my-designs.iA0wviK8.webp",
+      "schemas": [
+        {
+          "@context": "https://schema.org",
+          "@type": "Organization",
+          "name": "Japanese Ramen Simulator Wiki",
+          "url": "https://japanese-ramen-simulator-wiki.pages.dev",
+          "logo": "https://japanese-ramen-simulator-wiki.pages.dev/android-chrome-512x512.png",
+          "image": "https://japanese-ramen-simulator-wiki.pages.dev/images/hero.webp",
+          "description": "Japanese Ramen Simulator guides for cooking, shop management, co-op, achievements and launch-day fixes, with sources and clear version notes."
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "Article",
+          "headline": "Japanese Ramen Simulator: Kitchen Layout, Expansion & My Designs",
+          "description": "Plan kitchen routes, expansion and My Designs customization using confirmed features, with advice for staff stations and co-op space.",
+          "image": "https://japanese-ramen-simulator-wiki.pages.dev/_astro/en-restaurant-layout-and-my-designs.iA0wviK8.webp",
+          "datePublished": "2026-10-10T00:00:00.000Z",
+          "dateModified": "2026-10-10T00:00:00.000Z",
+          "author": {
+            "@type": "Organization",
+            "name": "Japanese Ramen Simulator Wiki"
+          },
+          "publisher": {
+            "@type": "Organization",
+            "name": "Japanese Ramen Simulator Wiki",
+            "logo": {
+              "@type": "ImageObject",
+              "url": "https://japanese-ramen-simulator-wiki.pages.dev/android-chrome-512x512.png"
+            }
+          },
+          "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://japanese-ramen-simulator-wiki.pages.dev/restaurant/layout-and-my-designs/"
+          }
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Home",
+              "item": "https://japanese-ramen-simulator-wiki.pages.dev/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "Restaurant Management",
+              "item": "https://japanese-ramen-simulator-wiki.pages.dev/restaurant/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "name": "Japanese Ramen Simulator: Kitchen Layout, Expansion & My Designs",
+              "item": "https://japanese-ramen-simulator-wiki.pages.dev/restaurant/layout-and-my-designs/"
+            }
+          ]
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "ImageObject",
+          "contentUrl": "https://japanese-ramen-simulator-wiki.pages.dev/_astro/steam-1.ErGXzs-J.jpg",
+          "name": "A ramen shop interior with a central kitchen and customers seated around the counter.",
+          "description": "Official Steam store screenshot · © Wild Dog. A ramen shop interior with a central kitchen and customers seated around the counter."
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "ImageObject",
+          "contentUrl": "https://japanese-ramen-simulator-wiki.pages.dev/_astro/steam-3.1W_kHd1q.jpg",
+          "name": "Characters approaching a two-storey ramen restaurant decorated with red lanterns.",
+          "description": "Official Steam store screenshot · © Wild Dog. Characters approaching a two-storey ramen restaurant decorated with red lanterns."
+        }
+      ],
+      "missingAlt": 0,
+      "brokenImages": [],
+      "placeholder": false,
+      "desktopOverflow": false,
+      "headingJumps": false,
+      "navigationTimeMs": 269.5,
+      "transferredBytes": 52659,
+      "mobileOverflow": false,
+      "imageLoads": [
+        {
+          "src": "https://japanese-ramen-simulator-wiki.pages.dev/_astro/kitchen-routes.BAfIyDob.svg",
+          "loaded": true
+        },
+        {
+          "src": "https://japanese-ramen-simulator-wiki.pages.dev/_astro/steam-1.ErGXzs-J_2lT9TV.webp",
+          "loaded": true
+        },
+        {
+          "src": "https://japanese-ramen-simulator-wiki.pages.dev/_astro/steam-1.ErGXzs-J_Z2sk5gC.webp",
+          "loaded": true
+        },
+        {
+          "src": "https://japanese-ramen-simulator-wiki.pages.dev/_astro/steam-3.1W_kHd1q_ZFpzOa.webp",
+          "loaded": true
+        }
+      ],
+      "galleryItems": 2,
+      "galleryChecks": [
+        {
+          "width": 1440,
+          "firstLoaded": true,
+          "nextLoaded": true,
+          "changed": true,
+          "previous": true,
+          "fits": true,
+          "closed": true
+        },
+        {
+          "width": 390,
+          "firstLoaded": true,
+          "nextLoaded": true,
+          "changed": true,
+          "previous": true,
+          "fits": true,
+          "closed": true
+        }
+      ],
+      "issues": []
+    },
+    {
+      "pathname": "/restaurant/orders-and-tickets/",
+      "status": 200,
+      "title": "Japanese Ramen Simulator: Orders, Tickets & Customer Service",
+      "description": "Organize customer orders, food and drinks with a practical service workflow, and see which order-ticket handling details remain unverified.",
+      "canonical": "https://japanese-ramen-simulator-wiki.pages.dev/restaurant/orders-and-tickets/",
+      "robots": "max-image-preview:large",
+      "h1": [
+        "Japanese Ramen Simulator: Orders, Tickets & Customer Service"
+      ],
+      "language": "en",
+      "ogImage": "https://japanese-ramen-simulator-wiki.pages.dev/_astro/en-restaurant-orders-and-tickets.Cu6ytjtf.webp",
+      "schemas": [
+        {
+          "@context": "https://schema.org",
+          "@type": "Organization",
+          "name": "Japanese Ramen Simulator Wiki",
+          "url": "https://japanese-ramen-simulator-wiki.pages.dev",
+          "logo": "https://japanese-ramen-simulator-wiki.pages.dev/android-chrome-512x512.png",
+          "image": "https://japanese-ramen-simulator-wiki.pages.dev/images/hero.webp",
+          "description": "Japanese Ramen Simulator guides for cooking, shop management, co-op, achievements and launch-day fixes, with sources and clear version notes."
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "Article",
+          "headline": "Japanese Ramen Simulator: Orders, Tickets & Customer Service",
+          "description": "Organize customer orders, food and drinks with a practical service workflow, and see which order-ticket handling details remain unverified.",
+          "image": "https://japanese-ramen-simulator-wiki.pages.dev/_astro/en-restaurant-orders-and-tickets.Cu6ytjtf.webp",
+          "datePublished": "2026-10-10T00:00:00.000Z",
+          "dateModified": "2026-10-10T00:00:00.000Z",
+          "author": {
+            "@type": "Organization",
+            "name": "Japanese Ramen Simulator Wiki"
+          },
+          "publisher": {
+            "@type": "Organization",
+            "name": "Japanese Ramen Simulator Wiki",
+            "logo": {
+              "@type": "ImageObject",
+              "url": "https://japanese-ramen-simulator-wiki.pages.dev/android-chrome-512x512.png"
+            }
+          },
+          "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://japanese-ramen-simulator-wiki.pages.dev/restaurant/orders-and-tickets/"
+          }
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Home",
+              "item": "https://japanese-ramen-simulator-wiki.pages.dev/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "Restaurant Management",
+              "item": "https://japanese-ramen-simulator-wiki.pages.dev/restaurant/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "name": "Japanese Ramen Simulator: Orders, Tickets & Customer Service",
+              "item": "https://japanese-ramen-simulator-wiki.pages.dev/restaurant/orders-and-tickets/"
+            }
+          ]
+        }
+      ],
+      "missingAlt": 0,
+      "brokenImages": [],
+      "placeholder": false,
+      "desktopOverflow": false,
+      "headingJumps": false,
+      "navigationTimeMs": 240.2999999821186,
+      "transferredBytes": 900,
+      "mobileOverflow": false,
+      "imageLoads": [
+        {
+          "src": "https://japanese-ramen-simulator-wiki.pages.dev/_astro/steam-1.ErGXzs-J_2lT9TV.webp",
+          "loaded": true
+        },
+        {
+          "src": "https://japanese-ramen-simulator-wiki.pages.dev/_astro/service-flow.SG8iZe83.svg",
+          "loaded": true
+        }
+      ],
+      "galleryItems": 0,
+      "galleryChecks": [],
+      "issues": []
+    },
+    {
+      "pathname": "/restaurant/shop-level-and-unlocks/",
+      "status": 200,
+      "title": "Japanese Ramen Simulator: Shop Levels & Verified Ingredient Unlocks",
+      "description": "Check launch-patch ingredient purchase and order thresholds at levels 25, 26 and 28, clearly separated from achievement milestones.",
+      "canonical": "https://japanese-ramen-simulator-wiki.pages.dev/restaurant/shop-level-and-unlocks/",
+      "robots": "max-image-preview:large",
+      "h1": [
+        "Japanese Ramen Simulator: Shop Levels & Verified Ingredient Unlocks"
+      ],
+      "language": "en",
+      "ogImage": "https://japanese-ramen-simulator-wiki.pages.dev/_astro/en-restaurant-shop-level-and-unlocks.Dxd-DYtE.webp",
+      "schemas": [
+        {
+          "@context": "https://schema.org",
+          "@type": "Organization",
+          "name": "Japanese Ramen Simulator Wiki",
+          "url": "https://japanese-ramen-simulator-wiki.pages.dev",
+          "logo": "https://japanese-ramen-simulator-wiki.pages.dev/android-chrome-512x512.png",
+          "image": "https://japanese-ramen-simulator-wiki.pages.dev/images/hero.webp",
+          "description": "Japanese Ramen Simulator guides for cooking, shop management, co-op, achievements and launch-day fixes, with sources and clear version notes."
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "Article",
+          "headline": "Japanese Ramen Simulator: Shop Levels & Verified Ingredient Unlocks",
+          "description": "Check launch-patch ingredient purchase and order thresholds at levels 25, 26 and 28, clearly separated from achievement milestones.",
+          "image": "https://japanese-ramen-simulator-wiki.pages.dev/_astro/en-restaurant-shop-level-and-unlocks.Dxd-DYtE.webp",
+          "datePublished": "2026-10-10T00:00:00.000Z",
+          "dateModified": "2026-10-10T00:00:00.000Z",
+          "author": {
+            "@type": "Organization",
+            "name": "Japanese Ramen Simulator Wiki"
+          },
+          "publisher": {
+            "@type": "Organization",
+            "name": "Japanese Ramen Simulator Wiki",
+            "logo": {
+              "@type": "ImageObject",
+              "url": "https://japanese-ramen-simulator-wiki.pages.dev/android-chrome-512x512.png"
+            }
+          },
+          "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://japanese-ramen-simulator-wiki.pages.dev/restaurant/shop-level-and-unlocks/"
+          }
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Home",
+              "item": "https://japanese-ramen-simulator-wiki.pages.dev/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "Restaurant Management",
+              "item": "https://japanese-ramen-simulator-wiki.pages.dev/restaurant/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "name": "Japanese Ramen Simulator: Shop Levels & Verified Ingredient Unlocks",
+              "item": "https://japanese-ramen-simulator-wiki.pages.dev/restaurant/shop-level-and-unlocks/"
+            }
+          ]
+        }
+      ],
+      "missingAlt": 0,
+      "brokenImages": [],
+      "placeholder": false,
+      "desktopOverflow": false,
+      "headingJumps": false,
+      "navigationTimeMs": 286.69999998807907,
+      "transferredBytes": 2402,
+      "mobileOverflow": false,
+      "imageLoads": [
+        {
+          "src": "https://japanese-ramen-simulator-wiki.pages.dev/_astro/verified-unlocks.CZo3mWj7.svg",
+          "loaded": true
+        }
+      ],
+      "galleryItems": 0,
+      "galleryChecks": [],
+      "issues": []
+    },
+    {
+      "pathname": "/restaurant/staff-and-solo-play/",
+      "status": 200,
+      "title": "Japanese Ramen Simulator: Solo Play, NPC Staff & Cleaning",
+      "description": "Check confirmed NPC dish-clearing duties, dishwasher placement and storage rules, with a practical checklist for running a solo shift.",
+      "canonical": "https://japanese-ramen-simulator-wiki.pages.dev/restaurant/staff-and-solo-play/",
+      "robots": "max-image-preview:large",
+      "h1": [
+        "Japanese Ramen Simulator: Solo Play, NPC Staff & Cleaning"
+      ],
+      "language": "en",
+      "ogImage": "https://japanese-ramen-simulator-wiki.pages.dev/_astro/en-restaurant-staff-and-solo-play.HtmEye3U.webp",
+      "schemas": [
+        {
+          "@context": "https://schema.org",
+          "@type": "Organization",
+          "name": "Japanese Ramen Simulator Wiki",
+          "url": "https://japanese-ramen-simulator-wiki.pages.dev",
+          "logo": "https://japanese-ramen-simulator-wiki.pages.dev/android-chrome-512x512.png",
+          "image": "https://japanese-ramen-simulator-wiki.pages.dev/images/hero.webp",
+          "description": "Japanese Ramen Simulator guides for cooking, shop management, co-op, achievements and launch-day fixes, with sources and clear version notes."
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "Article",
+          "headline": "Japanese Ramen Simulator: Solo Play, NPC Staff & Cleaning",
+          "description": "Check confirmed NPC dish-clearing duties, dishwasher placement and storage rules, with a practical checklist for running a solo shift.",
+          "image": "https://japanese-ramen-simulator-wiki.pages.dev/_astro/en-restaurant-staff-and-solo-play.HtmEye3U.webp",
+          "datePublished": "2026-10-10T00:00:00.000Z",
+          "dateModified": "2026-10-10T00:00:00.000Z",
+          "author": {
+            "@type": "Organization",
+            "name": "Japanese Ramen Simulator Wiki"
+          },
+          "publisher": {
+            "@type": "Organization",
+            "name": "Japanese Ramen Simulator Wiki",
+            "logo": {
+              "@type": "ImageObject",
+              "url": "https://japanese-ramen-simulator-wiki.pages.dev/android-chrome-512x512.png"
+            }
+          },
+          "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://japanese-ramen-simulator-wiki.pages.dev/restaurant/staff-and-solo-play/"
+          }
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Home",
+              "item": "https://japanese-ramen-simulator-wiki.pages.dev/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "Restaurant Management",
+              "item": "https://japanese-ramen-simulator-wiki.pages.dev/restaurant/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "name": "Japanese Ramen Simulator: Solo Play, NPC Staff & Cleaning",
+              "item": "https://japanese-ramen-simulator-wiki.pages.dev/restaurant/staff-and-solo-play/"
+            }
+          ]
+        }
+      ],
+      "missingAlt": 0,
+      "brokenImages": [],
+      "placeholder": false,
+      "desktopOverflow": false,
+      "headingJumps": false,
+      "navigationTimeMs": 237.2999999821186,
+      "transferredBytes": 900,
+      "mobileOverflow": false,
+      "imageLoads": [
+        {
+          "src": "https://japanese-ramen-simulator-wiki.pages.dev/_astro/steam-1.ErGXzs-J_2lT9TV.webp",
+          "loaded": true
+        },
+        {
+          "src": "https://japanese-ramen-simulator-wiki.pages.dev/_astro/kitchen-routes.BAfIyDob.svg",
+          "loaded": true
+        }
+      ],
+      "galleryItems": 0,
+      "galleryChecks": [],
+      "issues": []
+    },
+    {
+      "pathname": "/restaurant/thieves-and-fires/",
+      "status": 200,
+      "title": "Japanese Ramen Simulator: Thieves, Fires & Restaurant Emergencies",
+      "description": "Prepare for thieves and fires with official tools and known launch fixes, while separating practical advice from unverified event switches.",
+      "canonical": "https://japanese-ramen-simulator-wiki.pages.dev/restaurant/thieves-and-fires/",
+      "robots": "max-image-preview:large",
+      "h1": [
+        "Japanese Ramen Simulator: Thieves, Fires & Restaurant Emergencies"
+      ],
+      "language": "en",
+      "ogImage": "https://japanese-ramen-simulator-wiki.pages.dev/_astro/en-restaurant-thieves-and-fires.DPp-x943.webp",
+      "schemas": [
+        {
+          "@context": "https://schema.org",
+          "@type": "Organization",
+          "name": "Japanese Ramen Simulator Wiki",
+          "url": "https://japanese-ramen-simulator-wiki.pages.dev",
+          "logo": "https://japanese-ramen-simulator-wiki.pages.dev/android-chrome-512x512.png",
+          "image": "https://japanese-ramen-simulator-wiki.pages.dev/images/hero.webp",
+          "description": "Japanese Ramen Simulator guides for cooking, shop management, co-op, achievements and launch-day fixes, with sources and clear version notes."
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "Article",
+          "headline": "Japanese Ramen Simulator: Thieves, Fires & Restaurant Emergencies",
+          "description": "Prepare for thieves and fires with official tools and known launch fixes, while separating practical advice from unverified event switches.",
+          "image": "https://japanese-ramen-simulator-wiki.pages.dev/_astro/en-restaurant-thieves-and-fires.DPp-x943.webp",
+          "datePublished": "2026-10-10T00:00:00.000Z",
+          "dateModified": "2026-10-10T00:00:00.000Z",
+          "author": {
+            "@type": "Organization",
+            "name": "Japanese Ramen Simulator Wiki"
+          },
+          "publisher": {
+            "@type": "Organization",
+            "name": "Japanese Ramen Simulator Wiki",
+            "logo": {
+              "@type": "ImageObject",
+              "url": "https://japanese-ramen-simulator-wiki.pages.dev/android-chrome-512x512.png"
+            }
+          },
+          "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://japanese-ramen-simulator-wiki.pages.dev/restaurant/thieves-and-fires/"
+          }
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Home",
+              "item": "https://japanese-ramen-simulator-wiki.pages.dev/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "Restaurant Management",
+              "item": "https://japanese-ramen-simulator-wiki.pages.dev/restaurant/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "name": "Japanese Ramen Simulator: Thieves, Fires & Restaurant Emergencies",
+              "item": "https://japanese-ramen-simulator-wiki.pages.dev/restaurant/thieves-and-fires/"
+            }
+          ]
+        }
+      ],
+      "missingAlt": 0,
+      "brokenImages": [],
+      "placeholder": false,
+      "desktopOverflow": false,
+      "headingJumps": false,
+      "navigationTimeMs": 258.40000000596046,
+      "transferredBytes": 2137,
+      "mobileOverflow": false,
+      "imageLoads": [
+        {
+          "src": "https://japanese-ramen-simulator-wiki.pages.dev/_astro/emergency-response.ByRntQDg.svg",
+          "loaded": true
+        }
+      ],
+      "galleryItems": 0,
+      "galleryChecks": [],
+      "issues": []
+    },
+    {
+      "pathname": "/tags/achievements/",
+      "status": 200,
+      "title": "achievements — Japanese Ramen Simulator Wiki",
+      "description": "achievements — All Tags · A field guide for your next ramen shift.",
+      "canonical": "https://japanese-ramen-simulator-wiki.pages.dev/tags/achievements/",
+      "robots": "noindex, nofollow",
+      "h1": [
+        "#achievements"
+      ],
+      "language": "en",
+      "ogImage": "https://japanese-ramen-simulator-wiki.pages.dev/images/hero.webp",
+      "schemas": [
+        {
+          "@context": "https://schema.org",
+          "@type": "Organization",
+          "name": "Japanese Ramen Simulator Wiki",
+          "url": "https://japanese-ramen-simulator-wiki.pages.dev",
+          "logo": "https://japanese-ramen-simulator-wiki.pages.dev/android-chrome-512x512.png",
+          "image": "https://japanese-ramen-simulator-wiki.pages.dev/images/hero.webp",
+          "description": "Japanese Ramen Simulator guides for cooking, shop management, co-op, achievements and launch-day fixes, with sources and clear version notes."
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "ItemList",
+          "name": "achievements",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Japanese Ramen Simulator: All 18 Achievements & Requirements",
+              "url": "https://japanese-ramen-simulator-wiki.pages.dev/guides/achievements/"
+            }
+          ]
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Home",
+              "item": "https://japanese-ramen-simulator-wiki.pages.dev/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "achievements",
+              "item": "https://japanese-ramen-simulator-wiki.pages.dev/tags/achievements/"
+            }
+          ]
+        }
+      ],
+      "missingAlt": 0,
+      "brokenImages": [],
+      "placeholder": false,
+      "desktopOverflow": false,
+      "headingJumps": false,
+      "navigationTimeMs": 347.19999998807907,
+      "transferredBytes": 900,
+      "mobileOverflow": false,
+      "imageLoads": [],
+      "galleryItems": 0,
+      "galleryChecks": [],
+      "issues": []
+    },
+    {
+      "pathname": "/tags/beer/",
+      "status": 200,
+      "title": "beer — Japanese Ramen Simulator Wiki",
+      "description": "beer — All Tags · A field guide for your next ramen shift.",
+      "canonical": "https://japanese-ramen-simulator-wiki.pages.dev/tags/beer/",
+      "robots": "noindex, nofollow",
+      "h1": [
+        "#beer"
+      ],
+      "language": "en",
+      "ogImage": "https://japanese-ramen-simulator-wiki.pages.dev/images/hero.webp",
+      "schemas": [
+        {
+          "@context": "https://schema.org",
+          "@type": "Organization",
+          "name": "Japanese Ramen Simulator Wiki",
+          "url": "https://japanese-ramen-simulator-wiki.pages.dev",
+          "logo": "https://japanese-ramen-simulator-wiki.pages.dev/android-chrome-512x512.png",
+          "image": "https://japanese-ramen-simulator-wiki.pages.dev/images/hero.webp",
+          "description": "Japanese Ramen Simulator guides for cooking, shop management, co-op, achievements and launch-day fixes, with sources and clear version notes."
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "ItemList",
+          "name": "beer",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Japanese Ramen Simulator: Beer Guide: Fill Level, Foam & Tutorial",
+              "url": "https://japanese-ramen-simulator-wiki.pages.dev/cooking/beer/"
+            }
+          ]
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Home",
+              "item": "https://japanese-ramen-simulator-wiki.pages.dev/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "beer",
+              "item": "https://japanese-ramen-simulator-wiki.pages.dev/tags/beer/"
+            }
+          ]
+        }
+      ],
+      "missingAlt": 0,
+      "brokenImages": [],
+      "placeholder": false,
+      "desktopOverflow": false,
+      "headingJumps": false,
+      "navigationTimeMs": 260.5,
+      "transferredBytes": 900,
+      "mobileOverflow": false,
+      "imageLoads": [],
+      "galleryItems": 0,
+      "galleryChecks": [],
+      "issues": []
+    },
+    {
+      "pathname": "/tags/bosses/",
+      "status": 200,
+      "title": "bosses — Japanese Ramen Simulator Wiki",
+      "description": "bosses — All Tags · A field guide for your next ramen shift.",
+      "canonical": "https://japanese-ramen-simulator-wiki.pages.dev/tags/bosses/",
+      "robots": "noindex, nofollow",
+      "h1": [
+        "#bosses"
+      ],
+      "language": "en",
+      "ogImage": "https://japanese-ramen-simulator-wiki.pages.dev/images/hero.webp",
+      "schemas": [
+        {
+          "@context": "https://schema.org",
+          "@type": "Organization",
+          "name": "Japanese Ramen Simulator Wiki",
+          "url": "https://japanese-ramen-simulator-wiki.pages.dev",
+          "logo": "https://japanese-ramen-simulator-wiki.pages.dev/android-chrome-512x512.png",
+          "image": "https://japanese-ramen-simulator-wiki.pages.dev/images/hero.webp",
+          "description": "Japanese Ramen Simulator guides for cooking, shop management, co-op, achievements and launch-day fixes, with sources and clear version notes."
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "ItemList",
+          "name": "bosses",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Japanese Ramen Simulator: Food Critic & Boss Customer Guide",
+              "url": "https://japanese-ramen-simulator-wiki.pages.dev/restaurant/food-critic/"
+            }
+          ]
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Home",
+              "item": "https://japanese-ramen-simulator-wiki.pages.dev/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "bosses",
+              "item": "https://japanese-ramen-simulator-wiki.pages.dev/tags/bosses/"
+            }
+          ]
+        }
+      ],
+      "missingAlt": 0,
+      "brokenImages": [],
+      "placeholder": false,
+      "desktopOverflow": false,
+      "headingJumps": false,
+      "navigationTimeMs": 306.90000000596046,
+      "transferredBytes": 900,
+      "mobileOverflow": false,
+      "imageLoads": [],
+      "galleryItems": 0,
+      "galleryChecks": [],
+      "issues": []
+    },
+    {
+      "pathname": "/tags/co-op/",
+      "status": 200,
+      "title": "co-op — Japanese Ramen Simulator Wiki",
+      "description": "co-op — All Tags · A field guide for your next ramen shift.",
+      "canonical": "https://japanese-ramen-simulator-wiki.pages.dev/tags/co-op/",
+      "robots": "noindex, nofollow",
+      "h1": [
+        "#co-op"
+      ],
+      "language": "en",
+      "ogImage": "https://japanese-ramen-simulator-wiki.pages.dev/images/hero.webp",
+      "schemas": [
+        {
+          "@context": "https://schema.org",
+          "@type": "Organization",
+          "name": "Japanese Ramen Simulator Wiki",
+          "url": "https://japanese-ramen-simulator-wiki.pages.dev",
+          "logo": "https://japanese-ramen-simulator-wiki.pages.dev/android-chrome-512x512.png",
+          "image": "https://japanese-ramen-simulator-wiki.pages.dev/images/hero.webp",
+          "description": "Japanese Ramen Simulator guides for cooking, shop management, co-op, achievements and launch-day fixes, with sources and clear version notes."
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "ItemList",
+          "name": "co-op",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Japanese Ramen Simulator: Co-op Roles, Voice Chat & Kitchen Workflow",
+              "url": "https://japanese-ramen-simulator-wiki.pages.dev/multiplayer/co-op-roles/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "Japanese Ramen Simulator: Connection Timeout & Co-op Troubleshooting",
+              "url": "https://japanese-ramen-simulator-wiki.pages.dev/multiplayer/connection-errors/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "name": "Japanese Ramen Simulator: How to Invite Friends & Start Co-op",
+              "url": "https://japanese-ramen-simulator-wiki.pages.dev/multiplayer/invite-friends/"
+            }
+          ]
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Home",
+              "item": "https://japanese-ramen-simulator-wiki.pages.dev/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "co-op",
+              "item": "https://japanese-ramen-simulator-wiki.pages.dev/tags/co-op/"
+            }
+          ]
+        }
+      ],
+      "missingAlt": 0,
+      "brokenImages": [],
+      "placeholder": false,
+      "desktopOverflow": false,
+      "headingJumps": false,
+      "navigationTimeMs": 338.2999999821186,
+      "transferredBytes": 900,
+      "mobileOverflow": false,
+      "imageLoads": [],
+      "galleryItems": 0,
+      "galleryChecks": [],
+      "issues": []
+    },
+    {
+      "pathname": "/tags/cooking/",
+      "status": 200,
+      "title": "cooking — Japanese Ramen Simulator Wiki",
+      "description": "cooking — All Tags · A field guide for your next ramen shift.",
+      "canonical": "https://japanese-ramen-simulator-wiki.pages.dev/tags/cooking/",
+      "robots": "noindex, nofollow",
+      "h1": [
+        "#cooking"
+      ],
+      "language": "en",
+      "ogImage": "https://japanese-ramen-simulator-wiki.pages.dev/images/hero.webp",
+      "schemas": [
+        {
+          "@context": "https://schema.org",
+          "@type": "Organization",
+          "name": "Japanese Ramen Simulator Wiki",
+          "url": "https://japanese-ramen-simulator-wiki.pages.dev",
+          "logo": "https://japanese-ramen-simulator-wiki.pages.dev/android-chrome-512x512.png",
+          "image": "https://japanese-ramen-simulator-wiki.pages.dev/images/hero.webp",
+          "description": "Japanese Ramen Simulator guides for cooking, shop management, co-op, achievements and launch-day fixes, with sources and clear version notes."
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "ItemList",
+          "name": "cooking",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Japanese Ramen Simulator: Beer Guide: Fill Level, Foam & Tutorial",
+              "url": "https://japanese-ramen-simulator-wiki.pages.dev/cooking/beer/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "Japanese Ramen Simulator: Broth & Tare: Preparation and Bottle Handling",
+              "url": "https://japanese-ramen-simulator-wiki.pages.dev/cooking/broth-and-tare/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "name": "Japanese Ramen Simulator: Gyoza & Rice Bowls Guide",
+              "url": "https://japanese-ramen-simulator-wiki.pages.dev/cooking/gyoza-and-rice-bowls/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 4,
+              "name": "Japanese Ramen Simulator: Ramen Recipes & Confirmed Menu",
+              "url": "https://japanese-ramen-simulator-wiki.pages.dev/cooking/ramen-recipes/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 5,
+              "name": "Japanese Ramen Simulator: Orders, Tickets & Customer Service",
+              "url": "https://japanese-ramen-simulator-wiki.pages.dev/restaurant/orders-and-tickets/"
+            }
+          ]
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Home",
+              "item": "https://japanese-ramen-simulator-wiki.pages.dev/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "cooking",
+              "item": "https://japanese-ramen-simulator-wiki.pages.dev/tags/cooking/"
+            }
+          ]
+        }
+      ],
+      "missingAlt": 0,
+      "brokenImages": [],
+      "placeholder": false,
+      "desktopOverflow": false,
+      "headingJumps": false,
+      "navigationTimeMs": 351.59999999403954,
+      "transferredBytes": 900,
+      "mobileOverflow": false,
+      "imageLoads": [],
+      "galleryItems": 0,
+      "galleryChecks": [],
+      "issues": []
+    },
+    {
+      "pathname": "/tags/customization/",
+      "status": 200,
+      "title": "customization — Japanese Ramen Simulator Wiki",
+      "description": "customization — All Tags · A field guide for your next ramen shift.",
+      "canonical": "https://japanese-ramen-simulator-wiki.pages.dev/tags/customization/",
+      "robots": "noindex, nofollow",
+      "h1": [
+        "#customization"
+      ],
+      "language": "en",
+      "ogImage": "https://japanese-ramen-simulator-wiki.pages.dev/images/hero.webp",
+      "schemas": [
+        {
+          "@context": "https://schema.org",
+          "@type": "Organization",
+          "name": "Japanese Ramen Simulator Wiki",
+          "url": "https://japanese-ramen-simulator-wiki.pages.dev",
+          "logo": "https://japanese-ramen-simulator-wiki.pages.dev/android-chrome-512x512.png",
+          "image": "https://japanese-ramen-simulator-wiki.pages.dev/images/hero.webp",
+          "description": "Japanese Ramen Simulator guides for cooking, shop management, co-op, achievements and launch-day fixes, with sources and clear version notes."
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "ItemList",
+          "name": "customization",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Japanese Ramen Simulator: Kitchen Layout, Expansion & My Designs",
+              "url": "https://japanese-ramen-simulator-wiki.pages.dev/restaurant/layout-and-my-designs/"
+            }
+          ]
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Home",
+              "item": "https://japanese-ramen-simulator-wiki.pages.dev/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "customization",
+              "item": "https://japanese-ramen-simulator-wiki.pages.dev/tags/customization/"
+            }
+          ]
+        }
+      ],
+      "missingAlt": 0,
+      "brokenImages": [],
+      "placeholder": false,
+      "desktopOverflow": false,
+      "headingJumps": false,
+      "navigationTimeMs": 381.30000001192093,
+      "transferredBytes": 900,
+      "mobileOverflow": false,
+      "imageLoads": [],
+      "galleryItems": 0,
+      "galleryChecks": [],
+      "issues": []
+    },
+    {
+      "pathname": "/tags/early-access/",
+      "status": 200,
+      "title": "early-access — Japanese Ramen Simulator Wiki",
+      "description": "early-access — All Tags · A field guide for your next ramen shift.",
+      "canonical": "https://japanese-ramen-simulator-wiki.pages.dev/tags/early-access/",
+      "robots": "noindex, nofollow",
+      "h1": [
+        "#early-access"
+      ],
+      "language": "en",
+      "ogImage": "https://japanese-ramen-simulator-wiki.pages.dev/images/hero.webp",
+      "schemas": [
+        {
+          "@context": "https://schema.org",
+          "@type": "Organization",
+          "name": "Japanese Ramen Simulator Wiki",
+          "url": "https://japanese-ramen-simulator-wiki.pages.dev",
+          "logo": "https://japanese-ramen-simulator-wiki.pages.dev/android-chrome-512x512.png",
+          "image": "https://japanese-ramen-simulator-wiki.pages.dev/images/hero.webp",
+          "description": "Japanese Ramen Simulator guides for cooking, shop management, co-op, achievements and launch-day fixes, with sources and clear version notes."
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "ItemList",
+          "name": "early-access",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Japanese Ramen Simulator: Patch Notes & Early Access Version Tracker",
+              "url": "https://japanese-ramen-simulator-wiki.pages.dev/updates/patch-notes/"
+            }
+          ]
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Home",
+              "item": "https://japanese-ramen-simulator-wiki.pages.dev/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "early-access",
+              "item": "https://japanese-ramen-simulator-wiki.pages.dev/tags/early-access/"
+            }
+          ]
+        }
+      ],
+      "missingAlt": 0,
+      "brokenImages": [],
+      "placeholder": false,
+      "desktopOverflow": false,
+      "headingJumps": false,
+      "navigationTimeMs": 280.80000001192093,
+      "transferredBytes": 900,
+      "mobileOverflow": false,
+      "imageLoads": [],
+      "galleryItems": 0,
+      "galleryChecks": [],
+      "issues": []
+    },
+    {
+      "pathname": "/tags/emergencies/",
+      "status": 200,
+      "title": "emergencies — Japanese Ramen Simulator Wiki",
+      "description": "emergencies — All Tags · A field guide for your next ramen shift.",
+      "canonical": "https://japanese-ramen-simulator-wiki.pages.dev/tags/emergencies/",
+      "robots": "noindex, nofollow",
+      "h1": [
+        "#emergencies"
+      ],
+      "language": "en",
+      "ogImage": "https://japanese-ramen-simulator-wiki.pages.dev/images/hero.webp",
+      "schemas": [
+        {
+          "@context": "https://schema.org",
+          "@type": "Organization",
+          "name": "Japanese Ramen Simulator Wiki",
+          "url": "https://japanese-ramen-simulator-wiki.pages.dev",
+          "logo": "https://japanese-ramen-simulator-wiki.pages.dev/android-chrome-512x512.png",
+          "image": "https://japanese-ramen-simulator-wiki.pages.dev/images/hero.webp",
+          "description": "Japanese Ramen Simulator guides for cooking, shop management, co-op, achievements and launch-day fixes, with sources and clear version notes."
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "ItemList",
+          "name": "emergencies",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Japanese Ramen Simulator: Thieves, Fires & Restaurant Emergencies",
+              "url": "https://japanese-ramen-simulator-wiki.pages.dev/restaurant/thieves-and-fires/"
+            }
+          ]
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Home",
+              "item": "https://japanese-ramen-simulator-wiki.pages.dev/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "emergencies",
+              "item": "https://japanese-ramen-simulator-wiki.pages.dev/tags/emergencies/"
+            }
+          ]
+        }
+      ],
+      "missingAlt": 0,
+      "brokenImages": [],
+      "placeholder": false,
+      "desktopOverflow": false,
+      "headingJumps": false,
+      "navigationTimeMs": 341.39999997615814,
+      "transferredBytes": 900,
+      "mobileOverflow": false,
+      "imageLoads": [],
+      "galleryItems": 0,
+      "galleryChecks": [],
+      "issues": []
+    },
+    {
+      "pathname": "/tags/game-facts/",
+      "status": 200,
+      "title": "game-facts — Japanese Ramen Simulator Wiki",
+      "description": "game-facts — All Tags · A field guide for your next ramen shift.",
+      "canonical": "https://japanese-ramen-simulator-wiki.pages.dev/tags/game-facts/",
+      "robots": "noindex, nofollow",
+      "h1": [
+        "#game-facts"
+      ],
+      "language": "en",
+      "ogImage": "https://japanese-ramen-simulator-wiki.pages.dev/images/hero.webp",
+      "schemas": [
+        {
+          "@context": "https://schema.org",
+          "@type": "Organization",
+          "name": "Japanese Ramen Simulator Wiki",
+          "url": "https://japanese-ramen-simulator-wiki.pages.dev",
+          "logo": "https://japanese-ramen-simulator-wiki.pages.dev/android-chrome-512x512.png",
+          "image": "https://japanese-ramen-simulator-wiki.pages.dev/images/hero.webp",
+          "description": "Japanese Ramen Simulator guides for cooking, shop management, co-op, achievements and launch-day fixes, with sources and clear version notes."
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "ItemList",
+          "name": "game-facts",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Japanese Ramen Simulator: All 18 Achievements & Requirements",
+              "url": "https://japanese-ramen-simulator-wiki.pages.dev/guides/achievements/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "Japanese Ramen Simulator: Controls, Language & Cart Settings",
+              "url": "https://japanese-ramen-simulator-wiki.pages.dev/guides/controls-and-language/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "name": "Japanese Ramen Simulator: Platforms, Release Date, Price & Demo",
+              "url": "https://japanese-ramen-simulator-wiki.pages.dev/guides/platforms-price-and-demo/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 4,
+              "name": "Japanese Ramen Simulator: Save Location, Backups & Steam Cloud",
+              "url": "https://japanese-ramen-simulator-wiki.pages.dev/guides/save-data/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 5,
+              "name": "Japanese Ramen Simulator: System Requirements & Performance",
+              "url": "https://japanese-ramen-simulator-wiki.pages.dev/guides/system-requirements/"
+            }
+          ]
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Home",
+              "item": "https://japanese-ramen-simulator-wiki.pages.dev/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "game-facts",
+              "item": "https://japanese-ramen-simulator-wiki.pages.dev/tags/game-facts/"
+            }
+          ]
+        }
+      ],
+      "missingAlt": 0,
+      "brokenImages": [],
+      "placeholder": false,
+      "desktopOverflow": false,
+      "headingJumps": false,
+      "navigationTimeMs": 347.30000001192093,
+      "transferredBytes": 900,
+      "mobileOverflow": false,
+      "imageLoads": [],
+      "galleryItems": 0,
+      "galleryChecks": [],
+      "issues": []
+    },
+    {
+      "pathname": "/tags/getting-started/",
+      "status": 200,
+      "title": "getting-started — Japanese Ramen Simulator Wiki",
+      "description": "getting-started — All Tags · A field guide for your next ramen shift.",
+      "canonical": "https://japanese-ramen-simulator-wiki.pages.dev/tags/getting-started/",
+      "robots": "noindex, nofollow",
+      "h1": [
+        "#getting-started"
+      ],
+      "language": "en",
+      "ogImage": "https://japanese-ramen-simulator-wiki.pages.dev/images/hero.webp",
+      "schemas": [
+        {
+          "@context": "https://schema.org",
+          "@type": "Organization",
+          "name": "Japanese Ramen Simulator Wiki",
+          "url": "https://japanese-ramen-simulator-wiki.pages.dev",
+          "logo": "https://japanese-ramen-simulator-wiki.pages.dev/android-chrome-512x512.png",
+          "image": "https://japanese-ramen-simulator-wiki.pages.dev/images/hero.webp",
+          "description": "Japanese Ramen Simulator guides for cooking, shop management, co-op, achievements and launch-day fixes, with sources and clear version notes."
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "ItemList",
+          "name": "getting-started",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Japanese Ramen Simulator: Beginner Guide",
+              "url": "https://japanese-ramen-simulator-wiki.pages.dev/guides/beginner-guide/"
+            }
+          ]
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Home",
+              "item": "https://japanese-ramen-simulator-wiki.pages.dev/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "getting-started",
+              "item": "https://japanese-ramen-simulator-wiki.pages.dev/tags/getting-started/"
+            }
+          ]
+        }
+      ],
+      "missingAlt": 0,
+      "brokenImages": [],
+      "placeholder": false,
+      "desktopOverflow": false,
+      "headingJumps": false,
+      "navigationTimeMs": 326.59999999403954,
+      "transferredBytes": 900,
+      "mobileOverflow": false,
+      "imageLoads": [],
+      "galleryItems": 0,
+      "galleryChecks": [],
+      "issues": []
+    },
+    {
+      "pathname": "/tags/",
+      "status": 200,
+      "title": "All Tags — Japanese Ramen Simulator Wiki",
+      "description": "Browse all articles by topic.",
+      "canonical": "https://japanese-ramen-simulator-wiki.pages.dev/tags/",
+      "robots": "noindex, nofollow",
+      "h1": [
+        "All Tags"
+      ],
+      "language": "en",
+      "ogImage": "https://japanese-ramen-simulator-wiki.pages.dev/images/hero.webp",
+      "schemas": [
+        {
+          "@context": "https://schema.org",
+          "@type": "Organization",
+          "name": "Japanese Ramen Simulator Wiki",
+          "url": "https://japanese-ramen-simulator-wiki.pages.dev",
+          "logo": "https://japanese-ramen-simulator-wiki.pages.dev/android-chrome-512x512.png",
+          "image": "https://japanese-ramen-simulator-wiki.pages.dev/images/hero.webp",
+          "description": "Japanese Ramen Simulator guides for cooking, shop management, co-op, achievements and launch-day fixes, with sources and clear version notes."
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Home",
+              "item": "https://japanese-ramen-simulator-wiki.pages.dev/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "All Tags",
+              "item": "https://japanese-ramen-simulator-wiki.pages.dev/tags/"
+            }
+          ]
+        }
+      ],
+      "missingAlt": 0,
+      "brokenImages": [],
+      "placeholder": false,
+      "desktopOverflow": false,
+      "headingJumps": false,
+      "navigationTimeMs": 328.39999997615814,
+      "transferredBytes": 900,
+      "mobileOverflow": false,
+      "imageLoads": [],
+      "galleryItems": 0,
+      "galleryChecks": [],
+      "issues": []
+    },
+    {
+      "pathname": "/tags/ingredients/",
+      "status": 200,
+      "title": "ingredients — Japanese Ramen Simulator Wiki",
+      "description": "ingredients — All Tags · A field guide for your next ramen shift.",
+      "canonical": "https://japanese-ramen-simulator-wiki.pages.dev/tags/ingredients/",
+      "robots": "noindex, nofollow",
+      "h1": [
+        "#ingredients"
+      ],
+      "language": "en",
+      "ogImage": "https://japanese-ramen-simulator-wiki.pages.dev/images/hero.webp",
+      "schemas": [
+        {
+          "@context": "https://schema.org",
+          "@type": "Organization",
+          "name": "Japanese Ramen Simulator Wiki",
+          "url": "https://japanese-ramen-simulator-wiki.pages.dev",
+          "logo": "https://japanese-ramen-simulator-wiki.pages.dev/android-chrome-512x512.png",
+          "image": "https://japanese-ramen-simulator-wiki.pages.dev/images/hero.webp",
+          "description": "Japanese Ramen Simulator guides for cooking, shop management, co-op, achievements and launch-day fixes, with sources and clear version notes."
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "ItemList",
+          "name": "ingredients",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Japanese Ramen Simulator: Broth & Tare: Preparation and Bottle Handling",
+              "url": "https://japanese-ramen-simulator-wiki.pages.dev/cooking/broth-and-tare/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "Japanese Ramen Simulator: Gyoza & Rice Bowls Guide",
+              "url": "https://japanese-ramen-simulator-wiki.pages.dev/cooking/gyoza-and-rice-bowls/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "name": "Japanese Ramen Simulator: Ramen Recipes & Confirmed Menu",
+              "url": "https://japanese-ramen-simulator-wiki.pages.dev/cooking/ramen-recipes/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 4,
+              "name": "Japanese Ramen Simulator: Shop Levels & Verified Ingredient Unlocks",
+              "url": "https://japanese-ramen-simulator-wiki.pages.dev/restaurant/shop-level-and-unlocks/"
+            }
+          ]
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Home",
+              "item": "https://japanese-ramen-simulator-wiki.pages.dev/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "ingredients",
+              "item": "https://japanese-ramen-simulator-wiki.pages.dev/tags/ingredients/"
+            }
+          ]
+        }
+      ],
+      "missingAlt": 0,
+      "brokenImages": [],
+      "placeholder": false,
+      "desktopOverflow": false,
+      "headingJumps": false,
+      "navigationTimeMs": 345.40000000596046,
+      "transferredBytes": 900,
+      "mobileOverflow": false,
+      "imageLoads": [],
+      "galleryItems": 0,
+      "galleryChecks": [],
+      "issues": []
+    },
+    {
+      "pathname": "/tags/layout/",
+      "status": 200,
+      "title": "layout — Japanese Ramen Simulator Wiki",
+      "description": "layout — All Tags · A field guide for your next ramen shift.",
+      "canonical": "https://japanese-ramen-simulator-wiki.pages.dev/tags/layout/",
+      "robots": "noindex, nofollow",
+      "h1": [
+        "#layout"
+      ],
+      "language": "en",
+      "ogImage": "https://japanese-ramen-simulator-wiki.pages.dev/images/hero.webp",
+      "schemas": [
+        {
+          "@context": "https://schema.org",
+          "@type": "Organization",
+          "name": "Japanese Ramen Simulator Wiki",
+          "url": "https://japanese-ramen-simulator-wiki.pages.dev",
+          "logo": "https://japanese-ramen-simulator-wiki.pages.dev/android-chrome-512x512.png",
+          "image": "https://japanese-ramen-simulator-wiki.pages.dev/images/hero.webp",
+          "description": "Japanese Ramen Simulator guides for cooking, shop management, co-op, achievements and launch-day fixes, with sources and clear version notes."
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "ItemList",
+          "name": "layout",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Japanese Ramen Simulator: Kitchen Layout, Expansion & My Designs",
+              "url": "https://japanese-ramen-simulator-wiki.pages.dev/restaurant/layout-and-my-designs/"
+            }
+          ]
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Home",
+              "item": "https://japanese-ramen-simulator-wiki.pages.dev/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "layout",
+              "item": "https://japanese-ramen-simulator-wiki.pages.dev/tags/layout/"
+            }
+          ]
+        }
+      ],
+      "missingAlt": 0,
+      "brokenImages": [],
+      "placeholder": false,
+      "desktopOverflow": false,
+      "headingJumps": false,
+      "navigationTimeMs": 360.30000001192093,
+      "transferredBytes": 900,
+      "mobileOverflow": false,
+      "imageLoads": [],
+      "galleryItems": 0,
+      "galleryChecks": [],
+      "issues": []
+    },
+    {
+      "pathname": "/tags/multiplayer/",
+      "status": 200,
+      "title": "multiplayer — Japanese Ramen Simulator Wiki",
+      "description": "multiplayer — All Tags · A field guide for your next ramen shift.",
+      "canonical": "https://japanese-ramen-simulator-wiki.pages.dev/tags/multiplayer/",
+      "robots": "noindex, nofollow",
+      "h1": [
+        "#multiplayer"
+      ],
+      "language": "en",
+      "ogImage": "https://japanese-ramen-simulator-wiki.pages.dev/images/hero.webp",
+      "schemas": [
+        {
+          "@context": "https://schema.org",
+          "@type": "Organization",
+          "name": "Japanese Ramen Simulator Wiki",
+          "url": "https://japanese-ramen-simulator-wiki.pages.dev",
+          "logo": "https://japanese-ramen-simulator-wiki.pages.dev/android-chrome-512x512.png",
+          "image": "https://japanese-ramen-simulator-wiki.pages.dev/images/hero.webp",
+          "description": "Japanese Ramen Simulator guides for cooking, shop management, co-op, achievements and launch-day fixes, with sources and clear version notes."
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "ItemList",
+          "name": "multiplayer",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Japanese Ramen Simulator: Co-op Roles, Voice Chat & Kitchen Workflow",
+              "url": "https://japanese-ramen-simulator-wiki.pages.dev/multiplayer/co-op-roles/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "Japanese Ramen Simulator: Connection Timeout & Co-op Troubleshooting",
+              "url": "https://japanese-ramen-simulator-wiki.pages.dev/multiplayer/connection-errors/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "name": "Japanese Ramen Simulator: How to Invite Friends & Start Co-op",
+              "url": "https://japanese-ramen-simulator-wiki.pages.dev/multiplayer/invite-friends/"
+            }
+          ]
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Home",
+              "item": "https://japanese-ramen-simulator-wiki.pages.dev/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "multiplayer",
+              "item": "https://japanese-ramen-simulator-wiki.pages.dev/tags/multiplayer/"
+            }
+          ]
+        }
+      ],
+      "missingAlt": 0,
+      "brokenImages": [],
+      "placeholder": false,
+      "desktopOverflow": false,
+      "headingJumps": false,
+      "navigationTimeMs": 327.5,
+      "transferredBytes": 900,
+      "mobileOverflow": false,
+      "imageLoads": [],
+      "galleryItems": 0,
+      "galleryChecks": [],
+      "issues": []
+    },
+    {
+      "pathname": "/tags/progression/",
+      "status": 200,
+      "title": "progression — Japanese Ramen Simulator Wiki",
+      "description": "progression — All Tags · A field guide for your next ramen shift.",
+      "canonical": "https://japanese-ramen-simulator-wiki.pages.dev/tags/progression/",
+      "robots": "noindex, nofollow",
+      "h1": [
+        "#progression"
+      ],
+      "language": "en",
+      "ogImage": "https://japanese-ramen-simulator-wiki.pages.dev/images/hero.webp",
+      "schemas": [
+        {
+          "@context": "https://schema.org",
+          "@type": "Organization",
+          "name": "Japanese Ramen Simulator Wiki",
+          "url": "https://japanese-ramen-simulator-wiki.pages.dev",
+          "logo": "https://japanese-ramen-simulator-wiki.pages.dev/android-chrome-512x512.png",
+          "image": "https://japanese-ramen-simulator-wiki.pages.dev/images/hero.webp",
+          "description": "Japanese Ramen Simulator guides for cooking, shop management, co-op, achievements and launch-day fixes, with sources and clear version notes."
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "ItemList",
+          "name": "progression",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Japanese Ramen Simulator: Shop Levels & Verified Ingredient Unlocks",
+              "url": "https://japanese-ramen-simulator-wiki.pages.dev/restaurant/shop-level-and-unlocks/"
+            }
+          ]
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Home",
+              "item": "https://japanese-ramen-simulator-wiki.pages.dev/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "progression",
+              "item": "https://japanese-ramen-simulator-wiki.pages.dev/tags/progression/"
+            }
+          ]
+        }
+      ],
+      "missingAlt": 0,
+      "brokenImages": [],
+      "placeholder": false,
+      "desktopOverflow": false,
+      "headingJumps": false,
+      "navigationTimeMs": 353,
+      "transferredBytes": 900,
+      "mobileOverflow": false,
+      "imageLoads": [],
+      "galleryItems": 0,
+      "galleryChecks": [],
+      "issues": []
+    },
+    {
+      "pathname": "/tags/ramen/",
+      "status": 200,
+      "title": "ramen — Japanese Ramen Simulator Wiki",
+      "description": "ramen — All Tags · A field guide for your next ramen shift.",
+      "canonical": "https://japanese-ramen-simulator-wiki.pages.dev/tags/ramen/",
+      "robots": "noindex, nofollow",
+      "h1": [
+        "#ramen"
+      ],
+      "language": "en",
+      "ogImage": "https://japanese-ramen-simulator-wiki.pages.dev/images/hero.webp",
+      "schemas": [
+        {
+          "@context": "https://schema.org",
+          "@type": "Organization",
+          "name": "Japanese Ramen Simulator Wiki",
+          "url": "https://japanese-ramen-simulator-wiki.pages.dev",
+          "logo": "https://japanese-ramen-simulator-wiki.pages.dev/android-chrome-512x512.png",
+          "image": "https://japanese-ramen-simulator-wiki.pages.dev/images/hero.webp",
+          "description": "Japanese Ramen Simulator guides for cooking, shop management, co-op, achievements and launch-day fixes, with sources and clear version notes."
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "ItemList",
+          "name": "ramen",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Japanese Ramen Simulator: Broth & Tare: Preparation and Bottle Handling",
+              "url": "https://japanese-ramen-simulator-wiki.pages.dev/cooking/broth-and-tare/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "Japanese Ramen Simulator: Ramen Recipes & Confirmed Menu",
+              "url": "https://japanese-ramen-simulator-wiki.pages.dev/cooking/ramen-recipes/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "name": "Japanese Ramen Simulator: Food Critic & Boss Customer Guide",
+              "url": "https://japanese-ramen-simulator-wiki.pages.dev/restaurant/food-critic/"
+            }
+          ]
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Home",
+              "item": "https://japanese-ramen-simulator-wiki.pages.dev/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "ramen",
+              "item": "https://japanese-ramen-simulator-wiki.pages.dev/tags/ramen/"
+            }
+          ]
+        }
+      ],
+      "missingAlt": 0,
+      "brokenImages": [],
+      "placeholder": false,
+      "desktopOverflow": false,
+      "headingJumps": false,
+      "navigationTimeMs": 280.40000000596046,
+      "transferredBytes": 900,
+      "mobileOverflow": false,
+      "imageLoads": [],
+      "galleryItems": 0,
+      "galleryChecks": [],
+      "issues": []
+    },
+    {
+      "pathname": "/tags/reference/",
+      "status": 200,
+      "title": "reference — Japanese Ramen Simulator Wiki",
+      "description": "reference — All Tags · A field guide for your next ramen shift.",
+      "canonical": "https://japanese-ramen-simulator-wiki.pages.dev/tags/reference/",
+      "robots": "noindex, nofollow",
+      "h1": [
+        "#reference"
+      ],
+      "language": "en",
+      "ogImage": "https://japanese-ramen-simulator-wiki.pages.dev/images/hero.webp",
+      "schemas": [
+        {
+          "@context": "https://schema.org",
+          "@type": "Organization",
+          "name": "Japanese Ramen Simulator Wiki",
+          "url": "https://japanese-ramen-simulator-wiki.pages.dev",
+          "logo": "https://japanese-ramen-simulator-wiki.pages.dev/android-chrome-512x512.png",
+          "image": "https://japanese-ramen-simulator-wiki.pages.dev/images/hero.webp",
+          "description": "Japanese Ramen Simulator guides for cooking, shop management, co-op, achievements and launch-day fixes, with sources and clear version notes."
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "ItemList",
+          "name": "reference",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Japanese Ramen Simulator: Beginner Guide",
+              "url": "https://japanese-ramen-simulator-wiki.pages.dev/guides/beginner-guide/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "Japanese Ramen Simulator: Controls, Language & Cart Settings",
+              "url": "https://japanese-ramen-simulator-wiki.pages.dev/guides/controls-and-language/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "name": "Japanese Ramen Simulator: Platforms, Release Date, Price & Demo",
+              "url": "https://japanese-ramen-simulator-wiki.pages.dev/guides/platforms-price-and-demo/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 4,
+              "name": "Japanese Ramen Simulator: Save Location, Backups & Steam Cloud",
+              "url": "https://japanese-ramen-simulator-wiki.pages.dev/guides/save-data/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 5,
+              "name": "Japanese Ramen Simulator: System Requirements & Performance",
+              "url": "https://japanese-ramen-simulator-wiki.pages.dev/guides/system-requirements/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 6,
+              "name": "Japanese Ramen Simulator: Patch Notes & Early Access Version Tracker",
+              "url": "https://japanese-ramen-simulator-wiki.pages.dev/updates/patch-notes/"
+            }
+          ]
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Home",
+              "item": "https://japanese-ramen-simulator-wiki.pages.dev/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "reference",
+              "item": "https://japanese-ramen-simulator-wiki.pages.dev/tags/reference/"
+            }
+          ]
+        }
+      ],
+      "missingAlt": 0,
+      "brokenImages": [],
+      "placeholder": false,
+      "desktopOverflow": false,
+      "headingJumps": false,
+      "navigationTimeMs": 321.19999998807907,
+      "transferredBytes": 900,
+      "mobileOverflow": false,
+      "imageLoads": [],
+      "galleryItems": 0,
+      "galleryChecks": [],
+      "issues": []
+    },
+    {
+      "pathname": "/tags/restaurant/",
+      "status": 200,
+      "title": "restaurant — Japanese Ramen Simulator Wiki",
+      "description": "restaurant — All Tags · A field guide for your next ramen shift.",
+      "canonical": "https://japanese-ramen-simulator-wiki.pages.dev/tags/restaurant/",
+      "robots": "noindex, nofollow",
+      "h1": [
+        "#restaurant"
+      ],
+      "language": "en",
+      "ogImage": "https://japanese-ramen-simulator-wiki.pages.dev/images/hero.webp",
+      "schemas": [
+        {
+          "@context": "https://schema.org",
+          "@type": "Organization",
+          "name": "Japanese Ramen Simulator Wiki",
+          "url": "https://japanese-ramen-simulator-wiki.pages.dev",
+          "logo": "https://japanese-ramen-simulator-wiki.pages.dev/android-chrome-512x512.png",
+          "image": "https://japanese-ramen-simulator-wiki.pages.dev/images/hero.webp",
+          "description": "Japanese Ramen Simulator guides for cooking, shop management, co-op, achievements and launch-day fixes, with sources and clear version notes."
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "ItemList",
+          "name": "restaurant",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Japanese Ramen Simulator: Food Critic & Boss Customer Guide",
+              "url": "https://japanese-ramen-simulator-wiki.pages.dev/restaurant/food-critic/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "Japanese Ramen Simulator: Kitchen Layout, Expansion & My Designs",
+              "url": "https://japanese-ramen-simulator-wiki.pages.dev/restaurant/layout-and-my-designs/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "name": "Japanese Ramen Simulator: Orders, Tickets & Customer Service",
+              "url": "https://japanese-ramen-simulator-wiki.pages.dev/restaurant/orders-and-tickets/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 4,
+              "name": "Japanese Ramen Simulator: Shop Levels & Verified Ingredient Unlocks",
+              "url": "https://japanese-ramen-simulator-wiki.pages.dev/restaurant/shop-level-and-unlocks/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 5,
+              "name": "Japanese Ramen Simulator: Solo Play, NPC Staff & Cleaning",
+              "url": "https://japanese-ramen-simulator-wiki.pages.dev/restaurant/staff-and-solo-play/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 6,
+              "name": "Japanese Ramen Simulator: Thieves, Fires & Restaurant Emergencies",
+              "url": "https://japanese-ramen-simulator-wiki.pages.dev/restaurant/thieves-and-fires/"
+            }
+          ]
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Home",
+              "item": "https://japanese-ramen-simulator-wiki.pages.dev/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "restaurant",
+              "item": "https://japanese-ramen-simulator-wiki.pages.dev/tags/restaurant/"
+            }
+          ]
+        }
+      ],
+      "missingAlt": 0,
+      "brokenImages": [],
+      "placeholder": false,
+      "desktopOverflow": false,
+      "headingJumps": false,
+      "navigationTimeMs": 322.30000001192093,
+      "transferredBytes": 900,
+      "mobileOverflow": false,
+      "imageLoads": [],
+      "galleryItems": 0,
+      "galleryChecks": [],
+      "issues": []
+    },
+    {
+      "pathname": "/tags/service/",
+      "status": 200,
+      "title": "service — Japanese Ramen Simulator Wiki",
+      "description": "service — All Tags · A field guide for your next ramen shift.",
+      "canonical": "https://japanese-ramen-simulator-wiki.pages.dev/tags/service/",
+      "robots": "noindex, nofollow",
+      "h1": [
+        "#service"
+      ],
+      "language": "en",
+      "ogImage": "https://japanese-ramen-simulator-wiki.pages.dev/images/hero.webp",
+      "schemas": [
+        {
+          "@context": "https://schema.org",
+          "@type": "Organization",
+          "name": "Japanese Ramen Simulator Wiki",
+          "url": "https://japanese-ramen-simulator-wiki.pages.dev",
+          "logo": "https://japanese-ramen-simulator-wiki.pages.dev/android-chrome-512x512.png",
+          "image": "https://japanese-ramen-simulator-wiki.pages.dev/images/hero.webp",
+          "description": "Japanese Ramen Simulator guides for cooking, shop management, co-op, achievements and launch-day fixes, with sources and clear version notes."
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "ItemList",
+          "name": "service",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Japanese Ramen Simulator: Beer Guide: Fill Level, Foam & Tutorial",
+              "url": "https://japanese-ramen-simulator-wiki.pages.dev/cooking/beer/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "Japanese Ramen Simulator: Gyoza & Rice Bowls Guide",
+              "url": "https://japanese-ramen-simulator-wiki.pages.dev/cooking/gyoza-and-rice-bowls/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "name": "Japanese Ramen Simulator: Orders, Tickets & Customer Service",
+              "url": "https://japanese-ramen-simulator-wiki.pages.dev/restaurant/orders-and-tickets/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 4,
+              "name": "Japanese Ramen Simulator: Solo Play, NPC Staff & Cleaning",
+              "url": "https://japanese-ramen-simulator-wiki.pages.dev/restaurant/staff-and-solo-play/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 5,
+              "name": "Japanese Ramen Simulator: Thieves, Fires & Restaurant Emergencies",
+              "url": "https://japanese-ramen-simulator-wiki.pages.dev/restaurant/thieves-and-fires/"
+            }
+          ]
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Home",
+              "item": "https://japanese-ramen-simulator-wiki.pages.dev/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "service",
+              "item": "https://japanese-ramen-simulator-wiki.pages.dev/tags/service/"
+            }
+          ]
+        }
+      ],
+      "missingAlt": 0,
+      "brokenImages": [],
+      "placeholder": false,
+      "desktopOverflow": false,
+      "headingJumps": false,
+      "navigationTimeMs": 324.90000000596046,
+      "transferredBytes": 900,
+      "mobileOverflow": false,
+      "imageLoads": [],
+      "galleryItems": 0,
+      "galleryChecks": [],
+      "issues": []
+    },
+    {
+      "pathname": "/tags/staff/",
+      "status": 200,
+      "title": "staff — Japanese Ramen Simulator Wiki",
+      "description": "staff — All Tags · A field guide for your next ramen shift.",
+      "canonical": "https://japanese-ramen-simulator-wiki.pages.dev/tags/staff/",
+      "robots": "noindex, nofollow",
+      "h1": [
+        "#staff"
+      ],
+      "language": "en",
+      "ogImage": "https://japanese-ramen-simulator-wiki.pages.dev/images/hero.webp",
+      "schemas": [
+        {
+          "@context": "https://schema.org",
+          "@type": "Organization",
+          "name": "Japanese Ramen Simulator Wiki",
+          "url": "https://japanese-ramen-simulator-wiki.pages.dev",
+          "logo": "https://japanese-ramen-simulator-wiki.pages.dev/android-chrome-512x512.png",
+          "image": "https://japanese-ramen-simulator-wiki.pages.dev/images/hero.webp",
+          "description": "Japanese Ramen Simulator guides for cooking, shop management, co-op, achievements and launch-day fixes, with sources and clear version notes."
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "ItemList",
+          "name": "staff",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Japanese Ramen Simulator: Solo Play, NPC Staff & Cleaning",
+              "url": "https://japanese-ramen-simulator-wiki.pages.dev/restaurant/staff-and-solo-play/"
+            }
+          ]
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Home",
+              "item": "https://japanese-ramen-simulator-wiki.pages.dev/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "staff",
+              "item": "https://japanese-ramen-simulator-wiki.pages.dev/tags/staff/"
+            }
+          ]
+        }
+      ],
+      "missingAlt": 0,
+      "brokenImages": [],
+      "placeholder": false,
+      "desktopOverflow": false,
+      "headingJumps": false,
+      "navigationTimeMs": 317.2000000178814,
+      "transferredBytes": 900,
+      "mobileOverflow": false,
+      "imageLoads": [],
+      "galleryItems": 0,
+      "galleryChecks": [],
+      "issues": []
+    },
+    {
+      "pathname": "/terms-of-service/",
+      "status": 200,
+      "title": "Terms of Service — Japanese Ramen Simulator Wiki",
+      "description": "Terms of Service for Japanese Ramen Simulator Wiki.",
+      "canonical": "https://japanese-ramen-simulator-wiki.pages.dev/terms-of-service/",
+      "robots": "max-image-preview:large",
+      "h1": [
+        "Terms of Service"
+      ],
+      "language": "en",
+      "ogImage": "https://japanese-ramen-simulator-wiki.pages.dev/images/hero.webp",
+      "schemas": [
+        {
+          "@context": "https://schema.org",
+          "@type": "Organization",
+          "name": "Japanese Ramen Simulator Wiki",
+          "url": "https://japanese-ramen-simulator-wiki.pages.dev",
+          "logo": "https://japanese-ramen-simulator-wiki.pages.dev/android-chrome-512x512.png",
+          "image": "https://japanese-ramen-simulator-wiki.pages.dev/images/hero.webp",
+          "description": "Japanese Ramen Simulator guides for cooking, shop management, co-op, achievements and launch-day fixes, with sources and clear version notes."
+        }
+      ],
+      "missingAlt": 0,
+      "brokenImages": [],
+      "placeholder": false,
+      "desktopOverflow": false,
+      "headingJumps": false,
+      "navigationTimeMs": 218.09999999403954,
+      "transferredBytes": 900,
+      "mobileOverflow": false,
+      "imageLoads": [],
+      "galleryItems": 0,
+      "galleryChecks": [],
+      "issues": []
+    },
+    {
+      "pathname": "/updates/",
+      "status": 200,
+      "title": "Patch Notes & Version History — Japanese Ramen Simulator Wiki",
+      "description": "Track Japanese Ramen Simulator Early Access updates, launch fixes and verified changes to cooking, unlocks, NPC staff and co-op.",
+      "canonical": "https://japanese-ramen-simulator-wiki.pages.dev/updates/",
+      "robots": "max-image-preview:large",
+      "h1": [
+        "Patch Notes & Version History"
+      ],
+      "language": "en",
+      "ogImage": "https://japanese-ramen-simulator-wiki.pages.dev/images/hero.webp",
+      "schemas": [
+        {
+          "@context": "https://schema.org",
+          "@type": "Organization",
+          "name": "Japanese Ramen Simulator Wiki",
+          "url": "https://japanese-ramen-simulator-wiki.pages.dev",
+          "logo": "https://japanese-ramen-simulator-wiki.pages.dev/android-chrome-512x512.png",
+          "image": "https://japanese-ramen-simulator-wiki.pages.dev/images/hero.webp",
+          "description": "Japanese Ramen Simulator guides for cooking, shop management, co-op, achievements and launch-day fixes, with sources and clear version notes."
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "ItemList",
+          "name": "Patch Notes & Version History",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Japanese Ramen Simulator: Patch Notes & Early Access Version Tracker",
+              "url": "https://japanese-ramen-simulator-wiki.pages.dev/updates/patch-notes/"
+            }
+          ]
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Home",
+              "item": "https://japanese-ramen-simulator-wiki.pages.dev/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "Patch Notes & Version History",
+              "item": "https://japanese-ramen-simulator-wiki.pages.dev/updates/"
+            }
+          ]
+        }
+      ],
+      "missingAlt": 0,
+      "brokenImages": [],
+      "placeholder": false,
+      "desktopOverflow": false,
+      "headingJumps": false,
+      "navigationTimeMs": 200.19999998807907,
+      "transferredBytes": 900,
+      "mobileOverflow": false,
+      "imageLoads": [],
+      "galleryItems": 0,
+      "galleryChecks": [],
+      "issues": []
+    },
+    {
+      "pathname": "/updates/patch-notes/",
+      "status": 200,
+      "title": "Japanese Ramen Simulator: Patch Notes & Early Access Version Tracker",
+      "description": "Track the October 9 release and v0.1.48.17626 patch, including cooking, unlock, staff, controller and co-op changes with official sources.",
+      "canonical": "https://japanese-ramen-simulator-wiki.pages.dev/updates/patch-notes/",
+      "robots": "max-image-preview:large",
+      "h1": [
+        "Japanese Ramen Simulator: Patch Notes & Early Access Version Tracker"
+      ],
+      "language": "en",
+      "ogImage": "https://japanese-ramen-simulator-wiki.pages.dev/_astro/en-updates-patch-notes.PmpYmAVn.webp",
+      "schemas": [
+        {
+          "@context": "https://schema.org",
+          "@type": "Organization",
+          "name": "Japanese Ramen Simulator Wiki",
+          "url": "https://japanese-ramen-simulator-wiki.pages.dev",
+          "logo": "https://japanese-ramen-simulator-wiki.pages.dev/android-chrome-512x512.png",
+          "image": "https://japanese-ramen-simulator-wiki.pages.dev/images/hero.webp",
+          "description": "Japanese Ramen Simulator guides for cooking, shop management, co-op, achievements and launch-day fixes, with sources and clear version notes."
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "Article",
+          "headline": "Japanese Ramen Simulator: Patch Notes & Early Access Version Tracker",
+          "description": "Track the October 9 release and v0.1.48.17626 patch, including cooking, unlock, staff, controller and co-op changes with official sources.",
+          "image": "https://japanese-ramen-simulator-wiki.pages.dev/_astro/en-updates-patch-notes.PmpYmAVn.webp",
+          "datePublished": "2026-10-10T00:00:00.000Z",
+          "dateModified": "2026-10-10T00:00:00.000Z",
+          "author": {
+            "@type": "Organization",
+            "name": "Japanese Ramen Simulator Wiki"
+          },
+          "publisher": {
+            "@type": "Organization",
+            "name": "Japanese Ramen Simulator Wiki",
+            "logo": {
+              "@type": "ImageObject",
+              "url": "https://japanese-ramen-simulator-wiki.pages.dev/android-chrome-512x512.png"
+            }
+          },
+          "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://japanese-ramen-simulator-wiki.pages.dev/updates/patch-notes/"
+          }
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Home",
+              "item": "https://japanese-ramen-simulator-wiki.pages.dev/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "Patch Notes & Version History",
+              "item": "https://japanese-ramen-simulator-wiki.pages.dev/updates/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "name": "Japanese Ramen Simulator: Patch Notes & Early Access Version Tracker",
+              "item": "https://japanese-ramen-simulator-wiki.pages.dev/updates/patch-notes/"
+            }
+          ]
+        }
+      ],
+      "missingAlt": 0,
+      "brokenImages": [],
+      "placeholder": false,
+      "desktopOverflow": false,
+      "headingJumps": false,
+      "navigationTimeMs": 238.59999999403954,
+      "transferredBytes": 2291,
+      "mobileOverflow": false,
+      "imageLoads": [
+        {
+          "src": "https://japanese-ramen-simulator-wiki.pages.dev/_astro/launch-timeline.DYgdUQZ0.svg",
+          "loaded": true
+        }
+      ],
+      "galleryItems": 0,
+      "galleryChecks": [],
+      "issues": []
+    }
+  ],
+  "searchResults": [
+    {
+      "text": "Japanese Ramen Simulator: Beer Guide: Fill Level, Foam & Tutorial",
+      "href": "/cooking/beer/"
+    },
+    {
+      "text": "How full must a beer mug be to avoid the insufficient-beer penalty?",
+      "href": "/cooking/beer/#how-full-must-a-beer-mug-be-to-avoid-the-insufficient-beer-penalty"
+    },
+    {
+      "text": "Does a foam warning mean that the order failed?",
+      "href": "/cooking/beer/#does-a-foam-warning-mean-that-the-order-failed"
+    },
+    {
+      "text": "Why does the tutorial no longer need a completely filled mug?",
+      "href": "/cooking/beer/#why-does-the-tutorial-no-longer-need-a-completely-filled-mug"
+    },
+    {
+      "text": "Japanese Ramen Simulator: Gyoza & Rice Bowls Guide",
+      "href": "/cooking/gyoza-and-rice-bowls/"
+    },
+    {
+      "text": "How can I coordinate side dishes with ramen and beer?",
+      "href": "/cooking/gyoza-and-rice-bowls/#how-can-i-coordinate-side-dishes-with-ramen-and-beer"
+    },
+    {
+      "text": "Japanese Ramen Simulator: All 18 Achievements & Requirements",
+      "href": "/guides/achievements/"
+    },
+    {
+      "text": "All 18 published achievements",
+      "href": "/guides/achievements/#all-18-published-achievements"
+    },
+    {
+      "text": "First actions and customization",
+      "href": "/guides/achievements/#first-actions-and-customization"
+    },
+    {
+      "text": "Japanese Ramen Simulator: Patch Notes & Early Access Version Tracker",
+      "href": "/updates/patch-notes/"
+    },
+    {
+      "text": "Cooking and service changes",
+      "href": "/updates/patch-notes/#cooking-and-service-changes"
+    },
+    {
+      "text": "Japanese Ramen Simulator: Orders, Tickets & Customer Service",
+      "href": "/restaurant/orders-and-tickets/"
+    },
+    {
+      "text": "How can I stop forgetting drinks or toppings?",
+      "href": "/restaurant/orders-and-tickets/#how-can-i-stop-forgetting-drinks-or-toppings"
+    }
+  ],
+  "darkTheme": true,
+  "missingStatus": 404,
+  "duplicateTitles": [],
+  "javascriptErrors": []
+}

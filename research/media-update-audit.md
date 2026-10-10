@@ -29,4 +29,19 @@
 
 初次加入照片后的本地性能为94分，补齐首页响应式尺寸后为97分。以上为本地模拟实验，不是公网或真实用户体验数据。
 
-原始证据：media-ledger.json、steam-media-source.json、media-technical-audit.json、qa/media/lighthouse-mobile.json及qa/media/截图。公网验证记录将在发布后单独保存，不把本地检查称为线上验收。
+原始证据：media-ledger.json、steam-media-source.json、media-technical-audit.json、qa/media/lighthouse-mobile.json及qa/media/截图。
+
+## 实际发布与公网验收
+
+| 项目             | 已验证结果                                                                                                                                                     |
+| ---------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 图文内容首次部署 | 3eeca5c6-e551-44a4-abd0-a063f8e09e8b，Production/main，源码e2f4f7963dc4493659c5b243cb1244cf12a121b5                                                            |
+| 生产地址         | https://japanese-ramen-simulator-wiki.pages.dev/                                                                                                               |
+| 固定部署地址     | https://3eeca5c6.japanese-ramen-simulator-wiki.pages.dev/                                                                                                      |
+| GitHub CI        | [38024119623](https://github.com/ChanChunKei/japanese-ramen-simulator-wiki/actions/runs/38024119623)通过；Linux同样为359通过、43演示不适用，构建与全部门禁通过 |
+| 公网浏览器       | 54页、32可索引核心页，0问题；45处图片展示实际加载并解码成功                                                                                                    |
+| 公网画廊         | 6页，桌面与手机共12组放大、前后切图、尺寸和Escape关闭检查，全部通过                                                                                            |
+| 公网搜索与404    | beer搜索13结果，暗色主题正常，未知路径返回404，无JavaScript错误                                                                                                |
+| 公网sitemap      | 32/32 URL返回200，核心URL、Canonical和索引范围保持一致                                                                                                         |
+
+公网原始结果另存media-online-audit.json，截图由生产站重新采集。后续提交仅保存验收记录，图文内容与页面结构没有改变。
