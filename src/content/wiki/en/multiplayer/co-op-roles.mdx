@@ -2,18 +2,44 @@
 title: 'Japanese Ramen Simulator: Co-op Roles, Voice Chat & Kitchen Workflow'
 description: 'Assign practical kitchen roles and organize spatial voice chat, mute and push-to-talk settings for a calmer multiplayer ramen shift.'
 category: 'multiplayer'
-image: '../../../../assets/covers/en-multiplayer-co-op-roles.png'
+image: '../../../../assets/covers/en-multiplayer-co-op-roles.webp'
 date: 2026-10-10
 lastModified: 2026-10-10
 tags: ['multiplayer', 'co-op']
 draft: false
 gameVersion: 'v0.1.48.17626'
 summary: 'Assign preparation, cooking, service, drinks and cleanup to clear owners, then move help toward the current backlog. These are suggested team duties, not locked game professions. Spatial voice chat responds to distance and walls; mute and push-to-talk settings apply after joining. NPC clearing support has confirmed limits.'
+gallery:
+  - image: '../../../../assets/game/steam-6.jpg'
+    alt: 'Several characters carrying trays through the ramen shop.'
+    caption: 'Official Steam store screenshot · © Wild Dog. Several characters carrying trays through the ramen shop.'
+  - image: '../../../../assets/game/steam-1.jpg'
+    alt: 'A ramen shop interior with a central kitchen and customers seated around the counter.'
+    caption: 'Official Steam store screenshot · © Wild Dog. A ramen shop interior with a central kitchen and customers seated around the counter.'
 ---
+
+{/* visual-start */}
+
+import GuideFigure from '~/components/mdx/GuideFigure.astro';
+import primaryVisual from '../../../../assets/diagrams/co-op-roles.svg';
+import secondaryVisual from '../../../../assets/game/steam-6.jpg';
+
+{/* visual-end */}
 
 ## How should you divide work during co-op?
 
 Divide the shift around preparation, cooking, customer service, serving and cleanup—the activities named in the [official Steam description](https://store.steampowered.com/app/4968640/Japanese_Ramen_Simulator/?l=english). The assignments below are editorial suggestions for human players. They are not locked character classes, unlockable professions or a measured fastest strategy, and you should change them as orders demand.
+
+{/* visual-start */}
+
+<GuideFigure
+  src={primaryVisual}
+  alt="Six suggested co-op duties: preparation, broth, assembly, orders, drinks and clearing."
+  caption="Editorial six-player role split, not fixed character classes. Reassign help when a station develops a queue."
+  sourceHref="https://store.steampowered.com/app/4968640/Japanese_Ramen_Simulator/?l=english"
+  sourceLabel="Source for confirmed facts"
+/>
+{/* visual-end */}
 
 Once everyone has joined using the [friend-invitation guide](/multiplayer/invite-friends/), give each task a clear owner and a backup. A helper can take over a backlog, but announce the handoff before two people start handling the same bowl.
 
@@ -32,6 +58,17 @@ Give each order one person responsible for tracking it, even when several people
 Useful short calls include “broth ready,” “this bowl needs toppings,” “beer waiting” and “I am taking this order out.” Add the customer or order information visible to your group. Avoid invented ticket shortcuts or a promise that a particular holder is available; the [orders and tickets guide](/restaurant/orders-and-tickets/) separates confirmed service behavior from unanswered ticket questions.
 
 If a thief or fire interrupts service, name the player responding. Everyone else can continue their agreed duties instead of crowding the same emergency.
+
+{/* visual-start */}
+
+<GuideFigure
+  src={secondaryVisual}
+  alt="Several characters carrying trays through the ramen shop."
+  caption="Characters carrying trays through the shop. Official Steam store screenshot; their presence does not establish NPC job abilities."
+  sourceHref="https://store.steampowered.com/app/4968640/Japanese_Ramen_Simulator/?l=english"
+  sourceLabel="© Wild Dog · Steam store"
+/>
+{/* visual-end */}
 
 ## How does spatial voice chat affect kitchen communication?
 

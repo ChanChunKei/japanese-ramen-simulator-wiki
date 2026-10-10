@@ -2,7 +2,7 @@
 title: 'Japanese Ramen Simulator: Orders, Tickets & Customer Service'
 description: 'Organize customer orders, food and drinks with a practical service workflow, and see which order-ticket handling details remain unverified.'
 category: 'restaurant'
-image: '../../../../assets/covers/en-restaurant-orders-and-tickets.png'
+image: '../../../../assets/covers/en-restaurant-orders-and-tickets.webp'
 date: 2026-10-10
 lastModified: 2026-10-10
 gameVersion: 'v0.1.48.17626'
@@ -11,9 +11,28 @@ draft: false
 summary: "Keep each customer's order associated with its food and drinks from preparation through delivery. The patch adds a waiting-time icon for customers whose orders have not been taken. A ticket rail, pinning control and automatic completion by discarding paper tickets are not verified in the available sources."
 ---
 
+{/* visual-start */}
+
+import GuideFigure from '~/components/mdx/GuideFigure.astro';
+import primaryVisual from '../../../../assets/game/steam-1.jpg';
+import secondaryVisual from '../../../../assets/diagrams/service-flow.svg';
+
+{/* visual-end */}
+
 ## How should I organize order tickets during a busy shift?
 
 Give each active order a clear place and compare it with the food before delivery. That is an editorial organization method, not a documented ticket-management feature. A Steam player asked about placing tickets on tables, discarding them and hanging them up; the checked thread had no answer establishing a rail or pinning control.
+
+{/* visual-start */}
+
+<GuideFigure
+  src={primaryVisual}
+  alt="A ramen shop interior with a central kitchen and customers seated around the counter."
+  caption="A kitchen surrounded by the serving counter. Official Steam store screenshot, not a measured optimal layout."
+  sourceHref="https://store.steampowered.com/app/4968640/Japanese_Ramen_Simulator/?l=english"
+  sourceLabel="© Wild Dog · Steam store"
+/>
+{/* visual-end */}
 
 The [actual order-ticket discussion](https://steamcommunity.com/app/4968640/discussions/0/590691913363932602/) identifies a practical launch-day question. It does not verify that discarding a ticket completes an order, or supply a shortcut for attaching tickets to equipment. Avoid assuming either behavior when deciding whether a customer has been served.
 
@@ -34,6 +53,17 @@ The Day 1 update introduces a dedicated icon for customers whose orders have not
 This distinction comes from the [official patch](https://steamcommunity.com/ogg/4968640/announcements/detail/702155760121940292). The [Steam description](https://store.steampowered.com/app/4968640/Japanese_Ramen_Simulator/?l=english) also lists serving time as a quality factor. Neither source establishes that your paper-ticket arrangement pauses the customer's waiting or changes how service time is scored.
 
 An editorial service loop is to notice waiting customers, take an order, keep it readable, prepare its items, check the recipient and then reconcile delivery. Return to the waiting customers after that check rather than treating the kitchen surface as the whole service queue.
+
+{/* visual-start */}
+
+<GuideFigure
+  src={secondaryVisual}
+  alt="A suggested five-step cycle: prepare, cook, assemble, deliver and clear."
+  caption="Editorial workflow diagram. Follow the actual customer order and current tutorial; this is not a fixed game sequence."
+  sourceHref="https://store.steampowered.com/app/4968640/Japanese_Ramen_Simulator/?l=english"
+  sourceLabel="Source for confirmed facts"
+/>
+{/* visual-end */}
 
 ## How can I stop forgetting drinks or toppings?
 

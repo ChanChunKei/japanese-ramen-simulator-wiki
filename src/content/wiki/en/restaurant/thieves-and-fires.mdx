@@ -2,7 +2,7 @@
 title: 'Japanese Ramen Simulator: Thieves, Fires & Restaurant Emergencies'
 description: 'Prepare for thieves and fires with official tools and known launch fixes, while separating practical advice from unverified event switches.'
 category: 'restaurant'
-image: '../../../../assets/covers/en-restaurant-thieves-and-fires.png'
+image: '../../../../assets/covers/en-restaurant-thieves-and-fires.webp'
 date: 2026-10-10
 lastModified: 2026-10-10
 gameVersion: 'v0.1.48.17626'
@@ -11,9 +11,27 @@ draft: false
 summary: 'Thieves and fires are confirmed restaurant events, with shuriken and fire extinguishers identified as tools for dealing with them. The patch fixes an inability to repel a thief after theft. A closed cash register, an event-disable switch and guaranteed stolen-money recovery are not verified protections.'
 ---
 
+{/* visual-start */}
+
+import GuideFigure from '~/components/mdx/GuideFigure.astro';
+import primaryVisual from '../../../../assets/diagrams/emergency-response.svg';
+
+{/* visual-end */}
+
 ## What tools are confirmed for thieves and fires?
 
 The game includes thieves who can take cash-register money and fire events, with shuriken and fire extinguishers identified as tools for dealing with them. Keep the relevant tool accessible and follow the current interaction prompts. Exact event probabilities, tool costs, recovery amounts and fire-control timings are not published in the checked sources.
+
+{/* visual-start */}
+
+<GuideFigure
+  src={primaryVisual}
+  alt="Thief and fire event reference showing the cash register, shuriken and fire extinguisher."
+  caption="Editorial event reference based on the official description. The response assignments are suggestions, not a tested strategy."
+  sourceHref="https://store.steampowered.com/app/4968640/Japanese_Ramen_Simulator/?l=english"
+  sourceLabel="Source for confirmed facts"
+/>
+{/* visual-end */}
 
 These event and tool descriptions come from the [official Steam store](https://store.steampowered.com/app/4968640/Japanese_Ramen_Simulator/?l=english). The [Day 1 update](https://steamcommunity.com/ogg/4968640/announcements/detail/702155760121940292) adds a specific thief fix, rather than a complete strategy or an assurance that theft can always be prevented.
 

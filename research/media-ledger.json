@@ -1,0 +1,423 @@
+{
+  "reviewedAt": "2026-10-10",
+  "sourcePage": "https://store.steampowered.com/app/4968640/Japanese_Ramen_Simulator/?l=english",
+  "sourceApi": "https://store.steampowered.com/api/appdetails?appids=4968640&l=english",
+  "officialScreenshots": [
+    {
+      "filename": "src/assets/game/steam-0.jpg",
+      "steamScreenshotId": 0,
+      "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4968640/04c35f2452ab80a2cccd843d0a916656d18ab1de/ss_04c35f2452ab80a2cccd843d0a916656d18ab1de.1920x1080.jpg?t=1791536897",
+      "sha256": "1ed1b35e27b2f28447076f03f347cfa535e6c553d5f96b9dec4e001e29ecd959",
+      "width": 1920,
+      "height": 1080,
+      "bytes": 614748,
+      "rightsHolder": "Wild Dog",
+      "sourcePage": "https://store.steampowered.com/app/4968640/Japanese_Ramen_Simulator/?l=english",
+      "caption": "Finished bowls on the counter. Official Steam store screenshot; presentation is not a verified recipe."
+    },
+    {
+      "filename": "src/assets/game/steam-1.jpg",
+      "steamScreenshotId": 1,
+      "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4968640/8c8707d221ca63f1fc7e829a236c1b1e3fab5515/ss_8c8707d221ca63f1fc7e829a236c1b1e3fab5515.1920x1080.jpg?t=1791536897",
+      "sha256": "7c893743fce6972c7a46a3283dcba7823fb5530b6d57212d7dbfa284c1f401de",
+      "width": 1920,
+      "height": 1080,
+      "bytes": 544275,
+      "rightsHolder": "Wild Dog",
+      "sourcePage": "https://store.steampowered.com/app/4968640/Japanese_Ramen_Simulator/?l=english",
+      "caption": "A kitchen surrounded by the serving counter. Official Steam store screenshot, not a measured optimal layout."
+    },
+    {
+      "filename": "src/assets/game/steam-2.jpg",
+      "steamScreenshotId": 2,
+      "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4968640/d2d7dbe81803c430555f4c1ffc06ad1dc67d543c/ss_d2d7dbe81803c430555f4c1ffc06ad1dc67d543c.1920x1080.jpg?t=1791536897",
+      "sha256": "7e55823100f70b587f716ed5580b500fad01e6eabd3d329dc5427ad744e38946",
+      "width": 1920,
+      "height": 1080,
+      "bytes": 523203,
+      "rightsHolder": "Wild Dog",
+      "sourcePage": "https://store.steampowered.com/app/4968640/Japanese_Ramen_Simulator/?l=english",
+      "caption": "Different bowl presentations and condiment bottles. Official Steam store screenshot; quantities are not established by this image."
+    },
+    {
+      "filename": "src/assets/game/steam-3.jpg",
+      "steamScreenshotId": 3,
+      "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4968640/d4dd552538fc184420fe6df863490291dcdcb5cd/ss_d4dd552538fc184420fe6df863490291dcdcb5cd.1920x1080.jpg?t=1791536897",
+      "sha256": "d87141a455cdae42f5946bb4ce071395ffb93722c795a7291b0ea2b6e45aa8b5",
+      "width": 1920,
+      "height": 1080,
+      "bytes": 489156,
+      "rightsHolder": "Wild Dog",
+      "sourcePage": "https://store.steampowered.com/app/4968640/Japanese_Ramen_Simulator/?l=english",
+      "caption": "The restaurant exterior and game characters. Official Steam store promotional screenshot."
+    },
+    {
+      "filename": "src/assets/game/steam-4.jpg",
+      "steamScreenshotId": 4,
+      "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4968640/457ddef6de136793ddf23536bef549fcc440e97e/ss_457ddef6de136793ddf23536bef549fcc440e97e.1920x1080.jpg?t=1791536897",
+      "sha256": "e231d66c2995414d2175ff604cf32d76228c7353ce5cf65a9ff24034f312f44b",
+      "width": 1920,
+      "height": 1080,
+      "bytes": 494423,
+      "rightsHolder": "Wild Dog",
+      "sourcePage": "https://store.steampowered.com/app/4968640/Japanese_Ramen_Simulator/?l=english",
+      "caption": "Gyoza on the open griddle. Official Steam store screenshot; it does not establish a fixed cooking timer."
+    },
+    {
+      "filename": "src/assets/game/steam-5.jpg",
+      "steamScreenshotId": 5,
+      "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4968640/685c2aab5ca48c0dc11a36718ddca92166de7afa/ss_685c2aab5ca48c0dc11a36718ddca92166de7afa.1920x1080.jpg?t=1791536897",
+      "sha256": "25bddeea855e9e6cb966dd217647911e6181b50b90ae7a62d80ea4b5ff38f028",
+      "width": 1920,
+      "height": 1080,
+      "bytes": 637101,
+      "rightsHolder": "Wild Dog",
+      "sourcePage": "https://store.steampowered.com/app/4968640/Japanese_Ramen_Simulator/?l=english",
+      "caption": "A first-person noodle station. Official Steam store screenshot; use the current prompts for exact handling."
+    },
+    {
+      "filename": "src/assets/game/steam-6.jpg",
+      "steamScreenshotId": 6,
+      "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4968640/570ac684b4a7823a1199658773102b47b9a9bd20/ss_570ac684b4a7823a1199658773102b47b9a9bd20.1920x1080.jpg?t=1791536897",
+      "sha256": "13063576bcebfeae36dbce47fc4d97c08795b67d9e068f622d3e11eaf75ee4b1",
+      "width": 1920,
+      "height": 1080,
+      "bytes": 602969,
+      "rightsHolder": "Wild Dog",
+      "sourcePage": "https://store.steampowered.com/app/4968640/Japanese_Ramen_Simulator/?l=english",
+      "caption": "Characters carrying trays through the shop. Official Steam store screenshot; their presence does not establish NPC job abilities."
+    }
+  ],
+  "editorialDiagrams": [
+    "service-flow",
+    "save-backup",
+    "connection-checks",
+    "critic-preparation",
+    "launch-timeline",
+    "beer-fill",
+    "co-op-roles",
+    "kitchen-routes",
+    "pc-requirements",
+    "verified-unlocks",
+    "emergency-response"
+  ],
+  "pages": [
+    {
+      "page": "/guides/beginner-guide/",
+      "primary": {
+        "src": "game/steam-5.jpg",
+        "alt": "First-person noodle preparation at a kitchen station with pots and noodle baskets.",
+        "caption": "A first-person noodle station. Official Steam store screenshot; use the current prompts for exact handling.",
+        "sourceHref": "https://store.steampowered.com/app/4968640/Japanese_Ramen_Simulator/?l=english",
+        "sourceLabel": "© Wild Dog · Steam store"
+      },
+      "secondary": {
+        "src": "diagrams/service-flow.svg",
+        "alt": "A suggested five-step cycle: prepare, cook, assemble, deliver and clear.",
+        "caption": "Editorial workflow diagram. Follow the actual customer order and current tutorial; this is not a fixed game sequence.",
+        "sourceHref": "https://store.steampowered.com/app/4968640/Japanese_Ramen_Simulator/?l=english",
+        "sourceLabel": "Source for confirmed facts"
+      },
+      "gallery": [
+        5,
+        1,
+        0
+      ],
+      "cover": "src/assets/covers/en-guides-beginner-guide.webp"
+    },
+    {
+      "page": "/guides/controls-and-language/",
+      "primary": {
+        "src": "game/steam-5.jpg",
+        "alt": "First-person noodle preparation at a kitchen station with pots and noodle baskets.",
+        "caption": "A first-person noodle station. Official Steam store screenshot; use the current prompts for exact handling.",
+        "sourceHref": "https://store.steampowered.com/app/4968640/Japanese_Ramen_Simulator/?l=english",
+        "sourceLabel": "© Wild Dog · Steam store"
+      },
+      "gallery": [],
+      "cover": "src/assets/covers/en-guides-controls-and-language.webp"
+    },
+    {
+      "page": "/guides/system-requirements/",
+      "primary": {
+        "src": "diagrams/pc-requirements.svg",
+        "alt": "Minimum and recommended RAM, 64-bit Windows, VRAM and storage from the official requirements.",
+        "caption": "An extract of the official Steam requirements. The complete processor, graphics and DirectX specifications remain in the table.",
+        "sourceHref": "https://store.steampowered.com/app/4968640/Japanese_Ramen_Simulator/?l=english",
+        "sourceLabel": "Source for confirmed facts"
+      },
+      "gallery": [],
+      "cover": "src/assets/covers/en-guides-system-requirements.webp"
+    },
+    {
+      "page": "/guides/platforms-price-and-demo/",
+      "primary": {
+        "src": "game/steam-3.jpg",
+        "alt": "Characters approaching a two-storey ramen restaurant decorated with red lanterns.",
+        "caption": "The restaurant exterior and game characters. Official Steam store promotional screenshot.",
+        "sourceHref": "https://store.steampowered.com/app/4968640/Japanese_Ramen_Simulator/?l=english",
+        "sourceLabel": "© Wild Dog · Steam store"
+      },
+      "gallery": [],
+      "cover": "src/assets/covers/en-guides-platforms-price-and-demo.webp"
+    },
+    {
+      "page": "/guides/save-data/",
+      "primary": {
+        "src": "diagrams/save-backup.svg",
+        "alt": "Copy-first backup sequence: save and exit, wait for Steam Cloud, copy the folder and keep originals.",
+        "caption": "Editorial preservation checklist, not a verified restore procedure. The metadata save path has not been checked locally.",
+        "sourceHref": "https://store.steampowered.com/app/4968640/Japanese_Ramen_Simulator/?l=english",
+        "sourceLabel": "Source for confirmed facts"
+      },
+      "gallery": [],
+      "cover": "src/assets/covers/en-guides-save-data.webp"
+    },
+    {
+      "page": "/guides/achievements/",
+      "primary": {
+        "src": "game/steam-0.jpg",
+        "alt": "Two finished ramen bowls with sliced pork, egg and greens.",
+        "caption": "Finished bowls on the counter. Official Steam store screenshot; presentation is not a verified recipe.",
+        "sourceHref": "https://store.steampowered.com/app/4968640/Japanese_Ramen_Simulator/?l=english",
+        "sourceLabel": "© Wild Dog · Steam store"
+      },
+      "gallery": [],
+      "cover": "src/assets/covers/en-guides-achievements.webp"
+    },
+    {
+      "page": "/cooking/ramen-recipes/",
+      "primary": {
+        "src": "game/steam-0.jpg",
+        "alt": "Two finished ramen bowls with sliced pork, egg and greens.",
+        "caption": "Finished bowls on the counter. Official Steam store screenshot; presentation is not a verified recipe.",
+        "sourceHref": "https://store.steampowered.com/app/4968640/Japanese_Ramen_Simulator/?l=english",
+        "sourceLabel": "© Wild Dog · Steam store"
+      },
+      "secondary": {
+        "src": "game/steam-2.jpg",
+        "alt": "Ramen bowls with different toppings and condiment bottles beside them.",
+        "caption": "Different bowl presentations and condiment bottles. Official Steam store screenshot; quantities are not established by this image.",
+        "sourceHref": "https://store.steampowered.com/app/4968640/Japanese_Ramen_Simulator/?l=english",
+        "sourceLabel": "© Wild Dog · Steam store"
+      },
+      "gallery": [
+        0,
+        2,
+        5
+      ],
+      "cover": "src/assets/covers/en-cooking-ramen-recipes.webp"
+    },
+    {
+      "page": "/cooking/broth-and-tare/",
+      "primary": {
+        "src": "game/steam-2.jpg",
+        "alt": "Ramen bowls with different toppings and condiment bottles beside them.",
+        "caption": "Different bowl presentations and condiment bottles. Official Steam store screenshot; quantities are not established by this image.",
+        "sourceHref": "https://store.steampowered.com/app/4968640/Japanese_Ramen_Simulator/?l=english",
+        "sourceLabel": "© Wild Dog · Steam store"
+      },
+      "secondary": {
+        "src": "game/steam-5.jpg",
+        "alt": "First-person noodle preparation at a kitchen station with pots and noodle baskets.",
+        "caption": "A first-person noodle station. Official Steam store screenshot; use the current prompts for exact handling.",
+        "sourceHref": "https://store.steampowered.com/app/4968640/Japanese_Ramen_Simulator/?l=english",
+        "sourceLabel": "© Wild Dog · Steam store"
+      },
+      "gallery": [],
+      "cover": "src/assets/covers/en-cooking-broth-and-tare.webp"
+    },
+    {
+      "page": "/cooking/gyoza-and-rice-bowls/",
+      "primary": {
+        "src": "game/steam-4.jpg",
+        "alt": "Gyoza browning on an open griddle in the restaurant kitchen.",
+        "caption": "Gyoza on the open griddle. Official Steam store screenshot; it does not establish a fixed cooking timer.",
+        "sourceHref": "https://store.steampowered.com/app/4968640/Japanese_Ramen_Simulator/?l=english",
+        "sourceLabel": "© Wild Dog · Steam store"
+      },
+      "gallery": [
+        4,
+        0
+      ],
+      "cover": "src/assets/covers/en-cooking-gyoza-and-rice-bowls.webp"
+    },
+    {
+      "page": "/cooking/beer/",
+      "primary": {
+        "src": "diagrams/beer-fill.svg",
+        "alt": "Three mugs at 50, 70 and 85 percent total fill; 50 and 70 incur the low-fill penalty.",
+        "caption": "Beer and foam combined must exceed 70%. Foam in this drawing is illustrative, not an ideal ratio or a perfect-score guarantee.",
+        "sourceHref": "https://steamcommunity.com/ogg/4968640/announcements/detail/702155760121940292",
+        "sourceLabel": "Source for confirmed facts"
+      },
+      "gallery": [],
+      "cover": "src/assets/covers/en-cooking-beer.webp"
+    },
+    {
+      "page": "/restaurant/orders-and-tickets/",
+      "primary": {
+        "src": "game/steam-1.jpg",
+        "alt": "A ramen shop interior with a central kitchen and customers seated around the counter.",
+        "caption": "A kitchen surrounded by the serving counter. Official Steam store screenshot, not a measured optimal layout.",
+        "sourceHref": "https://store.steampowered.com/app/4968640/Japanese_Ramen_Simulator/?l=english",
+        "sourceLabel": "© Wild Dog · Steam store"
+      },
+      "secondary": {
+        "src": "diagrams/service-flow.svg",
+        "alt": "A suggested five-step cycle: prepare, cook, assemble, deliver and clear.",
+        "caption": "Editorial workflow diagram. Follow the actual customer order and current tutorial; this is not a fixed game sequence.",
+        "sourceHref": "https://store.steampowered.com/app/4968640/Japanese_Ramen_Simulator/?l=english",
+        "sourceLabel": "Source for confirmed facts"
+      },
+      "gallery": [],
+      "cover": "src/assets/covers/en-restaurant-orders-and-tickets.webp"
+    },
+    {
+      "page": "/restaurant/staff-and-solo-play/",
+      "primary": {
+        "src": "game/steam-1.jpg",
+        "alt": "A ramen shop interior with a central kitchen and customers seated around the counter.",
+        "caption": "A kitchen surrounded by the serving counter. Official Steam store screenshot, not a measured optimal layout.",
+        "sourceHref": "https://store.steampowered.com/app/4968640/Japanese_Ramen_Simulator/?l=english",
+        "sourceLabel": "© Wild Dog · Steam store"
+      },
+      "secondary": {
+        "src": "diagrams/kitchen-routes.svg",
+        "alt": "Conceptual routes from storage to preparation, cooking, customers and dish return.",
+        "caption": "Editorial work-zone diagram, not an in-game floor plan. No fixed room dimensions or optimal throughput are implied.",
+        "sourceHref": "https://store.steampowered.com/app/4968640/Japanese_Ramen_Simulator/?l=english",
+        "sourceLabel": "Source for confirmed facts"
+      },
+      "gallery": [],
+      "cover": "src/assets/covers/en-restaurant-staff-and-solo-play.webp"
+    },
+    {
+      "page": "/restaurant/layout-and-my-designs/",
+      "primary": {
+        "src": "diagrams/kitchen-routes.svg",
+        "alt": "Conceptual routes from storage to preparation, cooking, customers and dish return.",
+        "caption": "Editorial work-zone diagram, not an in-game floor plan. No fixed room dimensions or optimal throughput are implied.",
+        "sourceHref": "https://store.steampowered.com/app/4968640/Japanese_Ramen_Simulator/?l=english",
+        "sourceLabel": "Source for confirmed facts"
+      },
+      "secondary": {
+        "src": "game/steam-1.jpg",
+        "alt": "A ramen shop interior with a central kitchen and customers seated around the counter.",
+        "caption": "A kitchen surrounded by the serving counter. Official Steam store screenshot, not a measured optimal layout.",
+        "sourceHref": "https://store.steampowered.com/app/4968640/Japanese_Ramen_Simulator/?l=english",
+        "sourceLabel": "© Wild Dog · Steam store"
+      },
+      "gallery": [
+        1,
+        3
+      ],
+      "cover": "src/assets/covers/en-restaurant-layout-and-my-designs.webp"
+    },
+    {
+      "page": "/restaurant/shop-level-and-unlocks/",
+      "primary": {
+        "src": "diagrams/verified-unlocks.svg",
+        "alt": "Three confirmed order milestones: five soft drinks at 25, chicken or pork Tantanmen at 26 and beef at 28.",
+        "caption": "Three confirmed customer-order milestones, not a full unlock tree. Purchase thresholds remain separate in the table.",
+        "sourceHref": "https://steamcommunity.com/ogg/4968640/announcements/detail/702155760121940292",
+        "sourceLabel": "Source for confirmed facts"
+      },
+      "gallery": [],
+      "cover": "src/assets/covers/en-restaurant-shop-level-and-unlocks.webp"
+    },
+    {
+      "page": "/restaurant/thieves-and-fires/",
+      "primary": {
+        "src": "diagrams/emergency-response.svg",
+        "alt": "Thief and fire event reference showing the cash register, shuriken and fire extinguisher.",
+        "caption": "Editorial event reference based on the official description. The response assignments are suggestions, not a tested strategy.",
+        "sourceHref": "https://store.steampowered.com/app/4968640/Japanese_Ramen_Simulator/?l=english",
+        "sourceLabel": "Source for confirmed facts"
+      },
+      "gallery": [],
+      "cover": "src/assets/covers/en-restaurant-thieves-and-fires.webp"
+    },
+    {
+      "page": "/restaurant/food-critic/",
+      "primary": {
+        "src": "diagrams/critic-preparation.svg",
+        "alt": "Critic preparation sequence: before opening, invite the critic, then prepare and read feedback.",
+        "caption": "The invitation timing is confirmed by the Day 1 patch. Preparation is editorial advice; no perfect recipe is asserted.",
+        "sourceHref": "https://steamcommunity.com/ogg/4968640/announcements/detail/702155760121940292",
+        "sourceLabel": "Source for confirmed facts"
+      },
+      "secondary": {
+        "src": "game/steam-0.jpg",
+        "alt": "Two finished ramen bowls with sliced pork, egg and greens.",
+        "caption": "Finished bowls on the counter. Official Steam store screenshot; presentation is not a verified recipe.",
+        "sourceHref": "https://store.steampowered.com/app/4968640/Japanese_Ramen_Simulator/?l=english",
+        "sourceLabel": "© Wild Dog · Steam store"
+      },
+      "gallery": [],
+      "cover": "src/assets/covers/en-restaurant-food-critic.webp"
+    },
+    {
+      "page": "/multiplayer/invite-friends/",
+      "primary": {
+        "src": "game/steam-6.jpg",
+        "alt": "Several characters carrying trays through the ramen shop.",
+        "caption": "Characters carrying trays through the shop. Official Steam store screenshot; their presence does not establish NPC job abilities.",
+        "sourceHref": "https://store.steampowered.com/app/4968640/Japanese_Ramen_Simulator/?l=english",
+        "sourceLabel": "© Wild Dog · Steam store"
+      },
+      "gallery": [
+        6,
+        3
+      ],
+      "cover": "src/assets/covers/en-multiplayer-invite-friends.webp"
+    },
+    {
+      "page": "/multiplayer/connection-errors/",
+      "primary": {
+        "src": "diagrams/connection-checks.svg",
+        "alt": "Connection diagnosis sequence: record the error, match versions, confirm the invite, review access and retry.",
+        "caption": "Editorial troubleshooting sequence. It does not promise a cure; record your own separate diagnostic ID.",
+        "sourceHref": "https://steamcommunity.com/ogg/4968640/announcements/detail/702155760121940292",
+        "sourceLabel": "Source for confirmed facts"
+      },
+      "gallery": [],
+      "cover": "src/assets/covers/en-multiplayer-connection-errors.webp"
+    },
+    {
+      "page": "/multiplayer/co-op-roles/",
+      "primary": {
+        "src": "diagrams/co-op-roles.svg",
+        "alt": "Six suggested co-op duties: preparation, broth, assembly, orders, drinks and clearing.",
+        "caption": "Editorial six-player role split, not fixed character classes. Reassign help when a station develops a queue.",
+        "sourceHref": "https://store.steampowered.com/app/4968640/Japanese_Ramen_Simulator/?l=english",
+        "sourceLabel": "Source for confirmed facts"
+      },
+      "secondary": {
+        "src": "game/steam-6.jpg",
+        "alt": "Several characters carrying trays through the ramen shop.",
+        "caption": "Characters carrying trays through the shop. Official Steam store screenshot; their presence does not establish NPC job abilities.",
+        "sourceHref": "https://store.steampowered.com/app/4968640/Japanese_Ramen_Simulator/?l=english",
+        "sourceLabel": "© Wild Dog · Steam store"
+      },
+      "gallery": [
+        6,
+        1
+      ],
+      "cover": "src/assets/covers/en-multiplayer-co-op-roles.webp"
+    },
+    {
+      "page": "/updates/patch-notes/",
+      "primary": {
+        "src": "diagrams/launch-timeline.svg",
+        "alt": "Release on October 9, Day 1 version v0.1.48.17626, and wiki review on October 10.",
+        "caption": "Release, patch and review checkpoints. The final date is this wiki review, not another game update.",
+        "sourceHref": "https://steamcommunity.com/ogg/4968640/announcements/detail/702155760121940292",
+        "sourceLabel": "Source for confirmed facts"
+      },
+      "gallery": [],
+      "cover": "src/assets/covers/en-updates-patch-notes.webp"
+    }
+  ],
+  "policy": "官方截图保留版权与来源；示意图不是游戏UI，不用截图推导数值、配方、NPC职责或最优布局。"
+}

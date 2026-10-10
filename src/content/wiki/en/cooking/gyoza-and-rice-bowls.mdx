@@ -2,18 +2,43 @@
 title: 'Japanese Ramen Simulator: Gyoza & Rice Bowls Guide'
 description: 'Plan gyoza and rice-bowl service, distinguish confirmed menu names and check launch-patch fixes for rice heating and loaded gyoza.'
 category: 'cooking'
-image: '../../../../assets/covers/en-cooking-gyoza-and-rice-bowls.png'
+image: '../../../../assets/covers/en-cooking-gyoza-and-rice-bowls.webp'
 date: 2026-10-10
 lastModified: 2026-10-10
 gameVersion: 'v0.1.48.17626'
 tags: ['cooking', 'service', 'ingredients']
 draft: false
 summary: 'Gyoza cooking includes managing browning, while rice bowls can use prepared ramen ingredients. The patch distinguishes Chashu Rice Bowl from Chashu and Green Onion Rice Bowl and fixes loaded gyoza removal. Plan these dishes alongside ramen orders, using current prompts rather than invented cooking times.'
+gallery:
+  - image: '../../../../assets/game/steam-4.jpg'
+    alt: 'Gyoza browning on an open griddle in the restaurant kitchen.'
+    caption: 'Official Steam store screenshot · © Wild Dog. Gyoza browning on an open griddle in the restaurant kitchen.'
+  - image: '../../../../assets/game/steam-0.jpg'
+    alt: 'Two finished ramen bowls with sliced pork, egg and greens.'
+    caption: 'Official Steam store screenshot · © Wild Dog. Two finished ramen bowls with sliced pork, egg and greens.'
 ---
+
+{/* visual-start */}
+
+import GuideFigure from '~/components/mdx/GuideFigure.astro';
+import primaryVisual from '../../../../assets/game/steam-4.jpg';
+
+{/* visual-end */}
 
 ## How do gyoza and rice bowls fit into the menu?
 
 Gyoza and rice bowls are confirmed dishes alongside ramen. The official description calls attention to gyoza browning and gives Char Siu Don as a rice-bowl example using prepared ramen ingredients. Prepare the actual ordered dish, and keep these tasks visible when a customer also needs ramen or a drink.
+
+{/* visual-start */}
+
+<GuideFigure
+  src={primaryVisual}
+  alt="Gyoza browning on an open griddle in the restaurant kitchen."
+  caption="Gyoza on the open griddle. Official Steam store screenshot; it does not establish a fixed cooking timer."
+  sourceHref="https://store.steampowered.com/app/4968640/Japanese_Ramen_Simulator/?l=english"
+  sourceLabel="© Wild Dog · Steam store"
+/>
+{/* visual-end */}
 
 The [Steam description](https://store.steampowered.com/app/4968640/Japanese_Ramen_Simulator/?l=english) establishes the dishes, but does not supply a universal gyoza cooking time, rice portion or guaranteed browning score. Use the current cooking prompts and dish feedback. The [ramen menu guide](/cooking/ramen-recipes/) covers bowl assembly separately.
 

@@ -2,7 +2,7 @@
 title: 'Japanese Ramen Simulator: Broth & Tare: Preparation and Bottle Handling'
 description: 'Prepare broth and handle tare bottles using confirmed launch-patch rules, including carrying five bottles and pouring while holding one.'
 category: 'cooking'
-image: '../../../../assets/covers/en-cooking-broth-and-tare.png'
+image: '../../../../assets/covers/en-cooking-broth-and-tare.webp'
 date: 2026-10-10
 lastModified: 2026-10-10
 gameVersion: 'v0.1.48.17626'
@@ -11,9 +11,28 @@ draft: false
 summary: 'Carry up to five tare bottles together, but hold only one when pouring into ramen. A stack displays the remaining amount and condition of its top item. Match broth and tare to the order, and use actual customer feedback instead of an unverified temperature or flavor formula.'
 ---
 
+{/* visual-start */}
+
+import GuideFigure from '~/components/mdx/GuideFigure.astro';
+import primaryVisual from '../../../../assets/game/steam-2.jpg';
+import secondaryVisual from '../../../../assets/game/steam-5.jpg';
+
+{/* visual-end */}
+
 ## How do broth and tare affect ramen quality?
 
 Broth choice belongs to the ordered dish, while soup temperature, aroma and umami are among the game's stated quality factors. Use the order and current ingredient information to guide preparation. The official sources do not provide exact flavor formulas, a universal target temperature or a fixed broth-to-tare ratio.
+
+{/* visual-start */}
+
+<GuideFigure
+  src={primaryVisual}
+  alt="Ramen bowls with different toppings and condiment bottles beside them."
+  caption="Different bowl presentations and condiment bottles. Official Steam store screenshot; quantities are not established by this image."
+  sourceHref="https://store.steampowered.com/app/4968640/Japanese_Ramen_Simulator/?l=english"
+  sourceLabel="© Wild Dog · Steam store"
+/>
+{/* visual-end */}
 
 The [Steam store description](https://store.steampowered.com/app/4968640/Japanese_Ramen_Simulator/?l=english) confirms these quality factors alongside noodle texture and service time. For the currently verified menu, [Tantanmen](/cooking/ramen-recipes/) can generate orders with chicken, pork or beef broth. The [unlock guide](/restaurant/shop-level-and-unlocks/) gives the confirmed order thresholds without treating them as preparation instructions.
 
@@ -33,6 +52,17 @@ The [official update](https://steamcommunity.com/ogg/4968640/announcements/detai
 The top-item display rule also applies to Spicy Miso bottles, mugs and drinks. A stack is therefore not evidence that all its contents have equal amounts or the same condition.
 
 For an orderly station, an editorial routine is to move a batch to the preparation area, set it down, select the required bottle and check its displayed amount. This avoids confusing a transport convenience with a multi-bottle pouring operation.
+
+{/* visual-start */}
+
+<GuideFigure
+  src={secondaryVisual}
+  alt="First-person noodle preparation at a kitchen station with pots and noodle baskets."
+  caption="A first-person noodle station. Official Steam store screenshot; use the current prompts for exact handling."
+  sourceHref="https://store.steampowered.com/app/4968640/Japanese_Ramen_Simulator/?l=english"
+  sourceLabel="© Wild Dog · Steam store"
+/>
+{/* visual-end */}
 
 ## What changed about ingredient information and Tantan Tare?
 

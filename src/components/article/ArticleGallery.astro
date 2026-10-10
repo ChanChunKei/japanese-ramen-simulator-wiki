@@ -39,27 +39,34 @@ if (items.length === 0) return null;
   <div class="mt-4 grid grid-cols-2 gap-3 sm:grid-cols-3">
     {
       items.map((item, i: number) => (
-        <button
-          type="button"
-          class="group relative overflow-hidden rounded-md border border-border"
-          data-gallery-thumb={i}
-          data-full={item.image.src}
-          data-caption={item.caption ?? ''}
-          aria-label={item.alt ?? item.caption ?? `Open image ${i + 1}`}
-        >
-          <Image
-            src={item.image}
-            alt={item.alt ?? item.caption ?? ''}
-            width={400}
-            height={225}
-            widths={[200, 400, 800]}
-            sizes="(max-width: 640px) 50vw, 33vw"
-            format="webp"
-            loading="lazy"
-            decoding="async"
-            class="aspect-video w-full object-cover transition group-hover:scale-105"
-          />
-        </button>
+        <figure class="min-w-0">
+          <button
+            type="button"
+            class="group relative block w-full overflow-hidden rounded-md border border-border"
+            data-gallery-thumb={i}
+            data-full={item.image.src}
+            data-caption={item.caption ?? ''}
+            aria-label={item.alt ?? item.caption ?? `Open image ${i + 1}`}
+          >
+            <Image
+              src={item.image}
+              alt={item.alt ?? item.caption ?? ''}
+              width={400}
+              height={225}
+              widths={[200, 400, 800]}
+              sizes="(max-width: 640px) 50vw, 33vw"
+              format="webp"
+              loading="lazy"
+              decoding="async"
+              class="aspect-video w-full object-cover transition group-hover:scale-105"
+            />
+          </button>
+          {item.caption && (
+            <figcaption class="mt-2 text-xs leading-relaxed text-muted-foreground">
+              {item.caption}
+            </figcaption>
+          )}
+        </figure>
       ))
     }
   </div>
@@ -67,7 +74,7 @@ if (items.length === 0) return null;
 
 {/* Lightbox — native dialog, one instance per page */}
 <dialog
-  class="backdrop:bg-background/90 backdrop:backdrop-blur-sm"
+  class="border-0 bg-transparent p-0 text-foreground backdrop:bg-background/90 backdrop:backdrop-blur-sm"
   data-gallery-lightbox
   aria-label={heading}
 >
@@ -77,14 +84,24 @@ if (items.length === 0) return null;
     <img data-gallery-full alt="" class="max-h-[80vh] max-w-[90vw] rounded-md object-contain" />
     <p data-gallery-caption class="min-h-5 text-sm text-foreground"></p>
     <div class="flex gap-2">
-      <button type="button" data-gallery-prev class="btn-outline px-3 py-1.5 text-xs" aria-label={t("prev", "Previous image")}>
+      <button
+        type="button"
+        data-gallery-prev
+        class="btn-outline px-3 py-1.5 text-xs"
+        aria-label={t('prev', 'Previous image')}
+      >
         <Icon name="lucide:chevron-left" class="h-4 w-4" />
       </button>
       <button type="button" data-gallery-close class="btn-outline px-3 py-1.5 text-xs">
         <Icon name="lucide:x" class="mr-1 h-4 w-4" />
-        {t("close", "Close")}
+        {t('close', 'Close')}
       </button>
-      <button type="button" data-gallery-next class="btn-outline px-3 py-1.5 text-xs" aria-label={t("next", "Next image")}>
+      <button
+        type="button"
+        data-gallery-next
+        class="btn-outline px-3 py-1.5 text-xs"
+        aria-label={t('next', 'Next image')}
+      >
         <Icon name="lucide:chevron-right" class="h-4 w-4" />
       </button>
     </div>
@@ -99,9 +116,7 @@ if (items.length === 0) return null;
     const dialog = document.querySelector<HTMLDialogElement>('[data-gallery-lightbox]');
     if (!root || !dialog) return;
 
-    const thumbs = Array.from(
-      root.querySelectorAll<HTMLButtonElement>('[data-gallery-thumb]'),
-    );
+    const thumbs = Array.from(root.querySelectorAll<HTMLButtonElement>('[data-gallery-thumb]'));
     const full = dialog.querySelector<HTMLImageElement>('[data-gallery-full]');
     const caption = dialog.querySelector<HTMLParagraphElement>('[data-gallery-caption]');
     if (!full || !caption || thumbs.length === 0) return;

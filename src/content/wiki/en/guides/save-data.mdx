@@ -2,7 +2,7 @@
 title: 'Japanese Ramen Simulator: Save Location, Backups & Steam Cloud'
 description: 'Find the Steam Cloud metadata save path and follow a copy-first backup checklist, with clear limits on untested restores and co-op progress.'
 category: 'guides'
-image: '../../../../assets/covers/en-guides-save-data.png'
+image: '../../../../assets/covers/en-guides-save-data.webp'
 date: 2026-10-10
 lastModified: 2026-10-10
 draft: false
@@ -11,9 +11,27 @@ summary: 'Steam officially lists Steam Cloud and Save Anytime. SteamDB’s mirro
 tags: ['reference', 'game-facts']
 ---
 
+{/* visual-start */}
+
+import GuideFigure from '~/components/mdx/GuideFigure.astro';
+import primaryVisual from '../../../../assets/diagrams/save-backup.svg';
+
+{/* visual-end */}
+
 ## What is confirmed about saves
 
 The [official Steam metadata](https://store.steampowered.com/api/appdetails?appids=4968640&l=english) lists **Steam Cloud** and **Save Anytime**. These features do not establish a particular keyboard shortcut, autosave interval or successful cross-version restore.
+
+{/* visual-start */}
+
+<GuideFigure
+  src={primaryVisual}
+  alt="Copy-first backup sequence: save and exit, wait for Steam Cloud, copy the folder and keep originals."
+  caption="Editorial preservation checklist, not a verified restore procedure. The metadata save path has not been checked locally."
+  sourceHref="https://store.steampowered.com/app/4968640/Japanese_Ramen_Simulator/?l=english"
+  sourceLabel="Source for confirmed facts"
+/>
+{/* visual-end */}
 
 We have not installed the game locally or tested save recovery. This page separates the published cloud path from general backup advice so that a suggested precaution is not mistaken for a verified restore procedure.
 

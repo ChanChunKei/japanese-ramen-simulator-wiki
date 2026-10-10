@@ -1,0 +1,110 @@
+---
+/** 首页截图入口；文案和图片路径均由语言JSON传入。 */
+import { Icon } from 'astro-icon/components';
+interface Props {
+  title: string;
+  description: string;
+  sourceHref: string;
+  sourceLabel: string;
+  items: Array<{
+    src: string;
+    srcset?: string;
+    alt: string;
+    title: string;
+    caption: string;
+    href: string;
+  }>;
+}
+const { title, description, sourceHref, sourceLabel, items } = Astro.props;
+---
+
+<section class="section border-b border-border">
+  <div class="editorial-section-heading">
+    <h2>{title}</h2>
+    <a
+      href={sourceHref}
+      target="_blank"
+      rel="noopener noreferrer"
+      class="text-sm text-nav hover:underline"
+    >
+      {sourceLabel}
+    </a>
+  </div>
+  <p class="mt-3 max-w-3xl text-sm text-muted-foreground">{description}</p>
+  <div class="mt-7 grid gap-5 md:grid-cols-3">
+    {
+      items.map((item) => (
+        <figure class="screenshot-card">
+          <a href={item.href} class="screenshot-image-link">
+            <img
+              src={item.src}
+              srcset={item.srcset}
+              sizes="(min-width: 1280px) 400px, (min-width: 768px) 30vw, calc(100vw - 32px)"
+              alt={item.alt}
+              width="800"
+              height="450"
+              loading="lazy"
+              decoding="async"
+            />
+          </a>
+          <figcaption>
+            <a href={item.href}>
+              <h3>{item.title}</h3>
+              <Icon name="lucide:arrow-up-right" class="h-4 w-4 shrink-0 text-nav" />
+            </a>
+            <p>{item.caption}</p>
+          </figcaption>
+        </figure>
+      ))
+    }
+  </div>
+</section>
+
+<style>
+  .screenshot-card {
+    overflow: hidden;
+    border: 1px solid hsl(var(--border));
+    border-radius: var(--radius);
+    background: hsl(var(--card));
+  }
+  .screenshot-image-link {
+    display: block;
+    overflow: hidden;
+  }
+  .screenshot-card img {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 16 / 9;
+    object-fit: cover;
+    transition: transform 180ms ease;
+  }
+  .screenshot-card:hover img {
+    transform: scale(1.025);
+  }
+  .screenshot-card figcaption {
+    padding: 1rem;
+  }
+  .screenshot-card figcaption a {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+  }
+  .screenshot-card h3 {
+    font-size: 1.2rem;
+  }
+  .screenshot-card p {
+    margin-top: 0.5rem;
+    color: hsl(var(--muted-foreground));
+    font-size: 0.85rem;
+    line-height: 1.6;
+  }
+  @media (prefers-reduced-motion: reduce) {
+    .screenshot-card img {
+      transition: none;
+    }
+    .screenshot-card:hover img {
+      transform: none;
+    }
+  }
+</style>

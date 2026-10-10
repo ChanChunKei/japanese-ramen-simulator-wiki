@@ -2,18 +2,47 @@
 title: 'Japanese Ramen Simulator: Ramen Recipes & Confirmed Menu'
 description: 'Check the confirmed ramen menu, Tantanmen broth options and ingredient preparation, without relying on unverified quantities or scoring formulas.'
 category: 'cooking'
-image: '../../../../assets/covers/en-cooking-ramen-recipes.png'
+image: '../../../../assets/covers/en-cooking-ramen-recipes.webp'
 date: 2026-10-10
 lastModified: 2026-10-10
 gameVersion: 'v0.1.48.17626'
 tags: ['cooking', 'ramen', 'ingredients']
 draft: false
 summary: 'Build ramen around the actual order, then check broth, noodles and toppings before serving. The launch patch confirms Tantanmen with chicken, pork or beef broth and cut Garlic Chives. It does not publish exact portions, cooking times or a complete recipe list.'
+gallery:
+  - image: '../../../../assets/game/steam-0.jpg'
+    alt: 'Two finished ramen bowls with sliced pork, egg and greens.'
+    caption: 'Official Steam store screenshot · © Wild Dog. Two finished ramen bowls with sliced pork, egg and greens.'
+  - image: '../../../../assets/game/steam-2.jpg'
+    alt: 'Ramen bowls with different toppings and condiment bottles beside them.'
+    caption: 'Official Steam store screenshot · © Wild Dog. Ramen bowls with different toppings and condiment bottles beside them.'
+  - image: '../../../../assets/game/steam-5.jpg'
+    alt: 'First-person noodle preparation at a kitchen station with pots and noodle baskets.'
+    caption: 'Official Steam store screenshot · © Wild Dog. First-person noodle preparation at a kitchen station with pots and noodle baskets.'
 ---
+
+{/* visual-start */}
+
+import GuideFigure from '~/components/mdx/GuideFigure.astro';
+import primaryVisual from '../../../../assets/game/steam-0.jpg';
+import secondaryVisual from '../../../../assets/game/steam-2.jpg';
+
+{/* visual-end */}
 
 ## Which ramen recipes are confirmed in the current game?
 
 The current official menu evidence confirms Tantanmen using chicken, pork or beef broth, along with a system for creating original ramen. Start with the customer's requested dish and ingredients. Exact portions and a complete recipe database are not published in the sources checked for the October 10 Early Access version.
+
+{/* visual-start */}
+
+<GuideFigure
+  src={primaryVisual}
+  alt="Two finished ramen bowls with sliced pork, egg and greens."
+  caption="Finished bowls on the counter. Official Steam store screenshot; presentation is not a verified recipe."
+  sourceHref="https://store.steampowered.com/app/4968640/Japanese_Ramen_Simulator/?l=english"
+  sourceLabel="© Wild Dog · Steam store"
+/>
+{/* visual-end */}
 
 The [official Steam description](https://store.steampowered.com/app/4968640/Japanese_Ramen_Simulator/?l=english) identifies noodle texture, soup temperature, aroma, umami and serving time as quality factors. Toppings are physical objects that you arrange in the bowl. Those factors matter, but they do not establish a fixed temperature, noodle timer or topping count that works for every dish.
 
@@ -39,6 +68,17 @@ Use the order as your checklist and keep preparation separate from final assembl
 6. Serve it to the intended customer and use the resulting feedback to identify what needs changing.
 
 To steady a preparation station, aim at a placed cutting board and right-click to secure it. Right-click again releases it; a secured board still accepts ingredients for cutting. That control is explicitly documented in the Day 1 patch.
+
+{/* visual-start */}
+
+<GuideFigure
+  src={secondaryVisual}
+  alt="Ramen bowls with different toppings and condiment bottles beside them."
+  caption="Different bowl presentations and condiment bottles. Official Steam store screenshot; quantities are not established by this image."
+  sourceHref="https://store.steampowered.com/app/4968640/Japanese_Ramen_Simulator/?l=english"
+  sourceLabel="© Wild Dog · Steam store"
+/>
+{/* visual-end */}
 
 ## What should I check when a bowl receives poor feedback?
 

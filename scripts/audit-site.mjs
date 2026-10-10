@@ -50,6 +50,22 @@ page.on('pageerror', (error) => errors.push(error.message));
 const pages = [];
 for (const pathname of paths) {
   const response = await page.goto(base + pathname, { waitUntil: 'networkidle' });
+  // 滚动到新增正文、首页与画廊图片，实际触发懒加载并检查解码。
+  const media = page.locator('.guide-figure img, [data-gallery-thumb] img, .screenshot-card img');
+  const imageLoads = [];
+  for (const element of await media.all()) {
+    await element.scrollIntoViewIfNeeded();
+    imageLoads.push(
+      await element.evaluate(async (img) => {
+        try {
+          await img.decode();
+          return { src: img.currentSrc || img.src, loaded: img.naturalWidth > 0 };
+        } catch {
+          return { src: img.currentSrc || img.src, loaded: false };
+        }
+      }),
+    );
+  }
   const data = await page.evaluate(() => {
     const get = (selector, attr = 'content') =>
       document.querySelector(selector)?.getAttribute(attr) || '';
@@ -69,7 +85,13 @@ for (const pathname of paths) {
         (element) => !element.hasAttribute('alt'),
       ).length,
       brokenImages: [...document.images]
-        .filter((element) => element.complete && element.naturalWidth === 0)
+        // 灯箱在点击前没有src；它不是失败的图片请求。
+        .filter(
+          (element) =>
+            (element.currentSrc || element.getAttribute('src')) &&
+            element.complete &&
+            element.naturalWidth === 0,
+        )
         .map((element) => element.src),
       placeholder:
         /Anvil Quest|Forge Master Kael|claim starter codes|Replace this overview|TODO:\s*(?:write|add)/i.test(
@@ -90,6 +112,47 @@ for (const pathname of paths) {
     () => document.documentElement.scrollWidth > innerWidth + 1,
   );
   await page.setViewportSize({ width: 1440, height: 1000 });
+  const thumbs = page.locator('[data-gallery-thumb]');
+  const galleryItems = await thumbs.count();
+  const galleryChecks = [];
+  if (galleryItems) {
+    for (const width of [1440, 390]) {
+      await page.setViewportSize({ width, height: width === 390 ? 844 : 1000 });
+      await thumbs.first().click();
+      const dialog = page.locator('[data-gallery-lightbox]');
+      await dialog.waitFor({ state: 'visible' });
+      const fullImage = dialog.locator('[data-gallery-full]');
+      const firstLoaded = await fullImage.evaluate(async (img) => {
+        await img.decode();
+        return img.naturalWidth > 0;
+      });
+      const firstSource = await fullImage.getAttribute('src');
+      await dialog.locator('[data-gallery-next]').click();
+      const nextLoaded = await fullImage.evaluate(async (img) => {
+        await img.decode();
+        return img.naturalWidth > 0;
+      });
+      const changed = (await fullImage.getAttribute('src')) !== firstSource;
+      await dialog.locator('[data-gallery-prev]').click();
+      const previous = (await fullImage.getAttribute('src')) === firstSource;
+      const fits = await dialog.evaluate((element) => {
+        const rect = element.getBoundingClientRect();
+        return (
+          rect.x >= 0 &&
+          rect.y >= 0 &&
+          rect.right <= innerWidth + 1 &&
+          rect.bottom <= innerHeight + 1
+        );
+      });
+      if (pathname === '/guides/beginner-guide/' && width === 390) {
+        await page.screenshot({ path: 'research/qa/media/gallery-mobile.png' });
+      }
+      await page.keyboard.press('Escape');
+      const closed = await dialog.evaluate((element) => !element.open);
+      galleryChecks.push({ width, firstLoaded, nextLoaded, changed, previous, fits, closed });
+    }
+    await page.setViewportSize({ width: 1440, height: 1000 });
+  }
   const expectedStatus = pathname === '/404.html' ? [200, 404] : [200];
   const issues = [];
   if (!expectedStatus.includes(response.status())) issues.push('HTTP状态');
@@ -101,11 +164,37 @@ for (const pathname of paths) {
   if (data.placeholder) issues.push('演示或占位');
   if (data.desktopOverflow || mobileOverflow) issues.push('横向溢出');
   if (data.headingJumps) issues.push('标题跳级');
-  pages.push({ pathname, status: response.status(), ...data, mobileOverflow, issues });
+  if (imageLoads.some((item) => !item.loaded)) issues.push('配图加载');
+  if (
+    galleryChecks.some(
+      (item) =>
+        !item.firstLoaded ||
+        !item.nextLoaded ||
+        !item.changed ||
+        !item.previous ||
+        !item.fits ||
+        !item.closed,
+    )
+  )
+    issues.push('画廊交互');
+  pages.push({
+    pathname,
+    status: response.status(),
+    ...data,
+    mobileOverflow,
+    imageLoads,
+    galleryItems,
+    galleryChecks,
+    issues,
+  });
 }
 fs.mkdirSync('research/qa', { recursive: true });
+fs.mkdirSync('research/qa/media', { recursive: true });
 await page.goto(base, { waitUntil: 'networkidle' });
 await page.screenshot({ path: 'research/qa/home-desktop.png', fullPage: true });
+await page.setViewportSize({ width: 1440, height: 1280 });
+await page.screenshot({ path: 'research/qa/media/home-preview.png' });
+await page.setViewportSize({ width: 1440, height: 1000 });
 await page.click('#search-trigger');
 await page.locator('.pagefind-ui__search-input').fill('beer');
 await page.locator('.pagefind-ui__result-link').first().waitFor({ timeout: 15000 });

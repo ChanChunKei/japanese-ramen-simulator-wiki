@@ -2,7 +2,7 @@
 title: 'Japanese Ramen Simulator: Beer Guide: Fill Level, Foam & Tutorial'
 description: 'Understand the confirmed beer fill threshold, foam comments, tutorial changes and first-beer achievement without assuming a perfect ratio.'
 category: 'cooking'
-image: '../../../../assets/covers/en-cooking-beer.png'
+image: '../../../../assets/covers/en-cooking-beer.webp'
 date: 2026-10-10
 lastModified: 2026-10-10
 gameVersion: 'v0.1.48.17626'
@@ -11,9 +11,27 @@ draft: false
 summary: 'Beer and foam together at 70% or less of mug capacity cause an insufficient-beer penalty. Missing foam receives a warning but does not itself deduct points. The tutorial no longer requires a completely full mug, and the first beer achievement requires serving beer once.'
 ---
 
+{/* visual-start */}
+
+import GuideFigure from '~/components/mdx/GuideFigure.astro';
+import primaryVisual from '../../../../assets/diagrams/beer-fill.svg';
+
+{/* visual-end */}
+
 ## How full must a beer mug be to avoid the insufficient-beer penalty?
 
 Beer and foam combined must exceed 70% of the mug's capacity to avoid the documented insufficient-beer penalty. Exactly 70% still falls within the penalty condition. This threshold concerns total fill, not beer liquid alone, and exceeding it does not establish that the drink will receive a perfect rating.
+
+{/* visual-start */}
+
+<GuideFigure
+  src={primaryVisual}
+  alt="Three mugs at 50, 70 and 85 percent total fill; 50 and 70 incur the low-fill penalty."
+  caption="Beer and foam combined must exceed 70%. Foam in this drawing is illustrative, not an ideal ratio or a perfect-score guarantee."
+  sourceHref="https://steamcommunity.com/ogg/4968640/announcements/detail/702155760121940292"
+  sourceLabel="Source for confirmed facts"
+/>
+{/* visual-end */}
 
 The [official Day 1 update](https://steamcommunity.com/ogg/4968640/announcements/detail/702155760121940292) makes the boundary explicit:
 

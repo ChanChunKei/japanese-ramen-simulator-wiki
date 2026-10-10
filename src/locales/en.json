@@ -68,7 +68,7 @@
     "feedbackThanks": "Thanks for the feedback!",
     "sponsoredLabel": "Sponsored",
     "relatedVideos": "Related videos",
-    "gallery": "Gallery",
+    "gallery": "Related game screenshots",
     "gameVersion": "Game version",
     "allTags": "All Tags",
     "tagsIndexDescription": "Browse all articles by topic.",
@@ -150,9 +150,14 @@
         "href": "/updates/patch-notes/"
       },
       "illustration": {
-        "src": "/images/ramen-illustration.svg",
-        "alt": "Original illustration of a ramen bowl with noodles, egg, greens and chopsticks.",
-        "caption": "Original wiki illustration · not a game screenshot"
+        "src": "/images/game/ramen-1200.webp",
+        "srcset": "/images/game/ramen-600.webp 600w, /images/game/ramen-800.webp 800w, /images/game/ramen-1200.webp 1200w",
+        "width": 1200,
+        "height": 675,
+        "alt": "Two finished ramen bowls on the restaurant counter in Japanese Ramen Simulator.",
+        "caption": "Official game screenshot",
+        "sourceHref": "https://store.steampowered.com/app/4968640/Japanese_Ramen_Simulator/?l=english",
+        "sourceLabel": "Steam store · © Wild Dog"
       },
       "videoId": ""
     },
@@ -326,6 +331,38 @@
       "secondary": "View the game",
       "primaryHref": "/guides/beginner-guide/",
       "secondaryHref": "https://store.steampowered.com/app/4968640/Japanese_Ramen_Simulator/"
+    },
+    "screenshots": {
+      "title": "A look inside the shop",
+      "description": "Official Steam screenshots show the cooking stations, counter layout and shared restaurant. Promotional views may differ from the current build.",
+      "sourceHref": "https://store.steampowered.com/app/4968640/Japanese_Ramen_Simulator/?l=english",
+      "sourceLabel": "Screenshots · © Wild Dog",
+      "items": [
+        {
+          "src": "/images/game/steam-5-800.webp",
+          "alt": "First-person noodle preparation beside soup pots in the restaurant kitchen.",
+          "title": "At the noodle station",
+          "caption": "Understand bowls, broth and ingredient handling.",
+          "href": "/cooking/ramen-recipes/",
+          "srcset": "/images/game/steam-5-400.webp 400w, /images/game/steam-5-600.webp 600w, /images/game/steam-5-800.webp 800w"
+        },
+        {
+          "src": "/images/game/steam-1-800.webp",
+          "alt": "A central kitchen surrounded by a restaurant serving counter.",
+          "title": "Around the counter",
+          "caption": "Plan preparation, serving and dish-return routes.",
+          "href": "/restaurant/layout-and-my-designs/",
+          "srcset": "/images/game/steam-1-400.webp 400w, /images/game/steam-1-600.webp 600w, /images/game/steam-1-800.webp 800w"
+        },
+        {
+          "src": "/images/game/steam-6-800.webp",
+          "alt": "Several game characters carrying trays through the ramen shop.",
+          "title": "With the whole crew",
+          "caption": "Share duties and keep order handoffs clear.",
+          "href": "/multiplayer/co-op-roles/",
+          "srcset": "/images/game/steam-6-400.webp 400w, /images/game/steam-6-600.webp 600w, /images/game/steam-6-800.webp 800w"
+        }
+      ]
     }
   },
   "footer": {
@@ -397,7 +434,7 @@
       "noticeTitle": "Game rights",
       "notice": "{gameName}, its logo, characters and game assets belong to their respective rights holders. {siteName} is an independent fan project and is not endorsed by {developer}.",
       "assetsTitle": "Wiki assets and software",
-      "assets": "The ramen illustration is original editorial artwork and is labeled as an illustration. AnvilWiki framework code retains its MIT license. Local font files retain their Open Font License. Generated article covers are wiki graphics, not game screenshots.",
+      "assets": "Official Steam store screenshots and game imagery are credited to Wild Dog and their respective rights holders; they are not covered by the software license. Editorial diagrams and composite covers are identified as wiki graphics. AnvilWiki framework code retains its MIT license, and local font files retain their Open Font License.",
       "takedownTitle": "Rights and correction requests",
       "takedown": "If you believe material on this site infringes your rights, contact the wiki through the public issue tracker with the exact URL, asset identification and basis for the request.",
       "takedownLinkLabel": "Contact the wiki",

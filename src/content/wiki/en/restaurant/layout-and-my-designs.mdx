@@ -2,18 +2,44 @@
 title: 'Japanese Ramen Simulator: Kitchen Layout, Expansion & My Designs'
 description: 'Plan kitchen routes, expansion and My Designs customization using confirmed features, with advice for staff stations and co-op space.'
 category: 'restaurant'
-image: '../../../../assets/covers/en-restaurant-layout-and-my-designs.png'
+image: '../../../../assets/covers/en-restaurant-layout-and-my-designs.webp'
 date: 2026-10-10
 lastModified: 2026-10-10
 gameVersion: 'v0.1.48.17626'
 tags: ['restaurant', 'layout', 'customization']
 draft: false
 summary: 'Arrange equipment around preparation, delivery and dish-return routes, then test the layout during service. My Designs support posters, noren curtains and ramen bowls, including Wide Noren after the launch update. Staff waiting positions are visible during dishwasher placement; exact expansion prices and an optimal floor plan remain unverified.'
+gallery:
+  - image: '../../../../assets/game/steam-1.jpg'
+    alt: 'A ramen shop interior with a central kitchen and customers seated around the counter.'
+    caption: 'Official Steam store screenshot · © Wild Dog. A ramen shop interior with a central kitchen and customers seated around the counter.'
+  - image: '../../../../assets/game/steam-3.jpg'
+    alt: 'Characters approaching a two-storey ramen restaurant decorated with red lanterns.'
+    caption: 'Official Steam store screenshot · © Wild Dog. Characters approaching a two-storey ramen restaurant decorated with red lanterns.'
 ---
+
+{/* visual-start */}
+
+import GuideFigure from '~/components/mdx/GuideFigure.astro';
+import primaryVisual from '../../../../assets/diagrams/kitchen-routes.svg';
+import secondaryVisual from '../../../../assets/game/steam-1.jpg';
+
+{/* visual-end */}
 
 ## How should I arrange the kitchen before expanding?
 
 Plan the paths you actually use: preparing ingredients, assembling food, delivering orders and returning dirty dishes. The game officially supports arranging equipment, furniture, storage and decorations. The route-based layout below is editorial advice rather than a measured best floor plan, and no exact spacing or expansion-cost table has been verified.
+
+{/* visual-start */}
+
+<GuideFigure
+  src={primaryVisual}
+  alt="Conceptual routes from storage to preparation, cooking, customers and dish return."
+  caption="Editorial work-zone diagram, not an in-game floor plan. No fixed room dimensions or optimal throughput are implied."
+  sourceHref="https://store.steampowered.com/app/4968640/Japanese_Ramen_Simulator/?l=english"
+  sourceLabel="Source for confirmed facts"
+/>
+{/* visual-end */}
 
 The [official Steam description](https://store.steampowered.com/app/4968640/Japanese_Ramen_Simulator/?l=english) confirms customization and expansion using earnings. Shop Levels also unlock equipment and ingredients. Consult the [verified unlock guide](/restaurant/shop-level-and-unlocks/) before assuming an unfamiliar machine becomes available at an achievement milestone.
 
@@ -39,6 +65,17 @@ Walk the route yourself, then observe a real collection-and-return cycle from cl
 6. Have teammates repeat their [co-op roles](/multiplayer/co-op-roles/) at the same time.
 
 The [Day 1 patch](https://steamcommunity.com/ogg/4968640/announcements/detail/702155760121940292) fixed staff stopping after failed collection or return, and prevents them walking onto two-burner stoves. See [solo staff behavior](/restaurant/staff-and-solo-play/) for the confirmed tasks. Do not assume those fixes certify every tight passage.
+
+{/* visual-start */}
+
+<GuideFigure
+  src={secondaryVisual}
+  alt="A ramen shop interior with a central kitchen and customers seated around the counter."
+  caption="A kitchen surrounded by the serving counter. Official Steam store screenshot, not a measured optimal layout."
+  sourceHref="https://store.steampowered.com/app/4968640/Japanese_Ramen_Simulator/?l=english"
+  sourceLabel="© Wild Dog · Steam store"
+/>
+{/* visual-end */}
 
 ## Which objects support My Designs?
 

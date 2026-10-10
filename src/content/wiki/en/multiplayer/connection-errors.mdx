@@ -2,7 +2,7 @@
 title: 'Japanese Ramen Simulator: Connection Timeout & Co-op Troubleshooting'
 description: 'Work through connection timeouts and invite failures, check VPN and firewall permissions, and collect useful details for a bug report.'
 category: 'multiplayer'
-image: '../../../../assets/covers/en-multiplayer-connection-errors.png'
+image: '../../../../assets/covers/en-multiplayer-connection-errors.webp'
 date: 2026-10-10
 lastModified: 2026-10-10
 tags: ['multiplayer', 'co-op']
@@ -11,9 +11,27 @@ gameVersion: 'v0.1.48.17626'
 summary: 'For MEN-MP-CONNECTION-TIMEOUT, record the error code and your separate diagnostic ID, compare game versions, check the current invite code, and review Steam and game permissions. The Day 1 patch fixes several joining issues, but player reports do not establish a guaranteed timeout solution.'
 ---
 
+{/* visual-start */}
+
+import GuideFigure from '~/components/mdx/GuideFigure.astro';
+import primaryVisual from '../../../../assets/diagrams/connection-checks.svg';
+
+{/* visual-end */}
+
 ## What does MEN-MP-CONNECTION-TIMEOUT mean?
 
 `MEN-MP-CONNECTION-TIMEOUT` is the error reported by players who could not join a friend. Start with the cause and suggested checks on your own error screen, then record its separate diagnostic ID. Launch-day reports include players without a VPN whose restarts did not help; no universal fix has been verified.
+
+{/* visual-start */}
+
+<GuideFigure
+  src={primaryVisual}
+  alt="Connection diagnosis sequence: record the error, match versions, confirm the invite, review access and retry."
+  caption="Editorial troubleshooting sequence. It does not promise a cure; record your own separate diagnostic ID."
+  sourceHref="https://steamcommunity.com/ogg/4968640/announcements/detail/702155760121940292"
+  sourceLabel="Source for confirmed facts"
+/>
+{/* visual-end */}
 
 The [Steam discussion documenting the problem](https://steamcommunity.com/app/4968640/discussions/0/590691669351042650/) includes several similar reports. One participant supplied the error code and a separate `diagnosisID`. Another said both players had already restarted the game and computer.
 

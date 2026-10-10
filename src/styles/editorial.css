@@ -219,11 +219,11 @@ header nav a {
   position: absolute;
   z-index: 0;
   top: 2rem;
-  right: 0;
-  bottom: 3rem;
-  left: 0;
+  right: -0.5rem;
+  bottom: 4rem;
+  left: 0.5rem;
   border: 1px solid hsl(var(--border));
-  border-radius: 50%;
+  border-radius: var(--radius);
   background: hsl(var(--muted) / 0.6);
 }
 
@@ -232,6 +232,10 @@ header nav a {
   display: block;
   width: 100%;
   height: auto;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+  border: 5px solid hsl(var(--card));
+  border-radius: var(--radius);
   filter: drop-shadow(0 15px 10px hsl(var(--foreground) / 0.06));
 }
 
@@ -244,6 +248,14 @@ header nav a {
   line-height: 1.6;
   letter-spacing: 0.04em;
   text-align: center;
+}
+
+.editorial-art-caption a {
+  display: block;
+  margin-top: 0.25rem;
+  color: hsl(var(--brand-text));
+  text-decoration: underline;
+  text-underline-offset: 3px;
 }
 
 .editorial-section-heading {

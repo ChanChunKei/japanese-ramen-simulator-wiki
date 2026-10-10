@@ -2,7 +2,7 @@
 title: 'Japanese Ramen Simulator: Solo Play, NPC Staff & Cleaning'
 description: 'Check confirmed NPC dish-clearing duties, dishwasher placement and storage rules, with a practical checklist for running a solo shift.'
 category: 'restaurant'
-image: '../../../../assets/covers/en-restaurant-staff-and-solo-play.png'
+image: '../../../../assets/covers/en-restaurant-staff-and-solo-play.webp'
 date: 2026-10-10
 lastModified: 2026-10-10
 gameVersion: 'v0.1.48.17626'
@@ -11,9 +11,28 @@ draft: false
 summary: 'Solo play supports NPC help, and the launch patch confirms staff who collect dirty dishes, trays and empty drink bottles. Their dishwasher shows a waiting position during placement. Keep service and cooking under your control unless additional duties are shown; hiring costs and exact menu steps remain unverified.'
 ---
 
+{/* visual-start */}
+
+import GuideFigure from '~/components/mdx/GuideFigure.astro';
+import primaryVisual from '../../../../assets/game/steam-1.jpg';
+import secondaryVisual from '../../../../assets/diagrams/kitchen-routes.svg';
+
+{/* visual-end */}
+
 ## Can I run the restaurant alone with NPC help?
 
 Yes. The official description supports solo play with NPC part-time staff, and the launch patch documents dish-clearing workers. Their verified role includes collecting dishes, trays and empty drink bottles. That is useful cleaning help, but the available sources do not establish an employee who automatically handles the entire cooking and service operation.
+
+{/* visual-start */}
+
+<GuideFigure
+  src={primaryVisual}
+  alt="A ramen shop interior with a central kitchen and customers seated around the counter."
+  caption="A kitchen surrounded by the serving counter. Official Steam store screenshot, not a measured optimal layout."
+  sourceHref="https://store.steampowered.com/app/4968640/Japanese_Ramen_Simulator/?l=english"
+  sourceLabel="© Wild Dog · Steam store"
+/>
+{/* visual-end */}
 
 The [Steam store](https://store.steampowered.com/app/4968640/Japanese_Ramen_Simulator/?l=english) confirms NPC assistance. The [Day 1 update](https://steamcommunity.com/ogg/4968640/announcements/detail/702155760121940292) provides the more specific duties below. A player also asked about [hiring while playing alone](https://steamcommunity.com/app/4968640/discussions/0/590691913363919420/); the checked thread supplied no detailed hiring instructions.
 
@@ -34,6 +53,17 @@ Use the visible waiting position when placing the staff dishwasher, then check t
 The update fixed staff stopping after a failed collection or return to the waiting point, and stopped staff walking onto two-burner stoves. Those fixes do not guarantee that every possible arrangement will work. Test an ordinary collection and return before relying on a newly arranged station through a whole shift.
 
 The [layout guide](/restaurant/layout-and-my-designs/) has a practical route test. Keep your own access to the dishwasher available as well: the patch prioritizes inserting dirty dishes from the hand or a tray when its door is open, and aligns start conditions with the control prompts.
+
+{/* visual-start */}
+
+<GuideFigure
+  src={secondaryVisual}
+  alt="Conceptual routes from storage to preparation, cooking, customers and dish return."
+  caption="Editorial work-zone diagram, not an in-game floor plan. No fixed room dimensions or optimal throughput are implied."
+  sourceHref="https://store.steampowered.com/app/4968640/Japanese_Ramen_Simulator/?l=english"
+  sourceLabel="Source for confirmed facts"
+/>
+{/* visual-end */}
 
 ## What is a useful solo-shift routine?
 

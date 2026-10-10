@@ -2,7 +2,7 @@
 title: 'Japanese Ramen Simulator: Shop Levels & Verified Ingredient Unlocks'
 description: 'Check launch-patch ingredient purchase and order thresholds at levels 25, 26 and 28, clearly separated from achievement milestones.'
 category: 'restaurant'
-image: '../../../../assets/covers/en-restaurant-shop-level-and-unlocks.png'
+image: '../../../../assets/covers/en-restaurant-shop-level-and-unlocks.webp'
 date: 2026-10-10
 lastModified: 2026-10-10
 gameVersion: 'v0.1.48.17626'
@@ -11,9 +11,27 @@ draft: false
 summary: 'The launch patch confirms seven groups of purchase or order thresholds at Shop Levels 25, 26 and 28. These form a partial unlock table, not the full progression tree. Check whether a row concerns buying ingredients or receiving orders; achievement milestones do not establish ingredient unlocks.'
 ---
 
+{/* visual-start */}
+
+import GuideFigure from '~/components/mdx/GuideFigure.astro';
+import primaryVisual from '../../../../assets/diagrams/verified-unlocks.svg';
+
+{/* visual-end */}
+
 ## Which Shop Level unlocks have been verified?
 
 Seven groups of purchase or order thresholds are explicitly documented in the launch patch at Shop Levels 25, 26 and 28. This is a partial table for the current Early Access version. It does not cover every ingredient, device or earlier level, and purchase availability must be distinguished from customer-order availability.
+
+{/* visual-start */}
+
+<GuideFigure
+  src={primaryVisual}
+  alt="Three confirmed order milestones: five soft drinks at 25, chicken or pork Tantanmen at 26 and beef at 28."
+  caption="Three confirmed customer-order milestones, not a full unlock tree. Purchase thresholds remain separate in the table."
+  sourceHref="https://steamcommunity.com/ogg/4968640/announcements/detail/702155760121940292"
+  sourceLabel="Source for confirmed facts"
+/>
+{/* visual-end */}
 
 All rows below come from the [official Day 1 update](https://steamcommunity.com/ogg/4968640/announcements/detail/702155760121940292), version v0.1.48.17626. The table groups items exactly where the patch supplies a shared condition.
 

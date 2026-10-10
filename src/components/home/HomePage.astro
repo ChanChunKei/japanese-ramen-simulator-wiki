@@ -6,6 +6,8 @@ import VideoSection from '~/components/home/VideoSection.astro';
 import QuickStart from '~/components/home/QuickStart.astro';
 import ExploreModules from '~/components/home/ExploreModules.astro';
 import FaqSection from '~/components/home/FaqSection.astro';
+import ScreenshotStrip from '~/components/home/ScreenshotStrip.astro';
+import ArticleCover from '~/components/article/ArticleCover.astro';
 import { site } from '~/config/site';
 import { NAVIGATION_CONFIG } from '~/config/navigation';
 import { type Locale } from '~/i18n/routing';
@@ -35,6 +37,7 @@ const popular: HomeUi['popular'] = home.popular;
 const explore: HomeUi['explore'] = home.explore;
 const closingCta: HomeUi['closingCta'] = home.closingCta;
 const faq: HomeUi['faq'] = home.faq;
+const screenshots: HomeUi['screenshots'] = home.screenshots;
 const videoId = 'videoId' in hero && typeof hero.videoId === 'string' ? hero.videoId : '';
 const browseHref = listPath(NAVIGATION_CONFIG[1]?.key ?? 'guides', locale);
 const secondaryHref = hero.ctaSecondaryHref
@@ -122,20 +125,35 @@ const dateFormatter = new Intl.DateTimeFormat(locale, {
           <figure class="editorial-hero-art">
             <img
               src={hero.illustration.src}
+              srcset={hero.illustration.srcset}
+              sizes="(max-width: 768px) calc(100vw - 32px), 45vw"
               alt={hero.illustration.alt}
-              width="560"
-              height="480"
+              width={hero.illustration.width}
+              height={hero.illustration.height}
               loading="eager"
-          fetchpriority="high"
+              fetchpriority="high"
               decoding="async"
             />
             {hero.illustration.caption && (
-              <figcaption class="editorial-art-caption">{hero.illustration.caption}</figcaption>
+              <figcaption class="editorial-art-caption">
+                {hero.illustration.caption}
+                <a href={hero.illustration.sourceHref} target="_blank" rel="noopener noreferrer">
+                  {hero.illustration.sourceLabel}
+                </a>
+              </figcaption>
             )}
           </figure>
         )
       }
     </section>
+
+    <ScreenshotStrip
+      title={screenshots.title}
+      description={screenshots.description}
+      sourceHref={screenshots.sourceHref}
+      sourceLabel={screenshots.sourceLabel}
+      items={screenshots.items.map((item) => ({ ...item, href: localizePath(item.href, locale) }))}
+    />
 
     {
       videoId && (
@@ -166,6 +184,13 @@ const dateFormatter = new Intl.DateTimeFormat(locale, {
                       href={detailPath(parsed.category, parsed.slug, locale)}
                       class="editorial-recent-link"
                     >
+                      {entry.data.image && (
+                        <ArticleCover
+                          src={entry.data.image}
+                          alt={entry.data.title}
+                          class="mb-4 aspect-video w-full rounded-sm object-cover"
+                        />
+                      )}
                       <span class="editorial-recent-category">
                         {categoryLabel(parsed.category)}
                       </span>
