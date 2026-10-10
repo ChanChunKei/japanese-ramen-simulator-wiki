@@ -72,7 +72,7 @@
 
 Google真正前十未取得，Trends相关/飙升词429，公开SEO工具无目标指标，Reddit403；均保留原始响应，不声称研究来源全成功。视频验证身份与标题，没有冒充观看。配方数量、完整解锁、员工费用、部分菜单层级未确认，不填假表。官方人数6/10冲突已在正文和首页说明。
 
-Cloudflare Pages完整首发已成功部署并完成公网验收，首发配置统一 https://japanese-ramen-simulator-wiki.pages.dev。首发时用户选择Pages地址，GSC验证与sitemap提交未完成。用户后续已购买正式域名 `japaneseramensimulatorwikis.wiki`，迁移的当前状态单独记录在 `domain-migration-audit.md`，保留本报告的首发历史证据。广告/分析/评论保持未配置，不声称广告变现已接通。公开可用与技术SEO已验收，不将尚未完成的正式域名/GSC流程宣称为全部SEO上线完成。
+Cloudflare Pages完整首发已成功部署并完成公网验收，首发配置统一 https://japanese-ramen-simulator-wiki.pages.dev。首发时用户选择Pages地址，GSC验证与sitemap提交未完成。用户后续已购买正式域名 `japaneseramensimulatorwikis.wiki`，正式域名版本已发布并通过54页公网验收，32个sitemap网址全部200，IndexNow成功提交32个网址（HTTP 202）；迁移的详细状态单独记录在 `domain-migration-audit.md`，保留本报告的首发历史证据。广告/分析/评论保持未配置，不声称广告变现已接通。301规则与GSC流程仍待完成，不将技术SEO验收或IndexNow接收宣称为Google已收录。
 
 ## 图文增强补充验收
 

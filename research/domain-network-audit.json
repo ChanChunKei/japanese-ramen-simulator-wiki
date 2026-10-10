@@ -1,0 +1,88 @@
+{
+  "checkedAt": "2026-10-10T06:34:55.6512068Z",
+  "nameservers": ["laura.ns.cloudflare.com", "armfazh.ns.cloudflare.com"],
+  "delegationSigned": false,
+  "googleDns": {
+    "CAA": {
+      "status": 2,
+      "answers": [null],
+      "errors": [
+        {
+          "info_code": 10,
+          "extra_text": "For japaneseramensimulatorwikis.wiki/soa"
+        }
+      ]
+    },
+    "NS": {
+      "status": 2,
+      "answers": [null],
+      "errors": [
+        {
+          "info_code": 10,
+          "extra_text": "For japaneseramensimulatorwikis.wiki/ns"
+        }
+      ]
+    },
+    "A": {
+      "status": 2,
+      "answers": [null],
+      "errors": [
+        {
+          "info_code": 10,
+          "extra_text": "For japaneseramensimulatorwikis.wiki/soa"
+        }
+      ]
+    },
+    "DS": {
+      "status": 0,
+      "answers": [null],
+      "errors": [null]
+    }
+  },
+  "pagesDomains": [
+    {
+      "name": "japaneseramensimulatorwikis.wiki",
+      "status": "pending",
+      "verification_data": {
+        "status": "active"
+      },
+      "validation_data": {
+        "status": "pending",
+        "method": "http"
+      }
+    },
+    {
+      "name": "www.japaneseramensimulatorwikis.wiki",
+      "status": "active",
+      "verification_data": {
+        "status": "active"
+      },
+      "validation_data": {
+        "status": "active",
+        "method": "http"
+      }
+    }
+  ],
+  "https": [
+    {
+      "status": 200,
+      "host": "japaneseramensimulatorwikis.wiki",
+      "title": "Japanese Ramen Simulator Wiki — Cooking &amp; Co-op Guides"
+    },
+    {
+      "status": 200,
+      "host": "www.japaneseramensimulatorwikis.wiki",
+      "title": "Japanese Ramen Simulator Wiki — Cooking &amp; Co-op Guides"
+    }
+  ],
+  "sourceCommit": "27c7e13b69295bf34a83ceadff7dc52b0399dcbc",
+  "certificateEvidence": "用户提供的边缘证书截图：Universal 为 Active，备用证书已签发",
+  "ci": {
+    "conclusion": "success",
+    "url": "https://github.com/ChanChunKei/japanese-ramen-simulator-wiki/actions/runs/38031174430"
+  },
+  "indexNow": {
+    "conclusion": "success",
+    "url": "https://github.com/ChanChunKei/japanese-ramen-simulator-wiki/actions/runs/38031216321"
+  }
+}

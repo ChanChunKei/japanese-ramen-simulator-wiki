@@ -23,7 +23,7 @@
 
 ## 提交站点地图
 
-正式版本已发布且HTTPS验收通过后，在已验证资源的「站点地图」页面提交：
+正式版本已发布且HTTPS验收通过。在已验证资源的「站点地图」页面提交：
 
 ```text
 https://japaneseramensimulatorwikis.wiki/sitemap-index.xml
