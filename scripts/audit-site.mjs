@@ -27,7 +27,22 @@ function walk(dir) {
   }
 }
 walk('dist');
-const browser = await chromium.launch({ headless: true, channel: 'chrome' });
+const remoteProxy =
+  base.startsWith('https:') && (process.env.HTTPS_PROXY || process.env.HTTP_PROXY);
+const proxyUrl = remoteProxy ? new URL(remoteProxy) : null;
+const browser = await chromium.launch({
+  headless: true,
+  channel: 'chrome',
+  ...(proxyUrl
+    ? {
+        proxy: {
+          server: `${proxyUrl.protocol}//${proxyUrl.host}`,
+          username: decodeURIComponent(proxyUrl.username),
+          password: decodeURIComponent(proxyUrl.password),
+        },
+      }
+    : {}),
+});
 const context = await browser.newContext({ viewport: { width: 1440, height: 1000 } });
 const page = await context.newPage();
 const errors = [];

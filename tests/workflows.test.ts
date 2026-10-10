@@ -192,8 +192,15 @@ describe('IndexNow production automation contract', () => {
       LEGACY_INDEXNOW_KEY: '${{ vars.INDEXNOW_KEY }}',
     });
 
-    for (const name of ['Setup pnpm', 'Setup Node', 'Install dependencies', 'Submit production sitemap to IndexNow']) {
-      expect(steps.find((step) => step.name === name)?.if).toBe("steps.config.outputs.enabled == 'true'");
+    for (const name of [
+      'Setup pnpm',
+      'Setup Node',
+      'Install dependencies',
+      'Submit production sitemap to IndexNow',
+    ]) {
+      expect(steps.find((step) => step.name === name)?.if).toBe(
+        "steps.config.outputs.enabled == 'true'",
+      );
     }
   });
 
@@ -307,7 +314,9 @@ describe('action pinning consistency', () => {
     const byAction = new Map<string, Set<string>>();
     for (const rel of ALL_WORKFLOWS) {
       const raw = readFileSync(join(root, rel), 'utf8');
-      for (const m of raw.matchAll(/uses: ((?:actions|pnpm|peter-evans)\/[a-z-]+)@([0-9a-f]{40})/g)) {
+      for (const m of raw.matchAll(
+        /uses: ((?:actions|pnpm|peter-evans)\/[a-z-]+)@([0-9a-f]{40})/g,
+      )) {
         const pins = byAction.get(m[1]) ?? new Set<string>();
         pins.add(m[2]);
         byAction.set(m[1], pins);
@@ -332,7 +341,10 @@ describe('pnpm version is single-sourced (packageManager field)', () => {
       for (const [jobName, job] of Object.entries(wf.jobs ?? {})) {
         for (const step of job.steps ?? []) {
           if ((step.uses ?? '').startsWith('pnpm/action-setup')) {
-            expect(step.with ?? {}, `${rel}: job "${jobName}" must not pin a pnpm version`).not.toHaveProperty('version');
+            expect(
+              step.with ?? {},
+              `${rel}: job "${jobName}" must not pin a pnpm version`,
+            ).not.toHaveProperty('version');
           }
         }
       }
@@ -340,7 +352,9 @@ describe('pnpm version is single-sourced (packageManager field)', () => {
   });
 
   test('the packageManager field is the one source the runner installs from', () => {
-    const pkg = JSON.parse(readFileSync(join(root, 'package.json'), 'utf8')) as { packageManager?: string };
+    const pkg = JSON.parse(readFileSync(join(root, 'package.json'), 'utf8')) as {
+      packageManager?: string;
+    };
     expect(pkg.packageManager).toMatch(/^pnpm@\d+\.\d+\.\d+/);
   });
 });
@@ -371,7 +385,9 @@ describe('setup.yml verifies the fork tree before its destructive PR', () => {
     const keyStep = steps[keyIdx]?.run ?? '';
     expect(keyStep).toContain('origin/chore/init-from-template:.indexnow-key');
     expect(keyStep).toContain('pnpm init-indexnow-key');
-    expect(buildIdx, 'setup.yml must run pnpm build before opening the init PR').toBeGreaterThan(keyIdx);
+    expect(buildIdx, 'setup.yml must run pnpm build before opening the init PR').toBeGreaterThan(
+      keyIdx,
+    );
     expect(prIdx).toBeGreaterThan(buildIdx);
   });
 });
@@ -460,7 +476,8 @@ describe('setup.yml python [vars] rewrite is value-aware (executes the real here
   // on spawnSync ENOENT (status null → "python rewrite failed:\nnull").
   // CI's ubuntu runner always has python3, so the contract still runs in the
   // gate; only the local convenience degrades, loudly and visibly.
-  const hasPython3 = spawnSync('python3', ['--version'], { encoding: 'utf8' }).status === 0;
+  const pythonExecutable = process.env.PYTHON_EXECUTABLE || 'python3';
+  const hasPython3 = spawnSync(pythonExecutable, ['--version'], { encoding: 'utf8' }).status === 0;
   const extractVarsPython = (): string => {
     const wf = readWorkflow(SETUP) as Workflow;
     const step = wf.jobs?.setup?.steps?.find(
@@ -480,9 +497,9 @@ describe('setup.yml python [vars] rewrite is value-aware (executes the real here
     try {
       writeFileSync(join(dir, 'wrangler.toml'), wrangler);
       writeFileSync(join(dir, 'rewrite.py'), extractVarsPython());
-      const res = spawnSync('python3', [join(dir, 'rewrite.py')], {
+      const res = spawnSync(pythonExecutable, [join(dir, 'rewrite.py')], {
         cwd: dir,
-        env: { ...process.env, RAW_SITE_URL: siteUrl },
+        env: { ...process.env, PYTHONUTF8: '1', RAW_SITE_URL: siteUrl },
         encoding: 'utf8',
       });
       expect(res.status, `python rewrite failed:\n${res.stderr}`).toBe(0);
@@ -508,49 +525,61 @@ describe('setup.yml python [vars] rewrite is value-aware (executes the real here
     '',
   ].join('\n');
 
-  test.skipIf(!hasPython3)('user values survive, demo values reset, unknown keys survive, SITE_URL follows input', () => {
-    // The four behaviors the JS channel has had since v2.29.0 — each one of
-    // them used to be a wipe or a reset in the python twin.
-    const { out } = runVarsRewrite(demoVars, 'https://mygame.wiki');
-    // Demo identity → reset (a FIRST run must clear it).
-    expect(out).toContain('SITE_URL = "https://mygame.wiki"');
-    expect(out).toContain('PUBLIC_GISCUS_REPO = ""');
-    expect(out).toContain('#INDEXNOW_KEY = ""');
-    expect(out).toContain('#PUBLIC_GA_ID = ""');
-    // User data → survives.
-    expect(out).toContain('MY_CUSTOM_KEY = "keepme" # trailing comment');
-  });
+  test.skipIf(!hasPython3)(
+    'user values survive, demo values reset, unknown keys survive, SITE_URL follows input',
+    () => {
+      // The four behaviors the JS channel has had since v2.29.0 — each one of
+      // them used to be a wipe or a reset in the python twin.
+      const { out } = runVarsRewrite(demoVars, 'https://mygame.wiki');
+      // Demo identity → reset (a FIRST run must clear it).
+      expect(out).toContain('SITE_URL = "https://mygame.wiki"');
+      expect(out).toContain('PUBLIC_GISCUS_REPO = ""');
+      expect(out).toContain('#INDEXNOW_KEY = ""');
+      expect(out).toContain('#PUBLIC_GA_ID = ""');
+      // User data → survives.
+      expect(out).toContain('MY_CUSTOM_KEY = "keepme" # trailing comment');
+    },
+  );
 
-  test.skipIf(!hasPython3)('the paired-Announcements rule carries over (own name + own ID survives)', () => {
-    // "Announcements" is GitHub's suggested giscus category name — demo only
-    // when the demo category ID sits right next to it. Wiping the name while
-    // a fork's own ID survived would strand a half-reset giscus config.
-    const withOwnId = demoVars.replace(
-      'PUBLIC_GISCUS_CATEGORY_ID = "DIC_kwDOT1aRPc4DDODo"',
-      'PUBLIC_GISCUS_CATEGORY_ID = "R_myOwnId"',
-    );
-    const { out } = runVarsRewrite(withOwnId);
-    expect(out).toContain('PUBLIC_GISCUS_CATEGORY = "Announcements"');
-    expect(out).toContain('PUBLIC_GISCUS_CATEGORY_ID = "R_myOwnId"');
-  });
+  test.skipIf(!hasPython3)(
+    'the paired-Announcements rule carries over (own name + own ID survives)',
+    () => {
+      // "Announcements" is GitHub's suggested giscus category name — demo only
+      // when the demo category ID sits right next to it. Wiping the name while
+      // a fork's own ID survived would strand a half-reset giscus config.
+      const withOwnId = demoVars.replace(
+        'PUBLIC_GISCUS_CATEGORY_ID = "DIC_kwDOT1aRPc4DDODo"',
+        'PUBLIC_GISCUS_CATEGORY_ID = "R_myOwnId"',
+      );
+      const { out } = runVarsRewrite(withOwnId);
+      expect(out).toContain('PUBLIC_GISCUS_CATEGORY = "Announcements"');
+      expect(out).toContain('PUBLIC_GISCUS_CATEGORY_ID = "R_myOwnId"');
+    },
+  );
 
-  test.skipIf(!hasPython3)('recognition covers single quotes, bare scalars and inline comments (JS-channel parity)', () => {
-    const handEdited =
-      '[vars]\nSITE_URL = "https://x.wiki"\nPUBLIC_GA_ID = G-123 # prod\nPUBLIC_CF_BEACON_TOKEN = \'literal\'\n';
-    const { out } = runVarsRewrite(handEdited);
-    // Preserved values are re-emitted double-quoted (Pages env vars are
-    // strings anyway), and a commented slot flips uncommented once a value
-    // exists — matching rewriteWranglerVars on these forms. (An unknown key
-    // with a single-quoted value is the round-21 verbatim-preservation path
-    // instead, pinned by 'custom [vars] keys are preserved verbatim'.)
-    expect(out).toContain('PUBLIC_GA_ID = "G-123"');
-    expect(out).toContain('PUBLIC_CF_BEACON_TOKEN = "literal"');
-  });
+  test.skipIf(!hasPython3)(
+    'recognition covers single quotes, bare scalars and inline comments (JS-channel parity)',
+    () => {
+      const handEdited =
+        '[vars]\nSITE_URL = "https://x.wiki"\nPUBLIC_GA_ID = G-123 # prod\nPUBLIC_CF_BEACON_TOKEN = \'literal\'\n';
+      const { out } = runVarsRewrite(handEdited);
+      // Preserved values are re-emitted double-quoted (Pages env vars are
+      // strings anyway), and a commented slot flips uncommented once a value
+      // exists — matching rewriteWranglerVars on these forms. (An unknown key
+      // with a single-quoted value is the round-21 verbatim-preservation path
+      // instead, pinned by 'custom [vars] keys are preserved verbatim'.)
+      expect(out).toContain('PUBLIC_GA_ID = "G-123"');
+      expect(out).toContain('PUBLIC_CF_BEACON_TOKEN = "literal"');
+    },
+  );
 
-  test.skipIf(!hasPython3)("a second run on the first run's output is byte-identical (idempotent)", () => {
-    const first = runVarsRewrite(demoVars, 'https://mygame.wiki').out;
-    expect(runVarsRewrite(first, 'https://mygame.wiki').out).toBe(first);
-  });
+  test.skipIf(!hasPython3)(
+    "a second run on the first run's output is byte-identical (idempotent)",
+    () => {
+      const first = runVarsRewrite(demoVars, 'https://mygame.wiki').out;
+      expect(runVarsRewrite(first, 'https://mygame.wiki').out).toBe(first);
+    },
+  );
 
   test('the hardcoded DEMO_VALUES set mirrors the JS registry (DEMO_VAR_VALUES)', async () => {
     // The python block cannot import the TS registry, so it carries a
@@ -564,22 +593,28 @@ describe('setup.yml python [vars] rewrite is value-aware (executes the real here
     expect(pyValues).toEqual([...DEMO_VAR_VALUES].sort());
   });
 
-  test.skipIf(!hasPython3)('the FORKER warning block is actually removed (real-header fixture), and absence warns instead of failing', () => {
-    // Pinned against the REAL shipping header (authors.ts precedent): if the
-    // wrangler.toml anchors drift, this goes red instead of the workflow
-    // silently leaving a block that lies about the file still being demo.
-    const real = readFileSync(join(root, 'wrangler.toml'), 'utf8');
-    const header = real.slice(0, real.indexOf('END FORKER WARNING') + 'END FORKER WARNING'.length);
-    expect(header).toContain('FORKERS READ THIS FIRST');
-    const { out } = runVarsRewrite(`${header}\n\n${demoVars}`);
-    expect(out).not.toContain('FORKERS');
-    // Absence is warn-not-exit: a fork that deleted the block by hand must
-    // not have its re-run killed over a missing comment (the JS channel
-    // keeps going in the same situation).
-    const bare = runVarsRewrite(demoVars);
-    expect(bare.out).not.toContain('FORKERS');
-    expect(bare.stderr).toContain('FORKER warning block not found');
-  });
+  test.skipIf(!hasPython3)(
+    'the FORKER warning block is removed, including on initialized forks without a live demo header',
+    () => {
+      // Pinned against the REAL shipping header (authors.ts precedent): if the
+      // wrangler.toml anchors drift, this goes red instead of the workflow
+      // silently leaving a block that lies about the file still being demo.
+      const real = readFileSync(join(root, 'wrangler.toml'), 'utf8');
+      // 初始化后的站点已经移除演示警告；用等价夹具继续验证删除行为。
+      const header = real.includes('END FORKER WARNING')
+        ? real.slice(0, real.indexOf('END FORKER WARNING') + 'END FORKER WARNING'.length)
+        : '# FORKERS READ THIS FIRST\n# 示例配置含 [vars] 字样\n# END FORKER WARNING\n';
+      expect(header).toContain('FORKERS READ THIS FIRST');
+      const { out } = runVarsRewrite(`${header}\n\n${demoVars}`);
+      expect(out).not.toContain('FORKERS');
+      // Absence is warn-not-exit: a fork that deleted the block by hand must
+      // not have its re-run killed over a missing comment (the JS channel
+      // keeps going in the same situation).
+      const bare = runVarsRewrite(demoVars);
+      expect(bare.out).not.toContain('FORKERS');
+      expect(bare.stderr).toContain('FORKER warning block not found');
+    },
+  );
 });
 
 describe('setup.yml failure surfaces are loud (audit round 21)', () => {
@@ -606,9 +641,11 @@ describe('setup.yml failure surfaces are loud (audit round 21)', () => {
     // rewriteWranglerVars (the JS channel) preserves and warns for keys
     // outside the template; the python channel must behave the same. Pinned
     // by the shared sentinel comment both channels emit.
-    expect(setupRaw).toContain('# Custom [vars] keys the template does not know are preserved verbatim.');
+    expect(setupRaw).toContain(
+      '# Custom [vars] keys the template does not know are preserved verbatim.',
+    );
     expect(setupRaw).toContain('TEMPLATE_KEYS');
-    expect(setupRaw).toContain("file=sys.stderr");
+    expect(setupRaw).toContain('file=sys.stderr');
   });
 });
 
@@ -653,7 +690,9 @@ describe('freshness audit stays read-only', () => {
     const raw = readFileSync(join(root, AUDIT), 'utf8');
     const closeLine = raw.split('\n').find((l) => l.includes('gh issue close'));
     expect(closeLine, 'the close step vanished').toBeDefined();
-    expect(closeLine!).toContain('|| echo "::warning::close failed — previous audit issue left open"');
+    expect(closeLine!).toContain(
+      '|| echo "::warning::close failed — previous audit issue left open"',
+    );
     expect(closeLine!).not.toMatch(/\|\| true/);
   });
 
@@ -719,9 +758,9 @@ describe('transpile-pagefind range-media lowering covers whole preludes', () => 
   // rewrote `(width >= 640px)` but leaked `(hover: hover) and (width >= …)`
   // guarded nothing exactly where it matters. Pin the whole-prelude shape.
   test('compound preludes: EVERY parenthesized group gets lowered', () => {
-    expect(lowerRangeMedia('@media (hover: hover) and (width >= 768px) { .x { color: red } }')).toBe(
-      '@media(hover: hover) and (min-width:768px) { .x { color: red } }',
-    );
+    expect(
+      lowerRangeMedia('@media (hover: hover) and (width >= 768px) { .x { color: red } }'),
+    ).toBe('@media(hover: hover) and (min-width:768px) { .x { color: red } }');
   });
 
   test('simple preludes keep the historic byte-exact output', () => {
