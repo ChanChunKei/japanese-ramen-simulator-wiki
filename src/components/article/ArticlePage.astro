@@ -31,10 +31,26 @@ import { NAVIGATION_CONFIG } from '~/config/navigation';
 import { siteUrl } from '~/config/site';
 import { type Locale } from '~/i18n/routing';
 import { getUi } from '~/i18n/ui';
-import { getRelatedEntries, getEntriesByCategory, isPossiblyOutdated, parseEntryId, slugifyTag, estimateReadMinutes, type WikiEntry, type ResolvedEntry } from '~/lib/content';
+import {
+  getRelatedEntries,
+  getEntriesByCategory,
+  isPossiblyOutdated,
+  parseEntryId,
+  slugifyTag,
+  estimateReadMinutes,
+  type WikiEntry,
+  type ResolvedEntry,
+} from '~/lib/content';
 import LazyYouTube from '~/components/video/LazyYouTube.astro';
 import SponsorCard from '~/components/article/SponsorCard.astro';
-import { articleJsonLd, breadcrumbJsonLd, pageTitle, videoObjectJsonLd, imageObjectJsonLd, faqPageJsonLd } from '~/lib/seo';
+import {
+  articleJsonLd,
+  breadcrumbJsonLd,
+  pageTitle,
+  videoObjectJsonLd,
+  imageObjectJsonLd,
+  faqPageJsonLd,
+} from '~/lib/seo';
 import { listPath, detailPath, tagPath, homeUrl } from '~/lib/url';
 import { site } from '~/config/site';
 import { getAuthor } from '~/config/authors';
@@ -75,10 +91,8 @@ const related = await getRelatedEntries(entry, servedLocale, 3);
 
 // Visible codes FAQ — same strings feed faqPageJsonLd (marking up invisible
 // content violates Google's structured-data policy).
-const codesFaqItems =
-  entry.data.codes && entry.data.codes.length > 0
-    ? (shared.codesFaq ?? [])
-    : [];
+const codesFaqItems: Array<{ question: string; answer: string }> =
+  entry.data.codes && entry.data.codes.length > 0 ? (shared.codesFaq ?? []) : [];
 // Both keys exist in every locale JSON (en + ja; getUi deep-merges en under
 // partial translations), so no hardcoded English fallback — a renamed key
 // must surface, not silently degrade to English.
@@ -115,7 +129,9 @@ const categoryEntries = await getEntriesByCategory(category, servedLocale);
 const currentIdx = categoryEntries.findIndex((e) => parseEntryId(e.id)?.slug === slug);
 const newerEntry = currentIdx > 0 ? categoryEntries[currentIdx - 1] : null;
 const olderEntry =
-  currentIdx >= 0 && currentIdx < categoryEntries.length - 1 ? categoryEntries[currentIdx + 1] : null;
+  currentIdx >= 0 && currentIdx < categoryEntries.length - 1
+    ? categoryEntries[currentIdx + 1]
+    : null;
 
 const jsonLd = [
   articleJsonLd({
@@ -157,11 +173,13 @@ const jsonLd = [
 ];
 ---
 
-{/* English-fallback pages (requested locale missing, PR served the
+{
+  /* English-fallback pages (requested locale missing, PR served the
      default-locale article) render noindex so search engines never see two
      self-canonical copies of the same content; sitemap exclusion mirrors
      this in astro.config.ts via fallbackDetailPaths. Translation landing
-     flips isFallback to false and re-admits the page automatically. */}
+     flips isFallback to false and re-admits the page automatically. */
+}
 <LocaleLayout
   locale={locale}
   title={pageTitle(entry.data.title)}
@@ -185,307 +203,396 @@ const jsonLd = [
 
   <div class="flex gap-8">
     <article class="mx-auto min-w-0 max-w-3xl flex-1">
-    {/* Breadcrumb */}
-    <nav class="text-sm text-muted-foreground" aria-label={shared.breadcrumbAria ?? 'Breadcrumb'}>
-      <a href={homeUrl(locale)} class="hover:text-nav">{nav.home}</a>
-      <span class="mx-1">/</span>
-      <a href={listPath(category, locale)} class="hover:text-nav">{categoryLabel}</a>
-    </nav>
-
-    {/* Header */}
-    <header class="mt-3" data-pagefind-meta={`category:${category}`}>
-      <div class="flex items-center gap-2">
-        {navItem && <Icon name={navItem.icon} class="h-5 w-5 text-nav" />}
-        <span class="text-sm font-medium uppercase tracking-wider text-foreground">{categoryLabel}</span>
-      </div>
-      <h1 class="mt-2 text-3xl font-extrabold tracking-tight md:text-4xl" data-pagefind-meta={`title:${entry.data.title}`}>{entry.data.title}</h1>
-      <p class="mt-3 text-muted-foreground">{entry.data.description}</p>
-      <div class="mt-4 flex flex-wrap items-center gap-x-4 gap-y-2 text-xs text-muted-foreground">
-        <span class="inline-flex items-center gap-1">
-          <Icon name="lucide:calendar" class="h-3.5 w-3.5" />
-          {entry.data.date.toLocaleDateString(locale, { timeZone: 'UTC' })}
-        </span>
-        {entry.data.gameVersion && (
-          <span
-            class="inline-flex items-center gap-1 rounded-full border border-nav/40 bg-nav/10 px-2 py-0.5 font-medium text-foreground"
-            title={shared.gameVersion}
-          >
-            <Icon name="lucide:git-branch" class="h-3 w-3" />
-            {entry.data.gameVersion}
-          </span>
-        )}
-        {author && (
-          <span class="inline-flex items-center gap-1">
-            <Icon name="lucide:user" class="h-3.5 w-3.5" />
-            {authorInfo?.url ? (
-              <a
-                href={authorInfo.url}
-                rel="author noopener"
-                class="hover:text-nav"
-                target={authorInfo.url.startsWith('http') ? '_blank' : undefined}
-              >{author}</a>
-            ) : (
-              author
-            )}
-          </span>
-        )}
-        {
-          entry.data.lastModified && (
-            <span class="inline-flex items-center gap-1">
-              <Icon name="lucide:refresh-cw" class="h-3.5 w-3.5" />
-              {shared.lastUpdated}: {entry.data.lastModified.toLocaleDateString(locale, { timeZone: 'UTC' })}
-            </span>
-          )
-        }
-        {
-          isFallback && servedLocale !== locale && (
-            <span class="inline-flex items-center gap-1 rounded-full bg-muted px-2 py-0.5">
-              <Icon name="lucide:alert-circle" class="h-3 w-3" />
-              {shared.fallbackNotice ?? 'English fallback'}
-            </span>
-          )
-        }
-        <span class="inline-flex items-center gap-1">
-          <Icon name="lucide:clock" class="h-3.5 w-3.5" />
-          {readMinutes} {shared.minuteRead}
-        </span>
-        <span class="ml-auto">
-          <ShareButton
-            title={entry.data.title}
-            labels={{
-              share: shared.share ?? 'Share',
-              copyLink: shared.copyLink ?? 'Copy link',
-              copied: shared.copied ?? 'Copied!',
-            }}
-          />
-        </span>
-      </div>
-    </header>
-
-    {/* Quick Answer / TL;DR — answer-first for AI Overviews & featured snippets */}
-    {summary && (
-      <aside class="mt-6 rounded-lg border-l-4 border-nav bg-nav/5 p-4">
-        <div class="flex items-start gap-2">
-          <Icon name="lucide:lightbulb" class="mt-0.5 h-4 w-4 shrink-0 text-nav" />
-          <div class="min-w-0 flex-1">
-            <div class="flex items-center gap-2">
-              <p class="text-xs font-semibold uppercase tracking-wider text-foreground">{shared.quickAnswer}</p>
-              <button
-                type="button"
-                data-copy-summary
-                data-copied-title={shared.copied ?? 'Copied!'}
-                class="text-nav transition hover:opacity-70"
-                aria-label={shared.copyQuickAnswer ?? 'Copy quick answer'}
-                title={shared.copyQuickAnswer ?? 'Copy quick answer'}
-              >
-                <Icon name="lucide:copy" class="h-3 w-3" />
-              </button>
-            </div>
-            <p class="mt-1 text-sm text-foreground" data-summary-text>{summary}</p>
-          </div>
-        </div>
-      </aside>
-    )}
-
-    {/* Stale-content notice — time-sensitive categories older than 90 days */}
-    {outdated && (
-      <aside class="mt-4 flex items-start gap-2 rounded-lg border border-amber-500/40 bg-amber-500/10 p-3 text-sm text-foreground" role="note">
-        <Icon name="lucide:alert-triangle" class="mt-0.5 h-4 w-4 shrink-0 text-amber-600 dark:text-amber-400" />
-        <p>
-          {shared.possiblyOutdated} {(entry.data.lastModified ?? entry.data.date).toLocaleDateString(locale, { timeZone: 'UTC' })}
-          {shared.outdatedNote}
-        </p>
-      </aside>
-    )}
-
-    {/* Boss stat card — structured key-value data when `boss` frontmatter present */}
-    {entry.data.boss && (
-      <BossStatCard
-        boss={entry.data.boss}
-        labels={shared.bossCard ?? {}}
-      />
-    )}
-
-    {/* Structured codes table — Active (copy blocks) / Expired (long-tail table) */}
-    {entry.data.codes && entry.data.codes.length > 0 && (
-      <CodesTable
-        codes={entry.data.codes}
-        copiedText={shared.copied}
-        labels={shared.codesTable ?? { active: 'Active Codes', expired: 'Expired Codes', reward: 'Reward', expires: 'Expires' }}
-      />
-    )}
-
-    {/* Visible codes FAQ — keeps the FAQPage structured data honest. Native
-        <details>, zero JS. */}
-    {codesFaqItems.length > 0 && (
-      <section class="mt-8 not-prose" aria-label={codesFaqTitle}>
-        <h2 class="text-xl font-bold">{codesFaqTitle}</h2>
-        <div class="mt-4 space-y-2">
-          {codesFaqItems.map((item) => (
-            <details class="group rounded-lg border border-border bg-card">
-              <summary class="flex cursor-pointer list-none items-center justify-between gap-2 px-4 py-3 text-sm font-semibold text-foreground [&::-webkit-details-marker]:hidden">
-                {item.question}
-                <Icon name="lucide:chevron-down" class="h-4 w-4 shrink-0 text-muted-foreground transition-transform group-open:rotate-180" />
-              </summary>
-              <div class="border-t border-border px-4 py-3 text-sm text-foreground">
-                {item.answer}
-              </div>
-            </details>
-          ))}
-        </div>
-      </section>
-    )}
-
-    {/* Visible per-article FAQ (frontmatter `faq`) — same strings feed the
-        merged FAQPage JSON-LD above. Native <details>, zero JS. */}
-    {articleFaqItems.length > 0 && (
-      <section class="mt-8 not-prose" aria-label={faqTitle}>
-        <h2 class="text-xl font-bold">{faqTitle}</h2>
-        <div class="mt-4 space-y-2">
-          {articleFaqItems.map((item) => (
-            <details class="group rounded-lg border border-border bg-card">
-              <summary class="flex cursor-pointer list-none items-center justify-between gap-2 px-4 py-3 text-sm font-semibold text-foreground [&::-webkit-details-marker]:hidden">
-                {item.question}
-                <Icon name="lucide:chevron-down" class="h-4 w-4 shrink-0 text-muted-foreground transition-transform group-open:rotate-180" />
-              </summary>
-              <div class="border-t border-border px-4 py-3 text-sm text-foreground">
-                {item.answer}
-              </div>
-            </details>
-          ))}
-        </div>
-      </section>
-    )}
-
-    {/* Mobile TOC (collapsible) — desktop TOC is sticky in the sidebar area */}
-    <div class="mt-6 lg:hidden">
-      <TableOfContents headings={headings} heading={shared.onThisPage} />
-    </div>
-
-    {/* Body */}
-    <div
-      class="prose prose-lg mt-8 max-w-none dark:prose-invert prose-headings:scroll-mt-20 prose-a:text-nav"
-      data-pagefind-body
-    >
-      <Content />
-    </div>
-
-    {/* Fallback videos — only IDs NOT inlined in the body via <Video/>.
-        Inline <Video> is the preferred placement; this bottom section is a
-        legacy/fallback so frontmatter-only articles keep working. */}
-    {fallbackVideos.length > 0 && (
-      <section class="mt-10">
-        <h2 class="text-xl font-bold">{shared.relatedVideos}</h2>
-        <div class="mt-4 grid gap-4">
-          {fallbackVideos.map((videoId: string) => (
-            <LazyYouTube videoId={videoId} title={entry.data.title} />
-          ))}
-        </div>
-      </section>
-    )}
-
-    {/* Gallery — thumbnail grid + native dialog lightbox (renders nothing when empty) */}
-    <ArticleGallery items={entry.data.gallery} heading={shared.gallery} labels={shared.galleryLabels ?? {}} />
-
-    {/* Tags */}
-    {
-      entry.data.tags.length > 0 && (
-        <div class="mt-8 flex flex-wrap gap-2">
-          {entry.data.tags.map((tag: string) => (
-            <a
-              href={tagPath(slugifyTag(tag), servedLocale)}
-              class="inline-flex items-center gap-1 rounded-full bg-muted px-3 py-1 text-xs text-foreground transition hover:bg-nav/15 hover:text-nav"
-            >
-              <Icon name="lucide:hash" class="h-3 w-3" />
-              {tag}
-            </a>
-          ))}
-        </div>
-      )
-    }
-
-    {/* In-content ad before related articles */}
-    <InContentAd />
-    {/* Adsterra pair: 728×90 here, responsive native after the Related
-        section (end-of-content position) — same DOM order as before. */}
-    <AdsterraSlotPair>
-    {/* Related */}
-    {
-      related.length > 0 && (
-        <section class="mt-12 border-t border-border pt-8">
-          <h2 class="text-xl font-bold">{shared.relatedArticles}</h2>
-          <div class="mt-4 grid gap-3 sm:grid-cols-3">
-            {related.map((rel: WikiEntry) => {
-              const relSlug = parseEntryId(rel.id)?.slug ?? '';
-              const relCat = rel.data.category;
-              return (
-                <a href={detailPath(relCat, relSlug, locale)} class="card p-4">
-                  <p class="text-xs uppercase tracking-wider text-muted-foreground">{relCat}</p>
-                  <h3 class="mt-1 text-sm font-semibold leading-snug">{rel.data.title}</h3>
-                  <p class="mt-1 line-clamp-2 text-xs text-muted-foreground">{rel.data.description}</p>
-                </a>
-              );
-            })}
-          </div>
-        </section>
-      )
-    }
-    </AdsterraSlotPair>
-    {/* Prev / Next within the same category */}
-    {(olderEntry || newerEntry) && (
-      <nav class="mt-10 grid gap-3 sm:grid-cols-2" aria-label={shared.paginationAria ?? 'Article pagination'}>
-        {olderEntry && (
-          <a href={detailPath(category, parseEntryId(olderEntry.id)?.slug ?? '', locale)} class="card p-4">
-            <p class="flex items-center gap-1 text-xs text-muted-foreground">
-              <Icon name="lucide:arrow-left" class="h-3 w-3" />
-              {shared.prevArticle}
-            </p>
-            <p class="mt-1 text-sm font-semibold leading-snug">{olderEntry.data.title}</p>
-          </a>
-        )}
-        {newerEntry && (
-          <a
-            href={detailPath(category, parseEntryId(newerEntry.id)?.slug ?? '', locale)}
-            class="card p-4 sm:text-right"
-          >
-            <p class="flex items-center gap-1 text-xs text-muted-foreground sm:justify-end">
-              {shared.nextArticle}
-              <Icon name="lucide:arrow-right" class="h-3 w-3" />
-            </p>
-            <p class="mt-1 text-sm font-semibold leading-snug">{newerEntry.data.title}</p>
-          </a>
-        )}
+      {/* Breadcrumb */}
+      <nav class="text-sm text-muted-foreground" aria-label={shared.breadcrumbAria ?? 'Breadcrumb'}>
+        <a href={homeUrl(locale)} class="hover:text-nav">{nav.home}</a>
+        <span class="mx-1">/</span>
+        <a href={listPath(category, locale)} class="hover:text-nav">{categoryLabel}</a>
       </nav>
-    )}
 
-    {/* Helpful feedback — no backend; thanks message + nudge to comments */}
-    <div class="mt-10 flex flex-col items-center gap-2 border-t border-border pt-6 text-center" data-helpful-root>
-      <p class="text-sm text-muted-foreground">{shared.wasThisHelpful}</p>
-      <div class="flex gap-2" data-helpful-buttons>
-        <button type="button" data-helpful-yes class="btn-outline inline-flex items-center gap-1.5 px-3 py-1.5 text-xs" aria-label={shared.feedbackYes ?? 'Yes'}>
-          <Icon name="lucide:thumbs-up" class="h-3.5 w-3.5" />
-        </button>
-        <button type="button" data-helpful-no class="btn-outline inline-flex items-center gap-1.5 px-3 py-1.5 text-xs" aria-label={shared.feedbackNo ?? 'No'}>
-          <Icon name="lucide:thumbs-down" class="h-3.5 w-3.5" />
-        </button>
+      {/* Header */}
+      <header class="mt-3" data-pagefind-meta={`category:${category}`}>
+        <div class="flex items-center gap-2">
+          {navItem && <Icon name={navItem.icon} class="h-5 w-5 text-nav" />}
+          <span class="text-sm font-medium uppercase tracking-wider text-foreground"
+            >{categoryLabel}</span
+          >
+        </div>
+        <h1
+          class="mt-2 text-3xl font-extrabold tracking-tight md:text-4xl"
+          data-pagefind-meta={`title:${entry.data.title}`}
+        >
+          {entry.data.title}
+        </h1>
+        <p class="mt-3 text-muted-foreground">{entry.data.description}</p>
+        <div class="mt-4 flex flex-wrap items-center gap-x-4 gap-y-2 text-xs text-muted-foreground">
+          <span class="inline-flex items-center gap-1">
+            <Icon name="lucide:calendar" class="h-3.5 w-3.5" />
+            {entry.data.date.toLocaleDateString(locale, { timeZone: 'UTC' })}
+          </span>
+          {
+            entry.data.gameVersion && (
+              <span
+                class="inline-flex items-center gap-1 rounded-full border border-nav/40 bg-nav/10 px-2 py-0.5 font-medium text-foreground"
+                title={shared.gameVersion}
+              >
+                <Icon name="lucide:git-branch" class="h-3 w-3" />
+                {entry.data.gameVersion}
+              </span>
+            )
+          }
+          {
+            author && (
+              <span class="inline-flex items-center gap-1">
+                <Icon name="lucide:user" class="h-3.5 w-3.5" />
+                {authorInfo?.url ? (
+                  <a
+                    href={authorInfo.url}
+                    rel="author noopener"
+                    class="hover:text-nav"
+                    target={authorInfo.url.startsWith('http') ? '_blank' : undefined}
+                  >
+                    {author}
+                  </a>
+                ) : (
+                  author
+                )}
+              </span>
+            )
+          }
+          {
+            entry.data.lastModified && (
+              <span class="inline-flex items-center gap-1">
+                <Icon name="lucide:refresh-cw" class="h-3.5 w-3.5" />
+                {shared.lastUpdated}:{' '}
+                {entry.data.lastModified.toLocaleDateString(locale, { timeZone: 'UTC' })}
+              </span>
+            )
+          }
+          {
+            isFallback && servedLocale !== locale && (
+              <span class="inline-flex items-center gap-1 rounded-full bg-muted px-2 py-0.5">
+                <Icon name="lucide:alert-circle" class="h-3 w-3" />
+                {shared.fallbackNotice ?? 'English fallback'}
+              </span>
+            )
+          }
+          <span class="inline-flex items-center gap-1">
+            <Icon name="lucide:clock" class="h-3.5 w-3.5" />
+            {readMinutes}
+            {shared.minuteRead}
+          </span>
+          <span class="ml-auto">
+            <ShareButton
+              title={entry.data.title}
+              labels={{
+                share: shared.share ?? 'Share',
+                copyLink: shared.copyLink ?? 'Copy link',
+                copied: shared.copied ?? 'Copied!',
+              }}
+            />
+          </span>
+        </div>
+      </header>
+
+      {/* Quick Answer / TL;DR — answer-first for AI Overviews & featured snippets */}
+      {
+        summary && (
+          <aside class="mt-6 rounded-lg border-l-4 border-nav bg-nav/5 p-4">
+            <div class="flex items-start gap-2">
+              <Icon name="lucide:lightbulb" class="mt-0.5 h-4 w-4 shrink-0 text-nav" />
+              <div class="min-w-0 flex-1">
+                <div class="flex items-center gap-2">
+                  <p class="text-xs font-semibold uppercase tracking-wider text-foreground">
+                    {shared.quickAnswer}
+                  </p>
+                  <button
+                    type="button"
+                    data-copy-summary
+                    data-copied-title={shared.copied ?? 'Copied!'}
+                    class="text-nav transition hover:opacity-70"
+                    aria-label={shared.copyQuickAnswer ?? 'Copy quick answer'}
+                    title={shared.copyQuickAnswer ?? 'Copy quick answer'}
+                  >
+                    <Icon name="lucide:copy" class="h-3 w-3" />
+                  </button>
+                </div>
+                <p class="mt-1 text-sm text-foreground" data-summary-text>
+                  {summary}
+                </p>
+              </div>
+            </div>
+          </aside>
+        )
+      }
+
+      {/* Stale-content notice — time-sensitive categories older than 90 days */}
+      {
+        outdated && (
+          <aside
+            class="mt-4 flex items-start gap-2 rounded-lg border border-amber-500/40 bg-amber-500/10 p-3 text-sm text-foreground"
+            role="note"
+          >
+            <Icon
+              name="lucide:alert-triangle"
+              class="mt-0.5 h-4 w-4 shrink-0 text-amber-600 dark:text-amber-400"
+            />
+            <p>
+              {shared.possiblyOutdated}{' '}
+              {(entry.data.lastModified ?? entry.data.date).toLocaleDateString(locale, {
+                timeZone: 'UTC',
+              })}
+              {shared.outdatedNote}
+            </p>
+          </aside>
+        )
+      }
+
+      {/* Boss stat card — structured key-value data when `boss` frontmatter present */}
+      {entry.data.boss && <BossStatCard boss={entry.data.boss} labels={shared.bossCard ?? {}} />}
+
+      {/* Structured codes table — Active (copy blocks) / Expired (long-tail table) */}
+      {
+        entry.data.codes && entry.data.codes.length > 0 && (
+          <CodesTable
+            codes={entry.data.codes}
+            copiedText={shared.copied}
+            labels={
+              shared.codesTable ?? {
+                active: 'Active Codes',
+                expired: 'Expired Codes',
+                reward: 'Reward',
+                expires: 'Expires',
+              }
+            }
+          />
+        )
+      }
+
+      {
+        /* Visible codes FAQ — keeps the FAQPage structured data honest. Native
+        <details>, zero JS. */
+      }
+      {
+        codesFaqItems.length > 0 && (
+          <section class="not-prose mt-8" aria-label={codesFaqTitle}>
+            <h2 class="text-xl font-bold">{codesFaqTitle}</h2>
+            <div class="mt-4 space-y-2">
+              {codesFaqItems.map((item) => (
+                <details class="group rounded-lg border border-border bg-card">
+                  <summary class="flex cursor-pointer list-none items-center justify-between gap-2 px-4 py-3 text-sm font-semibold text-foreground [&::-webkit-details-marker]:hidden">
+                    {item.question}
+                    <Icon
+                      name="lucide:chevron-down"
+                      class="h-4 w-4 shrink-0 text-muted-foreground transition-transform group-open:rotate-180"
+                    />
+                  </summary>
+                  <div class="border-t border-border px-4 py-3 text-sm text-foreground">
+                    {item.answer}
+                  </div>
+                </details>
+              ))}
+            </div>
+          </section>
+        )
+      }
+
+      {
+        /* Visible per-article FAQ (frontmatter `faq`) — same strings feed the
+        merged FAQPage JSON-LD above. Native <details>, zero JS. */
+      }
+      {
+        articleFaqItems.length > 0 && (
+          <section class="not-prose mt-8" aria-label={faqTitle}>
+            <h2 class="text-xl font-bold">{faqTitle}</h2>
+            <div class="mt-4 space-y-2">
+              {articleFaqItems.map((item) => (
+                <details class="group rounded-lg border border-border bg-card">
+                  <summary class="flex cursor-pointer list-none items-center justify-between gap-2 px-4 py-3 text-sm font-semibold text-foreground [&::-webkit-details-marker]:hidden">
+                    {item.question}
+                    <Icon
+                      name="lucide:chevron-down"
+                      class="h-4 w-4 shrink-0 text-muted-foreground transition-transform group-open:rotate-180"
+                    />
+                  </summary>
+                  <div class="border-t border-border px-4 py-3 text-sm text-foreground">
+                    {item.answer}
+                  </div>
+                </details>
+              ))}
+            </div>
+          </section>
+        )
+      }
+
+      {/* Mobile TOC (collapsible) — desktop TOC is sticky in the sidebar area */}
+      <div class="mt-6 lg:hidden">
+        <TableOfContents headings={headings} heading={shared.onThisPage} />
       </div>
-      <p class="hidden text-sm font-medium text-nav" data-helpful-thanks>{shared.feedbackThanks}</p>
-    </div>
 
-    {/* Comments — env empty = component renders nothing, no conditional needed.
-        Placed at the very end: body → related → prev/next → feedback → comments → sponsor. */}
-    <Comments locale={locale} />
+      {/* Body */}
+      <div
+        class="prose prose-lg mt-8 max-w-none dark:prose-invert prose-headings:scroll-mt-20 prose-a:text-nav"
+        data-pagefind-body
+      >
+        <Content />
+      </div>
 
-    {/* Sponsor / donation — env empty = component renders nothing */}
-    <SponsorCard locale={locale} />
+      {
+        /* Fallback videos — only IDs NOT inlined in the body via <Video/>.
+        Inline <Video> is the preferred placement; this bottom section is a
+        legacy/fallback so frontmatter-only articles keep working. */
+      }
+      {
+        fallbackVideos.length > 0 && (
+          <section class="mt-10">
+            <h2 class="text-xl font-bold">{shared.relatedVideos}</h2>
+            <div class="mt-4 grid gap-4">
+              {fallbackVideos.map((videoId: string) => (
+                <LazyYouTube videoId={videoId} title={entry.data.title} />
+              ))}
+            </div>
+          </section>
+        )
+      }
 
-    {/* Affiliate suggestions — config empty = component renders nothing (v2.0) */}
-    <AffiliateSuggestion locale={locale} category={entry.data.category} />
+      {/* Gallery — thumbnail grid + native dialog lightbox (renders nothing when empty) */}
+      <ArticleGallery
+        items={entry.data.gallery}
+        heading={shared.gallery}
+        labels={shared.galleryLabels ?? {}}
+      />
 
-    {/* Adsterra 320×50 bottom anchor — mobile only, dismissible, consent-gated;
-        env empty = renders nothing (zero-ad fork contract). */}
-    <MobileAnchorAd />
-  </article>
+      {/* Tags */}
+      {
+        entry.data.tags.length > 0 && (
+          <div class="mt-8 flex flex-wrap gap-2">
+            {entry.data.tags.map((tag: string) => (
+              <a
+                href={tagPath(slugifyTag(tag), servedLocale)}
+                class="inline-flex items-center gap-1 rounded-full bg-muted px-3 py-1 text-xs text-foreground transition hover:bg-nav/15 hover:text-nav"
+              >
+                <Icon name="lucide:hash" class="h-3 w-3" />
+                {tag}
+              </a>
+            ))}
+          </div>
+        )
+      }
+
+      {/* In-content ad before related articles */}
+      <InContentAd />
+      {
+        /* Adsterra pair: 728×90 here, responsive native after the Related
+        section (end-of-content position) — same DOM order as before. */
+      }
+      <AdsterraSlotPair>
+        {/* Related */}
+        {
+          related.length > 0 && (
+            <section class="mt-12 border-t border-border pt-8">
+              <h2 class="text-xl font-bold">{shared.relatedArticles}</h2>
+              <div class="mt-4 grid gap-3 sm:grid-cols-3">
+                {related.map((rel: WikiEntry) => {
+                  const relSlug = parseEntryId(rel.id)?.slug ?? '';
+                  const relCat = rel.data.category;
+                  return (
+                    <a href={detailPath(relCat, relSlug, locale)} class="card p-4">
+                      <p class="text-xs uppercase tracking-wider text-muted-foreground">{relCat}</p>
+                      <h3 class="mt-1 text-sm font-semibold leading-snug">{rel.data.title}</h3>
+                      <p class="mt-1 line-clamp-2 text-xs text-muted-foreground">
+                        {rel.data.description}
+                      </p>
+                    </a>
+                  );
+                })}
+              </div>
+            </section>
+          )
+        }
+      </AdsterraSlotPair>
+      {/* Prev / Next within the same category */}
+      {
+        (olderEntry || newerEntry) && (
+          <nav
+            class="mt-10 grid gap-3 sm:grid-cols-2"
+            aria-label={shared.paginationAria ?? 'Article pagination'}
+          >
+            {olderEntry && (
+              <a
+                href={detailPath(category, parseEntryId(olderEntry.id)?.slug ?? '', locale)}
+                class="card p-4"
+              >
+                <p class="flex items-center gap-1 text-xs text-muted-foreground">
+                  <Icon name="lucide:arrow-left" class="h-3 w-3" />
+                  {shared.prevArticle}
+                </p>
+                <p class="mt-1 text-sm font-semibold leading-snug">{olderEntry.data.title}</p>
+              </a>
+            )}
+            {newerEntry && (
+              <a
+                href={detailPath(category, parseEntryId(newerEntry.id)?.slug ?? '', locale)}
+                class="card p-4 sm:text-right"
+              >
+                <p class="flex items-center gap-1 text-xs text-muted-foreground sm:justify-end">
+                  {shared.nextArticle}
+                  <Icon name="lucide:arrow-right" class="h-3 w-3" />
+                </p>
+                <p class="mt-1 text-sm font-semibold leading-snug">{newerEntry.data.title}</p>
+              </a>
+            )}
+          </nav>
+        )
+      }
+
+      {/* Helpful feedback — no backend; thanks message + nudge to comments */}
+      <div
+        class="mt-10 flex flex-col items-center gap-2 border-t border-border pt-6 text-center"
+        data-helpful-root
+      >
+        <p class="text-sm text-muted-foreground">{shared.wasThisHelpful}</p>
+        <div class="flex gap-2" data-helpful-buttons>
+          <button
+            type="button"
+            data-helpful-yes
+            class="btn-outline inline-flex items-center gap-1.5 px-3 py-1.5 text-xs"
+            aria-label={shared.feedbackYes ?? 'Yes'}
+          >
+            <Icon name="lucide:thumbs-up" class="h-3.5 w-3.5" />
+          </button>
+          <button
+            type="button"
+            data-helpful-no
+            class="btn-outline inline-flex items-center gap-1.5 px-3 py-1.5 text-xs"
+            aria-label={shared.feedbackNo ?? 'No'}
+          >
+            <Icon name="lucide:thumbs-down" class="h-3.5 w-3.5" />
+          </button>
+        </div>
+        <p class="hidden text-sm font-medium text-nav" data-helpful-thanks>
+          {shared.feedbackThanks}
+        </p>
+      </div>
+
+      {
+        /* Comments — env empty = component renders nothing, no conditional needed.
+        Placed at the very end: body → related → prev/next → feedback → comments → sponsor. */
+      }
+      <Comments locale={locale} />
+
+      {/* Sponsor / donation — env empty = component renders nothing */}
+      <SponsorCard locale={locale} />
+
+      {/* Affiliate suggestions — config empty = component renders nothing (v2.0) */}
+      <AffiliateSuggestion locale={locale} category={entry.data.category} />
+
+      {
+        /* Adsterra 320×50 bottom anchor — mobile only, dismissible, consent-gated;
+        env empty = renders nothing (zero-ad fork contract). */
+      }
+      <MobileAnchorAd />
+    </article>
     {/* Desktop TOC — sticky, between article and sidebar */}
     <div class="hidden w-56 shrink-0 lg:block xl:w-64">
       <div class="sticky top-20 space-y-6">

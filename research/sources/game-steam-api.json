@@ -1,0 +1,262 @@
+{
+  "checked_at": "2026-10-10",
+  "appid": 4968640,
+  "source_url": "https://store.steampowered.com/api/appdetails?appids=4968640&l=english",
+  "authority": "Steam官方公开API",
+  "note_zh": "只保留事实字段和官方素材地址；抓取区域价格为EUR，不能改写成统一全球价格。",
+  "name": "Japanese Ramen Simulator",
+  "release_date": {
+    "coming_soon": false,
+    "date": "9 Oct, 2026"
+  },
+  "platforms": {
+    "windows": true,
+    "mac": false,
+    "linux": false
+  },
+  "developers": [
+    "Wild Dog"
+  ],
+  "publishers": [
+    "Wild Dog"
+  ],
+  "categories": [
+    {
+      "id": 2,
+      "description": "Single-player"
+    },
+    {
+      "id": 1,
+      "description": "Multi-player"
+    },
+    {
+      "id": 9,
+      "description": "Co-op"
+    },
+    {
+      "id": 38,
+      "description": "Online Co-op"
+    },
+    {
+      "id": 22,
+      "description": "Steam Achievements"
+    },
+    {
+      "id": 64,
+      "description": "Adjustable Text Size"
+    },
+    {
+      "id": 67,
+      "description": "Camera Comfort"
+    },
+    {
+      "id": 68,
+      "description": "Custom Volume Controls"
+    },
+    {
+      "id": 78,
+      "description": "Adjustable Difficulty"
+    },
+    {
+      "id": 80,
+      "description": "#category_playable_at_your_own_pace"
+    },
+    {
+      "id": 74,
+      "description": "Playable without Timed Input"
+    },
+    {
+      "id": 79,
+      "description": "Save Anytime"
+    },
+    {
+      "id": 69,
+      "description": "Stereo Sound"
+    },
+    {
+      "id": 18,
+      "description": "Partial Controller Support"
+    },
+    {
+      "id": 23,
+      "description": "Steam Cloud"
+    },
+    {
+      "id": 62,
+      "description": "Family Sharing"
+    }
+  ],
+  "supported_languages": "English, French, Italian, German, Spanish - Spain, Portuguese - Brazil, Simplified Chinese, Traditional Chinese, Japanese, Korean",
+  "pc_requirements": {
+    "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"><li>Requires a 64-bit processor and operating system<br></li><li><strong>OS:</strong> Windows 10 64bit<br></li><li><strong>Processor:</strong> Intel Core i5<br></li><li><strong>Memory:</strong> 8 GB RAM<br></li><li><strong>Graphics:</strong> NVIDIA GTX 1060 / Radeon RX 580 (6GB+ of VRAM)<br></li><li><strong>DirectX:</strong> Version 11<br></li><li><strong>Network:</strong> Broadband Internet connection<br></li><li><strong>Storage:</strong> 10 GB available space</li></ul>",
+    "recommended": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"><li>Requires a 64-bit processor and operating system<br></li><li><strong>OS:</strong> Windows 11 64bit<br></li><li><strong>Processor:</strong> Intel Core i7<br></li><li><strong>Memory:</strong> 16 GB RAM<br></li><li><strong>Graphics:</strong> NVIDIA GeForce GTX 1660 / Radeon R9 390X (6GB+ of VRAM)<br></li><li><strong>DirectX:</strong> Version 12<br></li><li><strong>Network:</strong> Broadband Internet connection<br></li><li><strong>Storage:</strong> 10 GB available space</li></ul>"
+  },
+  "price_overview": {
+    "currency": "EUR",
+    "initial": 1549,
+    "final": 1316,
+    "discount_percent": 15,
+    "initial_formatted": "15,49€",
+    "final_formatted": "13,16€"
+  },
+  "achievements": {
+    "total": 18,
+    "highlighted": [
+      {
+        "icon": "14a29f743b880bdbee066073555c5859bb985712.jpg",
+        "localized_name": "A Bowl to Begin",
+        "archived": 0,
+        "hidden": 0,
+        "name": "A Bowl to Begin",
+        "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/4968640/14a29f743b880bdbee066073555c5859bb985712.jpg"
+      },
+      {
+        "icon": "8f255928d275fcf6c7c8ecfb94101f18d818e8b0.jpg",
+        "localized_name": "A Day's Work",
+        "archived": 0,
+        "hidden": 0,
+        "name": "A Day's Work",
+        "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/4968640/8f255928d275fcf6c7c8ecfb94101f18d818e8b0.jpg"
+      },
+      {
+        "icon": "7540a85b74b5d68dd825dc75bee6be5596a5acb1.jpg",
+        "localized_name": "Humble Beginnings",
+        "archived": 0,
+        "hidden": 0,
+        "name": "Humble Beginnings",
+        "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/4968640/7540a85b74b5d68dd825dc75bee6be5596a5acb1.jpg"
+      },
+      {
+        "icon": "d06aba503df8a15a17bf93d1e7752532feda8f78.jpg",
+        "localized_name": "A Neighborhood Favorite",
+        "archived": 0,
+        "hidden": 0,
+        "name": "A Neighborhood Favorite",
+        "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/4968640/d06aba503df8a15a17bf93d1e7752532feda8f78.jpg"
+      },
+      {
+        "icon": "9f8c81bf2da6f33bee33e9f1adc9c0aac69fd2c0.jpg",
+        "localized_name": "The Talk of the Town",
+        "archived": 0,
+        "hidden": 0,
+        "name": "The Talk of the Town",
+        "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/4968640/9f8c81bf2da6f33bee33e9f1adc9c0aac69fd2c0.jpg"
+      },
+      {
+        "icon": "1e6b0472d353e80c80ebc159bc1ae40c7202353a.jpg",
+        "localized_name": "A Legendary Ramen Shop",
+        "archived": 0,
+        "hidden": 0,
+        "name": "A Legendary Ramen Shop",
+        "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/4968640/1e6b0472d353e80c80ebc159bc1ae40c7202353a.jpg"
+      },
+      {
+        "icon": "48f5731f6bfdeaf04f2249db67d7387d3af52efd.jpg",
+        "localized_name": "Room to Dream",
+        "archived": 0,
+        "hidden": 0,
+        "name": "Room to Dream",
+        "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/4968640/48f5731f6bfdeaf04f2249db67d7387d3af52efd.jpg"
+      },
+      {
+        "icon": "07a1f777484791263de2512483d5172c413dd2a4.jpg",
+        "localized_name": "Persistence Pays Off",
+        "archived": 0,
+        "hidden": 0,
+        "name": "Persistence Pays Off",
+        "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/4968640/07a1f777484791263de2512483d5172c413dd2a4.jpg"
+      },
+      {
+        "icon": "9eb97f2c1786c9c517acfb345c6b1244badecf68.jpg",
+        "localized_name": "Even the Critic Is Impressed",
+        "archived": 0,
+        "hidden": 0,
+        "name": "Even the Critic Is Impressed",
+        "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/4968640/9eb97f2c1786c9c517acfb345c6b1244badecf68.jpg"
+      },
+      {
+        "icon": "36b710b053bbaee1fe1ffd734ce97d478f8c3046.jpg",
+        "localized_name": "A Bowl Worth More Than Gold",
+        "archived": 0,
+        "hidden": 0,
+        "name": "A Bowl Worth More Than Gold",
+        "path": "https://shared.akamai.steamstatic.com/community_assets/images/apps/4968640/36b710b053bbaee1fe1ffd734ce97d478f8c3046.jpg"
+      }
+    ]
+  },
+  "screenshots": [
+    {
+      "id": 0,
+      "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4968640/04c35f2452ab80a2cccd843d0a916656d18ab1de/ss_04c35f2452ab80a2cccd843d0a916656d18ab1de.600x338.jpg?t=1791536897",
+      "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4968640/04c35f2452ab80a2cccd843d0a916656d18ab1de/ss_04c35f2452ab80a2cccd843d0a916656d18ab1de.1920x1080.jpg?t=1791536897"
+    },
+    {
+      "id": 1,
+      "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4968640/8c8707d221ca63f1fc7e829a236c1b1e3fab5515/ss_8c8707d221ca63f1fc7e829a236c1b1e3fab5515.600x338.jpg?t=1791536897",
+      "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4968640/8c8707d221ca63f1fc7e829a236c1b1e3fab5515/ss_8c8707d221ca63f1fc7e829a236c1b1e3fab5515.1920x1080.jpg?t=1791536897"
+    },
+    {
+      "id": 2,
+      "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4968640/d2d7dbe81803c430555f4c1ffc06ad1dc67d543c/ss_d2d7dbe81803c430555f4c1ffc06ad1dc67d543c.600x338.jpg?t=1791536897",
+      "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4968640/d2d7dbe81803c430555f4c1ffc06ad1dc67d543c/ss_d2d7dbe81803c430555f4c1ffc06ad1dc67d543c.1920x1080.jpg?t=1791536897"
+    },
+    {
+      "id": 3,
+      "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4968640/d4dd552538fc184420fe6df863490291dcdcb5cd/ss_d4dd552538fc184420fe6df863490291dcdcb5cd.600x338.jpg?t=1791536897",
+      "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4968640/d4dd552538fc184420fe6df863490291dcdcb5cd/ss_d4dd552538fc184420fe6df863490291dcdcb5cd.1920x1080.jpg?t=1791536897"
+    },
+    {
+      "id": 4,
+      "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4968640/457ddef6de136793ddf23536bef549fcc440e97e/ss_457ddef6de136793ddf23536bef549fcc440e97e.600x338.jpg?t=1791536897",
+      "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4968640/457ddef6de136793ddf23536bef549fcc440e97e/ss_457ddef6de136793ddf23536bef549fcc440e97e.1920x1080.jpg?t=1791536897"
+    },
+    {
+      "id": 5,
+      "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4968640/685c2aab5ca48c0dc11a36718ddca92166de7afa/ss_685c2aab5ca48c0dc11a36718ddca92166de7afa.600x338.jpg?t=1791536897",
+      "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4968640/685c2aab5ca48c0dc11a36718ddca92166de7afa/ss_685c2aab5ca48c0dc11a36718ddca92166de7afa.1920x1080.jpg?t=1791536897"
+    },
+    {
+      "id": 6,
+      "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4968640/570ac684b4a7823a1199658773102b47b9a9bd20/ss_570ac684b4a7823a1199658773102b47b9a9bd20.600x338.jpg?t=1791536897",
+      "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4968640/570ac684b4a7823a1199658773102b47b9a9bd20/ss_570ac684b4a7823a1199658773102b47b9a9bd20.1920x1080.jpg?t=1791536897"
+    }
+  ],
+  "movies": [
+    {
+      "id": 257452810,
+      "name": "Early Access Trailer",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257452810/28e148af1b08d962245e44fc8bef722a1234060b/movie_600x337.jpg?t=1791487523",
+      "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/4968640/1771509590/bb3d43f308f397ca46b5f39f408c1a0b9f95da2f/1791481777/dash_av1.mpd?t=1791487523",
+      "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/4968640/1771509590/bb3d43f308f397ca46b5f39f408c1a0b9f95da2f/1791481777/dash_h264.mpd?t=1791487523",
+      "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/4968640/1771509590/bb3d43f308f397ca46b5f39f408c1a0b9f95da2f/1791481777/hls_264_master.m3u8?t=1791487523",
+      "highlight": true
+    },
+    {
+      "id": 257400204,
+      "name": "Announce Trailer",
+      "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257400204/1ef54cac35c2e8ff4df1c6f97f20a474555f813d/movie_600x337.jpg?t=1790217812",
+      "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/4968640/997358453/f428870899ad4f99aaac3debcbda60525daaadb6/1790217514/dash_av1.mpd?t=1790217812",
+      "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/4968640/997358453/f428870899ad4f99aaac3debcbda60525daaadb6/1790217514/dash_h264.mpd?t=1790217812",
+      "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/4968640/997358453/f428870899ad4f99aaac3debcbda60525daaadb6/1790217514/hls_264_master.m3u8?t=1790217812",
+      "highlight": true
+    }
+  ],
+  "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4968640/f271f45d7475a5270df309f6b7634d0a56a8055d/header.jpg?t=1791536897",
+  "website": "https://wilddog.jp/japaneseramensimulator",
+  "description_clips": [
+    "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4968640/extras/7c0396da999f8503e388c75b6b49fa52.webm?t=1791536897",
+    "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4968640/extras/7c0396da999f8503e388c75b6b49fa52.mp4?t=1791536897",
+    "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4968640/extras/bdf115d788a39698d464f0d81951c784.webm?t=1791536897",
+    "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4968640/extras/bdf115d788a39698d464f0d81951c784.mp4?t=1791536897",
+    "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4968640/extras/6923dfa6f38bac879659aee8f3ffd607.webm?t=1791536897",
+    "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4968640/extras/6923dfa6f38bac879659aee8f3ffd607.mp4?t=1791536897",
+    "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4968640/extras/9571054769dfc27f5d2951810bc350f8.webm?t=1791536897",
+    "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4968640/extras/9571054769dfc27f5d2951810bc350f8.mp4?t=1791536897",
+    "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4968640/extras/4473fc695ca8560923e590dcb113d41e.webm?t=1791536897",
+    "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4968640/extras/4473fc695ca8560923e590dcb113d41e.mp4?t=1791536897",
+    "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4968640/extras/993164214049fb0463637654002b9869.webm?t=1791536897",
+    "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4968640/extras/993164214049fb0463637654002b9869.mp4?t=1791536897",
+    "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4968640/extras/28c28bb91cb227f2b4bf73ba5e98ca93.webm?t=1791536897",
+    "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4968640/extras/28c28bb91cb227f2b4bf73ba5e98ca93.mp4?t=1791536897"
+  ]
+}

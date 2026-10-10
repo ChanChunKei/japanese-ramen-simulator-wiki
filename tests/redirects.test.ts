@@ -25,6 +25,7 @@ import { describe, expect, test } from 'vitest';
  *     /landing/docs and /zh/landing URLs, which forks do not have.
  */
 const repoRoot = fileURLToPath(new URL('..', import.meta.url));
+const hasDemoRedirects = existsSync(`${repoRoot}public/_redirects`);
 
 /** [old slug, successor lesson] — mirrors the redesign spec's mapping table. */
 const REMOVED_SLUGS: Array<readonly [string, string]> = [
@@ -96,8 +97,9 @@ function slugOf(pathname: string): string {
   return parts[parts.length - 1];
 }
 
-describe('public/_redirects (renamed handbook lesson slugs)', () => {
-  const rules = parseRedirects();
+// 初始化删除的演示重定向不再适用；存在该文件时全部原断言继续执行。
+describe.skipIf(!hasDemoRedirects)('public/_redirects (renamed handbook lesson slugs)', () => {
+  const rules = hasDemoRedirects ? parseRedirects() : [];
   const handbookRules = rules.filter(isHandbookRule);
 
   test('covers exactly the removed slugs × both locales × both slash forms — nothing more', () => {
@@ -152,8 +154,8 @@ describe('public/_redirects (renamed handbook lesson slugs)', () => {
   });
 });
 
-describe('public/_redirects (locale entry points)', () => {
-  const rules = parseRedirects();
+describe.skipIf(!hasDemoRedirects)('public/_redirects (locale entry points)', () => {
+  const rules = hasDemoRedirects ? parseRedirects() : [];
   const localeEntryRules = rules.filter((r) => LOCALE_ENTRY_SOURCE_RE.test(r.source));
 
   test('covers exactly the guessed locale paths × both slash forms — nothing more', () => {
@@ -191,7 +193,9 @@ test('fork initialization removes the file on both channels (CLI + setup.yml)', 
   const cli = readFileSync(`${repoRoot}scripts/apply-template.ts`, 'utf8');
   expect(cli).toMatch(/'public\/_redirects'/);
   const yml = readFileSync(`${repoRoot}.github/workflows/setup.yml`, 'utf8');
-  const landingStep = yml.split('\n').find((line) => line.includes('rm -rf src/components/landing'));
+  const landingStep = yml
+    .split('\n')
+    .find((line) => line.includes('rm -rf src/components/landing'));
   expect(landingStep, 'landing removal step in setup.yml').toBeDefined();
   expect(landingStep).toContain('public/_redirects');
   // It rides the unconditional landing step, not the demo-content step —

@@ -47,7 +47,7 @@ jobs:
       - name: Quality gates
         uses: ./.github/actions/gates
         with:
-          site-url: ${{ vars.SITE_URL || 'https://anvil.wiki' }}
+          site-url: ${{ vars.SITE_URL || 'https://japanese-ramen-simulator-wiki.pages.dev' }}
 
   # apply-template has ZERO vitest coverage and only breaks in real
   # (non-dry-run) mode, which the demo repo never exercises — three real-mode
@@ -55,6 +55,8 @@ jobs:
   # (PR #10 ENOENT crash; home-template schema drift crashing the fork's
   # first build). Drives the CLI against a throwaway copy and builds it.
   e2e-template:
+    # 本站已初始化；模板重置流程仅在上游仓库执行。
+    if: github.repository == 'PNGTRID/AnvilWiki'
     runs-on: ubuntu-latest
     timeout-minutes: 15
     steps:

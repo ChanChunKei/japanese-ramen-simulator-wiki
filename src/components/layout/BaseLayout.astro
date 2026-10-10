@@ -11,6 +11,7 @@
  * Pages should wrap themselves in LocaleLayout (which wraps this), not call this directly.
  */
 import '~/styles/globals.css';
+import '~/styles/editorial.css';
 import { site, siteUrl } from '~/config/site';
 import { defaultLocale, locales, OG_LOCALE_MAP, type Locale } from '~/i18n/routing';
 import { organizationJsonLd } from '~/lib/seo';
@@ -154,6 +155,7 @@ const privacyLabel = consent?.privacyLabel ?? footerStrings.privacyPolicy ?? 'Pr
 <!doctype html>
 <html lang={mainLocale} class="scroll-smooth">
   <head>
+    {site.preloadFonts?.map((font) => <link rel="preload" href={font} as="font" type="font/woff2" crossorigin="anonymous" />)}
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     {/* pnpm gen-assets regenerates these in place with the live brand color.

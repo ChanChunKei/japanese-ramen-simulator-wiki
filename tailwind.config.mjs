@@ -59,7 +59,8 @@ export default {
         sm: 'calc(var(--radius, 0.5rem) - 4px)',
       },
       fontFamily: {
-        sans: ['ui-sans-serif', 'system-ui', '-apple-system', 'Segoe UI', 'Roboto', 'sans-serif'],
+        sans: ['Wiki Sans', 'Helvetica Neue', 'sans-serif'],
+        serif: ['Georgia', 'Times New Roman', 'serif'],
       },
       typography: ({ theme }) => ({
         DEFAULT: {

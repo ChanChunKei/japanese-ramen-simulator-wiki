@@ -8,6 +8,7 @@ import * as path from 'node:path';
 
 import { locales, defaultLocale } from './src/i18n/routing';
 import { CONTENT_TYPES } from './src/config/navigation';
+import { site as wikiSite } from './src/config/site';
 import { fallbackDetailPaths } from './src/lib/fallback-paths';
 
 /**
@@ -96,7 +97,8 @@ function buildLastmodMap(
       const rel = path.relative(base, p).replace(/\.mdx$/, '');
       const [loc, cat, ...rest] = rel.split(path.sep);
       const slugPath = rest.join('/');
-      const articlePath = loc === defaultLocale ? `/${cat}/${slugPath}` : `/${loc}/${cat}/${slugPath}`;
+      const articlePath =
+        loc === defaultLocale ? `/${cat}/${slugPath}` : `/${loc}/${cat}/${slugPath}`;
       // Same true-spelling rule as the draft check above (inline comments
       // included): a `noindex: True` page must not ship in the sitemap it
       // asked out of.
@@ -174,7 +176,10 @@ function buildLastmodMap(
         if (!entry.endsWith('.md')) continue;
         const src = fs.readFileSync(path.join(dir, entry), 'utf8');
         const fm = extractFrontmatter(src);
-        const iso = fm.match(/^updated:\s*(.+)$/m)?.[1]?.trim().replace(/['"]/g, '');
+        const iso = fm
+          .match(/^updated:\s*(.+)$/m)?.[1]
+          ?.trim()
+          .replace(/['"]/g, '');
         if (!iso) continue;
         const date = new Date(iso);
         if (Number.isNaN(date.getTime())) continue;
@@ -194,7 +199,7 @@ function buildLastmodMap(
   return map;
 }
 
-const siteOrigin = process.env.SITE_URL || 'https://anvil.wiki';
+const siteOrigin = process.env.SITE_URL || `https://${wikiSite.domain}`;
 
 // trailingSlash:'always' makes every generated URL end with "/", but the
 // lookup tables above (lastmodMap / noindexPaths / coverage keys) are built
@@ -277,7 +282,7 @@ function alternatesFor(pagePath: string): Array<{ lang: string; url: string }> |
 
 // https://astro.build/config
 export default defineConfig({
-  site: process.env.SITE_URL || 'https://anvil.wiki',
+  site: siteOrigin,
   output: 'static',
   // Astro 7 flipped the default from true to 'jsx', which strips whitespace
   // between adjacent inline elements ("word" + "word" can render joined).
@@ -317,7 +322,12 @@ export default defineConfig({
       // Alternates are built per-URL in `serialize` from real MDX coverage.
       // noindex articles stay out of the sitemap (self-contradictory signal
       // otherwise — the page asks not to be indexed while the sitemap submits it).
-      filter: (url) => !noindexPaths.has(normalizePath(decodeSitemapPath(url))),
+      filter: (url) =>
+        !noindexPaths.has(normalizePath(decodeSitemapPath(url))) &&
+        !(
+          wikiSite.indexUtilityPages === false &&
+          /\/(?:tags(?:\/|$)|recent\/?$)/.test(new URL(url).pathname)
+        ),
       // Inject <lastmod> from article frontmatter (see buildLastmodMap) and
       // hreflang alternates that mirror the page-level truth (see alternatesFor).
       serialize(item) {

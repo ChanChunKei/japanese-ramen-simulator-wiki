@@ -1,0 +1,54 @@
+---
+title: 'Japanese Ramen Simulator: Orders, Tickets & Customer Service'
+description: 'Organize customer orders, food and drinks with a practical service workflow, and see which order-ticket handling details remain unverified.'
+category: 'restaurant'
+image: '../../../../assets/covers/en-restaurant-orders-and-tickets.png'
+date: 2026-10-10
+lastModified: 2026-10-10
+gameVersion: 'v0.1.48.17626'
+tags: ['service', 'restaurant', 'cooking']
+draft: false
+summary: "Keep each customer's order associated with its food and drinks from preparation through delivery. The patch adds a waiting-time icon for customers whose orders have not been taken. A ticket rail, pinning control and automatic completion by discarding paper tickets are not verified in the available sources."
+---
+
+## How should I organize order tickets during a busy shift?
+
+Give each active order a clear place and compare it with the food before delivery. That is an editorial organization method, not a documented ticket-management feature. A Steam player asked about placing tickets on tables, discarding them and hanging them up; the checked thread had no answer establishing a rail or pinning control.
+
+The [actual order-ticket discussion](https://steamcommunity.com/app/4968640/discussions/0/590691913363932602/) identifies a practical launch-day question. It does not verify that discarding a ticket completes an order, or supply a shortcut for attaching tickets to equipment. Avoid assuming either behavior when deciding whether a customer has been served.
+
+A simple editorial setup uses deliberate positions on a convenient surface, if the ticket can be placed there in your game. These are positions you choose, rather than named game slots:
+
+| Your chosen position | Purpose during the shift                 | Check before moving a ticket                         |
+| -------------------- | ---------------------------------------- | ---------------------------------------------------- |
+| Waiting to prepare   | Keep the next order readable             | Confirm the customer and requested items             |
+| In preparation       | Associate work with the active order     | Check broth, toppings, sides and drinks              |
+| Delivery check       | Reconcile the order with delivered items | Confirm the customer has received what was requested |
+
+Keep tickets away from the area used to assemble bowls. See the [ramen assembly guide](/cooking/ramen-recipes/) for the checks that belong at the food station.
+
+## What does the customer waiting icon actually show?
+
+The Day 1 update introduces a dedicated icon for customers whose orders have not yet been taken, and its appearance changes with waiting time. Use it to notice customers awaiting an order-taking interaction. It is not documented as an indicator that a prepared bowl is ready or that every item has been delivered.
+
+This distinction comes from the [official patch](https://steamcommunity.com/ogg/4968640/announcements/detail/702155760121940292). The [Steam description](https://store.steampowered.com/app/4968640/Japanese_Ramen_Simulator/?l=english) also lists serving time as a quality factor. Neither source establishes that your paper-ticket arrangement pauses the customer's waiting or changes how service time is scored.
+
+An editorial service loop is to notice waiting customers, take an order, keep it readable, prepare its items, check the recipient and then reconcile delivery. Return to the waiting customers after that check rather than treating the kitchen surface as the whole service queue.
+
+## How can I stop forgetting drinks or toppings?
+
+Read the complete order before starting food preparation, then check it again at delivery. A ramen dish, a requested topping and a beer fill are separate things to verify. Keeping them attached to one customer's order is a suggested workflow; it is not evidence of an automatic in-game checklist.
+
+1. Identify the requested ramen and broth.
+2. Note the toppings before cutting or assembling them.
+3. Include any side dishes in your preparation plan.
+4. Check whether a drink is requested.
+5. Compare prepared items with the original order before serving.
+
+For beer, review the [combined fill threshold](/cooking/beer/) rather than judging the mug solely by its foam. In multiplayer, [assigning service roles](/multiplayer/co-op-roles/) can reduce duplicated work: agree who reads orders, who prepares food and who confirms delivery. Those assignments are team choices, not fixed classes.
+
+## Can NPC staff finish the order-management job for me?
+
+The verified staff information covers dish clearing, trays, empty bottles and related dishwasher behavior. It does not establish that cleaning staff take every order, cook requested dishes or keep paper tickets organized. Plan to retain oversight of those service tasks unless the current game's staff options explicitly show additional duties.
+
+The [solo staff guide](/restaurant/staff-and-solo-play/) explains the confirmed cleaning scope. Leave time to compare the active order with the food even after hiring help. If you encounter a delivery or ticket problem, recording the request, delivered items and visible customer feedback is an editorial way to make the issue reproducible.

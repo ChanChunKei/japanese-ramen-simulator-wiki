@@ -1,4 +1,4 @@
-import { readFileSync } from 'node:fs';
+import { existsSync, readFileSync } from 'node:fs';
 import { dirname, join } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { describe, expect, it } from 'vitest';
@@ -105,7 +105,9 @@ function activeCodes(fm: string): string[] {
 }
 
 function highlightLabels(locale: string): string[] {
-  const json = JSON.parse(readFileSync(join(ROOT, 'src/locales', `${locale}.json`), 'utf8')) as LocaleJson;
+  const json = JSON.parse(
+    readFileSync(join(ROOT, 'src/locales', `${locale}.json`), 'utf8'),
+  ) as LocaleJson;
   const labels: string[] = [];
   for (const m of json.home?.explore?.modules ?? []) {
     if (m?.displayType !== 'badge-list') continue;
@@ -159,53 +161,70 @@ function expiryDatesOf(fm: string): string[] {
 
 describe('codes page ↔ home highlights consistency', () => {
   for (const locale of LOCALES) {
-    it(`${locale}: home badge-list highlights mirror the codes page active set`, () => {
-      const active = activeCodes(frontmatterOf(readCodesPage(locale)));
-      expect(active.length, 'codes page should have at least one active code').toBeGreaterThan(0);
-      expect(highlightLabels(locale).sort()).toEqual([...active].sort());
-    });
+    // 未发布兑换码页的游戏不生成假码来满足演示契约；页面存在时原检查全部生效。
+    const hasCodesPage = existsSync(join(ROOT, 'src/content/wiki', locale, 'codes/all-codes.mdx'));
+    it.skipIf(!hasCodesPage)(
+      `${locale}: home badge-list highlights mirror the codes page active set`,
+      () => {
+        const active = activeCodes(frontmatterOf(readCodesPage(locale)));
+        expect(active.length, 'codes page should have at least one active code').toBeGreaterThan(0);
+        expect(highlightLabels(locale).sort()).toEqual([...active].sort());
+      },
+    );
 
-    it(`${locale}: body test-pass date equals frontmatter lastModified`, () => {
-      const raw = readCodesPage(locale);
-      const lastModified = lastModifiedOf(frontmatterOf(raw));
-      expect(lastModified, 'codes frontmatter should pin lastModified').toBeTruthy();
-      const testPassDate = bodyTestPassDate(locale, bodyOf(raw));
-      if (!testPassDate) {
-        // Sentence absent → nothing to reconcile (refresh-audit's degraded
-        // fallback); but a marker that fails to parse is a defect.
-        const marker = locale === 'en' ? 'full test history for this pass' : '今回の検証日';
-        expect(raw.includes(marker), `test-pass marker present but unparseable in ${locale}`).toBe(false);
-        return;
-      }
-      expect(testPassDate).toBe(lastModified);
-    });
-
-    it(`${locale}: title/description month anchors match lastModified month`, () => {
-      const fm = frontmatterOf(readCodesPage(locale));
-      const lastModified = lastModifiedOf(fm);
-      expect(lastModified, 'codes frontmatter should pin lastModified').toBeTruthy();
-      const expected = String(lastModified).slice(0, 7);
-      for (const key of ['title', 'description'] as const) {
-        const anchor = monthAnchorOf(frontmatterLine(fm, key), locale);
-        if (anchor) {
+    it.skipIf(!hasCodesPage)(
+      `${locale}: body test-pass date equals frontmatter lastModified`,
+      () => {
+        const raw = readCodesPage(locale);
+        const lastModified = lastModifiedOf(frontmatterOf(raw));
+        expect(lastModified, 'codes frontmatter should pin lastModified').toBeTruthy();
+        const testPassDate = bodyTestPassDate(locale, bodyOf(raw));
+        if (!testPassDate) {
+          // Sentence absent → nothing to reconcile (refresh-audit's degraded
+          // fallback); but a marker that fails to parse is a defect.
+          const marker = locale === 'en' ? 'full test history for this pass' : '今回の検証日';
           expect(
-            anchor,
-            `${key} month anchor lags behind lastModified — rotate title/description in the same freshness batch (the Sep title / Oct body drift of #67)`,
-          ).toBe(expected);
+            raw.includes(marker),
+            `test-pass marker present but unparseable in ${locale}`,
+          ).toBe(false);
+          return;
         }
-      }
-    });
-    it.skipIf(locale === 'en')(`${locale}: expiryDate keeps the locale's own date form (no English month words)`, () => {
-      // en is the fan-out source — its English form is legitimate.
-      const dates = expiryDatesOf(frontmatterOf(readCodesPage(locale)));
-      if (dates.length === 0) return; // nothing to reconcile
-      for (const d of dates) {
-        expect(
-          ENGLISH_MONTH_RE.test(d),
-          `expiryDate "${d}" on the ${locale} page uses an English month form — sync-codes fan-out copies the first locale row's group verbatim; give the CSV an explicit ${locale} row or re-state the date in ${locale} form (round 41: 'Nov 30' landed on the ja page in a1326d3)`,
-        ).toBe(false);
-      }
-    });
+        expect(testPassDate).toBe(lastModified);
+      },
+    );
+
+    it.skipIf(!hasCodesPage)(
+      `${locale}: title/description month anchors match lastModified month`,
+      () => {
+        const fm = frontmatterOf(readCodesPage(locale));
+        const lastModified = lastModifiedOf(fm);
+        expect(lastModified, 'codes frontmatter should pin lastModified').toBeTruthy();
+        const expected = String(lastModified).slice(0, 7);
+        for (const key of ['title', 'description'] as const) {
+          const anchor = monthAnchorOf(frontmatterLine(fm, key), locale);
+          if (anchor) {
+            expect(
+              anchor,
+              `${key} month anchor lags behind lastModified — rotate title/description in the same freshness batch (the Sep title / Oct body drift of #67)`,
+            ).toBe(expected);
+          }
+        }
+      },
+    );
+    it.skipIf(!hasCodesPage || locale === 'en')(
+      `${locale}: expiryDate keeps the locale's own date form (no English month words)`,
+      () => {
+        // en is the fan-out source — its English form is legitimate.
+        const dates = expiryDatesOf(frontmatterOf(readCodesPage(locale)));
+        if (dates.length === 0) return; // nothing to reconcile
+        for (const d of dates) {
+          expect(
+            ENGLISH_MONTH_RE.test(d),
+            `expiryDate "${d}" on the ${locale} page uses an English month form — sync-codes fan-out copies the first locale row's group verbatim; give the CSV an explicit ${locale} row or re-state the date in ${locale} form (round 41: 'Nov 30' landed on the ja page in a1326d3)`,
+          ).toBe(false);
+        }
+      },
+    );
   }
 
   it('gate regex is live (self-guard against an always-false pattern)', () => {

@@ -1,11 +1,11 @@
 {
-  "name": "Anvil Quest Wiki",
-  "short_name": "AQ Wiki",
-  "description": "Complete Anvil Quest wiki with boss guides, codes, and tier lists.",
+  "name": "Japanese Ramen Simulator Wiki",
+  "short_name": "JRS Wiki",
+  "description": "Japanese Ramen Simulator guides for cooking, shop management, co-op, achievements and launch-day fixes, with sources and clear version notes.",
   "start_url": "/",
   "display": "standalone",
   "background_color": "#ffffff",
-  "theme_color": "#f36716",
+  "theme_color": "#b63f2f",
   "icons": [
     {
       "src": "/android-chrome-192x192.png",

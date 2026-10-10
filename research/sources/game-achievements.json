@@ -1,0 +1,118 @@
+{
+  "checked_at": "2026-10-10",
+  "source_id": "G10",
+  "source_url": "https://steamcommunity.com/stats/4968640/achievements/?l=english",
+  "total": 18,
+  "reliability": "A",
+  "note_zh": "名称来自官方，条件用简短事实改写；全球解锁比例瞬时波动，未纳入攻略。等级成就不得误当食材解锁等级。",
+  "achievements": [
+    {
+      "id": "ACH01",
+      "name": "A Bowl to Begin",
+      "requirement_en": "Serve ramen once.",
+      "category_zh": "首次拉面"
+    },
+    {
+      "id": "ACH02",
+      "name": "A Day's Work",
+      "requirement_en": "Finish one business day.",
+      "category_zh": "首次营业日"
+    },
+    {
+      "id": "ACH03",
+      "name": "Living Up to the Sign",
+      "requirement_en": "Apply a My Design once.",
+      "category_zh": "设计"
+    },
+    {
+      "id": "ACH04",
+      "name": "A New Look for the Owner",
+      "requirement_en": "Customize appearance at the locker once.",
+      "category_zh": "外观"
+    },
+    {
+      "id": "ACH05",
+      "name": "Humble Beginnings",
+      "requirement_en": "Reach Shop Level 5.",
+      "category_zh": "等级"
+    },
+    {
+      "id": "ACH06",
+      "name": "The Perfect Pour",
+      "requirement_en": "Serve beer once.",
+      "category_zh": "啤酒"
+    },
+    {
+      "id": "ACH07",
+      "name": "A Neighborhood Favorite",
+      "requirement_en": "Reach Shop Level 10.",
+      "category_zh": "等级"
+    },
+    {
+      "id": "ACH08",
+      "name": "Even the Critic Is Impressed",
+      "requirement_en": "Clear the Ramen Critic boss challenge.",
+      "category_zh": "boss"
+    },
+    {
+      "id": "ACH09",
+      "name": "Room to Dream",
+      "requirement_en": "Expand the shop once.",
+      "category_zh": "扩店"
+    },
+    {
+      "id": "ACH10",
+      "name": "Seared to Perfection",
+      "requirement_en": "Serve gyoza once.",
+      "category_zh": "饺子"
+    },
+    {
+      "id": "ACH11",
+      "name": "Persistence Pays Off",
+      "requirement_en": "Finish 10 business days.",
+      "category_zh": "营业日"
+    },
+    {
+      "id": "ACH12",
+      "name": "The Talk of the Town",
+      "requirement_en": "Reach Shop Level 15.",
+      "category_zh": "等级"
+    },
+    {
+      "id": "ACH13",
+      "name": "A Bowl Worth More Than Gold",
+      "requirement_en": "Clear the Wealthy Customer boss challenge.",
+      "category_zh": "boss"
+    },
+    {
+      "id": "ACH14",
+      "name": "A Legendary Ramen Shop",
+      "requirement_en": "Reach Shop Level 20.",
+      "category_zh": "等级"
+    },
+    {
+      "id": "ACH15",
+      "name": "The First Step to Success",
+      "requirement_en": "Reach $10,000 cumulative sales.",
+      "category_zh": "销售"
+    },
+    {
+      "id": "ACH16",
+      "name": "Nature's Bounty",
+      "requirement_en": "Clear the Monk boss challenge.",
+      "category_zh": "boss"
+    },
+    {
+      "id": "ACH17",
+      "name": "A Bowl Beyond Criticism",
+      "requirement_en": "Clear the True Ramen Critic boss challenge.",
+      "category_zh": "boss"
+    },
+    {
+      "id": "ACH18",
+      "name": "The Works, with Extra Everything",
+      "requirement_en": "Unlock the other 17 achievements.",
+      "category_zh": "完成"
+    }
+  ]
+}

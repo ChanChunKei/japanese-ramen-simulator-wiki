@@ -11,14 +11,18 @@
  * reads the route sources and pins every href-forming literal to the slashed
  * form, following the file-reading pattern of tests/agents-consistency.test.ts.
  */
-import { readFileSync, readdirSync } from 'node:fs';
+import { existsSync, readFileSync, readdirSync } from 'node:fs';
 import { join, dirname } from 'node:path';
-import { fileURLToPath } from 'node:url';
+import { fileURLToPath, pathToFileURL } from 'node:url';
 import { describe, expect, test } from 'vitest';
-import { landingPath } from '~/config/landing';
 import { handbookPath } from '~/lib/handbook';
 
 const root = join(dirname(fileURLToPath(import.meta.url)), '..');
+const landingConfigPath = join(root, 'src/config/landing.ts');
+// 初始化会完整移除演示落地页；动态文件 URL 避免已删除模块在收集阶段报错。
+const landingConfig = existsSync(landingConfigPath)
+  ? await import(pathToFileURL(landingConfigPath).href)
+  : null;
 
 /** Every route file rendering through LandingLayout (both landing trees + the two root routes). */
 function landingRouteFiles(): string[] {
@@ -37,20 +41,14 @@ function landingRouteFiles(): string[] {
   return files;
 }
 
-describe('landing layer trailing-slash contract', () => {
+describe.skipIf(!landingConfig)('landing layer trailing-slash contract', () => {
   test('the route sweep actually finds the landing files (no silent empty scan)', () => {
     expect(landingRouteFiles().length).toBeGreaterThanOrEqual(14);
   });
 
   test('landingPath() ends with "/" for both locales (logo href + toggle fallback)', () => {
-    expect(landingPath('en')).toBe('/landing/');
-    expect(landingPath('zh')).toBe('/zh/landing/');
-  });
-
-  test('handbookPath() (docs hreflang/toggle source) ends with "/"', () => {
-    expect(handbookPath('en', '', true)).toBe('/landing/docs/');
-    expect(handbookPath('en', 'weekly-ops')).toBe('/landing/docs/weekly-ops/');
-    expect(handbookPath('zh', 'weekly-ops')).toBe('/zh/landing/docs/weekly-ops/');
+    expect(landingConfig?.landingPath('en')).toBe('/landing/');
+    expect(landingConfig?.landingPath('zh')).toBe('/zh/landing/');
   });
 
   test('each of the six alternates-bearing landing pages pins its hreflang pair WITH trailing slashes', () => {
@@ -66,8 +64,12 @@ describe('landing layer trailing-slash contract', () => {
     ];
     for (const [rel, enPath, zhPath] of expected) {
       const src = readFileSync(join(root, rel), 'utf8');
-      expect(src, `${rel}: missing slashed en hreflang`).toContain(`href: \`\${siteUrl}${enPath}\``);
-      expect(src, `${rel}: missing slashed zh hreflang`).toContain(`href: \`\${siteUrl}${zhPath}\``);
+      expect(src, `${rel}: missing slashed en hreflang`).toContain(
+        `href: \`\${siteUrl}${enPath}\``,
+      );
+      expect(src, `${rel}: missing slashed zh hreflang`).toContain(
+        `href: \`\${siteUrl}${zhPath}\``,
+      );
     }
   });
 
@@ -97,4 +99,11 @@ describe('landing layer trailing-slash contract', () => {
     }
     expect(offenders, `slashless togglePaths:\n${offenders.join('\n')}`).toEqual([]);
   });
+});
+
+// 纯 URL 工具仍随模板保留，不因演示页面缺席而跳过。
+test('handbookPath() (docs hreflang/toggle source) ends with "/"', () => {
+  expect(handbookPath('en', '', true)).toBe('/landing/docs/');
+  expect(handbookPath('en', 'weekly-ops')).toBe('/landing/docs/weekly-ops/');
+  expect(handbookPath('zh', 'weekly-ops')).toBe('/zh/landing/docs/weekly-ops/');
 });

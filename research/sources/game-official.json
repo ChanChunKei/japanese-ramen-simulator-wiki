@@ -1,0 +1,167 @@
+{
+  "checked_at": "2026-10-10",
+  "scope": "Steam App 4968640，日本拉面模拟器",
+  "confidence_legend": {
+    "A": "官方第一手当前信息",
+    "B": "可靠镜像/次级来源",
+    "C": "玩家个例或历史预览",
+    "U": "未确认或来源冲突"
+  },
+  "sources": [
+    {
+      "source_id": "G01",
+      "url": "https://store.steampowered.com/app/4968640/Japanese_Ramen_Simulator/?l=english",
+      "title": "Japanese Ramen Simulator — Steam store",
+      "publisher": "Wild Dog / Steam",
+      "type": "official_store",
+      "published_at": null,
+      "retrieved_at": "2026-10-10",
+      "reliability": "A",
+      "version_scope": "当前正式抢先体验版",
+      "facts_zh": [
+        "2026-10-09开始抢先体验，开发/发行均Wild Dog。",
+        "单人、在线协作、Steam Cloud、Steam成就、部分手柄支持、随时存档（后三项另以官方API类别核对）。",
+        "Windows 10/11的64位系统；未提供Mac/Linux原生版。",
+        "备料、汤、面、物理摆配菜、接待、清理；评分涉及面口感、汤温、香气、鲜味、出餐用时。",
+        "饺子、米饭碗、啤酒；Char Siu Don为官方举例。",
+        "第一与第三人称可切换；空间语音受距离和墙壁影响；NPC兼职人员可帮助单人经营。",
+        "设备、家具、储物、装饰布局可自定义；My Designs可应用海报、暖帘、拉面碗及衣服。",
+        "店铺级别提高会解锁食材和设备；赚款可扩店。",
+        "小偷可偷收银机资金，火灾事件存在，可用手里剑和灭火器；赌博馆存在。"
+      ],
+      "unknown_zh": [
+        "完整配方、数字化温度/煮面时间/香气鮮味算法未公开。",
+        "只列Intel Core i5/i7而无型号代数；不可推导特定帧数。",
+        "Steam Deck当前状态未认证，不因CBT允许SteamOS就写已Verified。"
+      ]
+    },
+    {
+      "source_id": "G02",
+      "url": "https://steamcommunity.com/ogg/4968640/announcements/detail/702155760121940292",
+      "retrieved_via": "https://steamcommunity.com/app/4968640/allnews/",
+      "title": "Early Access Is Here! Day 1 Update Out Now (v0.1.48.17626)",
+      "publisher": "Wild Dog",
+      "type": "official_patch",
+      "published_at": "2026-10-09",
+      "retrieved_at": "2026-10-10",
+      "reliability": "A",
+      "version_scope": "v0.1.48.17626",
+      "note_zh": "完整正文从官方allnews的服务端卡片读取；单条公告路由返回动态壳，已由eventcomments与data-modal-content-url核实精确关联。完整事实改写见game-day1-patch.json。"
+    },
+    {
+      "source_id": "G03",
+      "url": "https://steamcommunity.com/ogg/4968640/announcements/detail/702155125711440122",
+      "retrieved_via": "https://steamcommunity.com/app/4968640/allnews/",
+      "title": "Japanese Ramen Simulator — Launch Date & Time Confirmed!",
+      "published_at": "2026-10-05（Steam抓取显示；UTC+8可能10月6日）",
+      "retrieved_at": "2026-10-10",
+      "reliability": "A",
+      "facts_zh": [
+        "新版发售时刻2026-10-09 08:00 UTC（中国16:00，日本17:00）；取代9月28原排期。",
+        "USD基础14.99，首发85折12.74；商店当前写10月23结束，价格地区相关。"
+      ]
+    },
+    {
+      "source_id": "G04",
+      "url": "https://steamcommunity.com/ogg/4968640/announcements/detail/678510595516926038",
+      "retrieved_via": "https://steamcommunity.com/app/4968640/allnews/",
+      "title": "[Updated October 2] Japanese Ramen Simulator — Launch Delay Update",
+      "published_at": "2026-09-27（Steam地区显示；正文原公告9月28）",
+      "modified_at": "2026-10-02",
+      "retrieved_at": "2026-10-10",
+      "reliability": "A",
+      "version_scope": "发售前历史",
+      "facts_zh": [
+        "旧排期因Steam预审延期。",
+        "10月2补充说明手柄设置和云同步审核问题已整改重提。",
+        "CBT4有清洁兼职与新拉面；旧CBT与当前EA不得混用。"
+      ]
+    },
+    {
+      "source_id": "G05",
+      "url": "https://steamcommunity.com/ogg/4968640/announcements/detail/678510595516925105",
+      "retrieved_via": "https://steamcommunity.com/app/4968640/allnews/",
+      "title": "100,000 Wishlists! Thank You!",
+      "published_at": "2026-09-24",
+      "retrieved_at": "2026-10-10",
+      "reliability": "A",
+      "version_scope": "发售前预览",
+      "facts_zh": [
+        "获授权创作者预览从9月24 JST开始；这些视频不是10月9正式EA版本证明。"
+      ]
+    },
+    {
+      "source_id": "G06",
+      "url": "https://prtimes.jp/main/html/rd/p/000000009.000159372.html",
+      "title": "Wild Dog Early Access launch press release",
+      "publisher": "株式会社ワイルドドッグ",
+      "published_at": "2026-10-09T09:00:00+09:00",
+      "retrieved_at": "2026-10-10",
+      "reliability": "A（但人数与时间内部不一致）",
+      "facts_zh": [
+        "标题称最多10人、推荐6人；正文与Steam仍称最多6人。这是官方来源自身冲突，尚未实测人数上限。",
+        "首日增加担担面、韭菜、清洁兼职、固定切菜板、批量携物、推车及建造改进。",
+        "官方EA预告ID r7uAvTFB_JQ，可通过YouTube官方oEmbed校验发布者Wild Dog。"
+      ],
+      "publication_caveat_zh": "人数必须带来源分歧说明；发售时间用Steam明确08:00UTC，不用新闻稿09:00JST发布钟点代替游戏解锁钟点。"
+    },
+    {
+      "source_id": "G07",
+      "url": "https://wilddog.jp/japaneseramensimulator",
+      "title": "Japanese Ramen Simulator | Wild Dog",
+      "retrieved_at": "2026-10-10",
+      "reliability": "A（发售日期过期）",
+      "facts_zh": [
+        "官网身份与官方Discord/YouTube/Steam链接核对通过。"
+      ],
+      "caveat_zh": "官网仍写2026年9月预定，仅用于身份与联系入口，不能作为当前发售状态。"
+    },
+    {
+      "source_id": "G08",
+      "url": "https://cbt.wilddog.jp/",
+      "title": "Japanese Ramen Simulator Closed Beta Test",
+      "retrieved_at": "2026-10-10",
+      "reliability": "A（历史CBT）",
+      "version_scope": "CBT1–3历史站面；CBT4以Steam公告为准",
+      "facts_zh": [
+        "未经单独许可禁止公开测试内容；授权创作者视频例外。",
+        "测试站允许Windows/Steam Deck/SteamOS报名，但这不等于Steam Deck Verified，也不等于发行原生Linux版。"
+      ]
+    },
+    {
+      "source_id": "G09",
+      "url": "https://steamdb.info/app/4968640/ufs/",
+      "title": "Japanese Ramen Simulator Cloud Saves | SteamDB",
+      "retrieved_at": "2026-10-10",
+      "reliability": "B",
+      "version_scope": "发行日Steam UFS元数据镜像",
+      "facts_zh": [
+        "SteamDB镜像UFS根为WinAppDataLocal、路径RealRamenSimulator/Saved/SaveGames/MenWorlds/{64BitSteamID}、递归匹配*。"
+      ],
+      "publishable_path": "%LOCALAPPDATA%\\RealRamenSimulator\\Saved\\SaveGames\\MenWorlds\\<64-bit Steam ID>",
+      "caveat_zh": "配置推导路径，未本机验证；不代表存档转移、客机进度继承、主机权属已经验证。"
+    },
+    {
+      "source_id": "G10",
+      "url": "https://steamcommunity.com/stats/4968640/achievements/?l=english",
+      "title": "Japanese Ramen Simulator Global Achievements",
+      "retrieved_at": "2026-10-10",
+      "reliability": "A",
+      "facts_zh": [
+        "18项公开成就；名称与完成条件见game-achievements.json。",
+        "官方证实4种boss挑战名：Ramen Critic、Wealthy Customer、Monk、True Ramen Critic；未给这些boss配方与等级。"
+      ]
+    },
+    {
+      "source_id": "G11",
+      "url": "https://store.steampowered.com/api/appdetails?appids=4968640&l=english",
+      "title": "Steam appdetails API — 4968640",
+      "retrieved_at": "2026-10-10",
+      "reliability": "A",
+      "facts_zh": [
+        "可复核当前发售、OS平台、18=部分手柄、23=Steam Cloud、79=随时存档、22=Steam成就、官方截图与trailer地址。"
+      ],
+      "companion_file": "research/sources/game-steam-api.json"
+    }
+  ]
+}

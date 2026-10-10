@@ -1,0 +1,352 @@
+{
+  "checked_at": "2026-10-10",
+  "source_id": "G02",
+  "source_url": "https://steamcommunity.com/ogg/4968640/announcements/detail/702155760121940292",
+  "retrieved_via": "https://steamcommunity.com/app/4968640/allnews/",
+  "published_at": "2026-10-09",
+  "version": "v0.1.48.17626",
+  "scope_zh": "当前正式EA首日补丁。以下条目为事实改写，不混入竞品配方。",
+  "unlock_table": [
+    {
+      "content": "Cola, Zero-Sugar Cola, Soda, Oolong Tea, Barley Tea purchases and orders",
+      "before_level": 26,
+      "current_level": 25
+    },
+    {
+      "content": "Bonito Flakes purchase",
+      "current_level": 25
+    },
+    {
+      "content": "Bok Choy purchase",
+      "before_level": 25,
+      "current_level": 26
+    },
+    {
+      "content": "Bok Choy and Garlic Chives topping orders",
+      "current_level": 26
+    },
+    {
+      "content": "Tantan Tare and Garlic Chives purchase",
+      "current_level": 26
+    },
+    {
+      "content": "Tantanmen with chicken or pork broth orders",
+      "current_level": 26
+    },
+    {
+      "content": "Tantanmen with beef broth orders",
+      "current_level": 28
+    }
+  ],
+  "verified_operational_facts": [
+    {
+      "id": "P01",
+      "fact_en": "Aim at a placed cutting board and right-click to secure or release it; ingredients can still be placed and cut on the secured board.",
+      "topics": [
+        "controls",
+        "cooking"
+      ]
+    },
+    {
+      "id": "P02",
+      "fact_en": "Garlic Chives can be cut on a cutting board and used as ramen toppings.",
+      "topics": [
+        "tantanmen",
+        "ingredients"
+      ]
+    },
+    {
+      "id": "P03",
+      "fact_en": "Tantan Tare alone in ramen produces a comment. The patch does not publish a complete Tantanmen ratio or quantity recipe.",
+      "topics": [
+        "tantanmen",
+        "recipes"
+      ]
+    },
+    {
+      "id": "P04",
+      "fact_en": "Beer and foam combined at 70% or less of mug capacity incur an insufficient-beer penalty. Missing foam produces a warning comment but does not itself deduct points.",
+      "topics": [
+        "beer"
+      ]
+    },
+    {
+      "id": "P05",
+      "fact_en": "Carry up to five tare bottles together, but hold only one when pouring tare into ramen.",
+      "topics": [
+        "tare",
+        "controls"
+      ]
+    },
+    {
+      "id": "P06",
+      "fact_en": "The top item determines the displayed remaining amount and condition for stacked tare, Spicy Miso bottles, mugs, and drinks.",
+      "topics": [
+        "tare",
+        "storage"
+      ]
+    },
+    {
+      "id": "P07",
+      "fact_en": "Refrigerator contents persist at the end of the day even if the door is open; food on the food sample shelf also persists.",
+      "topics": [
+        "storage",
+        "closing"
+      ]
+    },
+    {
+      "id": "P08",
+      "fact_en": "Dish-clearing staff collect dishes, trays, and empty drink bottles; returned empty bottles are disposed of automatically.",
+      "topics": [
+        "staff",
+        "cleaning"
+      ]
+    },
+    {
+      "id": "P09",
+      "fact_en": "Dirty dishes may be thrown into the plate rack in the dishwasher used by dish-clearing staff. The waiting position is visible while placing that dishwasher.",
+      "topics": [
+        "staff",
+        "cleaning",
+        "layout"
+      ]
+    },
+    {
+      "id": "P10",
+      "fact_en": "Critics can be invited before opening for business. A message explains this when an invitation is unavailable.",
+      "topics": [
+        "critics"
+      ]
+    },
+    {
+      "id": "P11",
+      "fact_en": "The gamepad right stick scrolls the newly unlocked ingredients and tools list. The HUD maximum is 1.3 with 0.1 increments.",
+      "topics": [
+        "controls",
+        "accessibility"
+      ]
+    },
+    {
+      "id": "P12",
+      "fact_en": "Egg cartons are limited to six per purchase; another order is possible after completing the purchase.",
+      "topics": [
+        "ingredients",
+        "stock"
+      ]
+    },
+    {
+      "id": "P13",
+      "fact_en": "The first successful clearance of each boss customer awards cash; the official patch does not state the amount.",
+      "topics": [
+        "critics",
+        "money"
+      ]
+    },
+    {
+      "id": "P14",
+      "fact_en": "Easy customer payments increased to 1.4x the prior amount; Normal to 1.2x; Hard and Very Hard are unchanged for the same order and rating.",
+      "topics": [
+        "difficulty",
+        "money"
+      ]
+    },
+    {
+      "id": "P15",
+      "fact_en": "The beer tutorial no longer requires a completely filled mug. Several actions completed before the instruction appears now count toward tutorial progress.",
+      "topics": [
+        "tutorial",
+        "beer"
+      ]
+    },
+    {
+      "id": "P16",
+      "fact_en": "The refrigerator tutorial applies only to eligible unstored items inside the shop; outside items, ramen bowls in progress or completed, and cooked noodles are excluded.",
+      "topics": [
+        "tutorial",
+        "storage"
+      ]
+    },
+    {
+      "id": "P17",
+      "fact_en": "My Designs now work on Wide Noren. Building mode labels the equipment being moved or placed, and design mode is unavailable during placement or movement.",
+      "topics": [
+        "design",
+        "layout"
+      ]
+    },
+    {
+      "id": "P18",
+      "fact_en": "Online failures display a cause, suggested steps, and an error code; invitation-code room searches and joining during item synchronization received fixes.",
+      "topics": [
+        "multiplayer",
+        "connection"
+      ]
+    },
+    {
+      "id": "P19",
+      "fact_en": "Voice mute and push-to-talk settings apply immediately after joining multiplayer.",
+      "topics": [
+        "voice",
+        "multiplayer"
+      ]
+    },
+    {
+      "id": "P20",
+      "fact_en": "FSR initialization and frame-generation crashes received fixes; this does not establish a universal fix for every launch failure.",
+      "topics": [
+        "performance",
+        "crash"
+      ]
+    }
+  ],
+  "change_groups_zh": {
+    "新增内容": [
+      "新增担担面和韭菜；韭菜需切后可作配菜。",
+      "新增清洁兼职，处理食器、托盘、空饮料瓶。",
+      "切菜板可固定及释放，固定后照常切菜。"
+    ],
+    "经营与购买": [
+      "Easy同单同评分收款提高40%；Normal提高20%；Hard/Very Hard不变。",
+      "软饮购买及订单Lv26→25；青江菜购买Lv25→26。",
+      "柴鱼片Lv25可买；青江菜与韭菜配菜订单Lv26。",
+      "鸡/猪汤担担面订单Lv26；牛汤担担面订单Lv28。",
+      "蛋盒每次购买上限6；完成一次付款后可再买。",
+      "各boss首次过关给现金奖励，未列金额。"
+    ],
+    "评分与反馈": [
+      "啤酒加泡沫总量≤杯容积70%扣分，并有评论。",
+      "完全无泡沫给警告评论，本身不扣分。",
+      "仅用担担tare的拉面新增提示评论。"
+    ],
+    "烹饪与物件": [
+      "冰箱门开着过夜，内部食材与餐具仍保留。",
+      "食物样品架物品不会日末消失。",
+      "tare可叠拿5瓶；倒入拉面时只能拿1瓶。",
+      "tare、Spicy Miso瓶、酒杯、饮料的显示数值以即将取出的最上方物件为准。",
+      "大汤锅、中汤锅、炖煮锅、刀、切菜板不能再丢垃圾桶。",
+      "空垃圾袋外观区别于有垃圾的袋。",
+      "洗碗机门开时，手持或托盘上的脏食器优先放入。",
+      "洗碗机启动条件与控制提示一致。",
+      "装酒桶时提示改进。",
+      "苦无及手里剑在供应箱内合送。",
+      "放下物体更快停止移动。"
+    ],
+    "员工": [
+      "清洁员工的洗碗机盘架可扔入脏餐具。",
+      "员工收走空位上的空饮料瓶，带回后自动丢弃。",
+      "托盘从上层槽开始存。",
+      "放置员工洗碗机时可查看员工待机位置。"
+    ],
+    "推车": [
+      "把手可操作范围扩大。",
+      "加速、减速、转向调整，更易转小弯和停车。",
+      "倒车左右按输入方向，即使尚有前进惯性。",
+      "推车不会推动或触发在座顾客碰撞反馈。"
+    ],
+    "设备与建造": [
+      "传菜升降机到达自动开门，门碰撞调整。",
+      "Wide Noren支持My Designs。",
+      "招牌可互动范围扩大；初始招牌不能卖。",
+      "建造模式显示在放置/移动的设备名。",
+      "建造与设计界面布局调整。",
+      "图案选择居中展示匹配目标形状的设计。",
+      "放置/移动对象时不能切设计模式，控制提示更新。"
+    ],
+    "显示与控制": [
+      "未点单顾客有随等待时长变化的专用图标。",
+      "米饭碗根据配菜区分Chashu Rice Bowl与Chashu and Green Onion Rice Bowl，名字图标同步。",
+      "HUD最大缩放1.3，每档0.1。",
+      "不可操作设备时提供缺工具、满仓或烹调中的具体原因。",
+      "评论家需营业前邀请，无法邀请时解释此条件。",
+      "手柄右摇杆可滚动新解锁食材/工具清单。"
+    ],
+    "教程": [
+      "新增固定切菜板教学。",
+      "提前完成沥面、倒啤酒、切料、用洗碗机、扩店会计入教程。",
+      "冰箱教学只检查店内未存储且合资格的对象；店外、半成品/成品拉面、散放或面篮内已熟面不算。",
+      "啤酒教学不再要求把杯完全填满。",
+      "调整教程显示优先级。",
+      "教程时限从实际显示日开始计。",
+      "手持食材时出现评论家拉面的配菜提示。"
+    ],
+    "画面与声音": [
+      "啤酒箱外观调整。",
+      "里脊叉烧切片外观调整。",
+      "正常营业时BGM音量提高。"
+    ],
+    "修复：烹饪": [
+      "修复不同余量tare叠瓶后逐个取出造成余量串值。",
+      "修复读档后饺子无法从烤盘取出。",
+      "修复从面篮转面后散落面仍显示。",
+      "修复生米放饭煲就无意加热。",
+      "修复鸡蛋配送意外送2盒。",
+      "改善切菜板被食材碰触后移动。"
+    ],
+    "修复：员工": [
+      "修复带空饮料瓶的托盘无法清理。",
+      "修复收器或返回待机点失败后员工停止。",
+      "修复员工搬清洁餐具时餐具尺寸变化。",
+      "员工不会走上双炉灶。"
+    ],
+    "修复：推车、设备、建造": [
+      "减少台阶/坡道/墙附近推车操作意外脱离。",
+      "减少推车接触后物件沉地板。",
+      "修复升降机门与搬运物件相关问题。",
+      "修复Andon Lantern无法移动。",
+      "修复侧向暖帘与竹帘位置检查。",
+      "修复席位号码牌选择检测。",
+      "修复室内暖帘背面图案。",
+      "修复二楼斜角墙设计修改图标缺失。",
+      "Even/Odd历史屏不再被建造/改图案选中。",
+      "修复供应箱放置预览与实体尺寸方向不符。",
+      "修复沙发起身出口被挡导致不能移动。",
+      "修复二楼局部窗重复放置。"
+    ],
+    "修复：接待": [
+      "修复小偷偷后离店无法点击驱赶。",
+      "调整叉烧葱米饭碗温度评论以匹配菜品。",
+      "修复安排门外排队顾客时队列处理两次。"
+    ],
+    "修复：教程": [
+      "修复先做海苔拉面/第二客已吃导致第一天教程停滞。",
+      "饺子托盘教学正确检查指定盘送达。",
+      "其他教程过期后恢复时识别已安装设备及已完成步骤。",
+      "修复一次升多个级后葱花教程次序/时机。",
+      "修复My Ramen条件在教程等待显示期间完成但无完成消息。",
+      "修复设计变更教程进度检查及手柄控制提示。"
+    ],
+    "修复：多人": [
+      "连接失败正确显示原因、建议、错误码。",
+      "修复加入进行中多人局在物品同步阶段停住。",
+      "静音与按键发言在加入后立即应用。",
+      "修复关加入界面后仍继续连接/报错。",
+      "修复酒柜门与饺子烤盘盖开闭判定不同步。",
+      "修复升降机运物返回原位置。",
+      "暂找不到邀请码房间时自动搜索改善。"
+    ],
+    "修复：显示与控制": [
+      "修复购物屏鸡蛋/五花肉鲜味香气错误显示0；担担tare鲜味香气不显示。",
+      "修复Even/Odd动画双美元符号。",
+      "修复饮水机与替换水罐余量条显示。",
+      "修复改字大小后钟点框溢出。",
+      "修复部分语言表情名、初次免费、外观屏文字被截。",
+      "修复My Ramen照片过曝。",
+      "修复HUD比例干扰My Ramen照片控制提示。",
+      "修复外观预览中双鼠标键中断控制。",
+      "修复手柄无法画My Designs。",
+      "修复从店内采购终端打开My Designs后手柄控制异常。",
+      "修复My Ramen照片界面手柄选择丢失。",
+      "修复部分距离水杯畸变。"
+    ],
+    "修复：稳定性": [
+      "修复FSR初始化及帧生成相关崩溃。"
+    ]
+  },
+  "unconfirmed_zh": [
+    "完整食材、设备解锁树不在此公告；只使用已明确Lv25/26/28。",
+    "未公开NPC费用/薪水/雇佣菜单路径与等级。",
+    "未公开所有boss的精确配方、目标数字、倒计时或奖励金额。",
+    "不能从担担tare单独使用有评论推导正确配料比例。",
+    "未确认推车全部默认键位、语言菜单具体路径、自动存档间隔。"
+  ]
+}

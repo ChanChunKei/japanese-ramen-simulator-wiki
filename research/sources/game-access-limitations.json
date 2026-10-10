@@ -1,0 +1,35 @@
+{
+  "checked_at": "2026-10-10",
+  "items": [
+    {
+      "source": "api.steampowered.com/ISteamNews",
+      "result": "工具遵循robots拒绝",
+      "handling": "改用官方Steam allnews服务端完整公告，未绕过拒绝。"
+    },
+    {
+      "source": "Steam公告单entry",
+      "result": "动态页面正文未返回；allnews完整正文可读",
+      "handling": "以服务端allnews内容+entry精确关联作为一手依据。"
+    },
+    {
+      "source": "YouTube视频页",
+      "result": "简化抓取只有footer；web open被throttle",
+      "handling": "oEmbed仅验证标题/创作者，不声称看过；不发布未观看的数值。"
+    },
+    {
+      "source": "SteamDB UFS",
+      "result": "fetch为403；web open成功公开配置",
+      "handling": "标记镜像配置推导路径，未本机验证。"
+    },
+    {
+      "source": "当前EA in-game UI",
+      "result": "没有本机游戏session",
+      "handling": "只发布公告明示键位；不编造菜单层级/完整配方/员工费用。"
+    },
+    {
+      "source": "竞品大量精确数值",
+      "result": "没有一手交叉证据，且部分页面自认working placeholders",
+      "handling": "仅作关键词线索，不能录为游戏事实。"
+    }
+  ]
+}

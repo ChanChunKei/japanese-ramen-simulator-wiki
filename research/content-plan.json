@@ -1,0 +1,700 @@
+{
+  "frozenAt": "2026-10-10",
+  "language": "en",
+  "editorialPages": 20,
+  "categories": [
+    "guides",
+    "cooking",
+    "restaurant",
+    "multiplayer",
+    "updates"
+  ],
+  "plans": [
+    {
+      "id": "JRS01",
+      "category": "guides",
+      "slug": "beginner-guide",
+      "title": "Japanese Ramen Simulator: Beginner Guide",
+      "primaryKeyword": "japanese ramen simulator guide",
+      "secondaryKeywords": [
+        "Japanese Ramen Simulator beginner guide",
+        "Japanese Ramen Simulator walkthrough",
+        "Japanese Ramen Simulator tips"
+      ],
+      "intent": "新手教程与首个营业日",
+      "contentType": "步骤指南",
+      "demandSource": "Steam官方商店、教程补丁、近期首局视频",
+      "evidenceIds": [
+        "G01",
+        "G02"
+      ],
+      "reason": "首次进入游戏的完整工作流，其他页只解释单个系统",
+      "links": [
+        "controls-and-language",
+        "ramen-recipes",
+        "orders-and-tickets",
+        "staff-and-solo-play"
+      ],
+      "priority": "P1",
+      "status": "audited-ready",
+      "keywordEvidence": [
+        "K015",
+        "K016",
+        "K017",
+        "K018"
+      ]
+    },
+    {
+      "id": "JRS02",
+      "category": "guides",
+      "slug": "controls-and-language",
+      "title": "Japanese Ramen Simulator: Controls, Language & Cart Settings",
+      "primaryKeyword": "japanese ramen simulator controls",
+      "secondaryKeywords": [
+        "Japanese Ramen Simulator change language",
+        "Japanese Ramen Simulator English language",
+        "Japanese Ramen Simulator cart controls",
+        "Japanese Ramen Simulator third person camera"
+      ],
+      "intent": "键位、日语界面、推车和视角",
+      "contentType": "问题排查表",
+      "demandSource": "Steam日语/推车/画面玩家帖、首日控制补丁",
+      "evidenceIds": [
+        "G01",
+        "G02",
+        "G11"
+      ],
+      "reason": "解决界面与输入问题，不复制新手经营攻略",
+      "links": [
+        "beginner-guide",
+        "system-requirements",
+        "broth-and-tare"
+      ],
+      "priority": "P1",
+      "status": "audited-ready",
+      "keywordEvidence": [
+        "K019",
+        "K020",
+        "K021",
+        "K022",
+        "K023"
+      ]
+    },
+    {
+      "id": "JRS03",
+      "category": "guides",
+      "slug": "system-requirements",
+      "title": "Japanese Ramen Simulator: System Requirements & Performance",
+      "primaryKeyword": "japanese ramen simulator system requirements",
+      "secondaryKeywords": [
+        "Japanese Ramen Simulator controller support",
+        "Japanese Ramen Simulator Steam Deck"
+      ],
+      "intent": "配置、卡顿、FSR与启动崩溃",
+      "contentType": "规格对照与排查",
+      "demandSource": "Steam官方配置、画面选项玩家帖",
+      "evidenceIds": [
+        "G01",
+        "G02",
+        "G11"
+      ],
+      "reason": "购买前硬件条件及性能排查，与平台可用性分离",
+      "links": [
+        "platforms-price-and-demo",
+        "controls-and-language",
+        "patch-notes"
+      ],
+      "priority": "P1",
+      "status": "audited-ready",
+      "keywordEvidence": [
+        "K024",
+        "K025",
+        "K026"
+      ]
+    },
+    {
+      "id": "JRS04",
+      "category": "guides",
+      "slug": "platforms-price-and-demo",
+      "title": "Japanese Ramen Simulator: Platforms, Release Date, Price & Demo",
+      "primaryKeyword": "japanese ramen simulator release date",
+      "secondaryKeywords": [
+        "Japanese Ramen Simulator price",
+        "Japanese Ramen Simulator PS5",
+        "Japanese Ramen Simulator Switch",
+        "Japanese Ramen Simulator Xbox",
+        "Japanese Ramen Simulator Mac",
+        "Japanese Ramen Simulator demo",
+        "Japanese Ramen Simulator release time"
+      ],
+      "intent": "Steam、PS5、Xbox、Switch、Mac、Linux、Demo、价格",
+      "contentType": "购买前事实核对",
+      "demandSource": "Google Suggest主词和平台建议",
+      "evidenceIds": [
+        "G01",
+        "G03",
+        "G07",
+        "G11"
+      ],
+      "reason": "同一购买可用性意图集中回答，禁止为每个未发行平台造页",
+      "links": [
+        "system-requirements",
+        "invite-friends",
+        "patch-notes"
+      ],
+      "priority": "P1",
+      "status": "audited-ready",
+      "keywordEvidence": [
+        "K007",
+        "K008",
+        "K009",
+        "K010",
+        "K011",
+        "K012",
+        "K013",
+        "K014"
+      ]
+    },
+    {
+      "id": "JRS05",
+      "category": "guides",
+      "slug": "save-data",
+      "title": "Japanese Ramen Simulator: Save Location, Backups & Steam Cloud",
+      "primaryKeyword": "japanese ramen simulator save location",
+      "secondaryKeywords": [
+        "Japanese Ramen Simulator save game",
+        "Japanese Ramen Simulator Steam Cloud"
+      ],
+      "intent": "存档、Steam Cloud、随时保存、离线",
+      "contentType": "安全操作说明",
+      "demandSource": "Steam官方Cloud/Save Anytime、SteamDB UFS、离线玩家帖",
+      "evidenceIds": [
+        "G01",
+        "G09",
+        "G11"
+      ],
+      "reason": "保留与恢复进度需求独立，镜像路径明确未本机实测",
+      "links": [
+        "staff-and-solo-play",
+        "connection-errors",
+        "patch-notes"
+      ],
+      "priority": "P1",
+      "status": "audited-ready",
+      "keywordEvidence": [
+        "K027",
+        "K028",
+        "K029"
+      ]
+    },
+    {
+      "id": "JRS06",
+      "category": "guides",
+      "slug": "achievements",
+      "title": "Japanese Ramen Simulator: All 18 Achievements & Requirements",
+      "primaryKeyword": "japanese ramen simulator achievements",
+      "secondaryKeywords": [
+        "Japanese Ramen Simulator achievement guide"
+      ],
+      "intent": "成就清单、店铺等级里程碑、boss条件",
+      "contentType": "成就数据库",
+      "demandSource": "Steam官方全球成就页",
+      "evidenceIds": [
+        "G10"
+      ],
+      "reason": "公开18个具体完成条件，不能从等级成就推导食材解锁",
+      "links": [
+        "shop-level-and-unlocks",
+        "food-critic",
+        "layout-and-my-designs",
+        "beer"
+      ],
+      "priority": "P1",
+      "status": "audited-ready",
+      "keywordEvidence": [
+        "K030",
+        "K031"
+      ]
+    },
+    {
+      "id": "JRS07",
+      "category": "cooking",
+      "slug": "ramen-recipes",
+      "title": "Japanese Ramen Simulator: Ramen Recipes & Confirmed Menu",
+      "primaryKeyword": "japanese ramen simulator recipes",
+      "secondaryKeywords": [
+        "Japanese Ramen Simulator menu",
+        "Japanese Ramen Simulator recipe unlocks",
+        "Japanese Ramen Simulator ingredients",
+        "Japanese Ramen Simulator noodles",
+        "Japanese Ramen Simulator toppings",
+        "Japanese Ramen Simulator noodle cooking time"
+      ],
+      "intent": "菜单、面条、配菜、担担面、原创拉面",
+      "contentType": "已确认菜单表与组装说明",
+      "demandSource": "竞品食谱检索、Steam商店和首日新增菜品",
+      "evidenceIds": [
+        "G01",
+        "G02"
+      ],
+      "reason": "整合食谱/面条/配菜意图，不制造没有证据的份量表",
+      "links": [
+        "broth-and-tare",
+        "shop-level-and-unlocks",
+        "orders-and-tickets",
+        "gyoza-and-rice-bowls"
+      ],
+      "priority": "P2",
+      "status": "audited-ready",
+      "keywordEvidence": [
+        "K032",
+        "K033",
+        "K034",
+        "K035",
+        "K040",
+        "K041",
+        "K042"
+      ]
+    },
+    {
+      "id": "JRS08",
+      "category": "cooking",
+      "slug": "broth-and-tare",
+      "title": "Japanese Ramen Simulator: Broth & Tare: Preparation and Bottle Handling",
+      "primaryKeyword": "japanese ramen simulator broth guide",
+      "secondaryKeywords": [
+        "Japanese Ramen Simulator tare",
+        "Japanese Ramen Simulator umami",
+        "Japanese Ramen Simulator broth temperature"
+      ],
+      "intent": "汤底、tare、鲜味香气、五瓶搬运",
+      "contentType": "操作指南",
+      "demandSource": "竞品汤底词族、官方tare操作补丁",
+      "evidenceIds": [
+        "G01",
+        "G02"
+      ],
+      "reason": "处理汤与调味汁使用，精确温度/算法不伪造",
+      "links": [
+        "ramen-recipes",
+        "shop-level-and-unlocks",
+        "food-critic"
+      ],
+      "priority": "P2",
+      "status": "audited-ready",
+      "keywordEvidence": [
+        "K036",
+        "K037",
+        "K038",
+        "K039"
+      ]
+    },
+    {
+      "id": "JRS09",
+      "category": "cooking",
+      "slug": "gyoza-and-rice-bowls",
+      "title": "Japanese Ramen Simulator: Gyoza & Rice Bowls Guide",
+      "primaryKeyword": "japanese ramen simulator gyoza",
+      "secondaryKeywords": [
+        "Japanese Ramen Simulator rice bowls",
+        "Japanese Ramen Simulator Char Siu Don"
+      ],
+      "intent": "配菜、Char Siu Don、饭碗、饺子读档bug",
+      "contentType": "品类操作指南",
+      "demandSource": "Steam官方侧菜、首日饺子/米饭补丁",
+      "evidenceIds": [
+        "G01",
+        "G02",
+        "G10"
+      ],
+      "reason": "非拉面侧菜共用产线，合并饭碗和饺子避免薄页",
+      "links": [
+        "ramen-recipes",
+        "beer",
+        "orders-and-tickets"
+      ],
+      "priority": "P2",
+      "status": "audited-ready",
+      "keywordEvidence": [
+        "K043",
+        "K044",
+        "K045"
+      ]
+    },
+    {
+      "id": "JRS10",
+      "category": "cooking",
+      "slug": "beer",
+      "title": "Japanese Ramen Simulator: Beer Guide: Fill Level, Foam & Tutorial",
+      "primaryKeyword": "japanese ramen simulator beer guide",
+      "secondaryKeywords": [
+        "Japanese Ramen Simulator beer foam",
+        "Japanese Ramen Simulator beer quality"
+      ],
+      "intent": "倒酒、泡沫、70%容量、教程",
+      "contentType": "阈值表与操作清单",
+      "demandSource": "竞品beer检索、Steam首日明确评分条款",
+      "evidenceIds": [
+        "G01",
+        "G02",
+        "G10"
+      ],
+      "reason": "啤酒有独立评分和教程，直接纠正7:3万能比例说法",
+      "links": [
+        "gyoza-and-rice-bowls",
+        "orders-and-tickets",
+        "patch-notes"
+      ],
+      "priority": "P2",
+      "status": "audited-ready",
+      "keywordEvidence": [
+        "K046",
+        "K047",
+        "K048"
+      ]
+    },
+    {
+      "id": "JRS11",
+      "category": "restaurant",
+      "slug": "orders-and-tickets",
+      "title": "Japanese Ramen Simulator: Orders, Tickets & Customer Service",
+      "primaryKeyword": "japanese ramen simulator order tickets",
+      "secondaryKeywords": [
+        "Japanese Ramen Simulator order holder",
+        "Japanese Ramen Simulator order timer",
+        "Japanese Ramen Simulator serving orders"
+      ],
+      "intent": "接单、订单票、席位、等候图标",
+      "contentType": "工作流程与组织建议",
+      "demandSource": "Steam真实订单票提问",
+      "evidenceIds": [
+        "G01",
+        "G02"
+      ],
+      "reason": "回答订单跟踪与接待问题，不假定未验证票夹快捷键",
+      "links": [
+        "ramen-recipes",
+        "staff-and-solo-play",
+        "co-op-roles",
+        "beer"
+      ],
+      "priority": "P2",
+      "status": "audited-ready",
+      "keywordEvidence": [
+        "K049",
+        "K050",
+        "K051",
+        "K052"
+      ]
+    },
+    {
+      "id": "JRS12",
+      "category": "restaurant",
+      "slug": "staff-and-solo-play",
+      "title": "Japanese Ramen Simulator: Solo Play, NPC Staff & Cleaning",
+      "primaryKeyword": "japanese ramen simulator npc staff",
+      "secondaryKeywords": [
+        "Japanese Ramen Simulator single player",
+        "Japanese Ramen Simulator solo guide",
+        "Japanese Ramen Simulator hire staff",
+        "Japanese Ramen Simulator offline"
+      ],
+      "intent": "单人、NPC、雇佣、洗碗机、清洁",
+      "contentType": "职责对照与布局建议",
+      "demandSource": "Steam真实NPC提问、官方清洁员工机制",
+      "evidenceIds": [
+        "G01",
+        "G02"
+      ],
+      "reason": "单人辅助与NPC职责，工资/雇佣菜单不编造",
+      "links": [
+        "layout-and-my-designs",
+        "orders-and-tickets",
+        "thieves-and-fires",
+        "save-data"
+      ],
+      "priority": "P2",
+      "status": "audited-ready",
+      "keywordEvidence": [
+        "K053",
+        "K054",
+        "K055",
+        "K056",
+        "K057"
+      ]
+    },
+    {
+      "id": "JRS13",
+      "category": "restaurant",
+      "slug": "layout-and-my-designs",
+      "title": "Japanese Ramen Simulator: Kitchen Layout, Expansion & My Designs",
+      "primaryKeyword": "japanese ramen simulator shop layout",
+      "secondaryKeywords": [
+        "Japanese Ramen Simulator customization",
+        "Japanese Ramen Simulator My Designs",
+        "Japanese Ramen Simulator import images",
+        "Japanese Ramen Simulator shop expansion"
+      ],
+      "intent": "厨房布局、扩店、暖帘、图案、装修",
+      "contentType": "布局检查与定制说明",
+      "demandSource": "竞品布局/装修词、Steam玩家动线反馈",
+      "evidenceIds": [
+        "G01",
+        "G02",
+        "G10"
+      ],
+      "reason": "同一店铺空间/外观定制意图，不做假ROI工具",
+      "links": [
+        "staff-and-solo-play",
+        "co-op-roles",
+        "shop-level-and-unlocks",
+        "achievements"
+      ],
+      "priority": "P2",
+      "status": "audited-ready",
+      "keywordEvidence": [
+        "K058",
+        "K059",
+        "K060",
+        "K061",
+        "K062"
+      ]
+    },
+    {
+      "id": "JRS14",
+      "category": "restaurant",
+      "slug": "shop-level-and-unlocks",
+      "title": "Japanese Ramen Simulator: Shop Levels & Verified Ingredient Unlocks",
+      "primaryKeyword": "japanese ramen simulator level unlocks",
+      "secondaryKeywords": [
+        "Japanese Ramen Simulator levels",
+        "Japanese Ramen Simulator shop level"
+      ],
+      "intent": "ingredients、Lv25/26/28、担担面解锁",
+      "contentType": "补丁确认解锁表",
+      "demandSource": "竞品等级与材料目录、官方明确解锁调整",
+      "evidenceIds": [
+        "G01",
+        "G02",
+        "G10"
+      ],
+      "reason": "按等级查询购买和订单门槛，与配方组装意图分离",
+      "links": [
+        "ramen-recipes",
+        "broth-and-tare",
+        "achievements",
+        "layout-and-my-designs"
+      ],
+      "priority": "P2",
+      "status": "audited-ready",
+      "keywordEvidence": [
+        "K086",
+        "K087",
+        "K088"
+      ]
+    },
+    {
+      "id": "JRS15",
+      "category": "restaurant",
+      "slug": "thieves-and-fires",
+      "title": "Japanese Ramen Simulator: Thieves, Fires & Restaurant Emergencies",
+      "primaryKeyword": "japanese ramen simulator thieves",
+      "secondaryKeywords": [
+        "Japanese Ramen Simulator disable thieves",
+        "Japanese Ramen Simulator fire",
+        "Japanese Ramen Simulator cleaning"
+      ],
+      "intent": "收银机、小偷、灭火器、手里剑",
+      "contentType": "事件应对清单",
+      "demandSource": "Steam真实小偷提问、官方事件描述及修复",
+      "evidenceIds": [
+        "G01",
+        "G02"
+      ],
+      "reason": "临时中断经营的应对，不承诺存在关闭事件开关",
+      "links": [
+        "staff-and-solo-play",
+        "layout-and-my-designs",
+        "co-op-roles"
+      ],
+      "priority": "P2",
+      "status": "audited-ready",
+      "keywordEvidence": [
+        "K063",
+        "K064",
+        "K065",
+        "K066"
+      ]
+    },
+    {
+      "id": "JRS16",
+      "category": "restaurant",
+      "slug": "food-critic",
+      "title": "Japanese Ramen Simulator: Food Critic & Boss Customer Guide",
+      "primaryKeyword": "japanese ramen simulator food critic",
+      "secondaryKeywords": [
+        "Japanese Ramen Simulator critic guide",
+        "Japanese Ramen Simulator five star ramen"
+      ],
+      "intent": "critic、Wealthy Customer、Monk、True Ramen Critic",
+      "contentType": "已知规则与挑战准备",
+      "demandSource": "官方critic说明、首日邀请限制和18项成就",
+      "evidenceIds": [
+        "G01",
+        "G02",
+        "G10"
+      ],
+      "reason": "特殊顾客邀请/完成条件独立，禁止虚构五星彩配方",
+      "links": [
+        "ramen-recipes",
+        "broth-and-tare",
+        "orders-and-tickets",
+        "achievements"
+      ],
+      "priority": "P2",
+      "status": "audited-ready",
+      "keywordEvidence": [
+        "K067",
+        "K068",
+        "K069"
+      ]
+    },
+    {
+      "id": "JRS17",
+      "category": "multiplayer",
+      "slug": "invite-friends",
+      "title": "Japanese Ramen Simulator: How to Invite Friends & Start Co-op",
+      "primaryKeyword": "japanese ramen simulator multiplayer",
+      "secondaryKeywords": [
+        "Japanese Ramen Simulator co-op",
+        "Japanese Ramen Simulator invite friends",
+        "Japanese Ramen Simulator invite code",
+        "Japanese Ramen Simulator public lobbies",
+        "Japanese Ramen Simulator voice chat"
+      ],
+      "intent": "invite friends、invite code、public lobby、player count",
+      "contentType": "开局指南",
+      "demandSource": "Steam联机与随机大厅提问、官方联机修复",
+      "evidenceIds": [
+        "G01",
+        "G02",
+        "G06"
+      ],
+      "reason": "创建并加入同一个房间，与失败诊断分离；人数来源冲突显式说明",
+      "links": [
+        "connection-errors",
+        "co-op-roles",
+        "save-data"
+      ],
+      "priority": "P2",
+      "status": "audited-ready",
+      "keywordEvidence": [
+        "K070",
+        "K071",
+        "K072",
+        "K073",
+        "K074",
+        "K075"
+      ]
+    },
+    {
+      "id": "JRS18",
+      "category": "multiplayer",
+      "slug": "connection-errors",
+      "title": "Japanese Ramen Simulator: Connection Timeout & Co-op Troubleshooting",
+      "primaryKeyword": "japanese ramen simulator connection timeout",
+      "secondaryKeywords": [
+        "Japanese Ramen Simulator MEN-MP-CONNECTION-TIMEOUT",
+        "Japanese Ramen Simulator cannot join friends",
+        "Japanese Ramen Simulator multiplayer not working"
+      ],
+      "intent": "cannot join、MEN-MP-CONNECTION-TIMEOUT、VPN、sync",
+      "contentType": "错误诊断清单",
+      "demandSource": "Steam多名玩家具体错误码与官方修复",
+      "evidenceIds": [
+        "G02"
+      ],
+      "reason": "确有报错需求，提供有边界的排查而非保证修好",
+      "links": [
+        "invite-friends",
+        "system-requirements",
+        "patch-notes",
+        "save-data"
+      ],
+      "priority": "P2",
+      "status": "audited-ready",
+      "keywordEvidence": [
+        "K076",
+        "K077",
+        "K078",
+        "K079"
+      ]
+    },
+    {
+      "id": "JRS19",
+      "category": "multiplayer",
+      "slug": "co-op-roles",
+      "title": "Japanese Ramen Simulator: Co-op Roles, Voice Chat & Kitchen Workflow",
+      "primaryKeyword": "japanese ramen simulator co-op roles",
+      "secondaryKeywords": [
+        "Japanese Ramen Simulator multiplayer roles",
+        "Japanese Ramen Simulator kitchen workflow"
+      ],
+      "intent": "六人分工、spatial voice chat、push to talk",
+      "contentType": "队伍职责矩阵",
+      "demandSource": "Steam协作机制、竞品roles及语音信息缺口",
+      "evidenceIds": [
+        "G01",
+        "G02",
+        "G06"
+      ],
+      "reason": "开局后多人工作组织与语音，属于独立协作需求",
+      "links": [
+        "invite-friends",
+        "orders-and-tickets",
+        "staff-and-solo-play",
+        "layout-and-my-designs"
+      ],
+      "priority": "P2",
+      "status": "audited-ready",
+      "keywordEvidence": [
+        "K080",
+        "K081",
+        "K082"
+      ]
+    },
+    {
+      "id": "JRS20",
+      "category": "updates",
+      "slug": "patch-notes",
+      "title": "Japanese Ramen Simulator: Patch Notes & Early Access Version Tracker",
+      "primaryKeyword": "japanese ramen simulator patch notes",
+      "secondaryKeywords": [
+        "Japanese Ramen Simulator updates",
+        "Japanese Ramen Simulator v0.1.48.17626"
+      ],
+      "intent": "update、v0.1.48.17626、release delay",
+      "contentType": "版本事实时间线",
+      "demandSource": "Steam官方发布与补丁",
+      "evidenceIds": [
+        "G02",
+        "G03",
+        "G04"
+      ],
+      "reason": "唯一版本跟踪页集中维护，旧延期消息标历史",
+      "links": [
+        "platforms-price-and-demo",
+        "shop-level-and-unlocks",
+        "connection-errors",
+        "beer"
+      ],
+      "priority": "P1",
+      "status": "audited-ready",
+      "keywordEvidence": [
+        "K083",
+        "K084",
+        "K085"
+      ]
+    }
+  ]
+}

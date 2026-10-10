@@ -15,24 +15,29 @@
  * without false positives on future legitimate content and stay with the
  * spec checklist + human review at PR merge.
  */
-import { readFileSync } from 'node:fs';
+import { existsSync, readFileSync } from 'node:fs';
 import { dirname, join } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { describe, expect, test } from 'vitest';
-import digest from '~/components/landing/community-digest.json';
 
 const root = join(dirname(fileURLToPath(import.meta.url)), '..');
 
 type Raw = Record<string, unknown>;
 
-const data = digest as unknown as {
+interface DigestData {
   schemaVersion: number;
   updated: string;
   since: string;
   categories: { id: string; items: Raw[] }[];
   daily: { date: string; summary: string; topics: string[] }[];
   reports?: Raw[];
-};
+}
+const digestPath = join(root, 'src/components/landing/community-digest.json');
+const hasDigest = existsSync(digestPath);
+// 初始化已删除模板社群日报时，只提供测试收集所需空结构，不生成公开数据。
+const data: DigestData = hasDigest
+  ? JSON.parse(readFileSync(digestPath, 'utf8'))
+  : { schemaVersion: 0, updated: '', since: '', categories: [], daily: [] };
 
 const FULL_DATE = /^\d{4}-\d{2}-\d{2}$/;
 const SHORT_DATE = /^\d{2}-\d{2}$/;
@@ -63,7 +68,7 @@ const PRIVACY_PATTERNS: [string, RegExp][] = [
 const reports = data.reports ?? [];
 const dailyDates = data.daily.map((d) => d.date);
 
-describe('community-digest.json contract (written daily by automation)', () => {
+describe.skipIf(!hasDigest)('community-digest.json contract (written daily by automation)', () => {
   test('top-level envelope is well-formed', () => {
     expect(data.schemaVersion).toBeGreaterThanOrEqual(2);
     expect(data.updated).toMatch(FULL_DATE);
@@ -172,7 +177,10 @@ describe('community-digest.json contract (written daily by automation)', () => {
         )}`,
       ).toBe(stats.messages);
     }
-    expect(checked, 'count-consistency checker matched nothing — regex or shape drifted').toBeGreaterThan(0);
+    expect(
+      checked,
+      'count-consistency checker matched nothing — regex or shape drifted',
+    ).toBeGreaterThan(0);
   });
 
   test('owner-only dimensions never leak into the public file (spec §3.5)', () => {

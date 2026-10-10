@@ -19,10 +19,10 @@ import { getHomeFaq } from '~/i18n/ui';
 
 const root = join(dirname(fileURLToPath(import.meta.url)), '..');
 const homePage = readFileSync(join(root, 'src/components/home/HomePage.astro'), 'utf8');
-const faqPages = [
-  'src/pages/faq.astro',
-  'src/pages/[locale]/faq.astro',
-].map((rel) => ({ rel, src: readFileSync(join(root, rel), 'utf8') }));
+const faqPages = ['src/pages/faq.astro', 'src/pages/[locale]/faq.astro'].map((rel) => ({
+  rel,
+  src: readFileSync(join(root, rel), 'utf8'),
+}));
 
 const homeJson = en.home as unknown as Record<string, unknown>;
 
@@ -111,8 +111,7 @@ describe('/faq pages ↔ en.json home.faq contract', () => {
 
   test('getHomeFaq() serves the en.json namespace (and deep-merges partial locales)', () => {
     expect(getHomeFaq('en')).toEqual(en.home.faq);
-    // ja.json carries its own faq; if a key were dropped there, getUi()'s
-    // deep-merge must transparently fall back to en (never undefined).
+    // 未支持的语言仍应回退英文；多语言模板则验证深合并后字段完整。
     const jaFaq = getHomeFaq('ja');
     expect(jaFaq.title).toBeTypeOf('string');
     expect(jaFaq.title.length).toBeGreaterThan(0);

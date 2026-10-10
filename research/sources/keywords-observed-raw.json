@@ -1,0 +1,1524 @@
+{
+  "checked_at": "2026-10-10",
+  "note": "58条Google建议为实际查询表达；其余记录是玩家问题、视频标题、竞品覆盖观察，不是测量到的搜索关键词。144观察记录不可称144个真实搜索词。人工品牌化95候选表达另见normalized-candidates，禁止混同。",
+  "counts": {
+    "all_observation_records": 144,
+    "suggest_occurrences": 58,
+    "suggest_unique": 24,
+    "player_threads": 15,
+    "youtube_title_sample": 20,
+    "competitor_urls": 51
+  },
+  "records": [
+    {
+      "origin": "observed",
+      "type": "exact_google_suggest",
+      "term": "japanese ramen simulator",
+      "query": "japanese ramen simulator",
+      "source_url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=en&gl=us&q=japanese%20ramen%20simulator",
+      "source_file": "research/sources/keywords-google-suggest.json",
+      "search_volume": null,
+      "keyword_difficulty": null
+    },
+    {
+      "origin": "observed",
+      "type": "exact_google_suggest",
+      "term": "japanese ramen simulator steam",
+      "query": "japanese ramen simulator",
+      "source_url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=en&gl=us&q=japanese%20ramen%20simulator",
+      "source_file": "research/sources/keywords-google-suggest.json",
+      "search_volume": null,
+      "keyword_difficulty": null
+    },
+    {
+      "origin": "observed",
+      "type": "exact_google_suggest",
+      "term": "japanese ramen simulator game",
+      "query": "japanese ramen simulator",
+      "source_url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=en&gl=us&q=japanese%20ramen%20simulator",
+      "source_file": "research/sources/keywords-google-suggest.json",
+      "search_volume": null,
+      "keyword_difficulty": null
+    },
+    {
+      "origin": "observed",
+      "type": "exact_google_suggest",
+      "term": "japanese ramen simulator release date",
+      "query": "japanese ramen simulator",
+      "source_url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=en&gl=us&q=japanese%20ramen%20simulator",
+      "source_file": "research/sources/keywords-google-suggest.json",
+      "search_volume": null,
+      "keyword_difficulty": null
+    },
+    {
+      "origin": "observed",
+      "type": "exact_google_suggest",
+      "term": "japanese ramen simulator ps5",
+      "query": "japanese ramen simulator",
+      "source_url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=en&gl=us&q=japanese%20ramen%20simulator",
+      "source_file": "research/sources/keywords-google-suggest.json",
+      "search_volume": null,
+      "keyword_difficulty": null
+    },
+    {
+      "origin": "observed",
+      "type": "exact_google_suggest",
+      "term": "japanese ramen simulator price",
+      "query": "japanese ramen simulator",
+      "source_url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=en&gl=us&q=japanese%20ramen%20simulator",
+      "source_file": "research/sources/keywords-google-suggest.json",
+      "search_volume": null,
+      "keyword_difficulty": null
+    },
+    {
+      "origin": "observed",
+      "type": "exact_google_suggest",
+      "term": "japanese ramen simulator switch",
+      "query": "japanese ramen simulator",
+      "source_url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=en&gl=us&q=japanese%20ramen%20simulator",
+      "source_file": "research/sources/keywords-google-suggest.json",
+      "search_volume": null,
+      "keyword_difficulty": null
+    },
+    {
+      "origin": "observed",
+      "type": "exact_google_suggest",
+      "term": "japanese ramen simulator xbox",
+      "query": "japanese ramen simulator",
+      "source_url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=en&gl=us&q=japanese%20ramen%20simulator",
+      "source_file": "research/sources/keywords-google-suggest.json",
+      "search_volume": null,
+      "keyword_difficulty": null
+    },
+    {
+      "origin": "observed",
+      "type": "exact_google_suggest",
+      "term": "japanese ramen simulator mac",
+      "query": "japanese ramen simulator",
+      "source_url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=en&gl=us&q=japanese%20ramen%20simulator",
+      "source_file": "research/sources/keywords-google-suggest.json",
+      "search_volume": null,
+      "keyword_difficulty": null
+    },
+    {
+      "origin": "observed",
+      "type": "exact_google_suggest",
+      "term": "japanese ramen simulator demo",
+      "query": "japanese ramen simulator",
+      "source_url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=en&gl=us&q=japanese%20ramen%20simulator",
+      "source_file": "research/sources/keywords-google-suggest.json",
+      "search_volume": null,
+      "keyword_difficulty": null
+    },
+    {
+      "origin": "observed",
+      "type": "exact_google_suggest",
+      "term": "japanese restaurant simulator codes",
+      "query": "japanese ramen simulator c",
+      "source_url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=en&gl=us&q=japanese%20ramen%20simulator%20c",
+      "source_file": "research/sources/keywords-google-suggest.json",
+      "search_volume": null,
+      "keyword_difficulty": null
+    },
+    {
+      "origin": "observed",
+      "type": "exact_google_suggest",
+      "term": "japanese restaurant simulator roblox codes",
+      "query": "japanese ramen simulator c",
+      "source_url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=en&gl=us&q=japanese%20ramen%20simulator%20c",
+      "source_file": "research/sources/keywords-google-suggest.json",
+      "search_volume": null,
+      "keyword_difficulty": null
+    },
+    {
+      "origin": "observed",
+      "type": "exact_google_suggest",
+      "term": "how much is a bowl of ramen in japan",
+      "query": "japanese ramen simulator c",
+      "source_url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=en&gl=us&q=japanese%20ramen%20simulator%20c",
+      "source_file": "research/sources/keywords-google-suggest.json",
+      "search_volume": null,
+      "keyword_difficulty": null
+    },
+    {
+      "origin": "observed",
+      "type": "exact_google_suggest",
+      "term": "cold ramen in japan",
+      "query": "japanese ramen simulator c",
+      "source_url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=en&gl=us&q=japanese%20ramen%20simulator%20c",
+      "source_file": "research/sources/keywords-google-suggest.json",
+      "search_volume": null,
+      "keyword_difficulty": null
+    },
+    {
+      "origin": "observed",
+      "type": "exact_google_suggest",
+      "term": "average cost of ramen in japan",
+      "query": "japanese ramen simulator c",
+      "source_url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=en&gl=us&q=japanese%20ramen%20simulator%20c",
+      "source_file": "research/sources/keywords-google-suggest.json",
+      "search_volume": null,
+      "keyword_difficulty": null
+    },
+    {
+      "origin": "observed",
+      "type": "exact_google_suggest",
+      "term": "japanese ramen simulator demo",
+      "query": "japanese ramen simulator d",
+      "source_url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=en&gl=us&q=japanese%20ramen%20simulator%20d",
+      "source_file": "research/sources/keywords-google-suggest.json",
+      "search_volume": null,
+      "keyword_difficulty": null
+    },
+    {
+      "origin": "observed",
+      "type": "exact_google_suggest",
+      "term": "japanese ramen simulator release date",
+      "query": "japanese ramen simulator d",
+      "source_url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=en&gl=us&q=japanese%20ramen%20simulator%20d",
+      "source_file": "research/sources/keywords-google-suggest.json",
+      "search_volume": null,
+      "keyword_difficulty": null
+    },
+    {
+      "origin": "observed",
+      "type": "exact_google_suggest",
+      "term": "japanese ramen simulator discord",
+      "query": "japanese ramen simulator d",
+      "source_url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=en&gl=us&q=japanese%20ramen%20simulator%20d",
+      "source_file": "research/sources/keywords-google-suggest.json",
+      "search_volume": null,
+      "keyword_difficulty": null
+    },
+    {
+      "origin": "observed",
+      "type": "exact_google_suggest",
+      "term": "how much is a bowl of ramen in japan",
+      "query": "japanese ramen simulator d",
+      "source_url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=en&gl=us&q=japanese%20ramen%20simulator%20d",
+      "source_file": "research/sources/keywords-google-suggest.json",
+      "search_volume": null,
+      "keyword_difficulty": null
+    },
+    {
+      "origin": "observed",
+      "type": "exact_google_suggest",
+      "term": "meat for japanese ramen",
+      "query": "japanese ramen simulator d",
+      "source_url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=en&gl=us&q=japanese%20ramen%20simulator%20d",
+      "source_file": "research/sources/keywords-google-suggest.json",
+      "search_volume": null,
+      "keyword_difficulty": null
+    },
+    {
+      "origin": "observed",
+      "type": "exact_google_suggest",
+      "term": "japanese ramen simulator game",
+      "query": "japanese ramen simulator g",
+      "source_url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=en&gl=us&q=japanese%20ramen%20simulator%20g",
+      "source_file": "research/sources/keywords-google-suggest.json",
+      "search_volume": null,
+      "keyword_difficulty": null
+    },
+    {
+      "origin": "observed",
+      "type": "exact_google_suggest",
+      "term": "how much is a bowl of ramen in japan",
+      "query": "japanese ramen simulator g",
+      "source_url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=en&gl=us&q=japanese%20ramen%20simulator%20g",
+      "source_file": "research/sources/keywords-google-suggest.json",
+      "search_volume": null,
+      "keyword_difficulty": null
+    },
+    {
+      "origin": "observed",
+      "type": "exact_google_suggest",
+      "term": "how much is a bowl of ramen in tokyo",
+      "query": "japanese ramen simulator g",
+      "source_url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=en&gl=us&q=japanese%20ramen%20simulator%20g",
+      "source_file": "research/sources/keywords-google-suggest.json",
+      "search_volume": null,
+      "keyword_difficulty": null
+    },
+    {
+      "origin": "observed",
+      "type": "exact_google_suggest",
+      "term": "average cost of ramen in japan",
+      "query": "japanese ramen simulator g",
+      "source_url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=en&gl=us&q=japanese%20ramen%20simulator%20g",
+      "source_file": "research/sources/keywords-google-suggest.json",
+      "search_volume": null,
+      "keyword_difficulty": null
+    },
+    {
+      "origin": "observed",
+      "type": "exact_google_suggest",
+      "term": "japanese ramen sim lim square",
+      "query": "japanese ramen simulator l",
+      "source_url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=en&gl=us&q=japanese%20ramen%20simulator%20l",
+      "source_file": "research/sources/keywords-google-suggest.json",
+      "search_volume": null,
+      "keyword_difficulty": null
+    },
+    {
+      "origin": "observed",
+      "type": "exact_google_suggest",
+      "term": "japanese ramen sim lim",
+      "query": "japanese ramen simulator l",
+      "source_url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=en&gl=us&q=japanese%20ramen%20simulator%20l",
+      "source_file": "research/sources/keywords-google-suggest.json",
+      "search_volume": null,
+      "keyword_difficulty": null
+    },
+    {
+      "origin": "observed",
+      "type": "exact_google_suggest",
+      "term": "how much is a bowl of ramen in japan",
+      "query": "japanese ramen simulator l",
+      "source_url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=en&gl=us&q=japanese%20ramen%20simulator%20l",
+      "source_file": "research/sources/keywords-google-suggest.json",
+      "search_volume": null,
+      "keyword_difficulty": null
+    },
+    {
+      "origin": "observed",
+      "type": "exact_google_suggest",
+      "term": "how much is a bowl of ramen in tokyo",
+      "query": "japanese ramen simulator l",
+      "source_url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=en&gl=us&q=japanese%20ramen%20simulator%20l",
+      "source_file": "research/sources/keywords-google-suggest.json",
+      "search_volume": null,
+      "keyword_difficulty": null
+    },
+    {
+      "origin": "observed",
+      "type": "exact_google_suggest",
+      "term": "ramen in japanese writing",
+      "query": "japanese ramen simulator l",
+      "source_url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=en&gl=us&q=japanese%20ramen%20simulator%20l",
+      "source_file": "research/sources/keywords-google-suggest.json",
+      "search_volume": null,
+      "keyword_difficulty": null
+    },
+    {
+      "origin": "observed",
+      "type": "exact_google_suggest",
+      "term": "average cost of ramen in japan",
+      "query": "japanese ramen simulator l",
+      "source_url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=en&gl=us&q=japanese%20ramen%20simulator%20l",
+      "source_file": "research/sources/keywords-google-suggest.json",
+      "search_volume": null,
+      "keyword_difficulty": null
+    },
+    {
+      "origin": "observed",
+      "type": "exact_google_suggest",
+      "term": "japanese ramen simulator mac",
+      "query": "japanese ramen simulator m",
+      "source_url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=en&gl=us&q=japanese%20ramen%20simulator%20m",
+      "source_file": "research/sources/keywords-google-suggest.json",
+      "search_volume": null,
+      "keyword_difficulty": null
+    },
+    {
+      "origin": "observed",
+      "type": "exact_google_suggest",
+      "term": "how much is a bowl of ramen in japan",
+      "query": "japanese ramen simulator m",
+      "source_url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=en&gl=us&q=japanese%20ramen%20simulator%20m",
+      "source_file": "research/sources/keywords-google-suggest.json",
+      "search_volume": null,
+      "keyword_difficulty": null
+    },
+    {
+      "origin": "observed",
+      "type": "exact_google_suggest",
+      "term": "how much is a bowl of ramen in tokyo",
+      "query": "japanese ramen simulator m",
+      "source_url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=en&gl=us&q=japanese%20ramen%20simulator%20m",
+      "source_file": "research/sources/keywords-google-suggest.json",
+      "search_volume": null,
+      "keyword_difficulty": null
+    },
+    {
+      "origin": "observed",
+      "type": "exact_google_suggest",
+      "term": "average cost of ramen in japan",
+      "query": "japanese ramen simulator m",
+      "source_url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=en&gl=us&q=japanese%20ramen%20simulator%20m",
+      "source_file": "research/sources/keywords-google-suggest.json",
+      "search_volume": null,
+      "keyword_difficulty": null
+    },
+    {
+      "origin": "observed",
+      "type": "exact_google_suggest",
+      "term": "meat for japanese ramen",
+      "query": "japanese ramen simulator m",
+      "source_url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=en&gl=us&q=japanese%20ramen%20simulator%20m",
+      "source_file": "research/sources/keywords-google-suggest.json",
+      "search_volume": null,
+      "keyword_difficulty": null
+    },
+    {
+      "origin": "observed",
+      "type": "exact_google_suggest",
+      "term": "japanese ramen simulator ps5",
+      "query": "japanese ramen simulator p",
+      "source_url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=en&gl=us&q=japanese%20ramen%20simulator%20p",
+      "source_file": "research/sources/keywords-google-suggest.json",
+      "search_volume": null,
+      "keyword_difficulty": null
+    },
+    {
+      "origin": "observed",
+      "type": "exact_google_suggest",
+      "term": "japanese ramen simulator price",
+      "query": "japanese ramen simulator p",
+      "source_url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=en&gl=us&q=japanese%20ramen%20simulator%20p",
+      "source_file": "research/sources/keywords-google-suggest.json",
+      "search_volume": null,
+      "keyword_difficulty": null
+    },
+    {
+      "origin": "observed",
+      "type": "exact_google_suggest",
+      "term": "how much is a bowl of ramen in japan",
+      "query": "japanese ramen simulator p",
+      "source_url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=en&gl=us&q=japanese%20ramen%20simulator%20p",
+      "source_file": "research/sources/keywords-google-suggest.json",
+      "search_volume": null,
+      "keyword_difficulty": null
+    },
+    {
+      "origin": "observed",
+      "type": "exact_google_suggest",
+      "term": "average cost of ramen in japan",
+      "query": "japanese ramen simulator p",
+      "source_url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=en&gl=us&q=japanese%20ramen%20simulator%20p",
+      "source_file": "research/sources/keywords-google-suggest.json",
+      "search_volume": null,
+      "keyword_difficulty": null
+    },
+    {
+      "origin": "observed",
+      "type": "exact_google_suggest",
+      "term": "how much is a bowl of ramen in tokyo",
+      "query": "japanese ramen simulator p",
+      "source_url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=en&gl=us&q=japanese%20ramen%20simulator%20p",
+      "source_file": "research/sources/keywords-google-suggest.json",
+      "search_volume": null,
+      "keyword_difficulty": null
+    },
+    {
+      "origin": "observed",
+      "type": "exact_google_suggest",
+      "term": "japanese ramen simulator release date",
+      "query": "japanese ramen simulator r",
+      "source_url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=en&gl=us&q=japanese%20ramen%20simulator%20r",
+      "source_file": "research/sources/keywords-google-suggest.json",
+      "search_volume": null,
+      "keyword_difficulty": null
+    },
+    {
+      "origin": "observed",
+      "type": "exact_google_suggest",
+      "term": "japanese restaurant simulator roblox codes",
+      "query": "japanese ramen simulator r",
+      "source_url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=en&gl=us&q=japanese%20ramen%20simulator%20r",
+      "source_file": "research/sources/keywords-google-suggest.json",
+      "search_volume": null,
+      "keyword_difficulty": null
+    },
+    {
+      "origin": "observed",
+      "type": "exact_google_suggest",
+      "term": "japanese ramen simulator reddit",
+      "query": "japanese ramen simulator r",
+      "source_url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=en&gl=us&q=japanese%20ramen%20simulator%20r",
+      "source_file": "research/sources/keywords-google-suggest.json",
+      "search_volume": null,
+      "keyword_difficulty": null
+    },
+    {
+      "origin": "observed",
+      "type": "exact_google_suggest",
+      "term": "average cost of ramen in japan",
+      "query": "japanese ramen simulator r",
+      "source_url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=en&gl=us&q=japanese%20ramen%20simulator%20r",
+      "source_file": "research/sources/keywords-google-suggest.json",
+      "search_volume": null,
+      "keyword_difficulty": null
+    },
+    {
+      "origin": "observed",
+      "type": "exact_google_suggest",
+      "term": "how much is a bowl of ramen in japan",
+      "query": "japanese ramen simulator r",
+      "source_url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=en&gl=us&q=japanese%20ramen%20simulator%20r",
+      "source_file": "research/sources/keywords-google-suggest.json",
+      "search_volume": null,
+      "keyword_difficulty": null
+    },
+    {
+      "origin": "observed",
+      "type": "exact_google_suggest",
+      "term": "japanese ramen simulator steam",
+      "query": "japanese ramen simulator s",
+      "source_url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=en&gl=us&q=japanese%20ramen%20simulator%20s",
+      "source_file": "research/sources/keywords-google-suggest.json",
+      "search_volume": null,
+      "keyword_difficulty": null
+    },
+    {
+      "origin": "observed",
+      "type": "exact_google_suggest",
+      "term": "japanese ramen simulator switch",
+      "query": "japanese ramen simulator s",
+      "source_url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=en&gl=us&q=japanese%20ramen%20simulator%20s",
+      "source_file": "research/sources/keywords-google-suggest.json",
+      "search_volume": null,
+      "keyword_difficulty": null
+    },
+    {
+      "origin": "observed",
+      "type": "exact_google_suggest",
+      "term": "japanese ramen shop simulator",
+      "query": "japanese ramen simulator s",
+      "source_url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=en&gl=us&q=japanese%20ramen%20simulator%20s",
+      "source_file": "research/sources/keywords-google-suggest.json",
+      "search_volume": null,
+      "keyword_difficulty": null
+    },
+    {
+      "origin": "observed",
+      "type": "exact_google_suggest",
+      "term": "japanese ramen sim lim square",
+      "query": "japanese ramen simulator s",
+      "source_url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=en&gl=us&q=japanese%20ramen%20simulator%20s",
+      "source_file": "research/sources/keywords-google-suggest.json",
+      "search_volume": null,
+      "keyword_difficulty": null
+    },
+    {
+      "origin": "observed",
+      "type": "exact_google_suggest",
+      "term": "how much is a bowl of ramen in japan",
+      "query": "japanese ramen simulator s",
+      "source_url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=en&gl=us&q=japanese%20ramen%20simulator%20s",
+      "source_file": "research/sources/keywords-google-suggest.json",
+      "search_volume": null,
+      "keyword_difficulty": null
+    },
+    {
+      "origin": "observed",
+      "type": "exact_google_suggest",
+      "term": "how much is a bowl of ramen in tokyo",
+      "query": "japanese ramen simulator s",
+      "source_url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=en&gl=us&q=japanese%20ramen%20simulator%20s",
+      "source_file": "research/sources/keywords-google-suggest.json",
+      "search_volume": null,
+      "keyword_difficulty": null
+    },
+    {
+      "origin": "observed",
+      "type": "exact_google_suggest",
+      "term": "average cost of ramen in japan",
+      "query": "japanese ramen simulator s",
+      "source_url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=en&gl=us&q=japanese%20ramen%20simulator%20s",
+      "source_file": "research/sources/keywords-google-suggest.json",
+      "search_volume": null,
+      "keyword_difficulty": null
+    },
+    {
+      "origin": "observed",
+      "type": "exact_google_suggest",
+      "term": "cold ramen in japan",
+      "query": "japanese ramen simulator s",
+      "source_url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=en&gl=us&q=japanese%20ramen%20simulator%20s",
+      "source_file": "research/sources/keywords-google-suggest.json",
+      "search_volume": null,
+      "keyword_difficulty": null
+    },
+    {
+      "origin": "observed",
+      "type": "exact_google_suggest",
+      "term": "japanese ramen simulator xbox",
+      "query": "japanese ramen simulator x",
+      "source_url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=en&gl=us&q=japanese%20ramen%20simulator%20x",
+      "source_file": "research/sources/keywords-google-suggest.json",
+      "search_volume": null,
+      "keyword_difficulty": null
+    },
+    {
+      "origin": "observed",
+      "type": "exact_google_suggest",
+      "term": "how much is a bowl of ramen in japan",
+      "query": "japanese ramen simulator x",
+      "source_url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=en&gl=us&q=japanese%20ramen%20simulator%20x",
+      "source_file": "research/sources/keywords-google-suggest.json",
+      "search_volume": null,
+      "keyword_difficulty": null
+    },
+    {
+      "origin": "observed",
+      "type": "exact_google_suggest",
+      "term": "what kind of noodles are used in japanese ramen",
+      "query": "japanese ramen simulator x",
+      "source_url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=en&gl=us&q=japanese%20ramen%20simulator%20x",
+      "source_file": "research/sources/keywords-google-suggest.json",
+      "search_volume": null,
+      "keyword_difficulty": null
+    },
+    {
+      "origin": "observed",
+      "type": "exact_google_suggest",
+      "term": "meat for japanese ramen",
+      "query": "japanese ramen simulator x",
+      "source_url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=en&gl=us&q=japanese%20ramen%20simulator%20x",
+      "source_file": "research/sources/keywords-google-suggest.json",
+      "search_volume": null,
+      "keyword_difficulty": null
+    },
+    {
+      "origin": "observed",
+      "type": "exact_google_suggest",
+      "term": "average cost of ramen in japan",
+      "query": "japanese ramen simulator x",
+      "source_url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=en&gl=us&q=japanese%20ramen%20simulator%20x",
+      "source_file": "research/sources/keywords-google-suggest.json",
+      "search_volume": null,
+      "keyword_difficulty": null
+    },
+    {
+      "origin": "observed",
+      "type": "player_question",
+      "term": "What to do with order tickets?",
+      "opening_posts": [
+        "Not sure how everyone's playing this but what do you do with the tickets when you accept an order? Do you just place it on the table and then throw it away when done? Or can we stick them somewhere?"
+      ],
+      "source_url": "https://steamcommunity.com/app/4968640/discussions/0/590691913363932602/",
+      "source_file": "research/sources/keywords-steam-discussion-extracts.json",
+      "search_volume": null,
+      "keyword_difficulty": null
+    },
+    {
+      "origin": "observed",
+      "type": "player_question",
+      "term": "Cannot Join or Invite Friend",
+      "opening_posts": [
+        "Whenever me or my friend want to do co-op there always Connection timeout message. I translate the message and it says to disable VPN (ID:D12E96EC47EC) Me and My friend not using VPN, already tried to restart the game, restart the computer and still not able to. Any solution pls? :("
+      ],
+      "source_url": "https://steamcommunity.com/app/4968640/discussions/0/590691669351042650/",
+      "source_file": "research/sources/keywords-steam-discussion-extracts.json",
+      "search_volume": null,
+      "keyword_difficulty": null
+    },
+    {
+      "origin": "observed",
+      "type": "player_question",
+      "term": "Thieves",
+      "opening_posts": [
+        "I'm not keen on this at all. I can see it working in multiplayer when there's several of you to handle the thief whilst the others continue working, but on my own it happens when I'm obviously busy and I never have time to deal with it, meaning I am a sitting duck and just keep losing money. I have never been keen on the thief mechanic in simulators and would ask if we could have a toggle to remove them all together if we want to? Other than that, liking the game so far!"
+      ],
+      "source_url": "https://steamcommunity.com/app/4968640/discussions/0/590691669351036190/",
+      "source_file": "research/sources/keywords-steam-discussion-extracts.json",
+      "search_volume": null,
+      "keyword_difficulty": null
+    },
+    {
+      "origin": "observed",
+      "type": "player_question",
+      "term": "Cart control feedback / Suggestion for cart controls",
+      "opening_posts": [
+        "I started playing today, and I noticed that the control system for moving the cart is somewhat awkward and hard to manage. It would be greatly appreciated if the cart controls could be improved for better accessibility in a future update."
+      ],
+      "source_url": "https://steamcommunity.com/app/4968640/discussions/0/590691669351042497/",
+      "source_file": "research/sources/keywords-steam-discussion-extracts.json",
+      "search_volume": null,
+      "keyword_difficulty": null
+    },
+    {
+      "origin": "observed",
+      "type": "player_question",
+      "term": "does the game work offline",
+      "opening_posts": [
+        "as title says as im wondering if its always online or not or peer to peer or relies on a server"
+      ],
+      "source_url": "https://steamcommunity.com/app/4968640/discussions/0/590691913363919664/",
+      "source_file": "research/sources/keywords-steam-discussion-extracts.json",
+      "search_volume": null,
+      "keyword_difficulty": null
+    },
+    {
+      "origin": "observed",
+      "type": "player_question",
+      "term": "Game starts in Japanese",
+      "opening_posts": [
+        "As title. Installed the game and the main menu was in Japanese. Could change the language easy enough with google translate on my phone, but might be something the devs want to look into."
+      ],
+      "source_url": "https://steamcommunity.com/app/4968640/discussions/0/590691669351042488/",
+      "source_file": "research/sources/keywords-steam-discussion-extracts.json",
+      "search_volume": null,
+      "keyword_difficulty": null
+    },
+    {
+      "origin": "observed",
+      "type": "player_question",
+      "term": "Feedback for Improvement",
+      "opening_posts": [
+        "\"I wish there was a kitchen prep table with a built-in induction cooktop, instead of having the stove and the prep area completely separate. Right now, I have to constantly look back and forth between the prep table and the stove while cooking, which actually makes me feel a bit dizzy. It would be amazing to have an all-in-one prep table with an induction stove to minimize having to shift my eyes side to side so much.\""
+      ],
+      "source_url": "https://steamcommunity.com/app/4968640/discussions/0/590691669351055455/",
+      "source_file": "research/sources/keywords-steam-discussion-extracts.json",
+      "search_volume": null,
+      "keyword_difficulty": null
+    },
+    {
+      "origin": "observed",
+      "type": "player_question",
+      "term": "can you hire staff for single player",
+      "opening_posts": [
+        "can you hire staff for single player"
+      ],
+      "source_url": "https://steamcommunity.com/app/4968640/discussions/0/590691913363919420/",
+      "source_file": "research/sources/keywords-steam-discussion-extracts.json",
+      "search_volume": null,
+      "keyword_difficulty": null
+    },
+    {
+      "origin": "observed",
+      "type": "player_question",
+      "term": "Looks interesting...but?",
+      "opening_posts": [
+        "What is the need for weed in this type of game? Also dollars should be yen when the money you receive doesn't match together also given the location is in Japan. Got to make sense around here."
+      ],
+      "source_url": "https://steamcommunity.com/app/4968640/discussions/0/591816302688219361/",
+      "source_file": "research/sources/keywords-steam-discussion-extracts.json",
+      "search_volume": null,
+      "keyword_difficulty": null
+    },
+    {
+      "origin": "observed",
+      "type": "player_question",
+      "term": "A thank you to the game dev for third person camera option!",
+      "opening_posts": [
+        "I suffer from motion sickness from playing games with first person camera only and while you didn't even have to do this since a lot of developers nowadays just use first person camera I really, really appreciate that you included this option. Thank you."
+      ],
+      "source_url": "https://steamcommunity.com/app/4968640/discussions/0/590691913363909650/",
+      "source_file": "research/sources/keywords-steam-discussion-extracts.json",
+      "search_volume": null,
+      "keyword_difficulty": null
+    },
+    {
+      "origin": "observed",
+      "type": "player_question",
+      "term": "OMG Nakanishi-san's son is so talented like his father lmao",
+      "opening_posts": [
+        "It's two games now ain't it? SUGOOOOOOOOIIIIIIIIIIIIIIIIIII"
+      ],
+      "source_url": "https://steamcommunity.com/app/4968640/discussions/0/590691913363882171/",
+      "source_file": "research/sources/keywords-steam-discussion-extracts.json",
+      "search_volume": null,
+      "keyword_difficulty": null
+    },
+    {
+      "origin": "observed",
+      "type": "player_question",
+      "term": "Missing Graphics Options",
+      "opening_posts": [
+        "no setting for disable chromatic aberration..."
+      ],
+      "source_url": "https://steamcommunity.com/app/4968640/discussions/0/590691669351053261/",
+      "source_file": "research/sources/keywords-steam-discussion-extracts.json",
+      "search_volume": null,
+      "keyword_difficulty": null
+    },
+    {
+      "origin": "observed",
+      "type": "player_question",
+      "term": "Disappointed in the multiplayer.",
+      "opening_posts": [
+        "I honestly thought we can find online lobbies to team up with random players to play together. Ended up very disappointed."
+      ],
+      "source_url": "https://steamcommunity.com/app/4968640/discussions/0/590691669351052773/",
+      "source_file": "research/sources/keywords-steam-discussion-extracts.json",
+      "search_volume": null,
+      "keyword_difficulty": null
+    },
+    {
+      "origin": "observed",
+      "type": "player_question",
+      "term": "A corriger Sachet non ouvert",
+      "opening_posts": [
+        "J'ai mis un sachet d'ingrédient directement dans le ramen. Je ne l'avais pas ouvert. Evidemment, la commande n'était pas bonne mais impossible de récupérer le sachet dans le bol. Du coup, bloqué sans pouvoir continuer"
+      ],
+      "source_url": "https://steamcommunity.com/app/4968640/discussions/0/590691669351049489/",
+      "source_file": "research/sources/keywords-steam-discussion-extracts.json",
+      "search_volume": null,
+      "keyword_difficulty": null
+    },
+    {
+      "origin": "observed",
+      "type": "player_question",
+      "term": "I'm Livestreaming My Gameplay!",
+      "opening_posts": [
+        "I'm livestreaming my gameplay right now! If you guys are interested, you can check it out! https://youtube.com/live/9o7ZbTRCNxI"
+      ],
+      "source_url": "https://steamcommunity.com/app/4968640/discussions/0/590691669351039843/",
+      "source_file": "research/sources/keywords-steam-discussion-extracts.json",
+      "search_volume": null,
+      "keyword_difficulty": null
+    },
+    {
+      "origin": "observed",
+      "type": "video_title",
+      "term": "I Started A Ramen Shop! | Japanese Ramen Simulator | Part 1",
+      "source_url": "https://www.youtube.com/watch?v=Dq9b0vdpqH0",
+      "published_relative": "2h ago",
+      "source_file": "research/sources/keywords-youtube-extracts.json",
+      "include": true,
+      "exclude_reason": null,
+      "search_volume": null,
+      "keyword_difficulty": null
+    },
+    {
+      "origin": "observed",
+      "type": "video_title",
+      "term": "Opening My Own Japanese Ramen Shop! - Early Look (Japanese Ramen Simulator)",
+      "source_url": "https://www.youtube.com/watch?v=APIWnCHUsKw",
+      "published_relative": "Streamed 2w ago",
+      "source_file": "research/sources/keywords-youtube-extracts.json",
+      "include": true,
+      "exclude_reason": null,
+      "search_volume": null,
+      "keyword_difficulty": null
+    },
+    {
+      "origin": "observed",
+      "type": "video_title",
+      "term": "Japanese Ramen Simulator - Official Announcement Trailer",
+      "source_url": "https://www.youtube.com/watch?v=WunRmdsl2F8",
+      "published_relative": "1mo ago",
+      "source_file": "research/sources/keywords-youtube-extracts.json",
+      "include": true,
+      "exclude_reason": null,
+      "search_volume": null,
+      "keyword_difficulty": null
+    },
+    {
+      "origin": "observed",
+      "type": "video_title",
+      "term": "【Japanese Ramen Simulator】「ラーメン二男」オープンしました【弟者】",
+      "source_url": "https://www.youtube.com/watch?v=tweJh0gup2Y",
+      "published_relative": "Streamed 12h ago",
+      "source_file": "research/sources/keywords-youtube-extracts.json",
+      "include": true,
+      "exclude_reason": null,
+      "search_volume": null,
+      "keyword_difficulty": null
+    },
+    {
+      "origin": "observed",
+      "type": "video_title",
+      "term": "Japanese Ramen Simulator | Long Gameplay | No Commentary",
+      "source_url": "https://www.youtube.com/watch?v=A5dP2DTDPt4",
+      "published_relative": "12d ago",
+      "source_file": "research/sources/keywords-youtube-extracts.json",
+      "include": true,
+      "exclude_reason": null,
+      "search_volume": null,
+      "keyword_difficulty": null
+    },
+    {
+      "origin": "observed",
+      "type": "video_title",
+      "term": "Japanese Ramen Simulator - Official Early Access Launch Trailer",
+      "source_url": "https://www.youtube.com/watch?v=54xetbJwd0k",
+      "published_relative": "14h ago",
+      "source_file": "research/sources/keywords-youtube-extracts.json",
+      "include": true,
+      "exclude_reason": null,
+      "search_volume": null,
+      "keyword_difficulty": null
+    },
+    {
+      "origin": "observed",
+      "type": "video_title",
+      "term": "ゆゆうたの「Japanese Ramen Simulator」ダイジェスト【2026/10/09】",
+      "source_url": "https://www.youtube.com/watch?v=xMIgbdJalb0",
+      "published_relative": "9h ago",
+      "source_file": "research/sources/keywords-youtube-extracts.json",
+      "include": true,
+      "exclude_reason": null,
+      "search_volume": null,
+      "keyword_difficulty": null
+    },
+    {
+      "origin": "observed",
+      "type": "video_title",
+      "term": "Humble Beginnings at Our First Ramen Shop.... | Japanese Ramen Simulator | Part 1",
+      "source_url": "https://www.youtube.com/watch?v=oP_poqX2KjI",
+      "published_relative": "13d ago",
+      "source_file": "research/sources/keywords-youtube-extracts.json",
+      "include": true,
+      "exclude_reason": null,
+      "search_volume": null,
+      "keyword_difficulty": null
+    },
+    {
+      "origin": "observed",
+      "type": "video_title",
+      "term": "【Japanese Ramen Simulator】スープが温まった日 w/すぷれあ&えりぶり【にじさんじ / 五木左京】",
+      "source_url": "https://www.youtube.com/watch?v=P171UojtPsI",
+      "published_relative": "Streamed 12h ago",
+      "source_file": "research/sources/keywords-youtube-extracts.json",
+      "include": true,
+      "exclude_reason": null,
+      "search_volume": null,
+      "keyword_difficulty": null
+    },
+    {
+      "origin": "observed",
+      "type": "video_title",
+      "term": "【Japanese Ramen Simulator】祝！開店！深夜にらああめんはいかがですか？？！！！！！！　【にじさんじ/鈴原るる】",
+      "source_url": "https://www.youtube.com/watch?v=yrG1gYtE4bo",
+      "published_relative": "Streamed 8h ago",
+      "source_file": "research/sources/keywords-youtube-extracts.json",
+      "include": true,
+      "exclude_reason": null,
+      "search_volume": null,
+      "keyword_difficulty": null
+    },
+    {
+      "origin": "observed",
+      "type": "video_title",
+      "term": "Four people try their hand at running a ramen shop, but they panic due to the overwhelming worklo...",
+      "source_url": "https://www.youtube.com/watch?v=6Rg2-K3lXjs",
+      "published_relative": "1d ago",
+      "source_file": "research/sources/keywords-youtube-extracts.json",
+      "include": true,
+      "exclude_reason": null,
+      "search_volume": null,
+      "keyword_difficulty": null
+    },
+    {
+      "origin": "observed",
+      "type": "video_title",
+      "term": "Japanese Ramen Simulator Ealry Access Trailer",
+      "source_url": "https://www.youtube.com/watch?v=r7uAvTFB_JQ",
+      "published_relative": "12d ago",
+      "source_file": "research/sources/keywords-youtube-extracts.json",
+      "include": true,
+      "exclude_reason": null,
+      "search_volume": null,
+      "keyword_difficulty": null
+    },
+    {
+      "origin": "observed",
+      "type": "video_title",
+      "term": "【Japanese Ramen Simulator】本命職場体験",
+      "source_url": "https://www.youtube.com/watch?v=VbqEK-yRrsg",
+      "published_relative": "Streamed 12h ago",
+      "source_file": "research/sources/keywords-youtube-extracts.json",
+      "include": true,
+      "exclude_reason": null,
+      "search_volume": null,
+      "keyword_difficulty": null
+    },
+    {
+      "origin": "observed",
+      "type": "video_title",
+      "term": "Ramen Shop Simulator! 🍥🍜 I'M ADDICTED TO THIS GAME | Longplay No Commentary",
+      "source_url": "https://www.youtube.com/watch?v=E7E6mHWll8Q",
+      "published_relative": "8mo ago",
+      "source_file": "research/sources/keywords-youtube-extracts.json",
+      "include": false,
+      "exclude_reason": "8个月前其他Ramen Shop游戏，与指定Steam App4968640不同",
+      "search_volume": null,
+      "keyword_difficulty": null
+    },
+    {
+      "origin": "observed",
+      "type": "video_title",
+      "term": "【 Japanese Ramen Simulator 】颯爽開店 すぷれあ＆えりぶり店【一橋綾人/にじさんじ】",
+      "source_url": "https://www.youtube.com/watch?v=xiw5j7ZfFX4",
+      "published_relative": "Streamed 12h ago",
+      "source_file": "research/sources/keywords-youtube-extracts.json",
+      "include": true,
+      "exclude_reason": null,
+      "search_volume": null,
+      "keyword_difficulty": null
+    },
+    {
+      "origin": "observed",
+      "type": "video_title",
+      "term": "[Trending Game] Running a Ramen Shop with 5 People Was Absolute Chaos lol 【Japanese Ramen Simulator】",
+      "source_url": "https://www.youtube.com/watch?v=P5cGJiEhYf0",
+      "published_relative": "12d ago",
+      "source_file": "research/sources/keywords-youtube-extracts.json",
+      "include": true,
+      "exclude_reason": null,
+      "search_volume": null,
+      "keyword_difficulty": null
+    },
+    {
+      "origin": "observed",
+      "type": "video_title",
+      "term": "This Ramen Shop Game Is Absolutely Wild 【Japanese Ramen Simulator】",
+      "source_url": "https://www.youtube.com/watch?v=Mt4p1LeLdIc",
+      "published_relative": "10d ago",
+      "source_file": "research/sources/keywords-youtube-extracts.json",
+      "include": true,
+      "exclude_reason": null,
+      "search_volume": null,
+      "keyword_difficulty": null
+    },
+    {
+      "origin": "observed",
+      "type": "video_title",
+      "term": "【Japanese Ramen Simulator】★★★★☆ (4.0) 味は申し分ないが店員が無愛想過ぎた",
+      "source_url": "https://www.youtube.com/watch?v=m7id4hiq_kw",
+      "published_relative": "Streamed 8d ago",
+      "source_file": "research/sources/keywords-youtube-extracts.json",
+      "include": true,
+      "exclude_reason": null,
+      "search_volume": null,
+      "keyword_difficulty": null
+    },
+    {
+      "origin": "observed",
+      "type": "video_title",
+      "term": "Our Ramen Shop Orders Are Getting More Complex.... | Japanese Ramen Simulator | Part 5",
+      "source_url": "https://www.youtube.com/watch?v=pgPL4WyQvSQ",
+      "published_relative": "8h ago",
+      "source_file": "research/sources/keywords-youtube-extracts.json",
+      "include": true,
+      "exclude_reason": null,
+      "search_volume": null,
+      "keyword_difficulty": null
+    },
+    {
+      "origin": "observed",
+      "type": "video_title",
+      "term": "A Game Where You Run a \"Crappy Ramen Shop\" | Japanese Ramen Simulator",
+      "source_url": "https://www.youtube.com/watch?v=Gyw5pp1mwdc",
+      "published_relative": "11d ago",
+      "source_file": "research/sources/keywords-youtube-extracts.json",
+      "include": true,
+      "exclude_reason": null,
+      "search_volume": null,
+      "keyword_difficulty": null
+    },
+    {
+      "origin": "observed",
+      "type": "competitor_url_topic",
+      "term": "/",
+      "source_url": "https://japaneseramensimulator.wiki/",
+      "source_file": "research/sources/keywords-competitor-catalogue.json",
+      "is_infrastructure": false,
+      "search_volume": null,
+      "keyword_difficulty": null
+    },
+    {
+      "origin": "observed",
+      "type": "competitor_url_topic",
+      "term": "/guides",
+      "source_url": "https://japaneseramensimulator.wiki/guides",
+      "source_file": "research/sources/keywords-competitor-catalogue.json",
+      "is_infrastructure": false,
+      "search_volume": null,
+      "keyword_difficulty": null
+    },
+    {
+      "origin": "observed",
+      "type": "competitor_url_topic",
+      "term": "/tools",
+      "source_url": "https://japaneseramensimulator.wiki/tools",
+      "source_file": "research/sources/keywords-competitor-catalogue.json",
+      "is_infrastructure": false,
+      "search_volume": null,
+      "keyword_difficulty": null
+    },
+    {
+      "origin": "observed",
+      "type": "competitor_url_topic",
+      "term": "/wiki",
+      "source_url": "https://japaneseramensimulator.wiki/wiki",
+      "source_file": "research/sources/keywords-competitor-catalogue.json",
+      "is_infrastructure": false,
+      "search_volume": null,
+      "keyword_difficulty": null
+    },
+    {
+      "origin": "observed",
+      "type": "competitor_url_topic",
+      "term": "Japanese Ramen Simulator Recipes & Formulas (2026) | 5-Star Specs",
+      "source_url": "https://japaneseramensimulator.wiki/recipes",
+      "source_file": "research/sources/keywords-competitor-catalogue.json",
+      "is_infrastructure": false,
+      "search_volume": null,
+      "keyword_difficulty": null
+    },
+    {
+      "origin": "observed",
+      "type": "competitor_url_topic",
+      "term": "Japanese Ramen Simulator Ingredients & Umami Database (2026)",
+      "source_url": "https://japaneseramensimulator.wiki/ingredients",
+      "source_file": "research/sources/keywords-competitor-catalogue.json",
+      "is_infrastructure": false,
+      "search_volume": null,
+      "keyword_difficulty": null
+    },
+    {
+      "origin": "observed",
+      "type": "competitor_url_topic",
+      "term": "/tools/broth-builder",
+      "source_url": "https://japaneseramensimulator.wiki/tools/broth-builder",
+      "source_file": "research/sources/keywords-competitor-catalogue.json",
+      "is_infrastructure": false,
+      "search_volume": null,
+      "keyword_difficulty": null
+    },
+    {
+      "origin": "observed",
+      "type": "competitor_url_topic",
+      "term": "Japanese Ramen Simulator Critic Guide (2026) | 5-Star Solver",
+      "source_url": "https://japaneseramensimulator.wiki/tools/critic-guide",
+      "source_file": "research/sources/keywords-competitor-catalogue.json",
+      "is_infrastructure": false,
+      "search_volume": null,
+      "keyword_difficulty": null
+    },
+    {
+      "origin": "observed",
+      "type": "competitor_url_topic",
+      "term": "Japanese Ramen Simulator Upgrades & Kitchen ROI Guide (2026)",
+      "source_url": "https://japaneseramensimulator.wiki/upgrades",
+      "source_file": "research/sources/keywords-competitor-catalogue.json",
+      "is_infrastructure": false,
+      "search_volume": null,
+      "keyword_difficulty": null
+    },
+    {
+      "origin": "observed",
+      "type": "competitor_url_topic",
+      "term": "How to Make Broth in Japanese Ramen Simulator (2026) | Umami Guide",
+      "source_url": "https://japaneseramensimulator.wiki/guides/broth-crafting-guide",
+      "source_file": "research/sources/keywords-competitor-catalogue.json",
+      "is_infrastructure": false,
+      "search_volume": null,
+      "keyword_difficulty": null
+    },
+    {
+      "origin": "observed",
+      "type": "competitor_url_topic",
+      "term": "Japanese Ramen Simulator Gyoza & Side Dishes Guide (2026)",
+      "source_url": "https://japaneseramensimulator.wiki/guides/side-dishes-guide",
+      "source_file": "research/sources/keywords-competitor-catalogue.json",
+      "is_infrastructure": false,
+      "search_volume": null,
+      "keyword_difficulty": null
+    },
+    {
+      "origin": "observed",
+      "type": "competitor_url_topic",
+      "term": "/guides/rush-hour-kitchen-flow",
+      "source_url": "https://japaneseramensimulator.wiki/guides/rush-hour-kitchen-flow",
+      "source_file": "research/sources/keywords-competitor-catalogue.json",
+      "is_infrastructure": false,
+      "search_volume": null,
+      "keyword_difficulty": null
+    },
+    {
+      "origin": "observed",
+      "type": "competitor_url_topic",
+      "term": "/guides/coop-roles-guide",
+      "source_url": "https://japaneseramensimulator.wiki/guides/coop-roles-guide",
+      "source_file": "research/sources/keywords-competitor-catalogue.json",
+      "is_infrastructure": false,
+      "search_volume": null,
+      "keyword_difficulty": null
+    },
+    {
+      "origin": "observed",
+      "type": "competitor_url_topic",
+      "term": "Japanese Ramen Simulator Beer Foam Ratio 7:3 & Gyoza Guide (2026)",
+      "source_url": "https://japaneseramensimulator.wiki/guides/beer-pouring-guide",
+      "source_file": "research/sources/keywords-competitor-catalogue.json",
+      "is_infrastructure": false,
+      "search_volume": null,
+      "keyword_difficulty": null
+    },
+    {
+      "origin": "observed",
+      "type": "competitor_url_topic",
+      "term": "Japanese Ramen Simulator Crisis Defense & Thief Guide (2026)",
+      "source_url": "https://japaneseramensimulator.wiki/guides/crisis-management",
+      "source_file": "research/sources/keywords-competitor-catalogue.json",
+      "is_infrastructure": false,
+      "search_volume": null,
+      "keyword_difficulty": null
+    },
+    {
+      "origin": "observed",
+      "type": "competitor_url_topic",
+      "term": "Japanese Ramen Simulator Beginner Guide: First Shop Day (2026)",
+      "source_url": "https://japaneseramensimulator.wiki/guides/beginners-guide",
+      "source_file": "research/sources/keywords-competitor-catalogue.json",
+      "is_infrastructure": false,
+      "search_volume": null,
+      "keyword_difficulty": null
+    },
+    {
+      "origin": "observed",
+      "type": "competitor_url_topic",
+      "term": "Japanese Ramen Simulator Shop Decor & Custom Noren Guide (2026)",
+      "source_url": "https://japaneseramensimulator.wiki/guides/shop-customization-guide",
+      "source_file": "research/sources/keywords-competitor-catalogue.json",
+      "is_infrastructure": false,
+      "search_volume": null,
+      "keyword_difficulty": null
+    },
+    {
+      "origin": "observed",
+      "type": "competitor_url_topic",
+      "term": "Japanese Ramen Simulator Noodles & Toppings Guide (2026)",
+      "source_url": "https://japaneseramensimulator.wiki/guides/noodle-toppings-guide",
+      "source_file": "research/sources/keywords-competitor-catalogue.json",
+      "is_infrastructure": false,
+      "search_volume": null,
+      "keyword_difficulty": null
+    },
+    {
+      "origin": "observed",
+      "type": "competitor_url_topic",
+      "term": "Japanese Ramen Simulator Solo Guide: Single Player (2026)",
+      "source_url": "https://japaneseramensimulator.wiki/guides/solo-play-guide",
+      "source_file": "research/sources/keywords-competitor-catalogue.json",
+      "is_infrastructure": false,
+      "search_volume": null,
+      "keyword_difficulty": null
+    },
+    {
+      "origin": "observed",
+      "type": "competitor_url_topic",
+      "term": "Japanese Ramen Simulator: How to Invite Friends (2026 Co-op)",
+      "source_url": "https://japaneseramensimulator.wiki/guides/multiplayer-setup",
+      "source_file": "research/sources/keywords-competitor-catalogue.json",
+      "is_infrastructure": false,
+      "search_volume": null,
+      "keyword_difficulty": null
+    },
+    {
+      "origin": "observed",
+      "type": "competitor_url_topic",
+      "term": "/guides/trailer-breakdown",
+      "source_url": "https://japaneseramensimulator.wiki/guides/trailer-breakdown",
+      "source_file": "research/sources/keywords-competitor-catalogue.json",
+      "is_infrastructure": false,
+      "search_volume": null,
+      "keyword_difficulty": null
+    },
+    {
+      "origin": "observed",
+      "type": "competitor_url_topic",
+      "term": "Japanese Ramen Simulator How to Make Money (2026) | Profit Loop",
+      "source_url": "https://japaneseramensimulator.wiki/guides/money-guide",
+      "source_file": "research/sources/keywords-competitor-catalogue.json",
+      "is_infrastructure": false,
+      "search_volume": null,
+      "keyword_difficulty": null
+    },
+    {
+      "origin": "observed",
+      "type": "competitor_url_topic",
+      "term": "Japanese Ramen Simulator Staff & Hiring Guide (2026)",
+      "source_url": "https://japaneseramensimulator.wiki/guides/staff-hiring-guide",
+      "source_file": "research/sources/keywords-competitor-catalogue.json",
+      "is_infrastructure": false,
+      "search_volume": null,
+      "keyword_difficulty": null
+    },
+    {
+      "origin": "observed",
+      "type": "competitor_url_topic",
+      "term": "Japanese Ramen Simulator Casino Guide: Gambling Hall (2026)",
+      "source_url": "https://japaneseramensimulator.wiki/guides/casino-guide",
+      "source_file": "research/sources/keywords-competitor-catalogue.json",
+      "is_infrastructure": false,
+      "search_volume": null,
+      "keyword_difficulty": null
+    },
+    {
+      "origin": "observed",
+      "type": "competitor_url_topic",
+      "term": "Japanese Ramen Simulator Rice Bowl Guide: Donburi (2026)",
+      "source_url": "https://japaneseramensimulator.wiki/guides/rice-bowl-guide",
+      "source_file": "research/sources/keywords-competitor-catalogue.json",
+      "is_infrastructure": false,
+      "search_volume": null,
+      "keyword_difficulty": null
+    },
+    {
+      "origin": "observed",
+      "type": "competitor_url_topic",
+      "term": "Japanese Ramen Simulator Level Guide: Every Unlock (2026)",
+      "source_url": "https://japaneseramensimulator.wiki/guides/level-unlocks-guide",
+      "source_file": "research/sources/keywords-competitor-catalogue.json",
+      "is_infrastructure": false,
+      "search_volume": null,
+      "keyword_difficulty": null
+    },
+    {
+      "origin": "observed",
+      "type": "competitor_url_topic",
+      "term": "Japanese Ramen Simulator First Week Walkthrough (2026)",
+      "source_url": "https://japaneseramensimulator.wiki/guides/first-week-walkthrough",
+      "source_file": "research/sources/keywords-competitor-catalogue.json",
+      "is_infrastructure": false,
+      "search_volume": null,
+      "keyword_difficulty": null
+    },
+    {
+      "origin": "observed",
+      "type": "competitor_url_topic",
+      "term": "/guides/beginner-mistakes-guide",
+      "source_url": "https://japaneseramensimulator.wiki/guides/beginner-mistakes-guide",
+      "source_file": "research/sources/keywords-competitor-catalogue.json",
+      "is_infrastructure": false,
+      "search_volume": null,
+      "keyword_difficulty": null
+    },
+    {
+      "origin": "observed",
+      "type": "competitor_url_topic",
+      "term": "/tools/layout-planner",
+      "source_url": "https://japaneseramensimulator.wiki/tools/layout-planner",
+      "source_file": "research/sources/keywords-competitor-catalogue.json",
+      "is_infrastructure": false,
+      "search_volume": null,
+      "keyword_difficulty": null
+    },
+    {
+      "origin": "observed",
+      "type": "competitor_url_topic",
+      "term": "/lists/games-like",
+      "source_url": "https://japaneseramensimulator.wiki/lists/games-like",
+      "source_file": "research/sources/keywords-competitor-catalogue.json",
+      "is_infrastructure": false,
+      "search_volume": null,
+      "keyword_difficulty": null
+    },
+    {
+      "origin": "observed",
+      "type": "competitor_url_topic",
+      "term": "/wiki/media",
+      "source_url": "https://japaneseramensimulator.wiki/wiki/media",
+      "source_file": "research/sources/keywords-competitor-catalogue.json",
+      "is_infrastructure": false,
+      "search_volume": null,
+      "keyword_difficulty": null
+    },
+    {
+      "origin": "observed",
+      "type": "competitor_url_topic",
+      "term": "/countdown",
+      "source_url": "https://japaneseramensimulator.wiki/countdown",
+      "source_file": "research/sources/keywords-competitor-catalogue.json",
+      "is_infrastructure": false,
+      "search_volume": null,
+      "keyword_difficulty": null
+    },
+    {
+      "origin": "observed",
+      "type": "competitor_url_topic",
+      "term": "/vs",
+      "source_url": "https://japaneseramensimulator.wiki/vs",
+      "source_file": "research/sources/keywords-competitor-catalogue.json",
+      "is_infrastructure": false,
+      "search_volume": null,
+      "keyword_difficulty": null
+    },
+    {
+      "origin": "observed",
+      "type": "competitor_url_topic",
+      "term": "/wiki/jp-strategy",
+      "source_url": "https://japaneseramensimulator.wiki/wiki/jp-strategy",
+      "source_file": "research/sources/keywords-competitor-catalogue.json",
+      "is_infrastructure": false,
+      "search_volume": null,
+      "keyword_difficulty": null
+    },
+    {
+      "origin": "observed",
+      "type": "competitor_url_topic",
+      "term": "/is-it-worth-it",
+      "source_url": "https://japaneseramensimulator.wiki/is-it-worth-it",
+      "source_file": "research/sources/keywords-competitor-catalogue.json",
+      "is_infrastructure": false,
+      "search_volume": null,
+      "keyword_difficulty": null
+    },
+    {
+      "origin": "observed",
+      "type": "competitor_url_topic",
+      "term": "/privacy-policy",
+      "source_url": "https://japaneseramensimulator.wiki/privacy-policy",
+      "source_file": "research/sources/keywords-competitor-catalogue.json",
+      "is_infrastructure": true,
+      "search_volume": null,
+      "keyword_difficulty": null
+    },
+    {
+      "origin": "observed",
+      "type": "competitor_url_topic",
+      "term": "/terms-of-service",
+      "source_url": "https://japaneseramensimulator.wiki/terms-of-service",
+      "source_file": "research/sources/keywords-competitor-catalogue.json",
+      "is_infrastructure": true,
+      "search_volume": null,
+      "keyword_difficulty": null
+    },
+    {
+      "origin": "observed",
+      "type": "competitor_url_topic",
+      "term": "Supreme Black Garlic Tonkotsu Ramen - Japanese Ramen Simulator 5-Star Recipe",
+      "source_url": "https://japaneseramensimulator.wiki/recipes/rich-black-garlic-tonkotsu",
+      "source_file": "research/sources/keywords-competitor-catalogue.json",
+      "is_infrastructure": false,
+      "search_volume": null,
+      "keyword_difficulty": null
+    },
+    {
+      "origin": "observed",
+      "type": "competitor_url_topic",
+      "term": "/recipes/tokyo-yuzu-shio-chicken",
+      "source_url": "https://japaneseramensimulator.wiki/recipes/tokyo-yuzu-shio-chicken",
+      "source_file": "research/sources/keywords-competitor-catalogue.json",
+      "is_infrastructure": false,
+      "search_volume": null,
+      "keyword_difficulty": null
+    },
+    {
+      "origin": "observed",
+      "type": "competitor_url_topic",
+      "term": "/recipes/fish-stock-aged-miso",
+      "source_url": "https://japaneseramensimulator.wiki/recipes/fish-stock-aged-miso",
+      "source_file": "research/sources/keywords-competitor-catalogue.json",
+      "is_infrastructure": false,
+      "search_volume": null,
+      "keyword_difficulty": null
+    },
+    {
+      "origin": "observed",
+      "type": "competitor_url_topic",
+      "term": "/recipes/spicy-jigoku-ramen",
+      "source_url": "https://japaneseramensimulator.wiki/recipes/spicy-jigoku-ramen",
+      "source_file": "research/sources/keywords-competitor-catalogue.json",
+      "is_infrastructure": false,
+      "search_volume": null,
+      "keyword_difficulty": null
+    },
+    {
+      "origin": "observed",
+      "type": "competitor_url_topic",
+      "term": "/recipes/crispy-hanetsuki-gyoza",
+      "source_url": "https://japaneseramensimulator.wiki/recipes/crispy-hanetsuki-gyoza",
+      "source_file": "research/sources/keywords-competitor-catalogue.json",
+      "is_infrastructure": false,
+      "search_volume": null,
+      "keyword_difficulty": null
+    },
+    {
+      "origin": "observed",
+      "type": "competitor_url_topic",
+      "term": "/recipes/perfect-draft-beer",
+      "source_url": "https://japaneseramensimulator.wiki/recipes/perfect-draft-beer",
+      "source_file": "research/sources/keywords-competitor-catalogue.json",
+      "is_infrastructure": false,
+      "search_volume": null,
+      "keyword_difficulty": null
+    },
+    {
+      "origin": "observed",
+      "type": "competitor_url_topic",
+      "term": "/ingredients/pork-genkotsu-bones",
+      "source_url": "https://japaneseramensimulator.wiki/ingredients/pork-genkotsu-bones",
+      "source_file": "research/sources/keywords-competitor-catalogue.json",
+      "is_infrastructure": false,
+      "search_volume": null,
+      "keyword_difficulty": null
+    },
+    {
+      "origin": "observed",
+      "type": "competitor_url_topic",
+      "term": "/ingredients/whole-tori-chicken",
+      "source_url": "https://japaneseramensimulator.wiki/ingredients/whole-tori-chicken",
+      "source_file": "research/sources/keywords-competitor-catalogue.json",
+      "is_infrastructure": false,
+      "search_volume": null,
+      "keyword_difficulty": null
+    },
+    {
+      "origin": "observed",
+      "type": "competitor_url_topic",
+      "term": "Rishiri Natural Kombu Kelp - Japanese Ramen Simulator Ingredient Guide",
+      "source_url": "https://japaneseramensimulator.wiki/ingredients/rishiri-kombu-kelp",
+      "source_file": "research/sources/keywords-competitor-catalogue.json",
+      "is_infrastructure": false,
+      "search_volume": null,
+      "keyword_difficulty": null
+    },
+    {
+      "origin": "observed",
+      "type": "competitor_url_topic",
+      "term": "/ingredients/katsuobushi-bonito-flakes",
+      "source_url": "https://japaneseramensimulator.wiki/ingredients/katsuobushi-bonito-flakes",
+      "source_file": "research/sources/keywords-competitor-catalogue.json",
+      "is_infrastructure": false,
+      "search_volume": null,
+      "keyword_difficulty": null
+    },
+    {
+      "origin": "observed",
+      "type": "competitor_url_topic",
+      "term": "/ingredients/black-garlic-mayu-oil",
+      "source_url": "https://japaneseramensimulator.wiki/ingredients/black-garlic-mayu-oil",
+      "source_file": "research/sources/keywords-competitor-catalogue.json",
+      "is_infrastructure": false,
+      "search_volume": null,
+      "keyword_difficulty": null
+    },
+    {
+      "origin": "observed",
+      "type": "competitor_url_topic",
+      "term": "/ingredients/shinshu-aged-red-miso",
+      "source_url": "https://japaneseramensimulator.wiki/ingredients/shinshu-aged-red-miso",
+      "source_file": "research/sources/keywords-competitor-catalogue.json",
+      "is_infrastructure": false,
+      "search_volume": null,
+      "keyword_difficulty": null
+    },
+    {
+      "origin": "observed",
+      "type": "competitor_url_topic",
+      "term": "/ingredients/thick-rolled-chashu-pork",
+      "source_url": "https://japaneseramensimulator.wiki/ingredients/thick-rolled-chashu-pork",
+      "source_file": "research/sources/keywords-competitor-catalogue.json",
+      "is_infrastructure": false,
+      "search_volume": null,
+      "keyword_difficulty": null
+    },
+    {
+      "origin": "observed",
+      "type": "competitor_url_topic",
+      "term": "/ingredients/soy-marinated-ajitama-egg",
+      "source_url": "https://japaneseramensimulator.wiki/ingredients/soy-marinated-ajitama-egg",
+      "source_file": "research/sources/keywords-competitor-catalogue.json",
+      "is_infrastructure": false,
+      "search_volume": null,
+      "keyword_difficulty": null
+    }
+  ]
+}

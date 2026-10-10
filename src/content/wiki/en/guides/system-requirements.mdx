@@ -1,0 +1,64 @@
+---
+title: 'Japanese Ramen Simulator: System Requirements & Performance'
+description: 'Compare official minimum and recommended Windows specifications and use a measured checklist for crashes, FSR and performance issues.'
+category: 'guides'
+image: '../../../../assets/covers/en-guides-system-requirements.png'
+date: 2026-10-10
+lastModified: 2026-10-10
+draft: false
+gameVersion: 'v0.1.48.17626'
+summary: 'The official minimum is Windows 10 64-bit, 8 GB RAM and a GTX 1060 or RX 580, with at least 6 GB VRAM listed. Recommended memory is 16 GB. Both specifications require broadband and 10 GB storage. The launch patch addresses FSR and frame-generation crashes, without verified frame-rate benchmarks.'
+tags: ['reference', 'game-facts']
+---
+
+## Official Windows requirements
+
+The following specifications come from the [current Steam store page](https://store.steampowered.com/app/4968640/Japanese_Ramen_Simulator/?l=english). The developer names processor families without generations, so we do not silently replace them with particular CPU models.
+
+| Component        | Minimum                                                 | Recommended                                              |
+| ---------------- | ------------------------------------------------------- | -------------------------------------------------------- |
+| Operating system | Windows 10, 64-bit                                      | Windows 11, 64-bit                                       |
+| Processor        | Intel Core i5                                           | Intel Core i7                                            |
+| Memory           | 8 GB RAM                                                | 16 GB RAM                                                |
+| Graphics         | NVIDIA GTX 1060 / AMD RX 580; at least 6 GB VRAM listed | NVIDIA GTX 1660 / AMD R9 390X; at least 6 GB VRAM listed |
+| DirectX          | Version 11                                              | Version 12                                               |
+| Network          | Broadband internet connection                           | Broadband internet connection                            |
+| Storage          | 10 GB available space                                   | 10 GB available space                                    |
+
+This table reproduces the requirements as published, including the stated VRAM line. It does not certify every variant of a listed card. Check your actual hardware rather than treating a family name as a performance benchmark.
+
+The [platform and release reference](/guides/platforms-price-and-demo/) covers native operating-system support and the current Early Access release.
+
+## No verified FPS table
+
+We have not run the game on a local test machine. There are no measured 1080p or 4K frame-rate results in this guide. Minimum and recommended specifications do not establish a target resolution, preset or frame rate.
+
+A useful comparison is to note your CPU model, GPU and VRAM, installed RAM, operating system and available storage. If one component differs from the published requirements, that is a reason to investigate; it is not a predicted number of frames per second.
+
+## Crash checks in a sensible order
+
+The [Day 1 patch](https://steamcommunity.com/ogg/4968640/announcements/detail/702155760121940292) fixes issues involving FSR initialization and frame-generation crashes. Confirm the installed game version before comparing your problem with an older report.
+
+The following checklist is general troubleshooting advice, not a tested cure:
+
+1. Let Steam complete pending game updates.
+2. Restart the game after an update has finished.
+3. Verify installed game files through Steam if the installation may be damaged.
+4. Check available storage and compare the machine with the official specifications.
+5. Use a current appropriate graphics driver from the GPU vendor.
+6. If the game opens, change one available graphics option at a time and record the result.
+7. Save the exact crash or error wording before contacting support.
+
+Do not add guessed Unreal configuration edits or launch flags just because another game uses them. We have not verified that a particular DirectX flag or ini variable is supported here.
+
+## Separate graphics trouble from controls
+
+A difficult camera perspective, unreadable HUD and low performance can feel similar during a busy shift, but require different checks. The [controls and language guide](/guides/controls-and-language/) covers the confirmed camera options, partial controller support and HUD scaling.
+
+The [launch discussion about missing graphics options](https://steamcommunity.com/app/4968640/discussions/0/590691669351053261/) includes a request concerning chromatic aberration. It does not provide a verified setting or configuration-file solution. This wiki therefore does not advertise one.
+
+## Information to include in a report
+
+Record the numerical game version, operating system, CPU, GPU and RAM. Explain whether the crash occurs on launch, when loading a shop or after changing an option. Include the exact error text and whether the problem reproduces without the last change.
+
+For an online-session error, use the connection guide instead of assuming it is a GPU fault. For future graphics fixes, check the [patch tracker](/updates/patch-notes/): a new announcement may narrow the problem, but an old fixed-issue entry does not guarantee that all crashes share that cause.

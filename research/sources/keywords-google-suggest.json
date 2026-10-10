@@ -1,0 +1,825 @@
+{
+  "source": "Google Suggest",
+  "locale": "en-US",
+  "method": "主词、a–z 扩展和7个专题组合；空结果表示接口本次未返回建议，不代表搜索需求为零",
+  "results": [
+    {
+      "query": "japanese ramen simulator",
+      "url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=en&gl=us&q=japanese%20ramen%20simulator",
+      "http_status": "200",
+      "body": "[\"japanese ramen simulator\",[\"japanese ramen simulator\",\"japanese ramen simulator steam\",\"japanese ramen simulator game\",\"japanese ramen simulator release date\",\"japanese ramen simulator ps5\",\"japanese ramen simulator price\",\"japanese ramen simulator switch\",\"japanese ramen simulator xbox\",\"japanese ramen simulator mac\",\"japanese ramen simulator demo\"],[],{\"google:suggestsubtypes\":[[512,433,131],[512,433,131],[512,433,131],[512],[512],[512],[512],[22,30],[22,30],[22,30]]}]",
+      "parsed": [
+        "japanese ramen simulator",
+        [
+          "japanese ramen simulator",
+          "japanese ramen simulator steam",
+          "japanese ramen simulator game",
+          "japanese ramen simulator release date",
+          "japanese ramen simulator ps5",
+          "japanese ramen simulator price",
+          "japanese ramen simulator switch",
+          "japanese ramen simulator xbox",
+          "japanese ramen simulator mac",
+          "japanese ramen simulator demo"
+        ],
+        [],
+        {
+          "google:suggestsubtypes": [
+            [
+              512,
+              433,
+              131
+            ],
+            [
+              512,
+              433,
+              131
+            ],
+            [
+              512,
+              433,
+              131
+            ],
+            [
+              512
+            ],
+            [
+              512
+            ],
+            [
+              512
+            ],
+            [
+              512
+            ],
+            [
+              22,
+              30
+            ],
+            [
+              22,
+              30
+            ],
+            [
+              22,
+              30
+            ]
+          ]
+        }
+      ],
+      "error": null,
+      "stderr": "",
+      "accessed_at": "2026-10-10T02:58:39.786Z"
+    },
+    {
+      "query": "japanese ramen simulator a",
+      "url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=en&gl=us&q=japanese%20ramen%20simulator%20a",
+      "http_status": "200",
+      "body": "[\"japanese ramen simulator a\",[]]",
+      "parsed": [
+        "japanese ramen simulator a",
+        []
+      ],
+      "error": null,
+      "stderr": "",
+      "accessed_at": "2026-10-10T02:58:39.809Z"
+    },
+    {
+      "query": "japanese ramen simulator b",
+      "url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=en&gl=us&q=japanese%20ramen%20simulator%20b",
+      "http_status": "200",
+      "body": "[\"japanese ramen simulator b\",[]]",
+      "parsed": [
+        "japanese ramen simulator b",
+        []
+      ],
+      "error": null,
+      "stderr": "",
+      "accessed_at": "2026-10-10T02:58:39.757Z"
+    },
+    {
+      "query": "japanese ramen simulator c",
+      "url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=en&gl=us&q=japanese%20ramen%20simulator%20c",
+      "http_status": "200",
+      "body": "[\"japanese ramen simulator c\",[\"japanese restaurant simulator codes\",\"japanese restaurant simulator roblox codes\",\"how much is a bowl of ramen in japan\",\"cold ramen in japan\",\"average cost of ramen in japan\"],[],{\"google:suggestsubtypes\":[[22,30],[22,30],[512,650,390],[512,650,390],[512,650,390]]}]",
+      "parsed": [
+        "japanese ramen simulator c",
+        [
+          "japanese restaurant simulator codes",
+          "japanese restaurant simulator roblox codes",
+          "how much is a bowl of ramen in japan",
+          "cold ramen in japan",
+          "average cost of ramen in japan"
+        ],
+        [],
+        {
+          "google:suggestsubtypes": [
+            [
+              22,
+              30
+            ],
+            [
+              22,
+              30
+            ],
+            [
+              512,
+              650,
+              390
+            ],
+            [
+              512,
+              650,
+              390
+            ],
+            [
+              512,
+              650,
+              390
+            ]
+          ]
+        }
+      ],
+      "error": null,
+      "stderr": "",
+      "accessed_at": "2026-10-10T02:58:39.831Z"
+    },
+    {
+      "query": "japanese ramen simulator d",
+      "url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=en&gl=us&q=japanese%20ramen%20simulator%20d",
+      "http_status": "200",
+      "body": "[\"japanese ramen simulator d\",[\"japanese ramen simulator demo\",\"japanese ramen simulator release date\",\"japanese ramen simulator discord\",\"how much is a bowl of ramen in japan\",\"meat for japanese ramen\"],[],{\"google:suggestsubtypes\":[[22,30],[22,30],[22,30],[512,650,390],[512,650,390]]}]",
+      "parsed": [
+        "japanese ramen simulator d",
+        [
+          "japanese ramen simulator demo",
+          "japanese ramen simulator release date",
+          "japanese ramen simulator discord",
+          "how much is a bowl of ramen in japan",
+          "meat for japanese ramen"
+        ],
+        [],
+        {
+          "google:suggestsubtypes": [
+            [
+              22,
+              30
+            ],
+            [
+              22,
+              30
+            ],
+            [
+              22,
+              30
+            ],
+            [
+              512,
+              650,
+              390
+            ],
+            [
+              512,
+              650,
+              390
+            ]
+          ]
+        }
+      ],
+      "error": null,
+      "stderr": "",
+      "accessed_at": "2026-10-10T02:58:40.746Z"
+    },
+    {
+      "query": "japanese ramen simulator e",
+      "url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=en&gl=us&q=japanese%20ramen%20simulator%20e",
+      "http_status": "200",
+      "body": "[\"japanese ramen simulator e\",[]]",
+      "parsed": [
+        "japanese ramen simulator e",
+        []
+      ],
+      "error": null,
+      "stderr": "",
+      "accessed_at": "2026-10-10T02:58:40.730Z"
+    },
+    {
+      "query": "japanese ramen simulator f",
+      "url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=en&gl=us&q=japanese%20ramen%20simulator%20f",
+      "http_status": "200",
+      "body": "[\"japanese ramen simulator f\",[]]",
+      "parsed": [
+        "japanese ramen simulator f",
+        []
+      ],
+      "error": null,
+      "stderr": "",
+      "accessed_at": "2026-10-10T02:58:40.769Z"
+    },
+    {
+      "query": "japanese ramen simulator g",
+      "url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=en&gl=us&q=japanese%20ramen%20simulator%20g",
+      "http_status": "200",
+      "body": "[\"japanese ramen simulator g\",[\"japanese ramen simulator game\",\"how much is a bowl of ramen in japan\",\"how much is a bowl of ramen in tokyo\",\"average cost of ramen in japan\"],[],{\"google:suggestsubtypes\":[[512,433,131],[512,650,390],[512,650,390],[512,650,390]]}]",
+      "parsed": [
+        "japanese ramen simulator g",
+        [
+          "japanese ramen simulator game",
+          "how much is a bowl of ramen in japan",
+          "how much is a bowl of ramen in tokyo",
+          "average cost of ramen in japan"
+        ],
+        [],
+        {
+          "google:suggestsubtypes": [
+            [
+              512,
+              433,
+              131
+            ],
+            [
+              512,
+              650,
+              390
+            ],
+            [
+              512,
+              650,
+              390
+            ],
+            [
+              512,
+              650,
+              390
+            ]
+          ]
+        }
+      ],
+      "error": null,
+      "stderr": "",
+      "accessed_at": "2026-10-10T02:58:40.789Z"
+    },
+    {
+      "query": "japanese ramen simulator h",
+      "url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=en&gl=us&q=japanese%20ramen%20simulator%20h",
+      "http_status": "200",
+      "body": "[\"japanese ramen simulator h\",[]]",
+      "parsed": [
+        "japanese ramen simulator h",
+        []
+      ],
+      "error": null,
+      "stderr": "",
+      "accessed_at": "2026-10-10T02:58:41.668Z"
+    },
+    {
+      "query": "japanese ramen simulator i",
+      "url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=en&gl=us&q=japanese%20ramen%20simulator%20i",
+      "http_status": "200",
+      "body": "[\"japanese ramen simulator i\",[]]",
+      "parsed": [
+        "japanese ramen simulator i",
+        []
+      ],
+      "error": null,
+      "stderr": "",
+      "accessed_at": "2026-10-10T02:58:41.683Z"
+    },
+    {
+      "query": "japanese ramen simulator j",
+      "url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=en&gl=us&q=japanese%20ramen%20simulator%20j",
+      "http_status": "200",
+      "body": "[\"japanese ramen simulator j\",[]]",
+      "parsed": [
+        "japanese ramen simulator j",
+        []
+      ],
+      "error": null,
+      "stderr": "",
+      "accessed_at": "2026-10-10T02:58:41.700Z"
+    },
+    {
+      "query": "japanese ramen simulator k",
+      "url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=en&gl=us&q=japanese%20ramen%20simulator%20k",
+      "http_status": "200",
+      "body": "[\"japanese ramen simulator k\",[]]",
+      "parsed": [
+        "japanese ramen simulator k",
+        []
+      ],
+      "error": null,
+      "stderr": "",
+      "accessed_at": "2026-10-10T02:58:41.720Z"
+    },
+    {
+      "query": "japanese ramen simulator l",
+      "url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=en&gl=us&q=japanese%20ramen%20simulator%20l",
+      "http_status": "200",
+      "body": "[\"japanese ramen simulator l\",[\"japanese ramen sim lim square\",\"japanese ramen sim lim\",\"how much is a bowl of ramen in japan\",\"how much is a bowl of ramen in tokyo\",\"ramen in japanese writing\",\"average cost of ramen in japan\"],[],{\"google:suggestsubtypes\":[[22,30],[22,30],[512,650,390],[512,650,390],[512,650,390],[512,650,390]]}]",
+      "parsed": [
+        "japanese ramen simulator l",
+        [
+          "japanese ramen sim lim square",
+          "japanese ramen sim lim",
+          "how much is a bowl of ramen in japan",
+          "how much is a bowl of ramen in tokyo",
+          "ramen in japanese writing",
+          "average cost of ramen in japan"
+        ],
+        [],
+        {
+          "google:suggestsubtypes": [
+            [
+              22,
+              30
+            ],
+            [
+              22,
+              30
+            ],
+            [
+              512,
+              650,
+              390
+            ],
+            [
+              512,
+              650,
+              390
+            ],
+            [
+              512,
+              650,
+              390
+            ],
+            [
+              512,
+              650,
+              390
+            ]
+          ]
+        }
+      ],
+      "error": null,
+      "stderr": "",
+      "accessed_at": "2026-10-10T02:58:42.592Z"
+    },
+    {
+      "query": "japanese ramen simulator m",
+      "url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=en&gl=us&q=japanese%20ramen%20simulator%20m",
+      "http_status": "200",
+      "body": "[\"japanese ramen simulator m\",[\"japanese ramen simulator mac\",\"how much is a bowl of ramen in japan\",\"how much is a bowl of ramen in tokyo\",\"average cost of ramen in japan\",\"meat for japanese ramen\"],[],{\"google:suggestsubtypes\":[[22,30],[512,650,390],[512,650,390],[512,650,390],[512,650,390]]}]",
+      "parsed": [
+        "japanese ramen simulator m",
+        [
+          "japanese ramen simulator mac",
+          "how much is a bowl of ramen in japan",
+          "how much is a bowl of ramen in tokyo",
+          "average cost of ramen in japan",
+          "meat for japanese ramen"
+        ],
+        [],
+        {
+          "google:suggestsubtypes": [
+            [
+              22,
+              30
+            ],
+            [
+              512,
+              650,
+              390
+            ],
+            [
+              512,
+              650,
+              390
+            ],
+            [
+              512,
+              650,
+              390
+            ],
+            [
+              512,
+              650,
+              390
+            ]
+          ]
+        }
+      ],
+      "error": null,
+      "stderr": "",
+      "accessed_at": "2026-10-10T02:58:42.576Z"
+    },
+    {
+      "query": "japanese ramen simulator n",
+      "url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=en&gl=us&q=japanese%20ramen%20simulator%20n",
+      "http_status": "200",
+      "body": "[\"japanese ramen simulator n\",[]]",
+      "parsed": [
+        "japanese ramen simulator n",
+        []
+      ],
+      "error": null,
+      "stderr": "",
+      "accessed_at": "2026-10-10T02:58:42.630Z"
+    },
+    {
+      "query": "japanese ramen simulator o",
+      "url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=en&gl=us&q=japanese%20ramen%20simulator%20o",
+      "http_status": "200",
+      "body": "[\"japanese ramen simulator o\",[]]",
+      "parsed": [
+        "japanese ramen simulator o",
+        []
+      ],
+      "error": null,
+      "stderr": "",
+      "accessed_at": "2026-10-10T02:58:42.611Z"
+    },
+    {
+      "query": "japanese ramen simulator p",
+      "url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=en&gl=us&q=japanese%20ramen%20simulator%20p",
+      "http_status": "200",
+      "body": "[\"japanese ramen simulator p\",[\"japanese ramen simulator ps5\",\"japanese ramen simulator price\",\"how much is a bowl of ramen in japan\",\"average cost of ramen in japan\",\"how much is a bowl of ramen in tokyo\"],[],{\"google:suggestsubtypes\":[[512],[512],[512,650,390],[512,650,390],[512,650,390]]}]",
+      "parsed": [
+        "japanese ramen simulator p",
+        [
+          "japanese ramen simulator ps5",
+          "japanese ramen simulator price",
+          "how much is a bowl of ramen in japan",
+          "average cost of ramen in japan",
+          "how much is a bowl of ramen in tokyo"
+        ],
+        [],
+        {
+          "google:suggestsubtypes": [
+            [
+              512
+            ],
+            [
+              512
+            ],
+            [
+              512,
+              650,
+              390
+            ],
+            [
+              512,
+              650,
+              390
+            ],
+            [
+              512,
+              650,
+              390
+            ]
+          ]
+        }
+      ],
+      "error": null,
+      "stderr": "",
+      "accessed_at": "2026-10-10T02:58:43.515Z"
+    },
+    {
+      "query": "japanese ramen simulator q",
+      "url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=en&gl=us&q=japanese%20ramen%20simulator%20q",
+      "http_status": "200",
+      "body": "[\"japanese ramen simulator q\",[]]",
+      "parsed": [
+        "japanese ramen simulator q",
+        []
+      ],
+      "error": null,
+      "stderr": "",
+      "accessed_at": "2026-10-10T02:58:43.499Z"
+    },
+    {
+      "query": "japanese ramen simulator r",
+      "url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=en&gl=us&q=japanese%20ramen%20simulator%20r",
+      "http_status": "200",
+      "body": "[\"japanese ramen simulator r\",[\"japanese ramen simulator release date\",\"japanese restaurant simulator roblox codes\",\"japanese ramen simulator reddit\",\"average cost of ramen in japan\",\"how much is a bowl of ramen in japan\"],[],{\"google:suggestsubtypes\":[[512],[22,30],[22,30],[512,650,390],[512,650,390]]}]",
+      "parsed": [
+        "japanese ramen simulator r",
+        [
+          "japanese ramen simulator release date",
+          "japanese restaurant simulator roblox codes",
+          "japanese ramen simulator reddit",
+          "average cost of ramen in japan",
+          "how much is a bowl of ramen in japan"
+        ],
+        [],
+        {
+          "google:suggestsubtypes": [
+            [
+              512
+            ],
+            [
+              22,
+              30
+            ],
+            [
+              22,
+              30
+            ],
+            [
+              512,
+              650,
+              390
+            ],
+            [
+              512,
+              650,
+              390
+            ]
+          ]
+        }
+      ],
+      "error": null,
+      "stderr": "",
+      "accessed_at": "2026-10-10T02:58:43.560Z"
+    },
+    {
+      "query": "japanese ramen simulator s",
+      "url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=en&gl=us&q=japanese%20ramen%20simulator%20s",
+      "http_status": "200",
+      "body": "[\"japanese ramen simulator s\",[\"japanese ramen simulator steam\",\"japanese ramen simulator switch\",\"japanese ramen shop simulator\",\"japanese ramen sim lim square\",\"how much is a bowl of ramen in japan\",\"how much is a bowl of ramen in tokyo\",\"average cost of ramen in japan\",\"cold ramen in japan\"],[],{\"google:suggestsubtypes\":[[512,433,131],[512],[22,30],[22,30],[512,650,390],[512,650,390],[512,650,390],[512,650,390]]}]",
+      "parsed": [
+        "japanese ramen simulator s",
+        [
+          "japanese ramen simulator steam",
+          "japanese ramen simulator switch",
+          "japanese ramen shop simulator",
+          "japanese ramen sim lim square",
+          "how much is a bowl of ramen in japan",
+          "how much is a bowl of ramen in tokyo",
+          "average cost of ramen in japan",
+          "cold ramen in japan"
+        ],
+        [],
+        {
+          "google:suggestsubtypes": [
+            [
+              512,
+              433,
+              131
+            ],
+            [
+              512
+            ],
+            [
+              22,
+              30
+            ],
+            [
+              22,
+              30
+            ],
+            [
+              512,
+              650,
+              390
+            ],
+            [
+              512,
+              650,
+              390
+            ],
+            [
+              512,
+              650,
+              390
+            ],
+            [
+              512,
+              650,
+              390
+            ]
+          ]
+        }
+      ],
+      "error": null,
+      "stderr": "",
+      "accessed_at": "2026-10-10T02:58:43.537Z"
+    },
+    {
+      "query": "japanese ramen simulator t",
+      "url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=en&gl=us&q=japanese%20ramen%20simulator%20t",
+      "http_status": "200",
+      "body": "[\"japanese ramen simulator t\",[]]",
+      "parsed": [
+        "japanese ramen simulator t",
+        []
+      ],
+      "error": null,
+      "stderr": "",
+      "accessed_at": "2026-10-10T02:58:44.421Z"
+    },
+    {
+      "query": "japanese ramen simulator u",
+      "url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=en&gl=us&q=japanese%20ramen%20simulator%20u",
+      "http_status": "200",
+      "body": "[\"japanese ramen simulator u\",[]]",
+      "parsed": [
+        "japanese ramen simulator u",
+        []
+      ],
+      "error": null,
+      "stderr": "",
+      "accessed_at": "2026-10-10T02:58:44.408Z"
+    },
+    {
+      "query": "japanese ramen simulator v",
+      "url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=en&gl=us&q=japanese%20ramen%20simulator%20v",
+      "http_status": "200",
+      "body": "[\"japanese ramen simulator v\",[]]",
+      "parsed": [
+        "japanese ramen simulator v",
+        []
+      ],
+      "error": null,
+      "stderr": "",
+      "accessed_at": "2026-10-10T02:58:44.450Z"
+    },
+    {
+      "query": "japanese ramen simulator w",
+      "url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=en&gl=us&q=japanese%20ramen%20simulator%20w",
+      "http_status": "200",
+      "body": "[\"japanese ramen simulator w\",[]]",
+      "parsed": [
+        "japanese ramen simulator w",
+        []
+      ],
+      "error": null,
+      "stderr": "",
+      "accessed_at": "2026-10-10T02:58:44.464Z"
+    },
+    {
+      "query": "japanese ramen simulator x",
+      "url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=en&gl=us&q=japanese%20ramen%20simulator%20x",
+      "http_status": "200",
+      "body": "[\"japanese ramen simulator x\",[\"japanese ramen simulator xbox\",\"how much is a bowl of ramen in japan\",\"what kind of noodles are used in japanese ramen\",\"meat for japanese ramen\",\"average cost of ramen in japan\"],[],{\"google:suggestsubtypes\":[[22,30],[512,650,390],[512,650,390],[512,650,390],[512,650,390]]}]",
+      "parsed": [
+        "japanese ramen simulator x",
+        [
+          "japanese ramen simulator xbox",
+          "how much is a bowl of ramen in japan",
+          "what kind of noodles are used in japanese ramen",
+          "meat for japanese ramen",
+          "average cost of ramen in japan"
+        ],
+        [],
+        {
+          "google:suggestsubtypes": [
+            [
+              22,
+              30
+            ],
+            [
+              512,
+              650,
+              390
+            ],
+            [
+              512,
+              650,
+              390
+            ],
+            [
+              512,
+              650,
+              390
+            ],
+            [
+              512,
+              650,
+              390
+            ]
+          ]
+        }
+      ],
+      "error": null,
+      "stderr": "",
+      "accessed_at": "2026-10-10T02:58:45.325Z"
+    },
+    {
+      "query": "japanese ramen simulator y",
+      "url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=en&gl=us&q=japanese%20ramen%20simulator%20y",
+      "http_status": "200",
+      "body": "[\"japanese ramen simulator y\",[]]",
+      "parsed": [
+        "japanese ramen simulator y",
+        []
+      ],
+      "error": null,
+      "stderr": "",
+      "accessed_at": "2026-10-10T02:58:45.343Z"
+    },
+    {
+      "query": "japanese ramen simulator z",
+      "url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=en&gl=us&q=japanese%20ramen%20simulator%20z",
+      "http_status": "200",
+      "body": "[\"japanese ramen simulator z\",[]]",
+      "parsed": [
+        "japanese ramen simulator z",
+        []
+      ],
+      "error": null,
+      "stderr": "",
+      "accessed_at": "2026-10-10T02:58:45.360Z"
+    },
+    {
+      "query": "japanese ramen simulator guide",
+      "url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=en&gl=us&q=japanese%20ramen%20simulator%20guide",
+      "http_status": "200",
+      "body": "[\"japanese ramen simulator guide\",[]]",
+      "parsed": [
+        "japanese ramen simulator guide",
+        []
+      ],
+      "error": null,
+      "stderr": "",
+      "accessed_at": "2026-10-10T02:58:45.400Z"
+    },
+    {
+      "query": "japanese ramen simulator recipes",
+      "url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=en&gl=us&q=japanese%20ramen%20simulator%20recipes",
+      "http_status": "200",
+      "body": "[\"japanese ramen simulator recipes\",[]]",
+      "parsed": [
+        "japanese ramen simulator recipes",
+        []
+      ],
+      "error": null,
+      "stderr": "",
+      "accessed_at": "2026-10-10T02:58:46.248Z"
+    },
+    {
+      "query": "japanese ramen simulator multiplayer",
+      "url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=en&gl=us&q=japanese%20ramen%20simulator%20multiplayer",
+      "http_status": "200",
+      "body": "[\"japanese ramen simulator multiplayer\",[]]",
+      "parsed": [
+        "japanese ramen simulator multiplayer",
+        []
+      ],
+      "error": null,
+      "stderr": "",
+      "accessed_at": "2026-10-10T02:58:46.235Z"
+    },
+    {
+      "query": "japanese ramen simulator achievements",
+      "url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=en&gl=us&q=japanese%20ramen%20simulator%20achievements",
+      "http_status": "200",
+      "body": "[\"japanese ramen simulator achievements\",[]]",
+      "parsed": [
+        "japanese ramen simulator achievements",
+        []
+      ],
+      "error": null,
+      "stderr": "",
+      "accessed_at": "2026-10-10T02:58:46.276Z"
+    },
+    {
+      "query": "japanese ramen simulator staff",
+      "url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=en&gl=us&q=japanese%20ramen%20simulator%20staff",
+      "http_status": "200",
+      "body": "[\"japanese ramen simulator staff\",[]]",
+      "parsed": [
+        "japanese ramen simulator staff",
+        []
+      ],
+      "error": null,
+      "stderr": "",
+      "accessed_at": "2026-10-10T02:58:46.331Z"
+    },
+    {
+      "query": "japanese ramen simulator ingredients",
+      "url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=en&gl=us&q=japanese%20ramen%20simulator%20ingredients",
+      "http_status": "200",
+      "body": "[\"japanese ramen simulator ingredients\",[]]",
+      "parsed": [
+        "japanese ramen simulator ingredients",
+        []
+      ],
+      "error": null,
+      "stderr": "",
+      "accessed_at": "2026-10-10T02:58:47.193Z"
+    },
+    {
+      "query": "japanese ramen simulator controls",
+      "url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=en&gl=us&q=japanese%20ramen%20simulator%20controls",
+      "http_status": "200",
+      "body": "[\"japanese ramen simulator controls\",[]]",
+      "parsed": [
+        "japanese ramen simulator controls",
+        []
+      ],
+      "error": null,
+      "stderr": "",
+      "accessed_at": "2026-10-10T02:58:47.155Z"
+    }
+  ]
+}

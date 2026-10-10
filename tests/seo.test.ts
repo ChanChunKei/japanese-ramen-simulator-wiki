@@ -14,9 +14,14 @@ import {
 import { fallbackDetailPaths } from '~/lib/fallback-paths';
 import { site } from '~/config/site';
 import { authors } from '~/config/authors';
+import { type Locale } from '~/i18n/routing';
+
+// 此处仅为 URL 构造函数的非默认语言测试夹具，不增加本站支持语言。
+const fixtureLocale = 'ja' as Locale;
 
 /** Repo-root-relative source text (contract-test helper, handbook.test.ts style). */
-const src = (rel: string) => readFileSync(fileURLToPath(new URL(`../${rel}`, import.meta.url)), 'utf8');
+const src = (rel: string) =>
+  readFileSync(fileURLToPath(new URL(`../${rel}`, import.meta.url)), 'utf8');
 
 describe('SEO helpers', () => {
   describe('organizationJsonLd', () => {
@@ -60,7 +65,7 @@ describe('SEO helpers', () => {
       const modified = new Date('2026-06-01');
       const withModified = articleJsonLd({
         title: 'T',
- description: 'Desc that is long enough for validation here.',
+        description: 'Desc that is long enough for validation here.',
         datePublished: published,
         dateModified: modified,
         category: 'bosses',
@@ -71,7 +76,7 @@ describe('SEO helpers', () => {
 
       const noModified = articleJsonLd({
         title: 'T',
- description: 'Desc that is long enough for validation here.',
+        description: 'Desc that is long enough for validation here.',
         datePublished: published,
         category: 'bosses',
         slug: 's',
@@ -116,7 +121,7 @@ describe('SEO helpers', () => {
         categoryLabel: 'ボス一覧',
         title: 'エンバーファング攻略',
         slug: 'emberfang',
-        locale: 'ja',
+        locale: fixtureLocale,
       });
       expect(json.itemListElement[0].item).toMatch(/\/ja\/$/);
     });
@@ -124,7 +129,7 @@ describe('SEO helpers', () => {
 
   describe('simpleBreadcrumbJsonLd', () => {
     it('emits the Home item with a trailing slash for every locale', () => {
-      for (const locale of ['en', 'ja'] as const) {
+      for (const locale of ['en', fixtureLocale] as const) {
         const json = simpleBreadcrumbJsonLd({
           pageLabel: 'All Bosses',
           path: '/bosses/',
@@ -164,9 +169,7 @@ describe('SEO helpers', () => {
 
   describe('faqPageJsonLd', () => {
     it('maps Q&A pairs to Question/Answer schema', () => {
-      const json = faqPageJsonLd([
-        { question: 'What is X?', answer: 'X is Y.' },
-      ]);
+      const json = faqPageJsonLd([{ question: 'What is X?', answer: 'X is Y.' }]);
       expect(json['@type']).toBe('FAQPage');
       expect(json.mainEntity[0]['@type']).toBe('Question');
       expect(json.mainEntity[0].acceptedAnswer.text).toBe('X is Y.');
@@ -182,8 +185,9 @@ describe('SEO helpers', () => {
     });
 
     it('skips the suffix when the title already carries the game name', () => {
-      const t = pageTitle('Anvil Quest Boss Guide');
-      expect(t).toBe('Anvil Quest Boss Guide');
+      const title = `${site.game.name} Guide`;
+      const t = pageTitle(title);
+      expect(t).toBe(title);
     });
 
     it('switches to the short suffix for long titles (>50 chars)', () => {

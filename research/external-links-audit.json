@@ -1,0 +1,780 @@
+{
+  "audit_date": "2026-10-10",
+  "started_at": "2026-10-10T03:35:41.981Z",
+  "completed_at": "2026-10-10T03:35:50.706Z",
+  "scope": "src/content/wiki/en/**/*.mdx",
+  "file_count": 20,
+  "files": [
+    "src/content/wiki/en/cooking/beer.mdx",
+    "src/content/wiki/en/cooking/broth-and-tare.mdx",
+    "src/content/wiki/en/cooking/gyoza-and-rice-bowls.mdx",
+    "src/content/wiki/en/cooking/ramen-recipes.mdx",
+    "src/content/wiki/en/guides/achievements.mdx",
+    "src/content/wiki/en/guides/beginner-guide.mdx",
+    "src/content/wiki/en/guides/controls-and-language.mdx",
+    "src/content/wiki/en/guides/platforms-price-and-demo.mdx",
+    "src/content/wiki/en/guides/save-data.mdx",
+    "src/content/wiki/en/guides/system-requirements.mdx",
+    "src/content/wiki/en/multiplayer/co-op-roles.mdx",
+    "src/content/wiki/en/multiplayer/connection-errors.mdx",
+    "src/content/wiki/en/multiplayer/invite-friends.mdx",
+    "src/content/wiki/en/restaurant/food-critic.mdx",
+    "src/content/wiki/en/restaurant/layout-and-my-designs.mdx",
+    "src/content/wiki/en/restaurant/orders-and-tickets.mdx",
+    "src/content/wiki/en/restaurant/shop-level-and-unlocks.mdx",
+    "src/content/wiki/en/restaurant/staff-and-solo-play.mdx",
+    "src/content/wiki/en/restaurant/thieves-and-fires.mdx",
+    "src/content/wiki/en/updates/patch-notes.mdx"
+  ],
+  "unique_url_count": 18,
+  "occurrence_count": 57,
+  "method": {
+    "inventory": "rg -n https?:// then UTF-8 Node.js URL extraction",
+    "request": "curl.exe HTTP GET with redirects",
+    "max_concurrency": 4,
+    "total_timeout_seconds": 15,
+    "connect_timeout_seconds": 10,
+    "max_redirects": 8,
+    "retries": 0,
+    "public_only": true,
+    "browser_cdp_available": false
+  },
+  "limitations": [
+    "本次仅审计外链可达性，未重新审核引用事实。",
+    "动态Steam公告200可能为页面壳，不代表完整内容。",
+    "拒绝、Cloudflare挑战、限流和超时不作404判断。",
+    "CDP前置检查未连接，按web-access技能使用公开curl通道。"
+  ],
+  "github_links": {
+    "count": 0,
+    "urls": []
+  },
+  "summary": {
+    "reachable": 17,
+    "access_blocked": 1
+  },
+  "results": [
+    {
+      "url": "https://prtimes.jp/main/html/rd/p/000000009.000159372.html",
+      "occurrences": [
+        {
+          "file": "src/content/wiki/en/multiplayer/co-op-roles.mdx",
+          "line": 26
+        },
+        {
+          "file": "src/content/wiki/en/multiplayer/invite-friends.mdx",
+          "line": 30
+        }
+      ],
+      "checked_at": "2026-10-10T03:35:45.090Z",
+      "method": "GET",
+      "status": 200,
+      "curl_exit_code": 0,
+      "classification": "reachable",
+      "effective_url": "https://prtimes.jp/main/html/rd/p/000000009.000159372.html",
+      "redirect_count": 0,
+      "elapsed_seconds": 2.296778,
+      "response_bytes": 271208,
+      "content_type": "text/html; charset=utf-8",
+      "title": "自由度が高すぎるマルチ対応ラーメン屋シミュレーションゲーム『Japanese Ramen Simulator』 本日、Steam早期アクセス配信開始！ | 株式会社ワイルドドッグのプレスリリース",
+      "response_sha256": "9a8f99f15d911a95491ee74c1e5327c7fd8cf6c721ce284f099ee95306c11d93",
+      "response_headers": {
+        "content-type": "text/html; charset=utf-8"
+      },
+      "challenge_detected": false,
+      "content_verified": false,
+      "error": null,
+      "notes": [
+        "完成HTTP GET，仅证明可达，不等于正文完整性或证据内容已核对。"
+      ]
+    },
+    {
+      "url": "https://steamcommunity.com/app/4968640/discussions/0/590691669351036190/",
+      "occurrences": [
+        {
+          "file": "src/content/wiki/en/restaurant/thieves-and-fires.mdx",
+          "line": 32
+        }
+      ],
+      "checked_at": "2026-10-10T03:35:44.059Z",
+      "method": "GET",
+      "status": 200,
+      "curl_exit_code": 0,
+      "classification": "reachable",
+      "effective_url": "https://steamcommunity.com/app/4968640/discussions/0/590691669351036190/",
+      "redirect_count": 0,
+      "elapsed_seconds": 1.399383,
+      "response_bytes": 89109,
+      "content_type": "text/html; charset=UTF-8",
+      "title": "Thieves :: Japanese Ramen Simulator General Discussions",
+      "response_sha256": "6ad6a286a6a195e5e5e0c77778e94c99b53072dfb03be27c2041b78fa5ed8125",
+      "response_headers": {
+        "content-type": "text/html; charset=UTF-8",
+        "server": "nginx"
+      },
+      "challenge_detected": false,
+      "content_verified": false,
+      "error": null,
+      "notes": [
+        "完成HTTP GET，仅证明可达，不等于正文完整性或证据内容已核对。"
+      ]
+    },
+    {
+      "url": "https://steamcommunity.com/app/4968640/discussions/0/590691669351042488/",
+      "occurrences": [
+        {
+          "file": "src/content/wiki/en/guides/controls-and-language.mdx",
+          "line": 30
+        }
+      ],
+      "checked_at": "2026-10-10T03:35:43.908Z",
+      "method": "GET",
+      "status": 200,
+      "curl_exit_code": 0,
+      "classification": "reachable",
+      "effective_url": "https://steamcommunity.com/app/4968640/discussions/0/590691669351042488/",
+      "redirect_count": 0,
+      "elapsed_seconds": 1.49072,
+      "response_bytes": 72786,
+      "content_type": "text/html; charset=UTF-8",
+      "title": "Game starts in Japanese :: Japanese Ramen Simulator General Discussions",
+      "response_sha256": "d96484f55ff4817a0639f855a875d66d6f605343c0e06a250c9722edf3719bc6",
+      "response_headers": {
+        "content-type": "text/html; charset=UTF-8",
+        "server": "nginx"
+      },
+      "challenge_detected": false,
+      "content_verified": false,
+      "error": null,
+      "notes": [
+        "完成HTTP GET，仅证明可达，不等于正文完整性或证据内容已核对。"
+      ]
+    },
+    {
+      "url": "https://steamcommunity.com/app/4968640/discussions/0/590691669351042497/",
+      "occurrences": [
+        {
+          "file": "src/content/wiki/en/guides/controls-and-language.mdx",
+          "line": 51
+        }
+      ],
+      "checked_at": "2026-10-10T03:35:43.748Z",
+      "method": "GET",
+      "status": 200,
+      "curl_exit_code": 0,
+      "classification": "reachable",
+      "effective_url": "https://steamcommunity.com/app/4968640/discussions/0/590691669351042497/",
+      "redirect_count": 0,
+      "elapsed_seconds": 1.337841,
+      "response_bytes": 68496,
+      "content_type": "text/html; charset=UTF-8",
+      "title": "Cart control feedback / Suggestion for cart controls :: Japanese Ramen Simulator General Discussions",
+      "response_sha256": "e6ef6ff9b5ab8e45685f5a520fca3618802ec41652e611fe70c26425f326ee38",
+      "response_headers": {
+        "content-type": "text/html; charset=UTF-8",
+        "server": "nginx"
+      },
+      "challenge_detected": false,
+      "content_verified": false,
+      "error": null,
+      "notes": [
+        "完成HTTP GET，仅证明可达，不等于正文完整性或证据内容已核对。"
+      ]
+    },
+    {
+      "url": "https://steamcommunity.com/app/4968640/discussions/0/590691669351042650/",
+      "occurrences": [
+        {
+          "file": "src/content/wiki/en/multiplayer/connection-errors.mdx",
+          "line": 18
+        }
+      ],
+      "checked_at": "2026-10-10T03:35:45.410Z",
+      "method": "GET",
+      "status": 200,
+      "curl_exit_code": 0,
+      "classification": "reachable",
+      "effective_url": "https://steamcommunity.com/app/4968640/discussions/0/590691669351042650/",
+      "redirect_count": 0,
+      "elapsed_seconds": 1.325517,
+      "response_bytes": 64067,
+      "content_type": "text/html; charset=UTF-8",
+      "title": "Cannot Join or Invite Friend :: Japanese Ramen Simulator General Discussions",
+      "response_sha256": "69d8bc4b0294dcf6ad0eea7d7ae8f6e592c5d5a8c302b1e1abeaa8703a61bbb7",
+      "response_headers": {
+        "content-type": "text/html; charset=UTF-8",
+        "server": "nginx"
+      },
+      "challenge_detected": false,
+      "content_verified": false,
+      "error": null,
+      "notes": [
+        "完成HTTP GET，仅证明可达，不等于正文完整性或证据内容已核对。"
+      ]
+    },
+    {
+      "url": "https://steamcommunity.com/app/4968640/discussions/0/590691669351052773/",
+      "occurrences": [
+        {
+          "file": "src/content/wiki/en/multiplayer/invite-friends.mdx",
+          "line": 42
+        }
+      ],
+      "checked_at": "2026-10-10T03:35:45.803Z",
+      "method": "GET",
+      "status": 200,
+      "curl_exit_code": 0,
+      "classification": "reachable",
+      "effective_url": "https://steamcommunity.com/app/4968640/discussions/0/590691669351052773/",
+      "redirect_count": 0,
+      "elapsed_seconds": 1.199721,
+      "response_bytes": 49475,
+      "content_type": "text/html; charset=UTF-8",
+      "title": "Disappointed in the multiplayer. :: Japanese Ramen Simulator General Discussions",
+      "response_sha256": "2d3cc83f15f7694364055f290d8434481267ea4cb7cbe85f161e4c991c1df957",
+      "response_headers": {
+        "content-type": "text/html; charset=UTF-8",
+        "server": "nginx"
+      },
+      "challenge_detected": false,
+      "content_verified": false,
+      "error": null,
+      "notes": [
+        "完成HTTP GET，仅证明可达，不等于正文完整性或证据内容已核对。"
+      ]
+    },
+    {
+      "url": "https://steamcommunity.com/app/4968640/discussions/0/590691669351053261/",
+      "occurrences": [
+        {
+          "file": "src/content/wiki/en/guides/system-requirements.mdx",
+          "line": 58
+        }
+      ],
+      "checked_at": "2026-10-10T03:35:45.639Z",
+      "method": "GET",
+      "status": 200,
+      "curl_exit_code": 0,
+      "classification": "reachable",
+      "effective_url": "https://steamcommunity.com/app/4968640/discussions/0/590691669351053261/",
+      "redirect_count": 0,
+      "elapsed_seconds": 1.27528,
+      "response_bytes": 49980,
+      "content_type": "text/html; charset=UTF-8",
+      "title": "Missing Graphics Options :: Japanese Ramen Simulator General Discussions",
+      "response_sha256": "f97f88cf090514beed1218f23bc90731a2afd8c28077291ceadbbfa52d4ed70c",
+      "response_headers": {
+        "content-type": "text/html; charset=UTF-8",
+        "server": "nginx"
+      },
+      "challenge_detected": false,
+      "content_verified": false,
+      "error": null,
+      "notes": [
+        "完成HTTP GET，仅证明可达，不等于正文完整性或证据内容已核对。"
+      ]
+    },
+    {
+      "url": "https://steamcommunity.com/app/4968640/discussions/0/590691913363919420/",
+      "occurrences": [
+        {
+          "file": "src/content/wiki/en/restaurant/staff-and-solo-play.mdx",
+          "line": 18
+        }
+      ],
+      "checked_at": "2026-10-10T03:35:46.675Z",
+      "method": "GET",
+      "status": 200,
+      "curl_exit_code": 0,
+      "classification": "reachable",
+      "effective_url": "https://steamcommunity.com/app/4968640/discussions/0/590691913363919420/",
+      "redirect_count": 0,
+      "elapsed_seconds": 1.291985,
+      "response_bytes": 49635,
+      "content_type": "text/html; charset=UTF-8",
+      "title": "can you hire staff for single player :: Japanese Ramen Simulator General Discussions",
+      "response_sha256": "1b3bc2c4defb6a14548af2e385da3a42219be192522edaa39e5618cdbf555d12",
+      "response_headers": {
+        "content-type": "text/html; charset=UTF-8",
+        "server": "nginx"
+      },
+      "challenge_detected": false,
+      "content_verified": false,
+      "error": null,
+      "notes": [
+        "完成HTTP GET，仅证明可达，不等于正文完整性或证据内容已核对。"
+      ]
+    },
+    {
+      "url": "https://steamcommunity.com/app/4968640/discussions/0/590691913363919664/",
+      "occurrences": [
+        {
+          "file": "src/content/wiki/en/guides/platforms-price-and-demo.mdx",
+          "line": 56
+        }
+      ],
+      "checked_at": "2026-10-10T03:35:46.993Z",
+      "method": "GET",
+      "status": 200,
+      "curl_exit_code": 0,
+      "classification": "reachable",
+      "effective_url": "https://steamcommunity.com/app/4968640/discussions/0/590691913363919664/",
+      "redirect_count": 0,
+      "elapsed_seconds": 1.261099,
+      "response_bytes": 50345,
+      "content_type": "text/html; charset=UTF-8",
+      "title": "does the game work offline :: Japanese Ramen Simulator General Discussions",
+      "response_sha256": "fbe2854859043afb8260907fce95da05698046dbcc2edfe21437e3f6515f75a7",
+      "response_headers": {
+        "content-type": "text/html; charset=UTF-8",
+        "server": "nginx"
+      },
+      "challenge_detected": false,
+      "content_verified": false,
+      "error": null,
+      "notes": [
+        "完成HTTP GET，仅证明可达，不等于正文完整性或证据内容已核对。"
+      ]
+    },
+    {
+      "url": "https://steamcommunity.com/app/4968640/discussions/0/590691913363932602/",
+      "occurrences": [
+        {
+          "file": "src/content/wiki/en/restaurant/orders-and-tickets.mdx",
+          "line": 18
+        }
+      ],
+      "checked_at": "2026-10-10T03:35:47.305Z",
+      "method": "GET",
+      "status": 200,
+      "curl_exit_code": 0,
+      "classification": "reachable",
+      "effective_url": "https://steamcommunity.com/app/4968640/discussions/0/590691913363932602/",
+      "redirect_count": 0,
+      "elapsed_seconds": 1.357628,
+      "response_bytes": 51110,
+      "content_type": "text/html; charset=UTF-8",
+      "title": "What to do with order tickets? :: Japanese Ramen Simulator General Discussions",
+      "response_sha256": "93619ed9fd1f5ef17ada72991dfe6aacc033436cdc411013ac3281f2cea576c5",
+      "response_headers": {
+        "content-type": "text/html; charset=UTF-8",
+        "server": "nginx"
+      },
+      "challenge_detected": false,
+      "content_verified": false,
+      "error": null,
+      "notes": [
+        "完成HTTP GET，仅证明可达，不等于正文完整性或证据内容已核对。"
+      ]
+    },
+    {
+      "url": "https://steamcommunity.com/ogg/4968640/announcements/detail/678510595516926038",
+      "occurrences": [
+        {
+          "file": "src/content/wiki/en/updates/patch-notes.mdx",
+          "line": 72
+        }
+      ],
+      "checked_at": "2026-10-10T03:35:48.093Z",
+      "method": "GET",
+      "status": 200,
+      "curl_exit_code": 0,
+      "classification": "reachable",
+      "effective_url": "https://steamcommunity.com/games/4968640/announcements/detail/678510595516926038",
+      "redirect_count": 1,
+      "elapsed_seconds": 2.072424,
+      "response_bytes": 101909,
+      "content_type": "text/html; charset=UTF-8",
+      "title": "Steam :: Japanese Ramen Simulator :: [Updated October 2] Japanese Ramen Simulator — Launch Delay Update",
+      "response_sha256": "9cd0e3520486242b726ffe516ce39cc0b7cceaea517c84f92726545586a92927",
+      "response_headers": {
+        "content-type": "text/html; charset=UTF-8",
+        "server": "nginx",
+        "location": "https://steamcommunity.com/games/4968640/announcements/detail/678510595516926038"
+      },
+      "challenge_detected": false,
+      "content_verified": false,
+      "error": null,
+      "notes": [
+        "完成HTTP GET，仅证明可达，不等于正文完整性或证据内容已核对。",
+        "动态Steam公告可能仅返回页面壳；HTTP 200不证明公告正文已加载。"
+      ]
+    },
+    {
+      "url": "https://steamcommunity.com/ogg/4968640/announcements/detail/702155125711440122",
+      "occurrences": [
+        {
+          "file": "src/content/wiki/en/guides/platforms-price-and-demo.mdx",
+          "line": 16
+        }
+      ],
+      "checked_at": "2026-10-10T03:35:48.486Z",
+      "method": "GET",
+      "status": 200,
+      "curl_exit_code": 0,
+      "classification": "reachable",
+      "effective_url": "https://steamcommunity.com/games/4968640/announcements/detail/702155125711440122",
+      "redirect_count": 1,
+      "elapsed_seconds": 1.571256,
+      "response_bytes": 100715,
+      "content_type": "text/html; charset=UTF-8",
+      "title": "Steam :: Japanese Ramen Simulator :: Japanese Ramen Simulator — Launch Date &amp;amp; Time Confirmed!",
+      "response_sha256": "c39b58448c67564603fd1cd8403dec807851aa689b80d7185c46b61495ca04c6",
+      "response_headers": {
+        "content-type": "text/html; charset=UTF-8",
+        "server": "nginx",
+        "location": "https://steamcommunity.com/games/4968640/announcements/detail/702155125711440122"
+      },
+      "challenge_detected": false,
+      "content_verified": false,
+      "error": null,
+      "notes": [
+        "完成HTTP GET，仅证明可达，不等于正文完整性或证据内容已核对。",
+        "动态Steam公告可能仅返回页面壳；HTTP 200不证明公告正文已加载。"
+      ]
+    },
+    {
+      "url": "https://steamcommunity.com/ogg/4968640/announcements/detail/702155760121940292",
+      "occurrences": [
+        {
+          "file": "src/content/wiki/en/cooking/beer.mdx",
+          "line": 18
+        },
+        {
+          "file": "src/content/wiki/en/cooking/broth-and-tare.mdx",
+          "line": 24
+        },
+        {
+          "file": "src/content/wiki/en/cooking/gyoza-and-rice-bowls.mdx",
+          "line": 28
+        },
+        {
+          "file": "src/content/wiki/en/cooking/ramen-recipes.mdx",
+          "line": 28
+        },
+        {
+          "file": "src/content/wiki/en/guides/beginner-guide.mdx",
+          "line": 34
+        },
+        {
+          "file": "src/content/wiki/en/guides/controls-and-language.mdx",
+          "line": 26
+        },
+        {
+          "file": "src/content/wiki/en/guides/system-requirements.mdx",
+          "line": 40
+        },
+        {
+          "file": "src/content/wiki/en/multiplayer/co-op-roles.mdx",
+          "line": 38
+        },
+        {
+          "file": "src/content/wiki/en/multiplayer/connection-errors.mdx",
+          "line": 44
+        },
+        {
+          "file": "src/content/wiki/en/multiplayer/invite-friends.mdx",
+          "line": 16
+        },
+        {
+          "file": "src/content/wiki/en/restaurant/food-critic.mdx",
+          "line": 18
+        },
+        {
+          "file": "src/content/wiki/en/restaurant/layout-and-my-designs.mdx",
+          "line": 41
+        },
+        {
+          "file": "src/content/wiki/en/restaurant/orders-and-tickets.mdx",
+          "line": 34
+        },
+        {
+          "file": "src/content/wiki/en/restaurant/shop-level-and-unlocks.mdx",
+          "line": 18
+        },
+        {
+          "file": "src/content/wiki/en/restaurant/staff-and-solo-play.mdx",
+          "line": 18
+        },
+        {
+          "file": "src/content/wiki/en/restaurant/thieves-and-fires.mdx",
+          "line": 18
+        },
+        {
+          "file": "src/content/wiki/en/updates/patch-notes.mdx",
+          "line": 18
+        }
+      ],
+      "checked_at": "2026-10-10T03:35:49.180Z",
+      "method": "GET",
+      "status": 200,
+      "curl_exit_code": 0,
+      "classification": "reachable",
+      "effective_url": "https://steamcommunity.com/games/4968640/announcements/detail/702155760121940292",
+      "redirect_count": 1,
+      "elapsed_seconds": 1.854675,
+      "response_bytes": 88268,
+      "content_type": "text/html; charset=UTF-8",
+      "title": "Steam :: Japanese Ramen Simulator :: Early Access Is Here! Day 1 Update Out Now (v0.1.48.17626)",
+      "response_sha256": "7ec46fd499256ad82de80bc009b58027f1b7c22f3c1e5e3bd3d47e6894c8a55b",
+      "response_headers": {
+        "content-type": "text/html; charset=UTF-8",
+        "server": "nginx",
+        "location": "https://steamcommunity.com/games/4968640/announcements/detail/702155760121940292"
+      },
+      "challenge_detected": false,
+      "content_verified": false,
+      "error": null,
+      "notes": [
+        "完成HTTP GET，仅证明可达，不等于正文完整性或证据内容已核对。",
+        "动态Steam公告可能仅返回页面壳；HTTP 200不证明公告正文已加载。"
+      ]
+    },
+    {
+      "url": "https://steamcommunity.com/stats/4968640/achievements/?l=english",
+      "occurrences": [
+        {
+          "file": "src/content/wiki/en/cooking/beer.mdx",
+          "line": 57
+        },
+        {
+          "file": "src/content/wiki/en/cooking/gyoza-and-rice-bowls.mdx",
+          "line": 55
+        },
+        {
+          "file": "src/content/wiki/en/guides/achievements.mdx",
+          "line": 21
+        },
+        {
+          "file": "src/content/wiki/en/restaurant/food-critic.mdx",
+          "line": 33
+        },
+        {
+          "file": "src/content/wiki/en/restaurant/layout-and-my-designs.mdx",
+          "line": 55
+        },
+        {
+          "file": "src/content/wiki/en/restaurant/shop-level-and-unlocks.mdx",
+          "line": 56
+        }
+      ],
+      "checked_at": "2026-10-10T03:35:48.741Z",
+      "method": "GET",
+      "status": 200,
+      "curl_exit_code": 0,
+      "classification": "reachable",
+      "effective_url": "https://steamcommunity.com/stats/4968640/achievements/?l=english",
+      "redirect_count": 0,
+      "elapsed_seconds": 1.157635,
+      "response_bytes": 35128,
+      "content_type": "text/html; charset=UTF-8",
+      "title": "Steam Community :: Japanese Ramen Simulator :: Achievements",
+      "response_sha256": "ddc73b6b68c1a87333ec0e0f31ea41da0f55557358bf3e29c2d2103ce4c83fa8",
+      "response_headers": {
+        "content-type": "text/html; charset=UTF-8",
+        "server": "nginx"
+      },
+      "challenge_detected": false,
+      "content_verified": false,
+      "error": null,
+      "notes": [
+        "完成HTTP GET，仅证明可达，不等于正文完整性或证据内容已核对。"
+      ]
+    },
+    {
+      "url": "https://steamdb.info/app/4968640/ufs/",
+      "occurrences": [
+        {
+          "file": "src/content/wiki/en/guides/save-data.mdx",
+          "line": 22
+        }
+      ],
+      "checked_at": "2026-10-10T03:35:49.333Z",
+      "method": "GET",
+      "status": 403,
+      "curl_exit_code": 0,
+      "classification": "access_blocked",
+      "effective_url": "https://steamdb.info/app/4968640/ufs/",
+      "redirect_count": 0,
+      "elapsed_seconds": 1.130513,
+      "response_bytes": 10447,
+      "content_type": "text/html; charset=UTF-8",
+      "title": "SteamDB",
+      "response_sha256": "d35ec5cdebd289c336f74a64b75cec79d2e1b3f439e19eef04001f9f8c0c1d5b",
+      "response_headers": {
+        "content-type": "text/html; charset=UTF-8",
+        "server": "cloudflare",
+        "cf-ray": "a48293c39c109dea-LAX"
+      },
+      "challenge_detected": true,
+      "content_verified": false,
+      "error": null,
+      "notes": [
+        "访问受阻，不能当作页面不存在。",
+        "检测到Cloudflare挑战或拒绝，不是链接失效证据。"
+      ]
+    },
+    {
+      "url": "https://store.steampowered.com/api/appdetails?appids=4968640&l=english",
+      "occurrences": [
+        {
+          "file": "src/content/wiki/en/guides/controls-and-language.mdx",
+          "line": 16
+        },
+        {
+          "file": "src/content/wiki/en/guides/platforms-price-and-demo.mdx",
+          "line": 28
+        },
+        {
+          "file": "src/content/wiki/en/guides/save-data.mdx",
+          "line": 16
+        }
+      ],
+      "checked_at": "2026-10-10T03:35:49.829Z",
+      "method": "GET",
+      "status": 200,
+      "curl_exit_code": 0,
+      "classification": "reachable",
+      "effective_url": "https://store.steampowered.com/api/appdetails?appids=4968640&l=english",
+      "redirect_count": 0,
+      "elapsed_seconds": 1.255402,
+      "response_bytes": 30702,
+      "content_type": "application/json; charset=utf-8",
+      "title": null,
+      "response_sha256": "a335ebe4d52d13cd2c151f6d098c0cf30cad69360f613fa4569da0c46a505418",
+      "response_headers": {
+        "content-type": "application/json; charset=utf-8",
+        "server": "nginx"
+      },
+      "challenge_detected": false,
+      "content_verified": false,
+      "error": null,
+      "notes": [
+        "完成HTTP GET，仅证明可达，不等于正文完整性或证据内容已核对。"
+      ]
+    },
+    {
+      "url": "https://store.steampowered.com/app/4968640/Japanese_Ramen_Simulator/?l=english",
+      "occurrences": [
+        {
+          "file": "src/content/wiki/en/cooking/beer.mdx",
+          "line": 33
+        },
+        {
+          "file": "src/content/wiki/en/cooking/broth-and-tare.mdx",
+          "line": 18
+        },
+        {
+          "file": "src/content/wiki/en/cooking/gyoza-and-rice-bowls.mdx",
+          "line": 18
+        },
+        {
+          "file": "src/content/wiki/en/cooking/ramen-recipes.mdx",
+          "line": 18
+        },
+        {
+          "file": "src/content/wiki/en/guides/beginner-guide.mdx",
+          "line": 16
+        },
+        {
+          "file": "src/content/wiki/en/guides/controls-and-language.mdx",
+          "line": 16
+        },
+        {
+          "file": "src/content/wiki/en/guides/platforms-price-and-demo.mdx",
+          "line": 18
+        },
+        {
+          "file": "src/content/wiki/en/guides/system-requirements.mdx",
+          "line": 16
+        },
+        {
+          "file": "src/content/wiki/en/multiplayer/co-op-roles.mdx",
+          "line": 16
+        },
+        {
+          "file": "src/content/wiki/en/multiplayer/invite-friends.mdx",
+          "line": 30
+        },
+        {
+          "file": "src/content/wiki/en/restaurant/food-critic.mdx",
+          "line": 39
+        },
+        {
+          "file": "src/content/wiki/en/restaurant/layout-and-my-designs.mdx",
+          "line": 18
+        },
+        {
+          "file": "src/content/wiki/en/restaurant/orders-and-tickets.mdx",
+          "line": 34
+        },
+        {
+          "file": "src/content/wiki/en/restaurant/shop-level-and-unlocks.mdx",
+          "line": 50
+        },
+        {
+          "file": "src/content/wiki/en/restaurant/staff-and-solo-play.mdx",
+          "line": 18
+        },
+        {
+          "file": "src/content/wiki/en/restaurant/thieves-and-fires.mdx",
+          "line": 18
+        }
+      ],
+      "checked_at": "2026-10-10T03:35:50.705Z",
+      "method": "GET",
+      "status": 200,
+      "curl_exit_code": 0,
+      "classification": "reachable",
+      "effective_url": "https://store.steampowered.com/app/4968640/Japanese_Ramen_Simulator/?l=english",
+      "redirect_count": 0,
+      "elapsed_seconds": 1.648969,
+      "response_bytes": 163195,
+      "content_type": "text/html; charset=UTF-8",
+      "title": "Save 15% on Japanese Ramen Simulator on Steam",
+      "response_sha256": "053558834ab9162fdd858f7684592ff33382da7cf365cd9980506977f5d83a5a",
+      "response_headers": {
+        "content-type": "text/html; charset=UTF-8",
+        "server": "nginx"
+      },
+      "challenge_detected": false,
+      "content_verified": false,
+      "error": null,
+      "notes": [
+        "完成HTTP GET，仅证明可达，不等于正文完整性或证据内容已核对。"
+      ]
+    },
+    {
+      "url": "https://wilddog.jp/japaneseramensimulator",
+      "occurrences": [
+        {
+          "file": "src/content/wiki/en/guides/platforms-price-and-demo.mdx",
+          "line": 44
+        }
+      ],
+      "checked_at": "2026-10-10T03:35:50.424Z",
+      "method": "GET",
+      "status": 200,
+      "curl_exit_code": 0,
+      "classification": "reachable",
+      "effective_url": "https://wilddog.jp/japaneseramensimulator",
+      "redirect_count": 0,
+      "elapsed_seconds": 1.126772,
+      "response_bytes": 21283,
+      "content_type": "text/html; charset=utf-8",
+      "title": "Japanese Ramen Simulator | Wild Dog",
+      "response_sha256": "2615a8ca30304bf4a6f561e10949c533a6b9247438433bc7f16a8d402ae9ff94",
+      "response_headers": {
+        "content-type": "text/html; charset=utf-8",
+        "server": "cloudflare",
+        "cf-ray": "a48293c9fd5d1ae5-LAX"
+      },
+      "challenge_detected": false,
+      "content_verified": false,
+      "error": null,
+      "notes": [
+        "完成HTTP GET，仅证明可达，不等于正文完整性或证据内容已核对。"
+      ]
+    }
+  ]
+}

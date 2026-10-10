@@ -1,0 +1,2458 @@
+{
+  "checked_at": "2026-10-10",
+  "scope": "Steam App 4968640，全球英文游戏玩家",
+  "status": "供主Agent冻结最终矩阵的候选数据；没有修改最终关键词或网站结构",
+  "counts": {
+    "normalized_candidate_expressions": 95,
+    "observed_exact_google_suggest": 12,
+    "inferred_expressions": 83,
+    "clusters": 23,
+    "google_suggest_queries": 34,
+    "google_suggest_occurrences": 58,
+    "google_suggest_unique": 24,
+    "google_suggest_relevant_unique": 12,
+    "google_suggest_rejected_unique": 11,
+    "google_suggest_ambiguous_unique": 1
+  },
+  "source_legend": {
+    "A": "当前官方第一手；证明特征/机制，不能独立证明搜索量",
+    "B": "真实搜索建议或当前玩家原帖；原帖证明需求，玩家答案仅个案",
+    "C": "竞品主题/视频标题或旧预览；需求与事实需额外核对"
+  },
+  "sources": {
+    "SG": {
+      "type": "search_suggestion",
+      "reliability": "B",
+      "url": "https://suggestqueries.google.com/complete/search?client=firefox&hl=en&gl=us&q=japanese%20ramen%20simulator",
+      "raw_file": "research/sources/keywords-google-suggest.json",
+      "note": "查询表达真实返回；建议不提供搜索量，也不证明机制存在。"
+    },
+    "OS": {
+      "type": "official_current_feature",
+      "reliability": "A",
+      "url": "https://store.steampowered.com/app/4968640/Japanese_Ramen_Simulator/?l=english",
+      "raw_file": "research/sources/game-official.json"
+    },
+    "OP": {
+      "type": "official_current_patch",
+      "reliability": "A",
+      "url": "https://steamcommunity.com/ogg/4968640/announcements/detail/702155760121940292",
+      "raw_file": "research/sources/game-official.json",
+      "note": "首日版本 v0.1.48.17626，具体事实由游戏证据账核实。"
+    },
+    "CP": {
+      "type": "competitor_topic",
+      "reliability": "C",
+      "url": "https://japaneseramensimulator.wiki/sitemap.xml",
+      "raw_file": "research/sources/keywords-competitor-catalogue.json",
+      "note": "只证明竞品覆盖此主题，不独立证明玩家搜索需求或内容正确。"
+    },
+    "YT": {
+      "type": "video_title_sample",
+      "reliability": "C",
+      "url": "https://www.youtube.com/results?search_query=Japanese+Ramen+Simulator&sp=CAI%3D",
+      "raw_file": "research/sources/keywords-youtube-extracts.json",
+      "note": "20条标题样本；混有预览及同名游戏，不能声称2200视频或未观看的游戏事实。"
+    },
+    "PT": {
+      "type": "current_player_question",
+      "reliability": "B",
+      "url": "https://steamcommunity.com/app/4968640/discussions/0/590691913363932602/",
+      "raw_file": "research/sources/keywords-steam-discussion-extracts.json",
+      "note": "订单票据放置与处理，无已验证答案。"
+    },
+    "PH": {
+      "type": "current_player_question",
+      "reliability": "B",
+      "url": "https://steamcommunity.com/app/4968640/discussions/0/590691669351036190/",
+      "raw_file": "research/sources/keywords-steam-discussion-extracts.json",
+      "note": "单人忙碌时小偷偷钱，玩家希望可关闭；不证明开关已有。"
+    },
+    "PJ": {
+      "type": "current_player_question",
+      "reliability": "B",
+      "url": "https://steamcommunity.com/app/4968640/discussions/0/590691669351042650/",
+      "raw_file": "research/sources/keywords-steam-discussion-extracts.json",
+      "note": "MEN-MP-CONNECTION-TIMEOUT；未用VPN、重启无效，多人复现，未有验证解决方法。"
+    },
+    "PC": {
+      "type": "current_player_question",
+      "reliability": "B",
+      "url": "https://steamcommunity.com/app/4968640/discussions/0/590691669351042497/",
+      "raw_file": "research/sources/keywords-steam-discussion-extracts.json",
+      "note": "推车难控制；有人报告改为徒手搬运。"
+    },
+    "PL": {
+      "type": "current_player_question",
+      "reliability": "B",
+      "url": "https://steamcommunity.com/app/4968640/discussions/0/590691669351042488/",
+      "raw_file": "research/sources/keywords-steam-discussion-extracts.json",
+      "note": "首启日语，原帖能更改，其他用户仍报告困难；末条仅猜可能已修。"
+    },
+    "PO": {
+      "type": "current_player_question",
+      "reliability": "B",
+      "url": "https://steamcommunity.com/app/4968640/discussions/0/590691913363919664/",
+      "raw_file": "research/sources/keywords-steam-discussion-extracts.json",
+      "note": "询问always online / peer-to-peer / server，无回复，不可写已可offline。"
+    },
+    "PS": {
+      "type": "current_player_question",
+      "reliability": "B",
+      "url": "https://steamcommunity.com/app/4968640/discussions/0/590691913363919420/",
+      "raw_file": "research/sources/keywords-steam-discussion-extracts.json",
+      "note": "单人是否可雇员，有官方功能答案。"
+    },
+    "PM": {
+      "type": "current_player_question",
+      "reliability": "B",
+      "url": "https://steamcommunity.com/app/4968640/discussions/0/590691669351052773/",
+      "raw_file": "research/sources/keywords-steam-discussion-extracts.json",
+      "note": "期待随机公开大厅；只证明个案失望，不证明所有Lobby规则。"
+    },
+    "PG": {
+      "type": "current_player_question",
+      "reliability": "B",
+      "url": "https://steamcommunity.com/app/4968640/discussions/0/590691669351053261/",
+      "raw_file": "research/sources/keywords-steam-discussion-extracts.json",
+      "note": "未找到关闭chromatic aberration选项；不创造配置文件修复。"
+    },
+    "RD": {
+      "type": "current_player_review",
+      "reliability": "B",
+      "url": "https://steamcommunity.com/profiles/76561199086589432/recommended/4968640/",
+      "raw_file": "research/sources/keywords-player-needs.json",
+      "note": "绘图板、网格、图片导入导出改进诉求；玩家自称功能可能有而未工作。"
+    },
+    "RC": {
+      "type": "current_player_review",
+      "reliability": "B",
+      "url": "https://steamcommunity.com/profiles/76561198200588262/recommended/4968640/",
+      "raw_file": "research/sources/keywords-player-needs.json",
+      "note": "玩家称评论家说拉面lacked depth；可证明反馈情境，不能推出算法。"
+    },
+    "RI": {
+      "type": "current_player_review",
+      "reliability": "B",
+      "url": "https://steamcommunity.com/profiles/76561198019656204/recommended/4968640/",
+      "raw_file": "research/sources/keywords-player-needs.json",
+      "note": "首日玩家说使用code邀请朋友顺利；单个案例。"
+    },
+    "RT": {
+      "type": "current_player_review",
+      "reliability": "B",
+      "url": "https://steamcommunity.com/profiles/76561198165408367/recommended/4968640/",
+      "raw_file": "research/sources/keywords-player-needs.json",
+      "note": "Easy unlimited仍显示订单倒计时；计时器的实际行为与补丁以官方/实测为准。"
+    }
+  },
+  "clusters": [
+    {
+      "id": "brand",
+      "intent": "查找游戏与Wiki入口",
+      "source_keys": [
+        "SG",
+        "OS",
+        "CP"
+      ],
+      "strength": "真实搜索建议",
+      "score": 3,
+      "publish": "首页及官方链接区，不拆Steam/game/Discord/Reddit薄页",
+      "reason": "同为导航查询；官方链接与游戏辨认能一并满足。"
+    },
+    {
+      "id": "availability",
+      "intent": "购买前确认发行、价格、平台与试玩",
+      "source_keys": [
+        "SG",
+        "OS"
+      ],
+      "strength": "真实搜索建议＋当前官方答案",
+      "score": 2,
+      "publish": "一个游戏状态/平台FAQ页",
+      "reason": "多个不同问题较短，使用表格集中回答；不为每个平台拆页面。"
+    },
+    {
+      "id": "beginner",
+      "intent": "开始经营和理解首日循环",
+      "source_keys": [
+        "OS",
+        "CP",
+        "YT",
+        "PT"
+      ],
+      "strength": "视频兴趣＋真实首日操作问题＋竞品覆盖",
+      "score": 1,
+      "publish": "独立新手操作攻略",
+      "reason": "需要准备、营业、收单、料理、清理的连续步骤。"
+    },
+    {
+      "id": "controls",
+      "intent": "解决界面语言、镜头、控制与搬货",
+      "source_keys": [
+        "PL",
+        "PC",
+        "OS",
+        "PG"
+      ],
+      "strength": "多个当前玩家问题",
+      "score": 1,
+      "publish": "一个控制/语言/搬货FAQ",
+      "reason": "原始帖子存在，短问题集合可避免单问题薄页；无实测键位时只给确认路径。"
+    },
+    {
+      "id": "requirements",
+      "intent": "确认电脑或手柄能否运行",
+      "source_keys": [
+        "OS",
+        "SG",
+        "PG"
+      ],
+      "strength": "官方兼容资料＋Mac平台搜索建议",
+      "score": 2,
+      "publish": "独立兼容要求表格页",
+      "reason": "技术购买判断与发售日意图不同；Steam Deck未认证不可写Verified。"
+    },
+    {
+      "id": "save",
+      "intent": "理解保存与Steam Cloud",
+      "source_keys": [
+        "OS",
+        "OP"
+      ],
+      "strength": "官方功能，未采到明确搜索建议或当前问题",
+      "score": 1,
+      "publish": "有当前具体补丁/操作答案则独立，否则合并单人FAQ；save location待证据",
+      "reason": "未确认路径不得给Windows文件目录猜测。"
+    },
+    {
+      "id": "achievements",
+      "intent": "查询官方Steam成就清单",
+      "source_keys": [
+        "OS",
+        "OP"
+      ],
+      "strength": "官方成就功能/目录；查询词人工推导",
+      "score": 1,
+      "publish": "取得完整官方清单可做查询表格页",
+      "reason": "清单有独立检索用途；隐藏条件不能根据名字猜。"
+    },
+    {
+      "id": "menu",
+      "intent": "查询有哪些菜和哪些新增解锁",
+      "source_keys": [
+        "OS",
+        "OP",
+        "CP"
+      ],
+      "strength": "官方菜单与解锁＋竞品覆盖",
+      "score": 1,
+      "publish": "一个已确认菜单/食材/解锁数据库",
+      "reason": "不把竞品占位配方写成all recipes，不拆材料8细页。"
+    },
+    {
+      "id": "broth",
+      "intent": "理解汤、酱汁与温度评价",
+      "source_keys": [
+        "OS",
+        "OP",
+        "CP",
+        "RC"
+      ],
+      "strength": "官方机制＋玩家评价情境",
+      "score": 1,
+      "publish": "独立汤底与酱汁指南，定量公式待证据",
+      "reason": "操作阶段与面/摆盘不同；可解释确认变量，不能做假计算器。"
+    },
+    {
+      "id": "noodles",
+      "intent": "煮面及摆放配料",
+      "source_keys": [
+        "OS",
+        "OP",
+        "CP"
+      ],
+      "strength": "官方机制＋竞品覆盖",
+      "score": 1,
+      "publish": "一个煮面/配料操作页",
+      "reason": "时间常数未证实时只写确认操作与订单匹配。"
+    },
+    {
+      "id": "sides",
+      "intent": "制作饺子与饭碗等副菜",
+      "source_keys": [
+        "OS",
+        "OP",
+        "CP"
+      ],
+      "strength": "官方菜单＋竞品覆盖",
+      "score": 1,
+      "publish": "一个副菜页",
+      "reason": "不拆gyoza/rice bowl两个只有宣传描述的短页。"
+    },
+    {
+      "id": "beer",
+      "intent": "啤酒泡沫与出餐质量",
+      "source_keys": [
+        "OS",
+        "OP",
+        "CP"
+      ],
+      "strength": "官方首日明确啤酒质量改动",
+      "score": 1,
+      "publish": "证据可支持独立啤酒机制页",
+      "reason": "不同操作输入和量惩罚有实用答案；不抄7:3、¥ROI。"
+    },
+    {
+      "id": "orders",
+      "intent": "接单、票据、超时与出餐",
+      "source_keys": [
+        "PT",
+        "RT",
+        "OS",
+        "OP",
+        "YT"
+      ],
+      "strength": "当前玩家具体问题＋官方变更",
+      "score": 1,
+      "publish": "一个订单与服务FAQ",
+      "reason": "票据无已核答案时如实说明，不能借旧preview holder等级冒充当前机制。"
+    },
+    {
+      "id": "solo",
+      "intent": "一个人经营与雇佣NPC",
+      "source_keys": [
+        "PS",
+        "PO",
+        "OS",
+        "OP",
+        "CP"
+      ],
+      "strength": "当前玩家问题＋官方雇员机制",
+      "score": 1,
+      "publish": "一个单人和NPC页；offline为未确认FAQ",
+      "reason": "Solo与Staff重叠，可合并角色和限制；不编员工数值薪资。"
+    },
+    {
+      "id": "layout",
+      "intent": "设计厨房、扩店和自绘素材",
+      "source_keys": [
+        "RD",
+        "OS",
+        "OP",
+        "CP"
+      ],
+      "strength": "官方功能＋当前玩家设计问题",
+      "score": 1,
+      "publish": "一个装修/My Designs页",
+      "reason": "可组合布局、绘图与已核解锁；导入失败无官方答案不能写修复保证。"
+    },
+    {
+      "id": "hazards",
+      "intent": "处理小偷、火灾和卫生",
+      "source_keys": [
+        "PH",
+        "OS",
+        "OP",
+        "CP"
+      ],
+      "strength": "真实小偷问题＋官方事件",
+      "score": 1,
+      "publish": "一个店铺事件处理页",
+      "reason": "“disable thieves”是玩家愿望，不能写已有toggle；不编卫生检查8点规则。"
+    },
+    {
+      "id": "critic",
+      "intent": "理解评论家来店与味道反馈",
+      "source_keys": [
+        "RC",
+        "OS",
+        "OP",
+        "CP"
+      ],
+      "strength": "官方评价元素＋玩家反馈；五星词仅竞品",
+      "score": 1,
+      "publish": "确认评价机制页，标题避免保证五星",
+      "reason": "不编Tanaka/Sayuri人物偏好或权重，当前可答来店与已确认评价。"
+    },
+    {
+      "id": "invite",
+      "intent": "邀请好友和开始六人合作",
+      "source_keys": [
+        "RI",
+        "PM",
+        "PJ",
+        "OS",
+        "CP"
+      ],
+      "strength": "多个当前玩家问题＋成功邀请案例＋官方功能",
+      "score": 1,
+      "publish": "独立好友联机指南",
+      "reason": "初次设置是操作步骤；公网大厅限制只写已核资料，语音当前已有官方答案。"
+    },
+    {
+      "id": "connection",
+      "intent": "诊断无法加入和连接超时",
+      "source_keys": [
+        "PJ",
+        "OP"
+      ],
+      "strength": "多玩家重复具体报错",
+      "score": 1,
+      "publish": "独立故障诊断页；若只几条常识则并入invite",
+      "reason": "与首次邀请的正常路径不同；不给未验证VPN/重启保证修复。"
+    },
+    {
+      "id": "roles",
+      "intent": "多人分工和厨房协作",
+      "source_keys": [
+        "OS",
+        "CP",
+        "YT"
+      ],
+      "strength": "官方可分工循环＋视频标题兴趣；具体最佳配置人工建议",
+      "score": 1,
+      "publish": "有实用2/3/6人分工表可独立，否则合并联机",
+      "reason": "标清团队建议，不冒充游戏固定职业或量化效率。"
+    },
+    {
+      "id": "patch",
+      "intent": "了解当前版本改了什么",
+      "source_keys": [
+        "OP",
+        "OS"
+      ],
+      "strength": "当前官方完整更新",
+      "score": 1,
+      "publish": "一个版本更新记录页",
+      "reason": "汇总首日变化并向受影响机制互链，避免版本变更逐条拆页。"
+    },
+    {
+      "id": "shop-level",
+      "intent": "完整等级解锁梯级",
+      "source_keys": [
+        "OS",
+        "OP",
+        "CP"
+      ],
+      "strength": "官方局部解锁＋竞品旧preview；无当前全表",
+      "score": 1,
+      "publish": "当前合并菜单和装修，不建议独立",
+      "reason": "Lv25/26/28局部补丁无法构成完整梯级；不得从竞品preview拼造当前全表。"
+    },
+    {
+      "id": "defer",
+      "intent": "未确认或只有竞品占位数据",
+      "source_keys": [
+        "CP",
+        "OS"
+      ],
+      "strength": "竞品单一/泛功能推导，缺可靠答案",
+      "score": 1,
+      "publish": "暂缓独立发布",
+      "reason": "缺当前可靠数值或真实问题；casino仅存在可合并事件，不做赔率攻略。"
+    }
+  ],
+  "candidates": [
+    {
+      "id": "K001",
+      "keyword": "Japanese Ramen Simulator",
+      "origin": "observed",
+      "observation_type": "google_suggest_exact",
+      "cluster_id": "brand",
+      "source_keys": [
+        "SG",
+        "OS",
+        "CP"
+      ],
+      "demand_reliability": "真实搜索建议",
+      "search_volume": null,
+      "keyword_difficulty": null,
+      "metrics_note": "本次未取得可验证的搜索量或KD；用户立项数字不代入。",
+      "serp_competition_0_5": 3,
+      "competition_basis": "主观分析；依据可访问Web搜索发现样本及竞品覆盖，非实际Google前十，不是工具KD。",
+      "recommendation": "首页及官方链接区，不拆Steam/game/Discord/Reddit薄页",
+      "independent_reason": "同为导航查询；官方链接与游戏辨认能一并满足。"
+    },
+    {
+      "id": "K002",
+      "keyword": "Japanese Ramen Simulator steam",
+      "origin": "observed",
+      "observation_type": "google_suggest_exact",
+      "cluster_id": "brand",
+      "source_keys": [
+        "SG",
+        "OS",
+        "CP"
+      ],
+      "demand_reliability": "真实搜索建议",
+      "search_volume": null,
+      "keyword_difficulty": null,
+      "metrics_note": "本次未取得可验证的搜索量或KD；用户立项数字不代入。",
+      "serp_competition_0_5": 3,
+      "competition_basis": "主观分析；依据可访问Web搜索发现样本及竞品覆盖，非实际Google前十，不是工具KD。",
+      "recommendation": "首页及官方链接区，不拆Steam/game/Discord/Reddit薄页",
+      "independent_reason": "同为导航查询；官方链接与游戏辨认能一并满足。"
+    },
+    {
+      "id": "K003",
+      "keyword": "Japanese Ramen Simulator game",
+      "origin": "observed",
+      "observation_type": "google_suggest_exact",
+      "cluster_id": "brand",
+      "source_keys": [
+        "SG",
+        "OS",
+        "CP"
+      ],
+      "demand_reliability": "真实搜索建议",
+      "search_volume": null,
+      "keyword_difficulty": null,
+      "metrics_note": "本次未取得可验证的搜索量或KD；用户立项数字不代入。",
+      "serp_competition_0_5": 3,
+      "competition_basis": "主观分析；依据可访问Web搜索发现样本及竞品覆盖，非实际Google前十，不是工具KD。",
+      "recommendation": "首页及官方链接区，不拆Steam/game/Discord/Reddit薄页",
+      "independent_reason": "同为导航查询；官方链接与游戏辨认能一并满足。"
+    },
+    {
+      "id": "K004",
+      "keyword": "Japanese Ramen Simulator wiki",
+      "origin": "inferred",
+      "observation_type": "基于已采集问题/特征/竞品主题的人工品牌化表达",
+      "cluster_id": "brand",
+      "source_keys": [
+        "SG",
+        "OS",
+        "CP"
+      ],
+      "demand_reliability": "真实搜索建议",
+      "search_volume": null,
+      "keyword_difficulty": null,
+      "metrics_note": "本次未取得可验证的搜索量或KD；用户立项数字不代入。",
+      "serp_competition_0_5": 3,
+      "competition_basis": "主观分析；依据可访问Web搜索发现样本及竞品覆盖，非实际Google前十，不是工具KD。",
+      "recommendation": "首页及官方链接区，不拆Steam/game/Discord/Reddit薄页",
+      "independent_reason": "同为导航查询；官方链接与游戏辨认能一并满足。"
+    },
+    {
+      "id": "K005",
+      "keyword": "Japanese Ramen Simulator discord",
+      "origin": "observed",
+      "observation_type": "google_suggest_exact",
+      "cluster_id": "brand",
+      "source_keys": [
+        "SG",
+        "OS",
+        "CP"
+      ],
+      "demand_reliability": "真实搜索建议",
+      "search_volume": null,
+      "keyword_difficulty": null,
+      "metrics_note": "本次未取得可验证的搜索量或KD；用户立项数字不代入。",
+      "serp_competition_0_5": 3,
+      "competition_basis": "主观分析；依据可访问Web搜索发现样本及竞品覆盖，非实际Google前十，不是工具KD。",
+      "recommendation": "首页及官方链接区，不拆Steam/game/Discord/Reddit薄页",
+      "independent_reason": "同为导航查询；官方链接与游戏辨认能一并满足。"
+    },
+    {
+      "id": "K006",
+      "keyword": "Japanese Ramen Simulator reddit",
+      "origin": "observed",
+      "observation_type": "google_suggest_exact",
+      "cluster_id": "brand",
+      "source_keys": [
+        "SG",
+        "OS",
+        "CP"
+      ],
+      "demand_reliability": "真实搜索建议",
+      "search_volume": null,
+      "keyword_difficulty": null,
+      "metrics_note": "本次未取得可验证的搜索量或KD；用户立项数字不代入。",
+      "serp_competition_0_5": 3,
+      "competition_basis": "主观分析；依据可访问Web搜索发现样本及竞品覆盖，非实际Google前十，不是工具KD。",
+      "recommendation": "首页及官方链接区，不拆Steam/game/Discord/Reddit薄页",
+      "independent_reason": "同为导航查询；官方链接与游戏辨认能一并满足。"
+    },
+    {
+      "id": "K007",
+      "keyword": "Japanese Ramen Simulator release date",
+      "origin": "observed",
+      "observation_type": "google_suggest_exact",
+      "cluster_id": "availability",
+      "source_keys": [
+        "SG",
+        "OS"
+      ],
+      "demand_reliability": "真实搜索建议＋当前官方答案",
+      "search_volume": null,
+      "keyword_difficulty": null,
+      "metrics_note": "本次未取得可验证的搜索量或KD；用户立项数字不代入。",
+      "serp_competition_0_5": 2,
+      "competition_basis": "主观分析；依据可访问Web搜索发现样本及竞品覆盖，非实际Google前十，不是工具KD。",
+      "recommendation": "一个游戏状态/平台FAQ页",
+      "independent_reason": "多个不同问题较短，使用表格集中回答；不为每个平台拆页面。"
+    },
+    {
+      "id": "K008",
+      "keyword": "Japanese Ramen Simulator price",
+      "origin": "observed",
+      "observation_type": "google_suggest_exact",
+      "cluster_id": "availability",
+      "source_keys": [
+        "SG",
+        "OS"
+      ],
+      "demand_reliability": "真实搜索建议＋当前官方答案",
+      "search_volume": null,
+      "keyword_difficulty": null,
+      "metrics_note": "本次未取得可验证的搜索量或KD；用户立项数字不代入。",
+      "serp_competition_0_5": 2,
+      "competition_basis": "主观分析；依据可访问Web搜索发现样本及竞品覆盖，非实际Google前十，不是工具KD。",
+      "recommendation": "一个游戏状态/平台FAQ页",
+      "independent_reason": "多个不同问题较短，使用表格集中回答；不为每个平台拆页面。"
+    },
+    {
+      "id": "K009",
+      "keyword": "Japanese Ramen Simulator PS5",
+      "origin": "observed",
+      "observation_type": "google_suggest_exact",
+      "cluster_id": "availability",
+      "source_keys": [
+        "SG",
+        "OS"
+      ],
+      "demand_reliability": "真实搜索建议＋当前官方答案",
+      "search_volume": null,
+      "keyword_difficulty": null,
+      "metrics_note": "本次未取得可验证的搜索量或KD；用户立项数字不代入。",
+      "serp_competition_0_5": 2,
+      "competition_basis": "主观分析；依据可访问Web搜索发现样本及竞品覆盖，非实际Google前十，不是工具KD。",
+      "recommendation": "一个游戏状态/平台FAQ页",
+      "independent_reason": "多个不同问题较短，使用表格集中回答；不为每个平台拆页面。"
+    },
+    {
+      "id": "K010",
+      "keyword": "Japanese Ramen Simulator Switch",
+      "origin": "observed",
+      "observation_type": "google_suggest_exact",
+      "cluster_id": "availability",
+      "source_keys": [
+        "SG",
+        "OS"
+      ],
+      "demand_reliability": "真实搜索建议＋当前官方答案",
+      "search_volume": null,
+      "keyword_difficulty": null,
+      "metrics_note": "本次未取得可验证的搜索量或KD；用户立项数字不代入。",
+      "serp_competition_0_5": 2,
+      "competition_basis": "主观分析；依据可访问Web搜索发现样本及竞品覆盖，非实际Google前十，不是工具KD。",
+      "recommendation": "一个游戏状态/平台FAQ页",
+      "independent_reason": "多个不同问题较短，使用表格集中回答；不为每个平台拆页面。"
+    },
+    {
+      "id": "K011",
+      "keyword": "Japanese Ramen Simulator Xbox",
+      "origin": "observed",
+      "observation_type": "google_suggest_exact",
+      "cluster_id": "availability",
+      "source_keys": [
+        "SG",
+        "OS"
+      ],
+      "demand_reliability": "真实搜索建议＋当前官方答案",
+      "search_volume": null,
+      "keyword_difficulty": null,
+      "metrics_note": "本次未取得可验证的搜索量或KD；用户立项数字不代入。",
+      "serp_competition_0_5": 2,
+      "competition_basis": "主观分析；依据可访问Web搜索发现样本及竞品覆盖，非实际Google前十，不是工具KD。",
+      "recommendation": "一个游戏状态/平台FAQ页",
+      "independent_reason": "多个不同问题较短，使用表格集中回答；不为每个平台拆页面。"
+    },
+    {
+      "id": "K012",
+      "keyword": "Japanese Ramen Simulator Mac",
+      "origin": "observed",
+      "observation_type": "google_suggest_exact",
+      "cluster_id": "availability",
+      "source_keys": [
+        "SG",
+        "OS"
+      ],
+      "demand_reliability": "真实搜索建议＋当前官方答案",
+      "search_volume": null,
+      "keyword_difficulty": null,
+      "metrics_note": "本次未取得可验证的搜索量或KD；用户立项数字不代入。",
+      "serp_competition_0_5": 2,
+      "competition_basis": "主观分析；依据可访问Web搜索发现样本及竞品覆盖，非实际Google前十，不是工具KD。",
+      "recommendation": "一个游戏状态/平台FAQ页",
+      "independent_reason": "多个不同问题较短，使用表格集中回答；不为每个平台拆页面。"
+    },
+    {
+      "id": "K013",
+      "keyword": "Japanese Ramen Simulator demo",
+      "origin": "observed",
+      "observation_type": "google_suggest_exact",
+      "cluster_id": "availability",
+      "source_keys": [
+        "SG",
+        "OS"
+      ],
+      "demand_reliability": "真实搜索建议＋当前官方答案",
+      "search_volume": null,
+      "keyword_difficulty": null,
+      "metrics_note": "本次未取得可验证的搜索量或KD；用户立项数字不代入。",
+      "serp_competition_0_5": 2,
+      "competition_basis": "主观分析；依据可访问Web搜索发现样本及竞品覆盖，非实际Google前十，不是工具KD。",
+      "recommendation": "一个游戏状态/平台FAQ页",
+      "independent_reason": "多个不同问题较短，使用表格集中回答；不为每个平台拆页面。"
+    },
+    {
+      "id": "K014",
+      "keyword": "Japanese Ramen Simulator release time",
+      "origin": "inferred",
+      "observation_type": "基于已采集问题/特征/竞品主题的人工品牌化表达",
+      "cluster_id": "availability",
+      "source_keys": [
+        "SG",
+        "OS"
+      ],
+      "demand_reliability": "真实搜索建议＋当前官方答案",
+      "search_volume": null,
+      "keyword_difficulty": null,
+      "metrics_note": "本次未取得可验证的搜索量或KD；用户立项数字不代入。",
+      "serp_competition_0_5": 2,
+      "competition_basis": "主观分析；依据可访问Web搜索发现样本及竞品覆盖，非实际Google前十，不是工具KD。",
+      "recommendation": "一个游戏状态/平台FAQ页",
+      "independent_reason": "多个不同问题较短，使用表格集中回答；不为每个平台拆页面。"
+    },
+    {
+      "id": "K015",
+      "keyword": "Japanese Ramen Simulator beginner guide",
+      "origin": "inferred",
+      "observation_type": "基于已采集问题/特征/竞品主题的人工品牌化表达",
+      "cluster_id": "beginner",
+      "source_keys": [
+        "OS",
+        "CP",
+        "YT",
+        "PT"
+      ],
+      "demand_reliability": "视频兴趣＋真实首日操作问题＋竞品覆盖",
+      "search_volume": null,
+      "keyword_difficulty": null,
+      "metrics_note": "本次未取得可验证的搜索量或KD；用户立项数字不代入。",
+      "serp_competition_0_5": 1,
+      "competition_basis": "主观分析；依据可访问Web搜索发现样本及竞品覆盖，非实际Google前十，不是工具KD。",
+      "recommendation": "独立新手操作攻略",
+      "independent_reason": "需要准备、营业、收单、料理、清理的连续步骤。"
+    },
+    {
+      "id": "K016",
+      "keyword": "Japanese Ramen Simulator guide",
+      "origin": "inferred",
+      "observation_type": "基于已采集问题/特征/竞品主题的人工品牌化表达",
+      "cluster_id": "beginner",
+      "source_keys": [
+        "OS",
+        "CP",
+        "YT",
+        "PT"
+      ],
+      "demand_reliability": "视频兴趣＋真实首日操作问题＋竞品覆盖",
+      "search_volume": null,
+      "keyword_difficulty": null,
+      "metrics_note": "本次未取得可验证的搜索量或KD；用户立项数字不代入。",
+      "serp_competition_0_5": 1,
+      "competition_basis": "主观分析；依据可访问Web搜索发现样本及竞品覆盖，非实际Google前十，不是工具KD。",
+      "recommendation": "独立新手操作攻略",
+      "independent_reason": "需要准备、营业、收单、料理、清理的连续步骤。"
+    },
+    {
+      "id": "K017",
+      "keyword": "Japanese Ramen Simulator walkthrough",
+      "origin": "inferred",
+      "observation_type": "基于已采集问题/特征/竞品主题的人工品牌化表达",
+      "cluster_id": "beginner",
+      "source_keys": [
+        "OS",
+        "CP",
+        "YT",
+        "PT"
+      ],
+      "demand_reliability": "视频兴趣＋真实首日操作问题＋竞品覆盖",
+      "search_volume": null,
+      "keyword_difficulty": null,
+      "metrics_note": "本次未取得可验证的搜索量或KD；用户立项数字不代入。",
+      "serp_competition_0_5": 1,
+      "competition_basis": "主观分析；依据可访问Web搜索发现样本及竞品覆盖，非实际Google前十，不是工具KD。",
+      "recommendation": "独立新手操作攻略",
+      "independent_reason": "需要准备、营业、收单、料理、清理的连续步骤。"
+    },
+    {
+      "id": "K018",
+      "keyword": "Japanese Ramen Simulator tips",
+      "origin": "inferred",
+      "observation_type": "基于已采集问题/特征/竞品主题的人工品牌化表达",
+      "cluster_id": "beginner",
+      "source_keys": [
+        "OS",
+        "CP",
+        "YT",
+        "PT"
+      ],
+      "demand_reliability": "视频兴趣＋真实首日操作问题＋竞品覆盖",
+      "search_volume": null,
+      "keyword_difficulty": null,
+      "metrics_note": "本次未取得可验证的搜索量或KD；用户立项数字不代入。",
+      "serp_competition_0_5": 1,
+      "competition_basis": "主观分析；依据可访问Web搜索发现样本及竞品覆盖，非实际Google前十，不是工具KD。",
+      "recommendation": "独立新手操作攻略",
+      "independent_reason": "需要准备、营业、收单、料理、清理的连续步骤。"
+    },
+    {
+      "id": "K019",
+      "keyword": "Japanese Ramen Simulator controls",
+      "origin": "inferred",
+      "observation_type": "基于已采集问题/特征/竞品主题的人工品牌化表达",
+      "cluster_id": "controls",
+      "source_keys": [
+        "PL",
+        "PC",
+        "OS",
+        "PG"
+      ],
+      "demand_reliability": "多个当前玩家问题",
+      "search_volume": null,
+      "keyword_difficulty": null,
+      "metrics_note": "本次未取得可验证的搜索量或KD；用户立项数字不代入。",
+      "serp_competition_0_5": 1,
+      "competition_basis": "主观分析；依据可访问Web搜索发现样本及竞品覆盖，非实际Google前十，不是工具KD。",
+      "recommendation": "一个控制/语言/搬货FAQ",
+      "independent_reason": "原始帖子存在，短问题集合可避免单问题薄页；无实测键位时只给确认路径。"
+    },
+    {
+      "id": "K020",
+      "keyword": "Japanese Ramen Simulator change language",
+      "origin": "inferred",
+      "observation_type": "基于已采集问题/特征/竞品主题的人工品牌化表达",
+      "cluster_id": "controls",
+      "source_keys": [
+        "PL",
+        "PC",
+        "OS",
+        "PG"
+      ],
+      "demand_reliability": "多个当前玩家问题",
+      "search_volume": null,
+      "keyword_difficulty": null,
+      "metrics_note": "本次未取得可验证的搜索量或KD；用户立项数字不代入。",
+      "serp_competition_0_5": 1,
+      "competition_basis": "主观分析；依据可访问Web搜索发现样本及竞品覆盖，非实际Google前十，不是工具KD。",
+      "recommendation": "一个控制/语言/搬货FAQ",
+      "independent_reason": "原始帖子存在，短问题集合可避免单问题薄页；无实测键位时只给确认路径。"
+    },
+    {
+      "id": "K021",
+      "keyword": "Japanese Ramen Simulator English language",
+      "origin": "inferred",
+      "observation_type": "基于已采集问题/特征/竞品主题的人工品牌化表达",
+      "cluster_id": "controls",
+      "source_keys": [
+        "PL",
+        "PC",
+        "OS",
+        "PG"
+      ],
+      "demand_reliability": "多个当前玩家问题",
+      "search_volume": null,
+      "keyword_difficulty": null,
+      "metrics_note": "本次未取得可验证的搜索量或KD；用户立项数字不代入。",
+      "serp_competition_0_5": 1,
+      "competition_basis": "主观分析；依据可访问Web搜索发现样本及竞品覆盖，非实际Google前十，不是工具KD。",
+      "recommendation": "一个控制/语言/搬货FAQ",
+      "independent_reason": "原始帖子存在，短问题集合可避免单问题薄页；无实测键位时只给确认路径。"
+    },
+    {
+      "id": "K022",
+      "keyword": "Japanese Ramen Simulator cart controls",
+      "origin": "inferred",
+      "observation_type": "基于已采集问题/特征/竞品主题的人工品牌化表达",
+      "cluster_id": "controls",
+      "source_keys": [
+        "PL",
+        "PC",
+        "OS",
+        "PG"
+      ],
+      "demand_reliability": "多个当前玩家问题",
+      "search_volume": null,
+      "keyword_difficulty": null,
+      "metrics_note": "本次未取得可验证的搜索量或KD；用户立项数字不代入。",
+      "serp_competition_0_5": 1,
+      "competition_basis": "主观分析；依据可访问Web搜索发现样本及竞品覆盖，非实际Google前十，不是工具KD。",
+      "recommendation": "一个控制/语言/搬货FAQ",
+      "independent_reason": "原始帖子存在，短问题集合可避免单问题薄页；无实测键位时只给确认路径。"
+    },
+    {
+      "id": "K023",
+      "keyword": "Japanese Ramen Simulator third person camera",
+      "origin": "inferred",
+      "observation_type": "基于已采集问题/特征/竞品主题的人工品牌化表达",
+      "cluster_id": "controls",
+      "source_keys": [
+        "PL",
+        "PC",
+        "OS",
+        "PG"
+      ],
+      "demand_reliability": "多个当前玩家问题",
+      "search_volume": null,
+      "keyword_difficulty": null,
+      "metrics_note": "本次未取得可验证的搜索量或KD；用户立项数字不代入。",
+      "serp_competition_0_5": 1,
+      "competition_basis": "主观分析；依据可访问Web搜索发现样本及竞品覆盖，非实际Google前十，不是工具KD。",
+      "recommendation": "一个控制/语言/搬货FAQ",
+      "independent_reason": "原始帖子存在，短问题集合可避免单问题薄页；无实测键位时只给确认路径。"
+    },
+    {
+      "id": "K024",
+      "keyword": "Japanese Ramen Simulator system requirements",
+      "origin": "inferred",
+      "observation_type": "基于已采集问题/特征/竞品主题的人工品牌化表达",
+      "cluster_id": "requirements",
+      "source_keys": [
+        "OS",
+        "SG",
+        "PG"
+      ],
+      "demand_reliability": "官方兼容资料＋Mac平台搜索建议",
+      "search_volume": null,
+      "keyword_difficulty": null,
+      "metrics_note": "本次未取得可验证的搜索量或KD；用户立项数字不代入。",
+      "serp_competition_0_5": 2,
+      "competition_basis": "主观分析；依据可访问Web搜索发现样本及竞品覆盖，非实际Google前十，不是工具KD。",
+      "recommendation": "独立兼容要求表格页",
+      "independent_reason": "技术购买判断与发售日意图不同；Steam Deck未认证不可写Verified。"
+    },
+    {
+      "id": "K025",
+      "keyword": "Japanese Ramen Simulator controller support",
+      "origin": "inferred",
+      "observation_type": "基于已采集问题/特征/竞品主题的人工品牌化表达",
+      "cluster_id": "requirements",
+      "source_keys": [
+        "OS",
+        "SG",
+        "PG"
+      ],
+      "demand_reliability": "官方兼容资料＋Mac平台搜索建议",
+      "search_volume": null,
+      "keyword_difficulty": null,
+      "metrics_note": "本次未取得可验证的搜索量或KD；用户立项数字不代入。",
+      "serp_competition_0_5": 2,
+      "competition_basis": "主观分析；依据可访问Web搜索发现样本及竞品覆盖，非实际Google前十，不是工具KD。",
+      "recommendation": "独立兼容要求表格页",
+      "independent_reason": "技术购买判断与发售日意图不同；Steam Deck未认证不可写Verified。"
+    },
+    {
+      "id": "K026",
+      "keyword": "Japanese Ramen Simulator Steam Deck",
+      "origin": "inferred",
+      "observation_type": "基于已采集问题/特征/竞品主题的人工品牌化表达",
+      "cluster_id": "requirements",
+      "source_keys": [
+        "OS",
+        "SG",
+        "PG"
+      ],
+      "demand_reliability": "官方兼容资料＋Mac平台搜索建议",
+      "search_volume": null,
+      "keyword_difficulty": null,
+      "metrics_note": "本次未取得可验证的搜索量或KD；用户立项数字不代入。",
+      "serp_competition_0_5": 2,
+      "competition_basis": "主观分析；依据可访问Web搜索发现样本及竞品覆盖，非实际Google前十，不是工具KD。",
+      "recommendation": "独立兼容要求表格页",
+      "independent_reason": "技术购买判断与发售日意图不同；Steam Deck未认证不可写Verified。"
+    },
+    {
+      "id": "K027",
+      "keyword": "Japanese Ramen Simulator save game",
+      "origin": "inferred",
+      "observation_type": "基于已采集问题/特征/竞品主题的人工品牌化表达",
+      "cluster_id": "save",
+      "source_keys": [
+        "OS",
+        "OP"
+      ],
+      "demand_reliability": "官方功能，未采到明确搜索建议或当前问题",
+      "search_volume": null,
+      "keyword_difficulty": null,
+      "metrics_note": "本次未取得可验证的搜索量或KD；用户立项数字不代入。",
+      "serp_competition_0_5": 1,
+      "competition_basis": "主观分析；依据可访问Web搜索发现样本及竞品覆盖，非实际Google前十，不是工具KD。",
+      "recommendation": "有当前具体补丁/操作答案则独立，否则合并单人FAQ；save location待证据",
+      "independent_reason": "未确认路径不得给Windows文件目录猜测。"
+    },
+    {
+      "id": "K028",
+      "keyword": "Japanese Ramen Simulator Steam Cloud",
+      "origin": "inferred",
+      "observation_type": "基于已采集问题/特征/竞品主题的人工品牌化表达",
+      "cluster_id": "save",
+      "source_keys": [
+        "OS",
+        "OP"
+      ],
+      "demand_reliability": "官方功能，未采到明确搜索建议或当前问题",
+      "search_volume": null,
+      "keyword_difficulty": null,
+      "metrics_note": "本次未取得可验证的搜索量或KD；用户立项数字不代入。",
+      "serp_competition_0_5": 1,
+      "competition_basis": "主观分析；依据可访问Web搜索发现样本及竞品覆盖，非实际Google前十，不是工具KD。",
+      "recommendation": "有当前具体补丁/操作答案则独立，否则合并单人FAQ；save location待证据",
+      "independent_reason": "未确认路径不得给Windows文件目录猜测。"
+    },
+    {
+      "id": "K029",
+      "keyword": "Japanese Ramen Simulator save location",
+      "origin": "inferred",
+      "observation_type": "基于已采集问题/特征/竞品主题的人工品牌化表达",
+      "cluster_id": "save",
+      "source_keys": [
+        "OS",
+        "OP"
+      ],
+      "demand_reliability": "官方功能，未采到明确搜索建议或当前问题",
+      "search_volume": null,
+      "keyword_difficulty": null,
+      "metrics_note": "本次未取得可验证的搜索量或KD；用户立项数字不代入。",
+      "serp_competition_0_5": 1,
+      "competition_basis": "主观分析；依据可访问Web搜索发现样本及竞品覆盖，非实际Google前十，不是工具KD。",
+      "recommendation": "有当前具体补丁/操作答案则独立，否则合并单人FAQ；save location待证据",
+      "independent_reason": "未确认路径不得给Windows文件目录猜测。"
+    },
+    {
+      "id": "K030",
+      "keyword": "Japanese Ramen Simulator achievements",
+      "origin": "inferred",
+      "observation_type": "基于已采集问题/特征/竞品主题的人工品牌化表达",
+      "cluster_id": "achievements",
+      "source_keys": [
+        "OS",
+        "OP"
+      ],
+      "demand_reliability": "官方成就功能/目录；查询词人工推导",
+      "search_volume": null,
+      "keyword_difficulty": null,
+      "metrics_note": "本次未取得可验证的搜索量或KD；用户立项数字不代入。",
+      "serp_competition_0_5": 1,
+      "competition_basis": "主观分析；依据可访问Web搜索发现样本及竞品覆盖，非实际Google前十，不是工具KD。",
+      "recommendation": "取得完整官方清单可做查询表格页",
+      "independent_reason": "清单有独立检索用途；隐藏条件不能根据名字猜。"
+    },
+    {
+      "id": "K031",
+      "keyword": "Japanese Ramen Simulator achievement guide",
+      "origin": "inferred",
+      "observation_type": "基于已采集问题/特征/竞品主题的人工品牌化表达",
+      "cluster_id": "achievements",
+      "source_keys": [
+        "OS",
+        "OP"
+      ],
+      "demand_reliability": "官方成就功能/目录；查询词人工推导",
+      "search_volume": null,
+      "keyword_difficulty": null,
+      "metrics_note": "本次未取得可验证的搜索量或KD；用户立项数字不代入。",
+      "serp_competition_0_5": 1,
+      "competition_basis": "主观分析；依据可访问Web搜索发现样本及竞品覆盖，非实际Google前十，不是工具KD。",
+      "recommendation": "取得完整官方清单可做查询表格页",
+      "independent_reason": "清单有独立检索用途；隐藏条件不能根据名字猜。"
+    },
+    {
+      "id": "K032",
+      "keyword": "Japanese Ramen Simulator recipes",
+      "origin": "inferred",
+      "observation_type": "基于已采集问题/特征/竞品主题的人工品牌化表达",
+      "cluster_id": "menu",
+      "source_keys": [
+        "OS",
+        "OP",
+        "CP"
+      ],
+      "demand_reliability": "官方菜单与解锁＋竞品覆盖",
+      "search_volume": null,
+      "keyword_difficulty": null,
+      "metrics_note": "本次未取得可验证的搜索量或KD；用户立项数字不代入。",
+      "serp_competition_0_5": 1,
+      "competition_basis": "主观分析；依据可访问Web搜索发现样本及竞品覆盖，非实际Google前十，不是工具KD。",
+      "recommendation": "一个已确认菜单/食材/解锁数据库",
+      "independent_reason": "不把竞品占位配方写成all recipes，不拆材料8细页。"
+    },
+    {
+      "id": "K033",
+      "keyword": "Japanese Ramen Simulator menu",
+      "origin": "inferred",
+      "observation_type": "基于已采集问题/特征/竞品主题的人工品牌化表达",
+      "cluster_id": "menu",
+      "source_keys": [
+        "OS",
+        "OP",
+        "CP"
+      ],
+      "demand_reliability": "官方菜单与解锁＋竞品覆盖",
+      "search_volume": null,
+      "keyword_difficulty": null,
+      "metrics_note": "本次未取得可验证的搜索量或KD；用户立项数字不代入。",
+      "serp_competition_0_5": 1,
+      "competition_basis": "主观分析；依据可访问Web搜索发现样本及竞品覆盖，非实际Google前十，不是工具KD。",
+      "recommendation": "一个已确认菜单/食材/解锁数据库",
+      "independent_reason": "不把竞品占位配方写成all recipes，不拆材料8细页。"
+    },
+    {
+      "id": "K034",
+      "keyword": "Japanese Ramen Simulator recipe unlocks",
+      "origin": "inferred",
+      "observation_type": "基于已采集问题/特征/竞品主题的人工品牌化表达",
+      "cluster_id": "menu",
+      "source_keys": [
+        "OS",
+        "OP",
+        "CP"
+      ],
+      "demand_reliability": "官方菜单与解锁＋竞品覆盖",
+      "search_volume": null,
+      "keyword_difficulty": null,
+      "metrics_note": "本次未取得可验证的搜索量或KD；用户立项数字不代入。",
+      "serp_competition_0_5": 1,
+      "competition_basis": "主观分析；依据可访问Web搜索发现样本及竞品覆盖，非实际Google前十，不是工具KD。",
+      "recommendation": "一个已确认菜单/食材/解锁数据库",
+      "independent_reason": "不把竞品占位配方写成all recipes，不拆材料8细页。"
+    },
+    {
+      "id": "K035",
+      "keyword": "Japanese Ramen Simulator ingredients",
+      "origin": "inferred",
+      "observation_type": "基于已采集问题/特征/竞品主题的人工品牌化表达",
+      "cluster_id": "menu",
+      "source_keys": [
+        "OS",
+        "OP",
+        "CP"
+      ],
+      "demand_reliability": "官方菜单与解锁＋竞品覆盖",
+      "search_volume": null,
+      "keyword_difficulty": null,
+      "metrics_note": "本次未取得可验证的搜索量或KD；用户立项数字不代入。",
+      "serp_competition_0_5": 1,
+      "competition_basis": "主观分析；依据可访问Web搜索发现样本及竞品覆盖，非实际Google前十，不是工具KD。",
+      "recommendation": "一个已确认菜单/食材/解锁数据库",
+      "independent_reason": "不把竞品占位配方写成all recipes，不拆材料8细页。"
+    },
+    {
+      "id": "K036",
+      "keyword": "Japanese Ramen Simulator broth guide",
+      "origin": "inferred",
+      "observation_type": "基于已采集问题/特征/竞品主题的人工品牌化表达",
+      "cluster_id": "broth",
+      "source_keys": [
+        "OS",
+        "OP",
+        "CP",
+        "RC"
+      ],
+      "demand_reliability": "官方机制＋玩家评价情境",
+      "search_volume": null,
+      "keyword_difficulty": null,
+      "metrics_note": "本次未取得可验证的搜索量或KD；用户立项数字不代入。",
+      "serp_competition_0_5": 1,
+      "competition_basis": "主观分析；依据可访问Web搜索发现样本及竞品覆盖，非实际Google前十，不是工具KD。",
+      "recommendation": "独立汤底与酱汁指南，定量公式待证据",
+      "independent_reason": "操作阶段与面/摆盘不同；可解释确认变量，不能做假计算器。"
+    },
+    {
+      "id": "K037",
+      "keyword": "Japanese Ramen Simulator tare",
+      "origin": "inferred",
+      "observation_type": "基于已采集问题/特征/竞品主题的人工品牌化表达",
+      "cluster_id": "broth",
+      "source_keys": [
+        "OS",
+        "OP",
+        "CP",
+        "RC"
+      ],
+      "demand_reliability": "官方机制＋玩家评价情境",
+      "search_volume": null,
+      "keyword_difficulty": null,
+      "metrics_note": "本次未取得可验证的搜索量或KD；用户立项数字不代入。",
+      "serp_competition_0_5": 1,
+      "competition_basis": "主观分析；依据可访问Web搜索发现样本及竞品覆盖，非实际Google前十，不是工具KD。",
+      "recommendation": "独立汤底与酱汁指南，定量公式待证据",
+      "independent_reason": "操作阶段与面/摆盘不同；可解释确认变量，不能做假计算器。"
+    },
+    {
+      "id": "K038",
+      "keyword": "Japanese Ramen Simulator umami",
+      "origin": "inferred",
+      "observation_type": "基于已采集问题/特征/竞品主题的人工品牌化表达",
+      "cluster_id": "broth",
+      "source_keys": [
+        "OS",
+        "OP",
+        "CP",
+        "RC"
+      ],
+      "demand_reliability": "官方机制＋玩家评价情境",
+      "search_volume": null,
+      "keyword_difficulty": null,
+      "metrics_note": "本次未取得可验证的搜索量或KD；用户立项数字不代入。",
+      "serp_competition_0_5": 1,
+      "competition_basis": "主观分析；依据可访问Web搜索发现样本及竞品覆盖，非实际Google前十，不是工具KD。",
+      "recommendation": "独立汤底与酱汁指南，定量公式待证据",
+      "independent_reason": "操作阶段与面/摆盘不同；可解释确认变量，不能做假计算器。"
+    },
+    {
+      "id": "K039",
+      "keyword": "Japanese Ramen Simulator broth temperature",
+      "origin": "inferred",
+      "observation_type": "基于已采集问题/特征/竞品主题的人工品牌化表达",
+      "cluster_id": "broth",
+      "source_keys": [
+        "OS",
+        "OP",
+        "CP",
+        "RC"
+      ],
+      "demand_reliability": "官方机制＋玩家评价情境",
+      "search_volume": null,
+      "keyword_difficulty": null,
+      "metrics_note": "本次未取得可验证的搜索量或KD；用户立项数字不代入。",
+      "serp_competition_0_5": 1,
+      "competition_basis": "主观分析；依据可访问Web搜索发现样本及竞品覆盖，非实际Google前十，不是工具KD。",
+      "recommendation": "独立汤底与酱汁指南，定量公式待证据",
+      "independent_reason": "操作阶段与面/摆盘不同；可解释确认变量，不能做假计算器。"
+    },
+    {
+      "id": "K040",
+      "keyword": "Japanese Ramen Simulator noodles",
+      "origin": "inferred",
+      "observation_type": "基于已采集问题/特征/竞品主题的人工品牌化表达",
+      "cluster_id": "noodles",
+      "source_keys": [
+        "OS",
+        "OP",
+        "CP"
+      ],
+      "demand_reliability": "官方机制＋竞品覆盖",
+      "search_volume": null,
+      "keyword_difficulty": null,
+      "metrics_note": "本次未取得可验证的搜索量或KD；用户立项数字不代入。",
+      "serp_competition_0_5": 1,
+      "competition_basis": "主观分析；依据可访问Web搜索发现样本及竞品覆盖，非实际Google前十，不是工具KD。",
+      "recommendation": "一个煮面/配料操作页",
+      "independent_reason": "时间常数未证实时只写确认操作与订单匹配。"
+    },
+    {
+      "id": "K041",
+      "keyword": "Japanese Ramen Simulator toppings",
+      "origin": "inferred",
+      "observation_type": "基于已采集问题/特征/竞品主题的人工品牌化表达",
+      "cluster_id": "noodles",
+      "source_keys": [
+        "OS",
+        "OP",
+        "CP"
+      ],
+      "demand_reliability": "官方机制＋竞品覆盖",
+      "search_volume": null,
+      "keyword_difficulty": null,
+      "metrics_note": "本次未取得可验证的搜索量或KD；用户立项数字不代入。",
+      "serp_competition_0_5": 1,
+      "competition_basis": "主观分析；依据可访问Web搜索发现样本及竞品覆盖，非实际Google前十，不是工具KD。",
+      "recommendation": "一个煮面/配料操作页",
+      "independent_reason": "时间常数未证实时只写确认操作与订单匹配。"
+    },
+    {
+      "id": "K042",
+      "keyword": "Japanese Ramen Simulator noodle cooking time",
+      "origin": "inferred",
+      "observation_type": "基于已采集问题/特征/竞品主题的人工品牌化表达",
+      "cluster_id": "noodles",
+      "source_keys": [
+        "OS",
+        "OP",
+        "CP"
+      ],
+      "demand_reliability": "官方机制＋竞品覆盖",
+      "search_volume": null,
+      "keyword_difficulty": null,
+      "metrics_note": "本次未取得可验证的搜索量或KD；用户立项数字不代入。",
+      "serp_competition_0_5": 1,
+      "competition_basis": "主观分析；依据可访问Web搜索发现样本及竞品覆盖，非实际Google前十，不是工具KD。",
+      "recommendation": "一个煮面/配料操作页",
+      "independent_reason": "时间常数未证实时只写确认操作与订单匹配。"
+    },
+    {
+      "id": "K043",
+      "keyword": "Japanese Ramen Simulator gyoza",
+      "origin": "inferred",
+      "observation_type": "基于已采集问题/特征/竞品主题的人工品牌化表达",
+      "cluster_id": "sides",
+      "source_keys": [
+        "OS",
+        "OP",
+        "CP"
+      ],
+      "demand_reliability": "官方菜单＋竞品覆盖",
+      "search_volume": null,
+      "keyword_difficulty": null,
+      "metrics_note": "本次未取得可验证的搜索量或KD；用户立项数字不代入。",
+      "serp_competition_0_5": 1,
+      "competition_basis": "主观分析；依据可访问Web搜索发现样本及竞品覆盖，非实际Google前十，不是工具KD。",
+      "recommendation": "一个副菜页",
+      "independent_reason": "不拆gyoza/rice bowl两个只有宣传描述的短页。"
+    },
+    {
+      "id": "K044",
+      "keyword": "Japanese Ramen Simulator rice bowls",
+      "origin": "inferred",
+      "observation_type": "基于已采集问题/特征/竞品主题的人工品牌化表达",
+      "cluster_id": "sides",
+      "source_keys": [
+        "OS",
+        "OP",
+        "CP"
+      ],
+      "demand_reliability": "官方菜单＋竞品覆盖",
+      "search_volume": null,
+      "keyword_difficulty": null,
+      "metrics_note": "本次未取得可验证的搜索量或KD；用户立项数字不代入。",
+      "serp_competition_0_5": 1,
+      "competition_basis": "主观分析；依据可访问Web搜索发现样本及竞品覆盖，非实际Google前十，不是工具KD。",
+      "recommendation": "一个副菜页",
+      "independent_reason": "不拆gyoza/rice bowl两个只有宣传描述的短页。"
+    },
+    {
+      "id": "K045",
+      "keyword": "Japanese Ramen Simulator Char Siu Don",
+      "origin": "inferred",
+      "observation_type": "基于已采集问题/特征/竞品主题的人工品牌化表达",
+      "cluster_id": "sides",
+      "source_keys": [
+        "OS",
+        "OP",
+        "CP"
+      ],
+      "demand_reliability": "官方菜单＋竞品覆盖",
+      "search_volume": null,
+      "keyword_difficulty": null,
+      "metrics_note": "本次未取得可验证的搜索量或KD；用户立项数字不代入。",
+      "serp_competition_0_5": 1,
+      "competition_basis": "主观分析；依据可访问Web搜索发现样本及竞品覆盖，非实际Google前十，不是工具KD。",
+      "recommendation": "一个副菜页",
+      "independent_reason": "不拆gyoza/rice bowl两个只有宣传描述的短页。"
+    },
+    {
+      "id": "K046",
+      "keyword": "Japanese Ramen Simulator beer guide",
+      "origin": "inferred",
+      "observation_type": "基于已采集问题/特征/竞品主题的人工品牌化表达",
+      "cluster_id": "beer",
+      "source_keys": [
+        "OS",
+        "OP",
+        "CP"
+      ],
+      "demand_reliability": "官方首日明确啤酒质量改动",
+      "search_volume": null,
+      "keyword_difficulty": null,
+      "metrics_note": "本次未取得可验证的搜索量或KD；用户立项数字不代入。",
+      "serp_competition_0_5": 1,
+      "competition_basis": "主观分析；依据可访问Web搜索发现样本及竞品覆盖，非实际Google前十，不是工具KD。",
+      "recommendation": "证据可支持独立啤酒机制页",
+      "independent_reason": "不同操作输入和量惩罚有实用答案；不抄7:3、¥ROI。"
+    },
+    {
+      "id": "K047",
+      "keyword": "Japanese Ramen Simulator beer foam",
+      "origin": "inferred",
+      "observation_type": "基于已采集问题/特征/竞品主题的人工品牌化表达",
+      "cluster_id": "beer",
+      "source_keys": [
+        "OS",
+        "OP",
+        "CP"
+      ],
+      "demand_reliability": "官方首日明确啤酒质量改动",
+      "search_volume": null,
+      "keyword_difficulty": null,
+      "metrics_note": "本次未取得可验证的搜索量或KD；用户立项数字不代入。",
+      "serp_competition_0_5": 1,
+      "competition_basis": "主观分析；依据可访问Web搜索发现样本及竞品覆盖，非实际Google前十，不是工具KD。",
+      "recommendation": "证据可支持独立啤酒机制页",
+      "independent_reason": "不同操作输入和量惩罚有实用答案；不抄7:3、¥ROI。"
+    },
+    {
+      "id": "K048",
+      "keyword": "Japanese Ramen Simulator beer quality",
+      "origin": "inferred",
+      "observation_type": "基于已采集问题/特征/竞品主题的人工品牌化表达",
+      "cluster_id": "beer",
+      "source_keys": [
+        "OS",
+        "OP",
+        "CP"
+      ],
+      "demand_reliability": "官方首日明确啤酒质量改动",
+      "search_volume": null,
+      "keyword_difficulty": null,
+      "metrics_note": "本次未取得可验证的搜索量或KD；用户立项数字不代入。",
+      "serp_competition_0_5": 1,
+      "competition_basis": "主观分析；依据可访问Web搜索发现样本及竞品覆盖，非实际Google前十，不是工具KD。",
+      "recommendation": "证据可支持独立啤酒机制页",
+      "independent_reason": "不同操作输入和量惩罚有实用答案；不抄7:3、¥ROI。"
+    },
+    {
+      "id": "K049",
+      "keyword": "Japanese Ramen Simulator order tickets",
+      "origin": "inferred",
+      "observation_type": "基于已采集问题/特征/竞品主题的人工品牌化表达",
+      "cluster_id": "orders",
+      "source_keys": [
+        "PT",
+        "RT",
+        "OS",
+        "OP",
+        "YT"
+      ],
+      "demand_reliability": "当前玩家具体问题＋官方变更",
+      "search_volume": null,
+      "keyword_difficulty": null,
+      "metrics_note": "本次未取得可验证的搜索量或KD；用户立项数字不代入。",
+      "serp_competition_0_5": 1,
+      "competition_basis": "主观分析；依据可访问Web搜索发现样本及竞品覆盖，非实际Google前十，不是工具KD。",
+      "recommendation": "一个订单与服务FAQ",
+      "independent_reason": "票据无已核答案时如实说明，不能借旧preview holder等级冒充当前机制。"
+    },
+    {
+      "id": "K050",
+      "keyword": "Japanese Ramen Simulator order holder",
+      "origin": "inferred",
+      "observation_type": "基于已采集问题/特征/竞品主题的人工品牌化表达",
+      "cluster_id": "orders",
+      "source_keys": [
+        "PT",
+        "RT",
+        "OS",
+        "OP",
+        "YT"
+      ],
+      "demand_reliability": "当前玩家具体问题＋官方变更",
+      "search_volume": null,
+      "keyword_difficulty": null,
+      "metrics_note": "本次未取得可验证的搜索量或KD；用户立项数字不代入。",
+      "serp_competition_0_5": 1,
+      "competition_basis": "主观分析；依据可访问Web搜索发现样本及竞品覆盖，非实际Google前十，不是工具KD。",
+      "recommendation": "一个订单与服务FAQ",
+      "independent_reason": "票据无已核答案时如实说明，不能借旧preview holder等级冒充当前机制。"
+    },
+    {
+      "id": "K051",
+      "keyword": "Japanese Ramen Simulator order timer",
+      "origin": "inferred",
+      "observation_type": "基于已采集问题/特征/竞品主题的人工品牌化表达",
+      "cluster_id": "orders",
+      "source_keys": [
+        "PT",
+        "RT",
+        "OS",
+        "OP",
+        "YT"
+      ],
+      "demand_reliability": "当前玩家具体问题＋官方变更",
+      "search_volume": null,
+      "keyword_difficulty": null,
+      "metrics_note": "本次未取得可验证的搜索量或KD；用户立项数字不代入。",
+      "serp_competition_0_5": 1,
+      "competition_basis": "主观分析；依据可访问Web搜索发现样本及竞品覆盖，非实际Google前十，不是工具KD。",
+      "recommendation": "一个订单与服务FAQ",
+      "independent_reason": "票据无已核答案时如实说明，不能借旧preview holder等级冒充当前机制。"
+    },
+    {
+      "id": "K052",
+      "keyword": "Japanese Ramen Simulator serving orders",
+      "origin": "inferred",
+      "observation_type": "基于已采集问题/特征/竞品主题的人工品牌化表达",
+      "cluster_id": "orders",
+      "source_keys": [
+        "PT",
+        "RT",
+        "OS",
+        "OP",
+        "YT"
+      ],
+      "demand_reliability": "当前玩家具体问题＋官方变更",
+      "search_volume": null,
+      "keyword_difficulty": null,
+      "metrics_note": "本次未取得可验证的搜索量或KD；用户立项数字不代入。",
+      "serp_competition_0_5": 1,
+      "competition_basis": "主观分析；依据可访问Web搜索发现样本及竞品覆盖，非实际Google前十，不是工具KD。",
+      "recommendation": "一个订单与服务FAQ",
+      "independent_reason": "票据无已核答案时如实说明，不能借旧preview holder等级冒充当前机制。"
+    },
+    {
+      "id": "K053",
+      "keyword": "Japanese Ramen Simulator single player",
+      "origin": "inferred",
+      "observation_type": "基于已采集问题/特征/竞品主题的人工品牌化表达",
+      "cluster_id": "solo",
+      "source_keys": [
+        "PS",
+        "PO",
+        "OS",
+        "OP",
+        "CP"
+      ],
+      "demand_reliability": "当前玩家问题＋官方雇员机制",
+      "search_volume": null,
+      "keyword_difficulty": null,
+      "metrics_note": "本次未取得可验证的搜索量或KD；用户立项数字不代入。",
+      "serp_competition_0_5": 1,
+      "competition_basis": "主观分析；依据可访问Web搜索发现样本及竞品覆盖，非实际Google前十，不是工具KD。",
+      "recommendation": "一个单人和NPC页；offline为未确认FAQ",
+      "independent_reason": "Solo与Staff重叠，可合并角色和限制；不编员工数值薪资。"
+    },
+    {
+      "id": "K054",
+      "keyword": "Japanese Ramen Simulator solo guide",
+      "origin": "inferred",
+      "observation_type": "基于已采集问题/特征/竞品主题的人工品牌化表达",
+      "cluster_id": "solo",
+      "source_keys": [
+        "PS",
+        "PO",
+        "OS",
+        "OP",
+        "CP"
+      ],
+      "demand_reliability": "当前玩家问题＋官方雇员机制",
+      "search_volume": null,
+      "keyword_difficulty": null,
+      "metrics_note": "本次未取得可验证的搜索量或KD；用户立项数字不代入。",
+      "serp_competition_0_5": 1,
+      "competition_basis": "主观分析；依据可访问Web搜索发现样本及竞品覆盖，非实际Google前十，不是工具KD。",
+      "recommendation": "一个单人和NPC页；offline为未确认FAQ",
+      "independent_reason": "Solo与Staff重叠，可合并角色和限制；不编员工数值薪资。"
+    },
+    {
+      "id": "K055",
+      "keyword": "Japanese Ramen Simulator hire staff",
+      "origin": "inferred",
+      "observation_type": "基于已采集问题/特征/竞品主题的人工品牌化表达",
+      "cluster_id": "solo",
+      "source_keys": [
+        "PS",
+        "PO",
+        "OS",
+        "OP",
+        "CP"
+      ],
+      "demand_reliability": "当前玩家问题＋官方雇员机制",
+      "search_volume": null,
+      "keyword_difficulty": null,
+      "metrics_note": "本次未取得可验证的搜索量或KD；用户立项数字不代入。",
+      "serp_competition_0_5": 1,
+      "competition_basis": "主观分析；依据可访问Web搜索发现样本及竞品覆盖，非实际Google前十，不是工具KD。",
+      "recommendation": "一个单人和NPC页；offline为未确认FAQ",
+      "independent_reason": "Solo与Staff重叠，可合并角色和限制；不编员工数值薪资。"
+    },
+    {
+      "id": "K056",
+      "keyword": "Japanese Ramen Simulator NPC staff",
+      "origin": "inferred",
+      "observation_type": "基于已采集问题/特征/竞品主题的人工品牌化表达",
+      "cluster_id": "solo",
+      "source_keys": [
+        "PS",
+        "PO",
+        "OS",
+        "OP",
+        "CP"
+      ],
+      "demand_reliability": "当前玩家问题＋官方雇员机制",
+      "search_volume": null,
+      "keyword_difficulty": null,
+      "metrics_note": "本次未取得可验证的搜索量或KD；用户立项数字不代入。",
+      "serp_competition_0_5": 1,
+      "competition_basis": "主观分析；依据可访问Web搜索发现样本及竞品覆盖，非实际Google前十，不是工具KD。",
+      "recommendation": "一个单人和NPC页；offline为未确认FAQ",
+      "independent_reason": "Solo与Staff重叠，可合并角色和限制；不编员工数值薪资。"
+    },
+    {
+      "id": "K057",
+      "keyword": "Japanese Ramen Simulator offline",
+      "origin": "inferred",
+      "observation_type": "基于已采集问题/特征/竞品主题的人工品牌化表达",
+      "cluster_id": "solo",
+      "source_keys": [
+        "PS",
+        "PO",
+        "OS",
+        "OP",
+        "CP"
+      ],
+      "demand_reliability": "当前玩家问题＋官方雇员机制",
+      "search_volume": null,
+      "keyword_difficulty": null,
+      "metrics_note": "本次未取得可验证的搜索量或KD；用户立项数字不代入。",
+      "serp_competition_0_5": 1,
+      "competition_basis": "主观分析；依据可访问Web搜索发现样本及竞品覆盖，非实际Google前十，不是工具KD。",
+      "recommendation": "一个单人和NPC页；offline为未确认FAQ",
+      "independent_reason": "Solo与Staff重叠，可合并角色和限制；不编员工数值薪资。"
+    },
+    {
+      "id": "K058",
+      "keyword": "Japanese Ramen Simulator shop layout",
+      "origin": "inferred",
+      "observation_type": "基于已采集问题/特征/竞品主题的人工品牌化表达",
+      "cluster_id": "layout",
+      "source_keys": [
+        "RD",
+        "OS",
+        "OP",
+        "CP"
+      ],
+      "demand_reliability": "官方功能＋当前玩家设计问题",
+      "search_volume": null,
+      "keyword_difficulty": null,
+      "metrics_note": "本次未取得可验证的搜索量或KD；用户立项数字不代入。",
+      "serp_competition_0_5": 1,
+      "competition_basis": "主观分析；依据可访问Web搜索发现样本及竞品覆盖，非实际Google前十，不是工具KD。",
+      "recommendation": "一个装修/My Designs页",
+      "independent_reason": "可组合布局、绘图与已核解锁；导入失败无官方答案不能写修复保证。"
+    },
+    {
+      "id": "K059",
+      "keyword": "Japanese Ramen Simulator customization",
+      "origin": "inferred",
+      "observation_type": "基于已采集问题/特征/竞品主题的人工品牌化表达",
+      "cluster_id": "layout",
+      "source_keys": [
+        "RD",
+        "OS",
+        "OP",
+        "CP"
+      ],
+      "demand_reliability": "官方功能＋当前玩家设计问题",
+      "search_volume": null,
+      "keyword_difficulty": null,
+      "metrics_note": "本次未取得可验证的搜索量或KD；用户立项数字不代入。",
+      "serp_competition_0_5": 1,
+      "competition_basis": "主观分析；依据可访问Web搜索发现样本及竞品覆盖，非实际Google前十，不是工具KD。",
+      "recommendation": "一个装修/My Designs页",
+      "independent_reason": "可组合布局、绘图与已核解锁；导入失败无官方答案不能写修复保证。"
+    },
+    {
+      "id": "K060",
+      "keyword": "Japanese Ramen Simulator My Designs",
+      "origin": "inferred",
+      "observation_type": "基于已采集问题/特征/竞品主题的人工品牌化表达",
+      "cluster_id": "layout",
+      "source_keys": [
+        "RD",
+        "OS",
+        "OP",
+        "CP"
+      ],
+      "demand_reliability": "官方功能＋当前玩家设计问题",
+      "search_volume": null,
+      "keyword_difficulty": null,
+      "metrics_note": "本次未取得可验证的搜索量或KD；用户立项数字不代入。",
+      "serp_competition_0_5": 1,
+      "competition_basis": "主观分析；依据可访问Web搜索发现样本及竞品覆盖，非实际Google前十，不是工具KD。",
+      "recommendation": "一个装修/My Designs页",
+      "independent_reason": "可组合布局、绘图与已核解锁；导入失败无官方答案不能写修复保证。"
+    },
+    {
+      "id": "K061",
+      "keyword": "Japanese Ramen Simulator import images",
+      "origin": "inferred",
+      "observation_type": "基于已采集问题/特征/竞品主题的人工品牌化表达",
+      "cluster_id": "layout",
+      "source_keys": [
+        "RD",
+        "OS",
+        "OP",
+        "CP"
+      ],
+      "demand_reliability": "官方功能＋当前玩家设计问题",
+      "search_volume": null,
+      "keyword_difficulty": null,
+      "metrics_note": "本次未取得可验证的搜索量或KD；用户立项数字不代入。",
+      "serp_competition_0_5": 1,
+      "competition_basis": "主观分析；依据可访问Web搜索发现样本及竞品覆盖，非实际Google前十，不是工具KD。",
+      "recommendation": "一个装修/My Designs页",
+      "independent_reason": "可组合布局、绘图与已核解锁；导入失败无官方答案不能写修复保证。"
+    },
+    {
+      "id": "K062",
+      "keyword": "Japanese Ramen Simulator shop expansion",
+      "origin": "inferred",
+      "observation_type": "基于已采集问题/特征/竞品主题的人工品牌化表达",
+      "cluster_id": "layout",
+      "source_keys": [
+        "RD",
+        "OS",
+        "OP",
+        "CP"
+      ],
+      "demand_reliability": "官方功能＋当前玩家设计问题",
+      "search_volume": null,
+      "keyword_difficulty": null,
+      "metrics_note": "本次未取得可验证的搜索量或KD；用户立项数字不代入。",
+      "serp_competition_0_5": 1,
+      "competition_basis": "主观分析；依据可访问Web搜索发现样本及竞品覆盖，非实际Google前十，不是工具KD。",
+      "recommendation": "一个装修/My Designs页",
+      "independent_reason": "可组合布局、绘图与已核解锁；导入失败无官方答案不能写修复保证。"
+    },
+    {
+      "id": "K063",
+      "keyword": "Japanese Ramen Simulator thieves",
+      "origin": "inferred",
+      "observation_type": "基于已采集问题/特征/竞品主题的人工品牌化表达",
+      "cluster_id": "hazards",
+      "source_keys": [
+        "PH",
+        "OS",
+        "OP",
+        "CP"
+      ],
+      "demand_reliability": "真实小偷问题＋官方事件",
+      "search_volume": null,
+      "keyword_difficulty": null,
+      "metrics_note": "本次未取得可验证的搜索量或KD；用户立项数字不代入。",
+      "serp_competition_0_5": 1,
+      "competition_basis": "主观分析；依据可访问Web搜索发现样本及竞品覆盖，非实际Google前十，不是工具KD。",
+      "recommendation": "一个店铺事件处理页",
+      "independent_reason": "“disable thieves”是玩家愿望，不能写已有toggle；不编卫生检查8点规则。"
+    },
+    {
+      "id": "K064",
+      "keyword": "Japanese Ramen Simulator disable thieves",
+      "origin": "inferred",
+      "observation_type": "基于已采集问题/特征/竞品主题的人工品牌化表达",
+      "cluster_id": "hazards",
+      "source_keys": [
+        "PH",
+        "OS",
+        "OP",
+        "CP"
+      ],
+      "demand_reliability": "真实小偷问题＋官方事件",
+      "search_volume": null,
+      "keyword_difficulty": null,
+      "metrics_note": "本次未取得可验证的搜索量或KD；用户立项数字不代入。",
+      "serp_competition_0_5": 1,
+      "competition_basis": "主观分析；依据可访问Web搜索发现样本及竞品覆盖，非实际Google前十，不是工具KD。",
+      "recommendation": "一个店铺事件处理页",
+      "independent_reason": "“disable thieves”是玩家愿望，不能写已有toggle；不编卫生检查8点规则。"
+    },
+    {
+      "id": "K065",
+      "keyword": "Japanese Ramen Simulator fire",
+      "origin": "inferred",
+      "observation_type": "基于已采集问题/特征/竞品主题的人工品牌化表达",
+      "cluster_id": "hazards",
+      "source_keys": [
+        "PH",
+        "OS",
+        "OP",
+        "CP"
+      ],
+      "demand_reliability": "真实小偷问题＋官方事件",
+      "search_volume": null,
+      "keyword_difficulty": null,
+      "metrics_note": "本次未取得可验证的搜索量或KD；用户立项数字不代入。",
+      "serp_competition_0_5": 1,
+      "competition_basis": "主观分析；依据可访问Web搜索发现样本及竞品覆盖，非实际Google前十，不是工具KD。",
+      "recommendation": "一个店铺事件处理页",
+      "independent_reason": "“disable thieves”是玩家愿望，不能写已有toggle；不编卫生检查8点规则。"
+    },
+    {
+      "id": "K066",
+      "keyword": "Japanese Ramen Simulator cleaning",
+      "origin": "inferred",
+      "observation_type": "基于已采集问题/特征/竞品主题的人工品牌化表达",
+      "cluster_id": "hazards",
+      "source_keys": [
+        "PH",
+        "OS",
+        "OP",
+        "CP"
+      ],
+      "demand_reliability": "真实小偷问题＋官方事件",
+      "search_volume": null,
+      "keyword_difficulty": null,
+      "metrics_note": "本次未取得可验证的搜索量或KD；用户立项数字不代入。",
+      "serp_competition_0_5": 1,
+      "competition_basis": "主观分析；依据可访问Web搜索发现样本及竞品覆盖，非实际Google前十，不是工具KD。",
+      "recommendation": "一个店铺事件处理页",
+      "independent_reason": "“disable thieves”是玩家愿望，不能写已有toggle；不编卫生检查8点规则。"
+    },
+    {
+      "id": "K067",
+      "keyword": "Japanese Ramen Simulator food critic",
+      "origin": "inferred",
+      "observation_type": "基于已采集问题/特征/竞品主题的人工品牌化表达",
+      "cluster_id": "critic",
+      "source_keys": [
+        "RC",
+        "OS",
+        "OP",
+        "CP"
+      ],
+      "demand_reliability": "官方评价元素＋玩家反馈；五星词仅竞品",
+      "search_volume": null,
+      "keyword_difficulty": null,
+      "metrics_note": "本次未取得可验证的搜索量或KD；用户立项数字不代入。",
+      "serp_competition_0_5": 1,
+      "competition_basis": "主观分析；依据可访问Web搜索发现样本及竞品覆盖，非实际Google前十，不是工具KD。",
+      "recommendation": "确认评价机制页，标题避免保证五星",
+      "independent_reason": "不编Tanaka/Sayuri人物偏好或权重，当前可答来店与已确认评价。"
+    },
+    {
+      "id": "K068",
+      "keyword": "Japanese Ramen Simulator critic guide",
+      "origin": "inferred",
+      "observation_type": "基于已采集问题/特征/竞品主题的人工品牌化表达",
+      "cluster_id": "critic",
+      "source_keys": [
+        "RC",
+        "OS",
+        "OP",
+        "CP"
+      ],
+      "demand_reliability": "官方评价元素＋玩家反馈；五星词仅竞品",
+      "search_volume": null,
+      "keyword_difficulty": null,
+      "metrics_note": "本次未取得可验证的搜索量或KD；用户立项数字不代入。",
+      "serp_competition_0_5": 1,
+      "competition_basis": "主观分析；依据可访问Web搜索发现样本及竞品覆盖，非实际Google前十，不是工具KD。",
+      "recommendation": "确认评价机制页，标题避免保证五星",
+      "independent_reason": "不编Tanaka/Sayuri人物偏好或权重，当前可答来店与已确认评价。"
+    },
+    {
+      "id": "K069",
+      "keyword": "Japanese Ramen Simulator five star ramen",
+      "origin": "inferred",
+      "observation_type": "基于已采集问题/特征/竞品主题的人工品牌化表达",
+      "cluster_id": "critic",
+      "source_keys": [
+        "RC",
+        "OS",
+        "OP",
+        "CP"
+      ],
+      "demand_reliability": "官方评价元素＋玩家反馈；五星词仅竞品",
+      "search_volume": null,
+      "keyword_difficulty": null,
+      "metrics_note": "本次未取得可验证的搜索量或KD；用户立项数字不代入。",
+      "serp_competition_0_5": 1,
+      "competition_basis": "主观分析；依据可访问Web搜索发现样本及竞品覆盖，非实际Google前十，不是工具KD。",
+      "recommendation": "确认评价机制页，标题避免保证五星",
+      "independent_reason": "不编Tanaka/Sayuri人物偏好或权重，当前可答来店与已确认评价。"
+    },
+    {
+      "id": "K070",
+      "keyword": "Japanese Ramen Simulator multiplayer",
+      "origin": "inferred",
+      "observation_type": "基于已采集问题/特征/竞品主题的人工品牌化表达",
+      "cluster_id": "invite",
+      "source_keys": [
+        "RI",
+        "PM",
+        "PJ",
+        "OS",
+        "CP"
+      ],
+      "demand_reliability": "多个当前玩家问题＋成功邀请案例＋官方功能",
+      "search_volume": null,
+      "keyword_difficulty": null,
+      "metrics_note": "本次未取得可验证的搜索量或KD；用户立项数字不代入。",
+      "serp_competition_0_5": 1,
+      "competition_basis": "主观分析；依据可访问Web搜索发现样本及竞品覆盖，非实际Google前十，不是工具KD。",
+      "recommendation": "独立好友联机指南",
+      "independent_reason": "初次设置是操作步骤；公网大厅限制只写已核资料，语音当前已有官方答案。"
+    },
+    {
+      "id": "K071",
+      "keyword": "Japanese Ramen Simulator co-op",
+      "origin": "inferred",
+      "observation_type": "基于已采集问题/特征/竞品主题的人工品牌化表达",
+      "cluster_id": "invite",
+      "source_keys": [
+        "RI",
+        "PM",
+        "PJ",
+        "OS",
+        "CP"
+      ],
+      "demand_reliability": "多个当前玩家问题＋成功邀请案例＋官方功能",
+      "search_volume": null,
+      "keyword_difficulty": null,
+      "metrics_note": "本次未取得可验证的搜索量或KD；用户立项数字不代入。",
+      "serp_competition_0_5": 1,
+      "competition_basis": "主观分析；依据可访问Web搜索发现样本及竞品覆盖，非实际Google前十，不是工具KD。",
+      "recommendation": "独立好友联机指南",
+      "independent_reason": "初次设置是操作步骤；公网大厅限制只写已核资料，语音当前已有官方答案。"
+    },
+    {
+      "id": "K072",
+      "keyword": "Japanese Ramen Simulator invite friends",
+      "origin": "inferred",
+      "observation_type": "基于已采集问题/特征/竞品主题的人工品牌化表达",
+      "cluster_id": "invite",
+      "source_keys": [
+        "RI",
+        "PM",
+        "PJ",
+        "OS",
+        "CP"
+      ],
+      "demand_reliability": "多个当前玩家问题＋成功邀请案例＋官方功能",
+      "search_volume": null,
+      "keyword_difficulty": null,
+      "metrics_note": "本次未取得可验证的搜索量或KD；用户立项数字不代入。",
+      "serp_competition_0_5": 1,
+      "competition_basis": "主观分析；依据可访问Web搜索发现样本及竞品覆盖，非实际Google前十，不是工具KD。",
+      "recommendation": "独立好友联机指南",
+      "independent_reason": "初次设置是操作步骤；公网大厅限制只写已核资料，语音当前已有官方答案。"
+    },
+    {
+      "id": "K073",
+      "keyword": "Japanese Ramen Simulator invite code",
+      "origin": "inferred",
+      "observation_type": "基于已采集问题/特征/竞品主题的人工品牌化表达",
+      "cluster_id": "invite",
+      "source_keys": [
+        "RI",
+        "PM",
+        "PJ",
+        "OS",
+        "CP"
+      ],
+      "demand_reliability": "多个当前玩家问题＋成功邀请案例＋官方功能",
+      "search_volume": null,
+      "keyword_difficulty": null,
+      "metrics_note": "本次未取得可验证的搜索量或KD；用户立项数字不代入。",
+      "serp_competition_0_5": 1,
+      "competition_basis": "主观分析；依据可访问Web搜索发现样本及竞品覆盖，非实际Google前十，不是工具KD。",
+      "recommendation": "独立好友联机指南",
+      "independent_reason": "初次设置是操作步骤；公网大厅限制只写已核资料，语音当前已有官方答案。"
+    },
+    {
+      "id": "K074",
+      "keyword": "Japanese Ramen Simulator public lobbies",
+      "origin": "inferred",
+      "observation_type": "基于已采集问题/特征/竞品主题的人工品牌化表达",
+      "cluster_id": "invite",
+      "source_keys": [
+        "RI",
+        "PM",
+        "PJ",
+        "OS",
+        "CP"
+      ],
+      "demand_reliability": "多个当前玩家问题＋成功邀请案例＋官方功能",
+      "search_volume": null,
+      "keyword_difficulty": null,
+      "metrics_note": "本次未取得可验证的搜索量或KD；用户立项数字不代入。",
+      "serp_competition_0_5": 1,
+      "competition_basis": "主观分析；依据可访问Web搜索发现样本及竞品覆盖，非实际Google前十，不是工具KD。",
+      "recommendation": "独立好友联机指南",
+      "independent_reason": "初次设置是操作步骤；公网大厅限制只写已核资料，语音当前已有官方答案。"
+    },
+    {
+      "id": "K075",
+      "keyword": "Japanese Ramen Simulator voice chat",
+      "origin": "inferred",
+      "observation_type": "基于已采集问题/特征/竞品主题的人工品牌化表达",
+      "cluster_id": "invite",
+      "source_keys": [
+        "RI",
+        "PM",
+        "PJ",
+        "OS",
+        "CP"
+      ],
+      "demand_reliability": "多个当前玩家问题＋成功邀请案例＋官方功能",
+      "search_volume": null,
+      "keyword_difficulty": null,
+      "metrics_note": "本次未取得可验证的搜索量或KD；用户立项数字不代入。",
+      "serp_competition_0_5": 1,
+      "competition_basis": "主观分析；依据可访问Web搜索发现样本及竞品覆盖，非实际Google前十，不是工具KD。",
+      "recommendation": "独立好友联机指南",
+      "independent_reason": "初次设置是操作步骤；公网大厅限制只写已核资料，语音当前已有官方答案。"
+    },
+    {
+      "id": "K076",
+      "keyword": "Japanese Ramen Simulator connection timeout",
+      "origin": "inferred",
+      "observation_type": "基于已采集问题/特征/竞品主题的人工品牌化表达",
+      "cluster_id": "connection",
+      "source_keys": [
+        "PJ",
+        "OP"
+      ],
+      "demand_reliability": "多玩家重复具体报错",
+      "search_volume": null,
+      "keyword_difficulty": null,
+      "metrics_note": "本次未取得可验证的搜索量或KD；用户立项数字不代入。",
+      "serp_competition_0_5": 1,
+      "competition_basis": "主观分析；依据可访问Web搜索发现样本及竞品覆盖，非实际Google前十，不是工具KD。",
+      "recommendation": "独立故障诊断页；若只几条常识则并入invite",
+      "independent_reason": "与首次邀请的正常路径不同；不给未验证VPN/重启保证修复。"
+    },
+    {
+      "id": "K077",
+      "keyword": "Japanese Ramen Simulator MEN-MP-CONNECTION-TIMEOUT",
+      "origin": "inferred",
+      "observation_type": "基于已采集问题/特征/竞品主题的人工品牌化表达",
+      "cluster_id": "connection",
+      "source_keys": [
+        "PJ",
+        "OP"
+      ],
+      "demand_reliability": "多玩家重复具体报错",
+      "search_volume": null,
+      "keyword_difficulty": null,
+      "metrics_note": "本次未取得可验证的搜索量或KD；用户立项数字不代入。",
+      "serp_competition_0_5": 1,
+      "competition_basis": "主观分析；依据可访问Web搜索发现样本及竞品覆盖，非实际Google前十，不是工具KD。",
+      "recommendation": "独立故障诊断页；若只几条常识则并入invite",
+      "independent_reason": "与首次邀请的正常路径不同；不给未验证VPN/重启保证修复。"
+    },
+    {
+      "id": "K078",
+      "keyword": "Japanese Ramen Simulator cannot join friends",
+      "origin": "inferred",
+      "observation_type": "基于已采集问题/特征/竞品主题的人工品牌化表达",
+      "cluster_id": "connection",
+      "source_keys": [
+        "PJ",
+        "OP"
+      ],
+      "demand_reliability": "多玩家重复具体报错",
+      "search_volume": null,
+      "keyword_difficulty": null,
+      "metrics_note": "本次未取得可验证的搜索量或KD；用户立项数字不代入。",
+      "serp_competition_0_5": 1,
+      "competition_basis": "主观分析；依据可访问Web搜索发现样本及竞品覆盖，非实际Google前十，不是工具KD。",
+      "recommendation": "独立故障诊断页；若只几条常识则并入invite",
+      "independent_reason": "与首次邀请的正常路径不同；不给未验证VPN/重启保证修复。"
+    },
+    {
+      "id": "K079",
+      "keyword": "Japanese Ramen Simulator multiplayer not working",
+      "origin": "inferred",
+      "observation_type": "基于已采集问题/特征/竞品主题的人工品牌化表达",
+      "cluster_id": "connection",
+      "source_keys": [
+        "PJ",
+        "OP"
+      ],
+      "demand_reliability": "多玩家重复具体报错",
+      "search_volume": null,
+      "keyword_difficulty": null,
+      "metrics_note": "本次未取得可验证的搜索量或KD；用户立项数字不代入。",
+      "serp_competition_0_5": 1,
+      "competition_basis": "主观分析；依据可访问Web搜索发现样本及竞品覆盖，非实际Google前十，不是工具KD。",
+      "recommendation": "独立故障诊断页；若只几条常识则并入invite",
+      "independent_reason": "与首次邀请的正常路径不同；不给未验证VPN/重启保证修复。"
+    },
+    {
+      "id": "K080",
+      "keyword": "Japanese Ramen Simulator co-op roles",
+      "origin": "inferred",
+      "observation_type": "基于已采集问题/特征/竞品主题的人工品牌化表达",
+      "cluster_id": "roles",
+      "source_keys": [
+        "OS",
+        "CP",
+        "YT"
+      ],
+      "demand_reliability": "官方可分工循环＋视频标题兴趣；具体最佳配置人工建议",
+      "search_volume": null,
+      "keyword_difficulty": null,
+      "metrics_note": "本次未取得可验证的搜索量或KD；用户立项数字不代入。",
+      "serp_competition_0_5": 1,
+      "competition_basis": "主观分析；依据可访问Web搜索发现样本及竞品覆盖，非实际Google前十，不是工具KD。",
+      "recommendation": "有实用2/3/6人分工表可独立，否则合并联机",
+      "independent_reason": "标清团队建议，不冒充游戏固定职业或量化效率。"
+    },
+    {
+      "id": "K081",
+      "keyword": "Japanese Ramen Simulator multiplayer roles",
+      "origin": "inferred",
+      "observation_type": "基于已采集问题/特征/竞品主题的人工品牌化表达",
+      "cluster_id": "roles",
+      "source_keys": [
+        "OS",
+        "CP",
+        "YT"
+      ],
+      "demand_reliability": "官方可分工循环＋视频标题兴趣；具体最佳配置人工建议",
+      "search_volume": null,
+      "keyword_difficulty": null,
+      "metrics_note": "本次未取得可验证的搜索量或KD；用户立项数字不代入。",
+      "serp_competition_0_5": 1,
+      "competition_basis": "主观分析；依据可访问Web搜索发现样本及竞品覆盖，非实际Google前十，不是工具KD。",
+      "recommendation": "有实用2/3/6人分工表可独立，否则合并联机",
+      "independent_reason": "标清团队建议，不冒充游戏固定职业或量化效率。"
+    },
+    {
+      "id": "K082",
+      "keyword": "Japanese Ramen Simulator kitchen workflow",
+      "origin": "inferred",
+      "observation_type": "基于已采集问题/特征/竞品主题的人工品牌化表达",
+      "cluster_id": "roles",
+      "source_keys": [
+        "OS",
+        "CP",
+        "YT"
+      ],
+      "demand_reliability": "官方可分工循环＋视频标题兴趣；具体最佳配置人工建议",
+      "search_volume": null,
+      "keyword_difficulty": null,
+      "metrics_note": "本次未取得可验证的搜索量或KD；用户立项数字不代入。",
+      "serp_competition_0_5": 1,
+      "competition_basis": "主观分析；依据可访问Web搜索发现样本及竞品覆盖，非实际Google前十，不是工具KD。",
+      "recommendation": "有实用2/3/6人分工表可独立，否则合并联机",
+      "independent_reason": "标清团队建议，不冒充游戏固定职业或量化效率。"
+    },
+    {
+      "id": "K083",
+      "keyword": "Japanese Ramen Simulator updates",
+      "origin": "inferred",
+      "observation_type": "基于已采集问题/特征/竞品主题的人工品牌化表达",
+      "cluster_id": "patch",
+      "source_keys": [
+        "OP",
+        "OS"
+      ],
+      "demand_reliability": "当前官方完整更新",
+      "search_volume": null,
+      "keyword_difficulty": null,
+      "metrics_note": "本次未取得可验证的搜索量或KD；用户立项数字不代入。",
+      "serp_competition_0_5": 1,
+      "competition_basis": "主观分析；依据可访问Web搜索发现样本及竞品覆盖，非实际Google前十，不是工具KD。",
+      "recommendation": "一个版本更新记录页",
+      "independent_reason": "汇总首日变化并向受影响机制互链，避免版本变更逐条拆页。"
+    },
+    {
+      "id": "K084",
+      "keyword": "Japanese Ramen Simulator patch notes",
+      "origin": "inferred",
+      "observation_type": "基于已采集问题/特征/竞品主题的人工品牌化表达",
+      "cluster_id": "patch",
+      "source_keys": [
+        "OP",
+        "OS"
+      ],
+      "demand_reliability": "当前官方完整更新",
+      "search_volume": null,
+      "keyword_difficulty": null,
+      "metrics_note": "本次未取得可验证的搜索量或KD；用户立项数字不代入。",
+      "serp_competition_0_5": 1,
+      "competition_basis": "主观分析；依据可访问Web搜索发现样本及竞品覆盖，非实际Google前十，不是工具KD。",
+      "recommendation": "一个版本更新记录页",
+      "independent_reason": "汇总首日变化并向受影响机制互链，避免版本变更逐条拆页。"
+    },
+    {
+      "id": "K085",
+      "keyword": "Japanese Ramen Simulator v0.1.48.17626",
+      "origin": "inferred",
+      "observation_type": "基于已采集问题/特征/竞品主题的人工品牌化表达",
+      "cluster_id": "patch",
+      "source_keys": [
+        "OP",
+        "OS"
+      ],
+      "demand_reliability": "当前官方完整更新",
+      "search_volume": null,
+      "keyword_difficulty": null,
+      "metrics_note": "本次未取得可验证的搜索量或KD；用户立项数字不代入。",
+      "serp_competition_0_5": 1,
+      "competition_basis": "主观分析；依据可访问Web搜索发现样本及竞品覆盖，非实际Google前十，不是工具KD。",
+      "recommendation": "一个版本更新记录页",
+      "independent_reason": "汇总首日变化并向受影响机制互链，避免版本变更逐条拆页。"
+    },
+    {
+      "id": "K086",
+      "keyword": "Japanese Ramen Simulator levels",
+      "origin": "inferred",
+      "observation_type": "基于已采集问题/特征/竞品主题的人工品牌化表达",
+      "cluster_id": "shop-level",
+      "source_keys": [
+        "OS",
+        "OP",
+        "CP"
+      ],
+      "demand_reliability": "官方局部解锁＋竞品旧preview；无当前全表",
+      "search_volume": null,
+      "keyword_difficulty": null,
+      "metrics_note": "本次未取得可验证的搜索量或KD；用户立项数字不代入。",
+      "serp_competition_0_5": 1,
+      "competition_basis": "主观分析；依据可访问Web搜索发现样本及竞品覆盖，非实际Google前十，不是工具KD。",
+      "recommendation": "当前合并菜单和装修，不建议独立",
+      "independent_reason": "Lv25/26/28局部补丁无法构成完整梯级；不得从竞品preview拼造当前全表。"
+    },
+    {
+      "id": "K087",
+      "keyword": "Japanese Ramen Simulator level unlocks",
+      "origin": "inferred",
+      "observation_type": "基于已采集问题/特征/竞品主题的人工品牌化表达",
+      "cluster_id": "shop-level",
+      "source_keys": [
+        "OS",
+        "OP",
+        "CP"
+      ],
+      "demand_reliability": "官方局部解锁＋竞品旧preview；无当前全表",
+      "search_volume": null,
+      "keyword_difficulty": null,
+      "metrics_note": "本次未取得可验证的搜索量或KD；用户立项数字不代入。",
+      "serp_competition_0_5": 1,
+      "competition_basis": "主观分析；依据可访问Web搜索发现样本及竞品覆盖，非实际Google前十，不是工具KD。",
+      "recommendation": "当前合并菜单和装修，不建议独立",
+      "independent_reason": "Lv25/26/28局部补丁无法构成完整梯级；不得从竞品preview拼造当前全表。"
+    },
+    {
+      "id": "K088",
+      "keyword": "Japanese Ramen Simulator shop level",
+      "origin": "inferred",
+      "observation_type": "基于已采集问题/特征/竞品主题的人工品牌化表达",
+      "cluster_id": "shop-level",
+      "source_keys": [
+        "OS",
+        "OP",
+        "CP"
+      ],
+      "demand_reliability": "官方局部解锁＋竞品旧preview；无当前全表",
+      "search_volume": null,
+      "keyword_difficulty": null,
+      "metrics_note": "本次未取得可验证的搜索量或KD；用户立项数字不代入。",
+      "serp_competition_0_5": 1,
+      "competition_basis": "主观分析；依据可访问Web搜索发现样本及竞品覆盖，非实际Google前十，不是工具KD。",
+      "recommendation": "当前合并菜单和装修，不建议独立",
+      "independent_reason": "Lv25/26/28局部补丁无法构成完整梯级；不得从竞品preview拼造当前全表。"
+    },
+    {
+      "id": "K089",
+      "keyword": "Japanese Ramen Simulator best recipes",
+      "origin": "inferred",
+      "observation_type": "基于已采集问题/特征/竞品主题的人工品牌化表达",
+      "cluster_id": "defer",
+      "source_keys": [
+        "CP",
+        "OS"
+      ],
+      "demand_reliability": "竞品单一/泛功能推导，缺可靠答案",
+      "search_volume": null,
+      "keyword_difficulty": null,
+      "metrics_note": "本次未取得可验证的搜索量或KD；用户立项数字不代入。",
+      "serp_competition_0_5": 1,
+      "competition_basis": "主观分析；依据可访问Web搜索发现样本及竞品覆盖，非实际Google前十，不是工具KD。",
+      "recommendation": "暂缓独立发布",
+      "independent_reason": "缺当前可靠数值或真实问题；casino仅存在可合并事件，不做赔率攻略。"
+    },
+    {
+      "id": "K090",
+      "keyword": "Japanese Ramen Simulator recipe calculator",
+      "origin": "inferred",
+      "observation_type": "基于已采集问题/特征/竞品主题的人工品牌化表达",
+      "cluster_id": "defer",
+      "source_keys": [
+        "CP",
+        "OS"
+      ],
+      "demand_reliability": "竞品单一/泛功能推导，缺可靠答案",
+      "search_volume": null,
+      "keyword_difficulty": null,
+      "metrics_note": "本次未取得可验证的搜索量或KD；用户立项数字不代入。",
+      "serp_competition_0_5": 1,
+      "competition_basis": "主观分析；依据可访问Web搜索发现样本及竞品覆盖，非实际Google前十，不是工具KD。",
+      "recommendation": "暂缓独立发布",
+      "independent_reason": "缺当前可靠数值或真实问题；casino仅存在可合并事件，不做赔率攻略。"
+    },
+    {
+      "id": "K091",
+      "keyword": "Japanese Ramen Simulator profit margin",
+      "origin": "inferred",
+      "observation_type": "基于已采集问题/特征/竞品主题的人工品牌化表达",
+      "cluster_id": "defer",
+      "source_keys": [
+        "CP",
+        "OS"
+      ],
+      "demand_reliability": "竞品单一/泛功能推导，缺可靠答案",
+      "search_volume": null,
+      "keyword_difficulty": null,
+      "metrics_note": "本次未取得可验证的搜索量或KD；用户立项数字不代入。",
+      "serp_competition_0_5": 1,
+      "competition_basis": "主观分析；依据可访问Web搜索发现样本及竞品覆盖，非实际Google前十，不是工具KD。",
+      "recommendation": "暂缓独立发布",
+      "independent_reason": "缺当前可靠数值或真实问题；casino仅存在可合并事件，不做赔率攻略。"
+    },
+    {
+      "id": "K092",
+      "keyword": "Japanese Ramen Simulator ingredient prices",
+      "origin": "inferred",
+      "observation_type": "基于已采集问题/特征/竞品主题的人工品牌化表达",
+      "cluster_id": "defer",
+      "source_keys": [
+        "CP",
+        "OS"
+      ],
+      "demand_reliability": "竞品单一/泛功能推导，缺可靠答案",
+      "search_volume": null,
+      "keyword_difficulty": null,
+      "metrics_note": "本次未取得可验证的搜索量或KD；用户立项数字不代入。",
+      "serp_competition_0_5": 1,
+      "competition_basis": "主观分析；依据可访问Web搜索发现样本及竞品覆盖，非实际Google前十，不是工具KD。",
+      "recommendation": "暂缓独立发布",
+      "independent_reason": "缺当前可靠数值或真实问题；casino仅存在可合并事件，不做赔率攻略。"
+    },
+    {
+      "id": "K093",
+      "keyword": "Japanese Ramen Simulator casino odds",
+      "origin": "inferred",
+      "observation_type": "基于已采集问题/特征/竞品主题的人工品牌化表达",
+      "cluster_id": "defer",
+      "source_keys": [
+        "CP",
+        "OS"
+      ],
+      "demand_reliability": "竞品单一/泛功能推导，缺可靠答案",
+      "search_volume": null,
+      "keyword_difficulty": null,
+      "metrics_note": "本次未取得可验证的搜索量或KD；用户立项数字不代入。",
+      "serp_competition_0_5": 1,
+      "competition_basis": "主观分析；依据可访问Web搜索发现样本及竞品覆盖，非实际Google前十，不是工具KD。",
+      "recommendation": "暂缓独立发布",
+      "independent_reason": "缺当前可靠数值或真实问题；casino仅存在可合并事件，不做赔率攻略。"
+    },
+    {
+      "id": "K094",
+      "keyword": "Japanese Ramen Simulator mods",
+      "origin": "inferred",
+      "observation_type": "基于已采集问题/特征/竞品主题的人工品牌化表达",
+      "cluster_id": "defer",
+      "source_keys": [
+        "CP",
+        "OS"
+      ],
+      "demand_reliability": "竞品单一/泛功能推导，缺可靠答案",
+      "search_volume": null,
+      "keyword_difficulty": null,
+      "metrics_note": "本次未取得可验证的搜索量或KD；用户立项数字不代入。",
+      "serp_competition_0_5": 1,
+      "competition_basis": "主观分析；依据可访问Web搜索发现样本及竞品覆盖，非实际Google前十，不是工具KD。",
+      "recommendation": "暂缓独立发布",
+      "independent_reason": "缺当前可靠数值或真实问题；casino仅存在可合并事件，不做赔率攻略。"
+    },
+    {
+      "id": "K095",
+      "keyword": "Japanese Ramen Simulator crossplay",
+      "origin": "inferred",
+      "observation_type": "基于已采集问题/特征/竞品主题的人工品牌化表达",
+      "cluster_id": "defer",
+      "source_keys": [
+        "CP",
+        "OS"
+      ],
+      "demand_reliability": "竞品单一/泛功能推导，缺可靠答案",
+      "search_volume": null,
+      "keyword_difficulty": null,
+      "metrics_note": "本次未取得可验证的搜索量或KD；用户立项数字不代入。",
+      "serp_competition_0_5": 1,
+      "competition_basis": "主观分析；依据可访问Web搜索发现样本及竞品覆盖，非实际Google前十，不是工具KD。",
+      "recommendation": "暂缓独立发布",
+      "independent_reason": "缺当前可靠数值或真实问题；casino仅存在可合并事件，不做赔率攻略。"
+    }
+  ],
+  "rejected_suggest": [
+    "japanese restaurant simulator codes",
+    "japanese restaurant simulator roblox codes",
+    "how much is a bowl of ramen in japan",
+    "cold ramen in japan",
+    "average cost of ramen in japan",
+    "meat for japanese ramen",
+    "how much is a bowl of ramen in tokyo",
+    "japanese ramen sim lim square",
+    "japanese ramen sim lim",
+    "ramen in japanese writing",
+    "what kind of noodles are used in japanese ramen"
+  ],
+  "ambiguous_suggest": [
+    {
+      "term": "japanese ramen shop simulator",
+      "reason": "存在其他Ramen Shop Simulator游戏；本次不作为指定游戏精确需求，若做比较页应另查两作。"
+    }
+  ],
+  "unavailable_sources": [
+    {
+      "source": "Google Trends related/top/rising",
+      "status": "429页面/API",
+      "file": "research/sources/keywords-trends-explore-page.json",
+      "consequence": "未取得相关查询或飙升词，不能宣称该部分已完成。"
+    },
+    {
+      "source": "真实Google核心4query前十",
+      "status": "HTTP200但JS壳；Jina为CAPTCHA；主Agent浏览器30秒超时重置",
+      "file": "research/sources/keywords-google-serp-core.json",
+      "consequence": "仅提供Web发现样本，google_rank=null。"
+    },
+    {
+      "source": "Similarweb",
+      "status": "202空正文",
+      "file": "research/sources/keywords-similarweb-keywords.json",
+      "consequence": "没有流量/关键词量数据。"
+    },
+    {
+      "source": "Ahrefs/Semrush",
+      "status": "200公开工具页，无目标指标",
+      "file": "research/sources/keywords-ahrefs-keyword-generator.json",
+      "consequence": "search_volume/KD=null。"
+    },
+    {
+      "source": "Reddit公开JSON",
+      "status": "搜索与具体帖均403",
+      "file": "research/sources/keywords-reddit-search.json",
+      "consequence": "搜索索引仅见宣传转贴与疑似批量帖子，不作为玩家需求证据。"
+    }
+  ],
+  "user_project_metrics": {
+    "KD": 0,
+    "estimated_volume": 2743,
+    "video_count": 2200,
+    "Trends_samples": [
+      {
+        "date": "2026-09-28",
+        "value": 69
+      },
+      {
+        "date": "2026-10-08",
+        "value": 11
+      },
+      {
+        "date": "2026-10-09",
+        "value": 48
+      }
+    ],
+    "GPTs": 35,
+    "verification": "用户提供的截至2026-10-09立项参考，地区/时间窗口/工具/统计口径未知；未独立验证，不写入各关键词指标"
+  }
+}

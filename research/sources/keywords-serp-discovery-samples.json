@@ -1,0 +1,194 @@
+{
+  "checked_at": "2026-10-10",
+  "note": "每条样本均为Web搜索工具独立query返回的前十项发现结果；真实Google SERP未取得，禁止称Google前十或赋Google排名。Google HTTP四查询为JS跳转壳，Jina为CAPTCHA，主Agent内置浏览器30秒超时并重置。",
+  "queries": [
+    {
+      "query": "Japanese Ramen Simulator",
+      "google_rank_verified": false,
+      "google_rank": null,
+      "sample": [
+        {
+          "title": "Steam：Japanese Ramen Simulator",
+          "url": "https://store.steampowered.com/app/4968640/Japanese_Ramen_Simulator/?l=japanese"
+        },
+        {
+          "title": "Steamで15% OFF：Japanese Ramen Simulator",
+          "url": "https://store.steampowered.com/app/4968640/?l=japanese"
+        },
+        {
+          "title": "Save 15% on Japanese Ramen Simulator on Steam",
+          "url": "https://store.steampowered.com/app/4968640/Japanese_Ramen_Simulator/"
+        },
+        {
+          "title": "Japanese Ramen Simulator Closed Beta Test",
+          "url": "https://cbt.wilddog.jp/?lang=ja"
+        },
+        {
+          "title": "Steam Community :: Japanese Ramen Simulator",
+          "url": "https://steamcommunity.com/app/4968640"
+        },
+        {
+          "title": "Steam Community :: Japanese Ramen Simulator",
+          "url": "https://steamcommunity.com/app/4968640/"
+        },
+        {
+          "title": "Japanese Ramen Simulator Closed Beta Test",
+          "url": "https://cbt.wilddog.jp/"
+        },
+        {
+          "title": "Japanese Ramen Simulator - Official Announcement Trailer - YouTube",
+          "url": "https://www.youtube.com/watch?v=WunRmdsl2F8"
+        },
+        {
+          "title": "Japanese Ramen Simulator | TOFU IRONWORKS Game Pick",
+          "url": "https://tofuironworks.com/en/games/japanese-ramen-simulator/"
+        },
+        {
+          "title": "自由度が高すぎるマルチ対応ラーメン屋シミュレーションゲーム『Japanese Ramen Simulator』を発表！ | 株式会社ワイルドドッグのプレスリリース",
+          "url": "https://prtimes.jp/main/html/rd/p/000000007.000159372.html"
+        }
+      ]
+    },
+    {
+      "query": "Japanese Ramen Simulator guide",
+      "google_rank_verified": false,
+      "google_rank": null,
+      "sample": [
+        {
+          "title": "Japanese Ramen Simulator Master Guides Archive (2026)",
+          "url": "https://japaneseramensimulator.wiki/guides"
+        },
+        {
+          "title": "Japanese Ramen Simulator Level Guide: Every Unlock (2026)",
+          "url": "https://japaneseramensimulator.wiki/guides/level-unlocks-guide"
+        },
+        {
+          "title": "〖Japanese Ramen Simulator〗攻略wiki｜ラーメン屋経営シミュレーター | GAME-GO",
+          "url": "https://game-go.wiki/ramen/"
+        },
+        {
+          "title": "Japanese Ramen Simulator Wiki & Kitchen Field Guide (2026) | Broth Bench & Co-op",
+          "url": "https://japaneseramensimulator.wiki/"
+        },
+        {
+          "title": "Japanese Ramen Simulator Wiki & Guide | Peerlist",
+          "url": "https://peerlist.io/caketan/project/japanese-ramen-simulator-wiki--guide"
+        },
+        {
+          "title": "『Japanese Ramen Simulator』全ラーメンレシピ・配合図鑑 (2026) | 原価・粗利・星5攻略",
+          "url": "https://japaneseramensimulator.wiki/ja/recipes"
+        },
+        {
+          "title": "Japanese Ramen Simulator攻略Wiki | Gamerch",
+          "url": "https://gamerch.com/japanese-ramen/"
+        },
+        {
+          "title": "Save 15% on Japanese Ramen Simulator on Steam",
+          "url": "https://store.steampowered.com/app/4968640/Japanese_Ramen_Simulator/"
+        },
+        {
+          "title": "『Japanese Ramen Simulator』非公式攻略 Wiki＆厨房実戦マニュアル (2026)",
+          "url": "https://japaneseramensimulator.wiki/ja"
+        },
+        {
+          "title": "Steamで15% OFF：Japanese Ramen Simulator",
+          "url": "https://store.steampowered.com/app/4968640/?l=japanese"
+        }
+      ]
+    },
+    {
+      "query": "Japanese Ramen Simulator recipes",
+      "google_rank_verified": false,
+      "google_rank": null,
+      "sample": [
+        {
+          "title": "Japanese Ramen Simulator Recipes & Formula Database (2026) | All Broth Ratios & 5-Star Specs",
+          "url": "https://japaneseramensimulator.wiki/recipes"
+        },
+        {
+          "title": "『Japanese Ramen Simulator』全ラーメンレシピ・配合図鑑 (2026) | 原価・粗利・星5攻略",
+          "url": "https://japaneseramensimulator.wiki/ja/recipes"
+        },
+        {
+          "title": "Steam：Japanese Ramen Simulator",
+          "url": "https://store.steampowered.com/app/4968640/Japanese_Ramen_Simulator/?l=japanese"
+        },
+        {
+          "title": "Japanese Ramen Simulator Wiki & Kitchen Field Guide (2026) | Broth Bench & Co-op",
+          "url": "https://japaneseramensimulator.wiki/"
+        },
+        {
+          "title": "《Japanese Ramen Simulator》全拉面食谱与满分配方库 (2026) | 定价毛利表",
+          "url": "https://japaneseramensimulator.wiki/zh/recipes"
+        },
+        {
+          "title": "《Japanese Ramen Simulator》全拉麵食譜與滿分配方庫 (2026) | 定價毛利表",
+          "url": "https://japaneseramensimulator.wiki/zh-tw/recipes"
+        },
+        {
+          "title": "Japanese Ramen Simulator Ingredients & Umami Database (2026) | Broth Items Guide",
+          "url": "https://japaneseramensimulator.wiki/ingredients"
+        },
+        {
+          "title": "Easy Instant Ramen Hacks - Ramen Recipes from Ms. Koizumi Loves Ramen Noodles - YouTube",
+          "url": "https://www.youtube.com/watch?v=sJU6iXtLjdo"
+        },
+        {
+          "title": "〖Japanese Ramen Simulator〗ゲームの内容とラーメン作りの始め方 - AAYYY",
+          "url": "https://www.aayyy.org/latest/japanese-ramen-simulator-%E3%82%B2%E3%83%BC%E3%83%A0%E3%81%AE%E5%86%85%E5%AE%B9%E3%81%A8%E3%83%A9%E3%83%BC%E3%83%A1%E3%83%B3%E4%BD%9C%E3%82%8A%E3%81%AE%E5%A7%8B%E3%82%81%E6%96%B9/"
+        },
+        {
+          "title": "Japanese Ramen Simulator Master Guides Archive (2026)",
+          "url": "https://japaneseramensimulator.wiki/guides"
+        }
+      ]
+    },
+    {
+      "query": "Japanese Ramen Simulator multiplayer",
+      "google_rank_verified": false,
+      "google_rank": null,
+      "sample": [
+        {
+          "title": "Save 15% on Japanese Ramen Simulator on Steam",
+          "url": "https://store.steampowered.com/app/4968640/Japanese_Ramen_Simulator/"
+        },
+        {
+          "title": "Japanese Ramen Simulator on Steam",
+          "url": "https://store.steampowered.com/app/4968640/?l=english"
+        },
+        {
+          "title": "Japanese Ramen Simulator: How to Invite Friends (2026 Co-op)",
+          "url": "https://japaneseramensimulator.wiki/guides/multiplayer-setup"
+        },
+        {
+          "title": "Japanese Ramen Simulator on Discord",
+          "url": "https://discord.com/game/japanese-ramen-simulator-1554705195147984916"
+        },
+        {
+          "title": "『Japanese Ramen Simulator』フレンドと遊ぶ方法・最大6人マルチプレイ解説 (2026)",
+          "url": "https://japaneseramensimulator.wiki/ja/guides/multiplayer-setup"
+        },
+        {
+          "title": "自由度が高すぎるマルチ対応ラーメン屋シミュレーションゲーム『Japanese Ramen Simulator』を発表！ | 株式会社ワイルドドッグのプレスリリース",
+          "url": "https://prtimes.jp/main/html/rd/p/000000007.000159372.html"
+        },
+        {
+          "title": "Japanese Ramen Simulator op Steam",
+          "url": "https://store.steampowered.com/app/4968640/Japanese_Ramen_Simulator/?l=dutch"
+        },
+        {
+          "title": "自由度が高すぎるマルチ対応ラーメン屋シミュレーションゲーム『Japanese Ramen Simulator』 本日、Steam早期アクセス配信開始！ | 株式会社ワイルドドッグのプレスリリース",
+          "url": "https://prtimes.jp/main/html/rd/p/000000009.000159372.html"
+        },
+        {
+          "title": "《Japanese Ramen Simulator》好友联机设置攻略：怎么邀请朋友一起玩 (2026)",
+          "url": "https://japaneseramensimulator.wiki/zh/guides/multiplayer-setup"
+        },
+        {
+          "title": "Steam Community :: Japanese Ramen Simulator",
+          "url": "https://steamcommunity.com/app/4968640"
+        }
+      ]
+    }
+  ]
+}

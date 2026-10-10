@@ -1,16 +1,16 @@
 {
-  "name": "anvilwiki",
+  "name": "japanese-ramen-simulator-wiki",
   "version": "2.37.0",
   "type": "module",
-  "description": "Open-source game wiki site template. Astro + Cloudflare Pages. Free, fast, beginner-friendly.",
+  "description": "Independent English Japanese Ramen Simulator wiki built on AnvilWiki.",
   "license": "MIT",
-  "homepage": "https://anvil.wiki",
+  "homepage": "https://japanese-ramen-simulator-wiki.pages.dev",
   "repository": {
     "type": "git",
-    "url": "https://github.com/PNGTRID/AnvilWiki.git"
+    "url": "https://github.com/ChanChunKei/japanese-ramen-simulator-wiki.git"
   },
   "bugs": {
-    "url": "https://github.com/PNGTRID/AnvilWiki/issues"
+    "url": "https://github.com/ChanChunKei/japanese-ramen-simulator-wiki/issues"
   },
   "keywords": [
     "astro",

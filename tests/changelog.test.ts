@@ -8,7 +8,7 @@
  * v2.4.1–v2.6.2 six-release streak, v2.15.1 cleanup variant, v2.18.1) before
  * the nightly automation finally gated it here (2026-09-12).
  */
-import { readFileSync } from 'node:fs';
+import { existsSync, readFileSync } from 'node:fs';
 import { join, dirname } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { describe, expect, test } from 'vitest';
@@ -38,12 +38,19 @@ describe('CHANGELOG release contract', () => {
     }
   });
 
-  test('PROJECT_VERSION stays in sync with package.json (version 五处 release checklist, now gated)', () => {
-    const pkg = JSON.parse(readFileSync(join(root, 'package.json'), 'utf8')) as { version: string };
-    const shared = readFileSync(join(root, 'src/config/landing-shared.ts'), 'utf8');
-    const projectVersion = shared.match(/PROJECT_VERSION = '([^']+)'/)?.[1];
-    expect(projectVersion, "src/config/landing-shared.ts must keep PROJECT_VERSION = '<package.json version>'").toBe(
-      pkg.version,
-    );
-  });
+  // 演示站版本标签随 landing-shared.ts 被初始化删除；发行记录的其余检查仍运行。
+  test.skipIf(!existsSync(join(root, 'src/config/landing-shared.ts')))(
+    'PROJECT_VERSION stays in sync with package.json (version 五处 release checklist, now gated)',
+    () => {
+      const pkg = JSON.parse(readFileSync(join(root, 'package.json'), 'utf8')) as {
+        version: string;
+      };
+      const shared = readFileSync(join(root, 'src/config/landing-shared.ts'), 'utf8');
+      const projectVersion = shared.match(/PROJECT_VERSION = '([^']+)'/)?.[1];
+      expect(
+        projectVersion,
+        "src/config/landing-shared.ts must keep PROJECT_VERSION = '<package.json version>'",
+      ).toBe(pkg.version);
+    },
+  );
 });

@@ -24,6 +24,14 @@ export interface SiteConfig {
    * if you run no social channels, set this.
    */
   contactEmail?: string;
+  /** 本站公开仓库，用于联系维护者。 */
+  repositoryUrl?: string;
+  /** 是否允许搜索引擎收录标签和最近更新聚合页。 */
+  indexUtilityPages?: boolean;
+  /** 可配置的品牌图标，组件不绑定游戏主题。 */
+  logoIcon?: string;
+  /** 同源字体预加载路径。 */
+  preloadFonts?: string[];
   social: {
     /** Official game website URL (the game itself, not the wiki). */
     official: string;
@@ -62,37 +70,34 @@ export interface SiteConfig {
 }
 
 export const site: SiteConfig = {
-  name: 'Anvil Quest Wiki',
-  shortName: 'AQ Wiki',
+  name: 'Japanese Ramen Simulator Wiki',
+  shortName: 'JRS Wiki',
   description:
-    'Complete Anvil Quest wiki with boss guides, tier lists, codes, item locations, and beginner tips. Every guide carries a last-verified date.',
-  domain: 'anvil.wiki',
-  tagline: 'Your forge for everything Anvil Quest',
+    'Japanese Ramen Simulator guides for cooking, shop management, co-op, achievements and launch-day fixes, with sources and clear version notes.',
+  domain: 'japanese-ramen-simulator-wiki.pages.dev',
+  tagline: 'A field guide for your next ramen shift.',
   legalNotice:
-    'Anvil Quest Wiki is a fan-made community site. Not affiliated with or endorsed by the game developer.',
-  // 👉 APPLY TEMPLATE: set a real address if you run no social channels —
-  // the contact page renders it as a mailto link.
+    'Independent fan wiki. Japanese Ramen Simulator is developed by Wild Dog; this site is not affiliated with the developer.',
+  // Set a real address if you run no social channels — the contact page
+  // renders it as a mailto link.
   contactEmail: '',
+  repositoryUrl: 'https://github.com/ChanChunKei/japanese-ramen-simulator-wiki',
+  indexUtilityPages: false,
+  logoIcon: 'lucide:utensils',
+  preloadFonts: ['/fonts/lato-regular-latin.woff2', '/fonts/lato-bold-latin.woff2'],
+  defaultAuthor: 'JRS Wiki Editorial Team',
   social: {
-    official: 'https://example.com/anvil-quest',
-    discord: 'https://discord.gg/example',
-    youtube: 'https://youtube.com/@example',
-    twitter: 'https://twitter.com/example',
-    reddit: 'https://reddit.com/r/anvilquest',
+    official: 'https://store.steampowered.com/app/4968640/Japanese_Ramen_Simulator/',
   },
-  // 👉 APPLY TEMPLATE: point these at the game's real canonical pages.
-  sameAs: [
-    'https://example.com/anvil-quest',
-    'https://en.wikipedia.org/wiki/Anvil_Quest',
-  ],
   game: {
-    name: 'Anvil Quest',
-    platform: 'Roblox',
-    developer: 'Forge Studios',
-    genre: 'Fantasy RPG',
-    releaseDate: '2026-01-15',
+    name: 'Japanese Ramen Simulator',
+    platform: 'Steam (Windows)',
+    developer: 'Wild Dog',
+    genre: 'Ramen shop management simulation',
+    releaseDate: '2026-10-09',
   },
-  // hero.webp is 1200×630 (the recommended OG share aspect ratio).
+  // og:image dims of the SHIPPED hero.webp — if you replace public/images/hero.webp,
+  // update these in src/config/site.ts to match (wrong dims mis-crop share cards).
   ogImageWidth: 1200,
   ogImageHeight: 630,
 };

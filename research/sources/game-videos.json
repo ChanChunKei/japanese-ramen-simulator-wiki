@@ -1,0 +1,67 @@
+{
+  "checked_at": "2026-10-10",
+  "note_zh": "只存已经验证的视频身份、官方嵌入关系。没有捏造帧内容、字幕或上传日期。",
+  "videos": [
+    {
+      "title": "Opening My Own Japanese Ramen Shop! - Early Look (Japanese Ramen Simulator)",
+      "author": "Kanzalone",
+      "author_url": "https://www.youtube.com/@Kanzalone",
+      "url": "https://www.youtube.com/watch?v=APIWnCHUsKw",
+      "thumbnail_url": "https://i.ytimg.com/vi/APIWnCHUsKw/hqdefault.jpg",
+      "checked_via": "YouTube official oEmbed",
+      "checked_at": "2026-10-10",
+      "published_at": null,
+      "reviewed_frames": false,
+      "version_scope": "发售前创作者预览；仅身份/标题核对，不能用于当前EA数值断言",
+      "limitations_zh": "当前工具只返回metadata，未观看完整视频、未取字幕；禁以竞品timestamp/转述充当本次观看证据。"
+    },
+    {
+      "title": "「クソみたいなラーメン屋」を経営するゲーム｜Japanese Ramen Simulator",
+      "author": "ホワイト",
+      "author_url": "https://www.youtube.com/@Whitedayo0126",
+      "url": "https://www.youtube.com/watch?v=Gyw5pp1mwdc",
+      "thumbnail_url": "https://i.ytimg.com/vi/Gyw5pp1mwdc/hqdefault.jpg",
+      "checked_via": "YouTube official oEmbed",
+      "checked_at": "2026-10-10",
+      "published_at": null,
+      "reviewed_frames": false,
+      "version_scope": "发售前创作者预览；仅身份/标题核对，不能用于当前EA数值断言",
+      "limitations_zh": "当前工具只返回metadata，未观看完整视频、未取字幕；禁以竞品timestamp/转述充当本次观看证据。"
+    },
+    {
+      "title": "Japanese Ramen Simulator Ealry Access Trailer",
+      "author": "Wild Dog",
+      "author_url": "https://www.youtube.com/@wilddoggame",
+      "url": "https://www.youtube.com/watch?v=r7uAvTFB_JQ",
+      "thumbnail_url": "https://i.ytimg.com/vi/r7uAvTFB_JQ/hqdefault.jpg",
+      "checked_via": "YouTube official oEmbed",
+      "checked_at": "2026-10-10",
+      "published_at": null,
+      "reviewed_frames": false,
+      "version_scope": "官方EA预告，10月9官方新闻稿嵌入；视频准确上传时间未取到",
+      "limitations_zh": "当前工具只返回metadata，未观看完整视频、未取字幕；禁以竞品timestamp/转述充当本次观看证据。"
+    }
+  ],
+  "latest_candidates_zh": [
+    {
+      "url": "https://www.youtube.com/watch?v=Dq9b0vdpqH0",
+      "creator": "JMXP",
+      "discovery_source": "research/sources/keywords-youtube-extracts.json",
+      "publication_relative": "2小时前（关键词代理观察）",
+      "verified_gameplay": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=pgPL4WyQvSQ",
+      "creator": "Max V2",
+      "discovery_source": "research/sources/keywords-youtube-extracts.json",
+      "publication_relative": "8小时前（关键词代理观察）",
+      "verified_gameplay": false
+    }
+  ],
+  "excluded": [
+    {
+      "url": "https://www.youtube.com/watch?v=lUewxEEnVx8",
+      "reason_zh": "oEmbed验证为Graveyard Keeper 2，不能因创作者网站位置假定是拉面视频。"
+    }
+  ]
+}
