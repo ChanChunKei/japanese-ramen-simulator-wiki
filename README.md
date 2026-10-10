@@ -34,6 +34,8 @@ pnpm check-sitemap http://localhost:4321
 
 `src/config/site.ts`、`wrangler.toml [vars].SITE_URL` 与CI构建地址已统一正式域名。构建默认从本站配置获取域名；显式环境变量 `SITE_URL` 可用于受控预览。域名迁移的DNS、HTTPS与发布状态见 [域名接入记录](research/domain-migration-audit.md)。
 
+正式域名版本已在 [Pages预览环境](https://98c78d6b.japanese-ramen-simulator-wiki.pages.dev)通过54页及图文交互检查，等待正式域名HTTPS验证后发布到生产环境。GSC的逐步操作见 [Search Console接入](research/gsc-setup.md)。
+
 ## 发布
 
 首次完整部署使用本地已登录Wrangler，GitHub仓库存放源码。Pages项目为Direct Upload，没有宣称GitHub自动部署已连接。

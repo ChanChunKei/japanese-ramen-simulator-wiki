@@ -4,7 +4,7 @@
   "type": "module",
   "description": "Independent English Japanese Ramen Simulator wiki built on AnvilWiki.",
   "license": "MIT",
-  "homepage": "https://japanese-ramen-simulator-wiki.pages.dev",
+  "homepage": "https://japaneseramensimulatorwikis.wiki",
   "repository": {
     "type": "git",
     "url": "https://github.com/ChanChunKei/japanese-ramen-simulator-wiki.git"
