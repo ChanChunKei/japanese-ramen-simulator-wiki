@@ -25,7 +25,13 @@
 
 浏览器使用1440、1024、390、320四种视口检查；加上拒绝后刷新和首页原生广告，共6组行为检查通过。验证了未同意零广告请求、隐藏位零请求、同页不重复加载、固定尺寸保持完整、原生广告高度展开、手机关闭记忆和主页面atOptions隔离。原始记录为 `adsterra-audit.json`；两张截图明确使用模拟素材，保存于 `qa/ads/`。
 
-生产发布与正式网址检查将在本次部署后记录。
+## 生产发布与公网验收
+
+已于2026-10-12发布到现有Pages项目的main生产分支，源码提交 `47b1172dcde5e3f4bacd09c1d30f9b43b72b2071`，固定部署为 [c33296f3](https://c33296f3.japanese-ramen-simulator-wiki.pages.dev)。正式域名的部署标记已核对。
+
+正式网址的同样6组广告行为检查全部通过，原始记录为 `adsterra-production-audit.json`。使用模拟素材，未向广告平台发送实际脚本请求；截图从正式网址的模拟检查保存。四个素材入口均返回200，响应头为 `X-Robots-Tag: noindex, nofollow` 和 `Content-Security-Policy: frame-ancestors 'self'`。正式站点地图32个网址全部200。
+
+[GitHub CI](https://github.com/ChanChunKei/japanese-ramen-simulator-wiki/actions/runs/38197828880)与 [IndexNow](https://github.com/ChanChunKei/japanese-ramen-simulator-wiki/actions/runs/38197878903)均成功。后续提交仅保存公网验收记录，广告代码、位置和实际构建内容保持本次发布版本。
 
 广告浏览器检查使用模拟响应，不向广告平台制造自动化展示或点击。模拟检查只能证明挂载、尺寸与同意行为；真实填充、展示计费和收益需要实际访客及Adsterra后台数据确认。未添加用户没有提供的ads.txt seller ID。
 
