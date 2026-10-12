@@ -452,7 +452,7 @@
           "title": "Search and local preferences",
           "body": "Pagefind search loads an index from this site and searches in your browser. Theme preferences and article helpfulness responses are stored locally in the browser; the current site has no server endpoint receiving those responses.",
           "items": [
-            "Your advertising consent and mobile-ad dismissal choices are also stored locally. You can reset these choices through your browser’s site-data controls.",
+            "Your analytics and advertising consent and mobile-ad dismissal choices are also stored locally. You can reset these choices through your browser’s site-data controls.",
             "No wiki account or sign-in is needed to read or search."
           ]
         },
@@ -462,7 +462,15 @@
           "items": [
             "Read Adsterra’s privacy policy at https://adsterra.com/privacy-policy/.",
             "To change your choice, clear this site’s stored data and reload the page. The mobile bottom banner can also be dismissed separately.",
-            "Google Analytics, Cloudflare Web Analytics and Giscus comments are not currently configured."
+            "Giscus comments are not currently configured."
+          ]
+        },
+        {
+          "title": "Google Analytics",
+          "body": "Google Analytics 4 loads only after you accept the consent notice. It measures page views and site usage and may use cookies and process browser, device and request information. Selecting Decline keeps the Google Analytics script unloaded.",
+          "items": [
+            "Google handles analytics data under its privacy policy: https://policies.google.com/privacy.",
+            "To change your consent choice, clear this site’s stored data and reload the page."
           ]
         },
         {

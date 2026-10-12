@@ -17,7 +17,7 @@
 
 原生广告使用平台生成的4:1排版代码，不将4:1强行解释为容器宽高比。iframe按素材容器实际高度调整，避免手机素材被固定高度裁切。
 
-广告素材入口通过robots meta和响应头标为noindex，不加入sitemap或Pagefind。隐私声明已同步广告与本地同意偏好；GA、Cloudflare Web Analytics和评论仍未配置。
+广告素材入口通过robots meta和响应头标为noindex，不加入sitemap或Pagefind。隐私声明已同步广告与本地同意偏好；首轮广告接入时GA尚未配置。2026-10-12随后已配置用户提供的GA4衡量ID，详见 `ga4-setup.md`；评论仍未配置。
 
 ## 验收状态
 

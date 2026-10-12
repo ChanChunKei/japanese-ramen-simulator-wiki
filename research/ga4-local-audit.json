@@ -1,0 +1,29 @@
+{
+  "checkedAt": "2026-10-12T10:13:50.045Z",
+  "base": "http://127.0.0.1:4321",
+  "measurementId": "G-G7WDL44JEJ",
+  "simulatedGoogleResponse": true,
+  "cases": [
+    {
+      "consent": "未选择",
+      "sdkRequests": 0
+    },
+    {
+      "consent": "同意与重复事件",
+      "sdkRequests": 1,
+      "configuredId": "G-G7WDL44JEJ",
+      "duplicateLoads": 0
+    },
+    {
+      "consent": "已同意回访与文章",
+      "loadsPerPage": 1,
+      "errors": []
+    },
+    {
+      "consent": "拒绝后刷新",
+      "sdkRequests": 0,
+      "errors": []
+    }
+  ],
+  "passed": true
+}
