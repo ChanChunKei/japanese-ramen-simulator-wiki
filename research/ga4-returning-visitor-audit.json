@@ -1,0 +1,19 @@
+{
+  "checkedAt": "2026-10-12T10:22:28.485Z",
+  "page": "https://japaneseramensimulatorwikis.wiki/",
+  "mode": "已同意回访；浏览器关闭前保存网络状态，不等待无正文的采集响应体",
+  "adRequestsBlockedForTest": true,
+  "status": 204,
+  "measurementId": "G-G7WDL44JEJ",
+  "event": "page_view",
+  "failuresWhilePageOpen": [
+    {
+      "origin": "https://www.google-analytics.com",
+      "path": "/g/collect",
+      "error": "net::ERR_ABORTED"
+    }
+  ],
+  "sdkElements": 1,
+  "consentBannerVisible": false,
+  "passed": true
+}

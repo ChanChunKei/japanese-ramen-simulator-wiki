@@ -1,0 +1,50 @@
+{
+  "checkedAt": "2026-10-12T10:17:57.579Z",
+  "page": "https://japaneseramensimulatorwikis.wiki/",
+  "measurementId": "G-G7WDL44JEJ",
+  "liveGoogleRequests": true,
+  "adRequestsBlockedForTest": true,
+  "googleResponses": [
+    {
+      "origin": "https://www.googletagmanager.com",
+      "path": "/gtag/js",
+      "status": 200
+    },
+    {
+      "origin": "https://www.google-analytics.com",
+      "path": "/g/collect",
+      "status": 204
+    }
+  ],
+  "googleFailures": [
+    {
+      "origin": "https://www.google-analytics.com",
+      "path": "/g/collect",
+      "error": "net::ERR_ABORTED"
+    }
+  ],
+  "errors": [],
+  "beforeAccept": {
+    "googleRequests": 0,
+    "dataLayerType": "undefined",
+    "gaCookieNames": []
+  },
+  "sdk": {
+    "status": 200,
+    "measurementId": "G-G7WDL44JEJ",
+    "characters": 540603
+  },
+  "collection": {
+    "status": 204,
+    "measurementId": "G-G7WDL44JEJ",
+    "event": "page_view"
+  },
+  "afterAccept": {
+    "sdkElements": 1,
+    "gaCookieNames": [
+      "_ga_G7WDL44JEJ",
+      "_ga"
+    ]
+  },
+  "passed": true
+}
