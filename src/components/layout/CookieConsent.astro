@@ -5,8 +5,7 @@
  * How it works (with BaseLayout):
  *   - BaseLayout no longer injects GA / AdSense statically. Instead it defines
  *     `window.__awLoadTrackers()` which injects them dynamically.
- *   - This component shows a banner when no choice is stored (only rendered
- *     at all when tracking env vars are set — see BaseLayout).
+ *   - 分析或任一广告位启用、且访客尚未选择时显示横幅。
  *   - Accept  → store 'accepted', call __awLoadTrackers(), remove banner.
  *   - Decline → store 'declined', trackers never load (this session & future).
  *   - Returning visitors with a stored choice never see the banner again.
@@ -19,8 +18,7 @@
  * canonical values live in src/lib/shared-ui.ts, and tests/consent.test.ts
  * pins this file's copies (plus AdsterraSlot's and MobileAnchorAd's) to them.
  *
- * Default-off contract preserved: no tracking env vars → this component is
- * never rendered → zero JS → Lighthouse unchanged.
+ * 默认关闭：所有分析和广告配置均为空时，不渲染横幅或相关脚本。
  */
 interface Props {
   /** i18n labels. */

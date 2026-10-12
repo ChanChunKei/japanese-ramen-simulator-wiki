@@ -36,6 +36,8 @@ pnpm check-sitemap http://localhost:4321
 
 正式域名版本已发布，54页及图文交互检查通过，32个sitemap网址全部返回200。原始验收记录为 `research/domain-online-audit.json`；此前的 [Pages预览环境](https://98c78d6b.japanese-ramen-simulator-wiki.pages.dev)保留作为发布前证据。下一步操作见 [301跳转设置](research/domain-redirects-setup.md)和 [Search Console接入](research/gsc-setup.md)。
 
+本地与CI构建会从 `wrangler.toml [vars]` 读取 `PUBLIC_*` 公开配置，保证Direct Upload包含已启用的广告；无需另设本机环境变量。
+
 ## 发布
 
 首次完整部署使用本地已登录Wrangler，GitHub仓库存放源码。Pages项目为Direct Upload，没有宣称GitHub自动部署已连接。
@@ -47,7 +49,7 @@ npx wrangler pages deploy dist --project-name japanese-ramen-simulator-wiki --br
 pnpm check-sitemap https://japaneseramensimulatorwikis.wiki
 ```
 
-部署认证仅保存在本机或受控环境，不进入仓库。用户已在Spaceship购买正式域名，正式版本已上线；旧Pages地址和www的301规则待用户在Cloudflare控制台启用。未配置广告、分析或评论凭据，GSC所有权验证与sitemap提交仍待完成。
+部署认证仅保存在本机或受控环境，不进入仓库。用户已在Spaceship购买正式域名，正式版本已上线；旧Pages地址和www的301规则待用户在Cloudflare控制台启用。已按用户提供的代码接入Adsterra四种广告位，详见 `research/adsterra-setup.md`；分析与评论凭据未配置，GSC所有权验证与sitemap提交仍待完成。
 
 ## 内容与授权
 

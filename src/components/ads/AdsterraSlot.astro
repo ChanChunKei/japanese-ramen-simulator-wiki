@@ -21,15 +21,10 @@
  * html file itself is not build inputs — also create it in `public/ads/` or
  * the iframe 404s as an empty box.
  *
- * Consent-gated like GA/AdSense: when the cookie banner is active (its own
- * render condition in BaseLayout = PUBLIC_GA_ID or PUBLIC_ADSENSE_CLIENT
- * set), the iframe mounts WITHOUT src (data-src holds the real URL) and a
- * small ES2018 inline script promotes data-src → src only after the visitor
- * has consented — either a stored 'accepted' in CookieConsent's localStorage
- * flag, or the `aw:consent-accepted` event it dispatches on accept. Declined
- * or unchosen → the unit never loads, matching the banner's promise that
- * ads wait for consent. No tracking env vars → banner never renders → the
- * iframe loads directly (out-of-box zero-consent behavior unchanged).
+ * 同意横幅由分析或任一 Adsterra 广告位启用；三处组件共用同一判断。
+ * 广告 iframe 先只保存 data-src，访客同意后才加载。
+ * 隐藏或容不下原始尺寸的广告不加载；原生广告按实际内容高度展开。
+ * 所有广告配置为空时不渲染广告或其加载脚本。
  */
 interface Props {
   /** Slot name = html filename stem under public/ads/ (e.g. `sidebar-300x250`). */
@@ -41,25 +36,19 @@ interface Props {
   /** Set to `false` to hide the "Advertisement" label (labels default on). */
   label?: boolean;
   /**
-   * Hide below md (fixed-size creatives clip inside a narrower iframe —
-   * a 728 creative in a ~375px viewport shows ~47% and an inner scrollbar).
-   * Pair a hideOnMobile banner with the responsive native-banner, which
-   * fills any width. Same pattern as StickyBanner's `hidden md:block`.
+   * 宽横幅只在 xl 及以上显示，确保侧栏存在时仍能容纳原始尺寸。
+   * 固定尺寸素材不缩放，窄屏通过响应式原生广告补充。
    */
   hideOnMobile?: boolean;
 }
 
-import { currentSharedStrings } from '~/lib/shared-ui';
+import { currentSharedStrings, shouldShowConsentBanner } from '~/lib/shared-ui';
 
 const { name, width, height, label = true, hideOnMobile = false } = Astro.props;
 const envKey = `PUBLIC_ADSTERRA_SLOT_${name.replace(/-/g, '_').toUpperCase()}`;
 const show = !!import.meta.env[envKey];
-// Same env condition under which BaseLayout renders CookieConsent — when
-// either is set the banner (and its consent promise) is live on every page.
-const consentBannerActive = !!(
-  (import.meta.env.PUBLIC_GA_ID as string | undefined) ||
-  (import.meta.env.PUBLIC_ADSENSE_CLIENT as string | undefined)
-);
+const consentBannerActive = shouldShowConsentBanner(import.meta.env);
+const isNative = name === 'native-banner';
 const iframeSrc = `/ads/${name}.html`;
 const sharedStrings = currentSharedStrings(Astro.currentLocale);
 const adLabel = sharedStrings.adLabel ?? 'Advertisement';
@@ -69,8 +58,8 @@ const adLabel = sharedStrings.adLabel ?? 'Advertisement';
     <>
       <div
         class:list={[
-          'my-8 flex-col items-center justify-center',
-          hideOnMobile ? 'hidden md:flex' : 'flex',
+          'my-8 w-full flex-col items-center justify-center',
+          hideOnMobile ? (width >= 728 ? 'hidden xl:flex' : 'hidden md:flex') : 'flex',
         ]}
       >
         {label && (
@@ -80,6 +69,8 @@ const adLabel = sharedStrings.adLabel ?? 'Advertisement';
           src={consentBannerActive ? undefined : iframeSrc}
           data-src={consentBannerActive ? iframeSrc : undefined}
           data-adsterra-defer={consentBannerActive ? '1' : undefined}
+          data-adsterra-native={isNative ? '1' : undefined}
+          data-adsterra-min-width={isNative ? 0 : width}
           style={`width:100%;max-width:${width}px;height:${height}px;border:0`}
           loading="lazy"
           sandbox="allow-scripts allow-same-origin allow-popups allow-forms"
@@ -100,10 +91,15 @@ const adLabel = sharedStrings.adLabel ?? 'Advertisement';
           (function () {
             var CONSENT_KEY = 'aw-cookie-consent';
             var CONSENT_EVENT = 'aw:consent-accepted';
+            var accepted = false;
             var activate = function () {
               var pending = document.querySelectorAll('iframe[data-adsterra-defer]');
               for (var i = 0; i < pending.length; i++) {
                 var frame = pending[i];
+                // 隐藏或容不下原始尺寸的广告位不发起广告请求。
+                var rect = frame.getBoundingClientRect();
+                var minimumWidth = Number(frame.getAttribute('data-adsterra-min-width'));
+                if (rect.height === 0 || rect.width + 0.5 < minimumWidth) continue;
                 var src = frame.getAttribute('data-src');
                 if (src) {
                   frame.src = src;
@@ -112,7 +108,37 @@ const adLabel = sharedStrings.adLabel ?? 'Advertisement';
                 frame.removeAttribute('data-src');
               }
             };
+            var accept = function () {
+              accepted = true;
+              activate();
+              // 手机底部广告先解除隐藏，再加载其中的广告。
+              requestAnimationFrame(activate);
+            };
+            window.addEventListener('resize', function () {
+              if (accepted) activate();
+            });
             var wire = function () {
+              // iframe 内原生广告发生排版变化时同步高度，监听只安装一次。
+              var nativeFrames = document.querySelectorAll('iframe[data-adsterra-native]');
+              for (var j = 0; j < nativeFrames.length; j++) {
+                (function (frame) {
+                  if (frame.getAttribute('data-adsterra-resize') === '1') return;
+                  frame.setAttribute('data-adsterra-resize', '1');
+                  frame.addEventListener('load', function () {
+                    var doc = frame.contentDocument;
+                    var container = doc && doc.querySelector('[id^="container-"]');
+                    if (!container) return;
+                    var resize = function () {
+                      var height = Math.ceil(container.getBoundingClientRect().height);
+                      if (height > 0) frame.style.height = height + 'px';
+                    };
+                    if (typeof ResizeObserver !== 'undefined') {
+                      new ResizeObserver(resize).observe(container);
+                    }
+                    resize();
+                  });
+                })(nativeFrames[j]);
+              }
               var stored = null;
               try {
                 stored = localStorage.getItem(CONSENT_KEY);
@@ -120,10 +146,10 @@ const adLabel = sharedStrings.adLabel ?? 'Advertisement';
                 /* storage unavailable — treat as no consent yet */
               }
               if (stored === 'accepted') {
-                activate();
+                accept();
                 return;
               }
-              document.addEventListener(CONSENT_EVENT, activate);
+              document.addEventListener(CONSENT_EVENT, accept);
             };
             if (document.readyState === 'loading') {
               document.addEventListener('DOMContentLoaded', wire);

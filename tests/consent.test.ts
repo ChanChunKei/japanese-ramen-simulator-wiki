@@ -14,9 +14,28 @@ import { readFileSync } from 'node:fs';
 import { join, dirname } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { describe, expect, test } from 'vitest';
+import { shouldShowConsentBanner } from '../src/lib/shared-ui';
 
 const root = join(dirname(fileURLToPath(import.meta.url)), '..');
 const read = (rel: string) => readFileSync(join(root, rel), 'utf8');
+
+describe('广告单独启用时的同意横幅', () => {
+  test('仅 Adsterra 启用时需要同意，不依赖 GA 或 AdSense', () => {
+    expect(shouldShowConsentBanner({ PUBLIC_ADSTERRA_SLOT_NATIVE_BANNER: '自有广告位' })).toBe(
+      true,
+    );
+  });
+
+  test('未配置或只配置空白广告位时保持关闭', () => {
+    expect(shouldShowConsentBanner({})).toBe(false);
+    expect(shouldShowConsentBanner({ PUBLIC_ADSTERRA_SLOT_NATIVE_BANNER: '  ' })).toBe(false);
+  });
+
+  test('保留 GA 和 AdSense 的同意门控', () => {
+    expect(shouldShowConsentBanner({ PUBLIC_GA_ID: 'G-TEST' })).toBe(true);
+    expect(shouldShowConsentBanner({ PUBLIC_ADSENSE_CLIENT: 'ca-pub-test' })).toBe(true);
+  });
+});
 
 /** Each consumer's own assignment idiom for the two literals. */
 const CONSUMERS: { file: string; keyRe: RegExp; eventRe: RegExp }[] = [

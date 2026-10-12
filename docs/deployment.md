@@ -75,6 +75,8 @@ Cloudflare 会自动检测 Astro，但请确认以下设置：
 >
 > - **选项 A（推荐新手）：删掉 `wrangler.toml`**，然后 dashboard 的 Environment variables 就能正常工作。fork 后 `git rm wrangler.toml && git commit`，再在 dashboard 配 env 即可。
 > - **选项 B（保留 wrangler.toml）：改 `wrangler.toml` 的 `[vars]` 值**，把 `SITE_URL`、`PUBLIC_GISCUS_*`、`PUBLIC_GA_ID` 与要启用的 `PUBLIC_ADSTERRA_SLOT_*` 改成你自己的，dashboard 不用配（配了也被忽略）。
+
+本站Direct Upload构建会在 `astro.config.ts` 读取上述公开配置，因此本地 `pnpm build` 与CI也能产出广告和同意横幅。只读取 `PUBLIC_*` 和SITE_URL，不导入私有密钥；SITE_URL仍允许受控预览通过环境变量覆盖。
 >
 > 如果你在 dashboard 配了 env 但 build 时拿不到（症状：组件不渲染、`process.env` 读不到），99% 是踩了这个坑。诊断方法：在 `astro.config.ts` 顶部加一行 `console.log('ENV:', Object.keys(process.env).filter(k => k.startsWith('PUBLIC_')))`，push 后看 build 日志。
 

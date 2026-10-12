@@ -1,0 +1,137 @@
+{
+  "checkedAt": "2026-10-12T02:47:29.903Z",
+  "base": "http://127.0.0.1:4331",
+  "simulatedCreatives": true,
+  "cases": [
+    {
+      "viewport": 1440,
+      "page": "/cooking/beer/",
+      "consentBlockedBeforeAccept": true,
+      "slots": [
+        {
+          "source": "/ads/incontent-728x90.html",
+          "width": 728,
+          "height": 90,
+          "options": {
+            "key": "e3494904dc72d04d07151fc267b9d6e5",
+            "format": "iframe",
+            "height": 90,
+            "width": 728,
+            "params": {}
+          }
+        },
+        {
+          "source": "/ads/native-banner.html",
+          "width": 700,
+          "height": 210,
+          "options": null
+        },
+        {
+          "source": "/ads/sidebar-300x250.html",
+          "width": 300,
+          "height": 250,
+          "options": {
+            "key": "33faf679a160dccfb8a58171a5ce2636",
+            "format": "iframe",
+            "height": 250,
+            "width": 300,
+            "params": {}
+          }
+        }
+      ],
+      "noOverflow": true,
+      "errors": []
+    },
+    {
+      "viewport": 1024,
+      "page": "/cooking/beer/",
+      "consentBlockedBeforeAccept": true,
+      "slots": [
+        {
+          "source": "/ads/native-banner.html",
+          "width": 660,
+          "height": 210,
+          "options": null
+        },
+        {
+          "source": "/ads/sidebar-300x250.html",
+          "width": 300,
+          "height": 250,
+          "options": {
+            "key": "33faf679a160dccfb8a58171a5ce2636",
+            "format": "iframe",
+            "height": 250,
+            "width": 300,
+            "params": {}
+          }
+        }
+      ],
+      "noOverflow": true,
+      "errors": []
+    },
+    {
+      "viewport": 390,
+      "page": "/cooking/beer/",
+      "consentBlockedBeforeAccept": true,
+      "slots": [
+        {
+          "source": "/ads/native-banner.html",
+          "width": 358,
+          "height": 480,
+          "options": null
+        },
+        {
+          "source": "/ads/sticky-320x50.html",
+          "width": 320,
+          "height": 50,
+          "options": {
+            "key": "a11087c2d1df8ad94dc367a3d43be5a9",
+            "format": "iframe",
+            "height": 50,
+            "width": 320,
+            "params": {}
+          }
+        }
+      ],
+      "noOverflow": true,
+      "errors": []
+    },
+    {
+      "viewport": 320,
+      "page": "/cooking/beer/",
+      "consentBlockedBeforeAccept": true,
+      "slots": [
+        {
+          "source": "/ads/native-banner.html",
+          "width": 288,
+          "height": 480,
+          "options": null
+        },
+        {
+          "source": "/ads/sticky-320x50.html",
+          "width": 320,
+          "height": 50,
+          "options": {
+            "key": "a11087c2d1df8ad94dc367a3d43be5a9",
+            "format": "iframe",
+            "height": 50,
+            "width": 320,
+            "params": {}
+          }
+        }
+      ],
+      "noOverflow": true,
+      "errors": []
+    },
+    {
+      "viewport": 390,
+      "consent": "拒绝并刷新",
+      "advertisingRequests": 0
+    },
+    {
+      "page": "/",
+      "nativeRequests": 1
+    }
+  ],
+  "passed": true
+}

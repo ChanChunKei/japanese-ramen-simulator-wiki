@@ -8,6 +8,7 @@ import ExploreModules from '~/components/home/ExploreModules.astro';
 import FaqSection from '~/components/home/FaqSection.astro';
 import ScreenshotStrip from '~/components/home/ScreenshotStrip.astro';
 import ArticleCover from '~/components/article/ArticleCover.astro';
+import AdsterraSlot from '~/components/ads/AdsterraSlot.astro';
 import { site } from '~/config/site';
 import { NAVIGATION_CONFIG } from '~/config/navigation';
 import { type Locale } from '~/i18n/routing';
@@ -249,6 +250,8 @@ const dateFormatter = new Intl.DateTimeFormat(locale, {
         </section>
       )
     }
+
+    <AdsterraSlot name="native-banner" width={700} height={240} />
 
     {
       faq.items.length > 0 && (

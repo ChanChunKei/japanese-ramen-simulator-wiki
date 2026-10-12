@@ -18,6 +18,7 @@ import { organizationJsonLd } from '~/lib/seo';
 import JsonLd from '~/components/seo/JsonLd.astro';
 import CookieConsent from './CookieConsent.astro';
 import { getUi } from '~/i18n/ui';
+import { shouldShowConsentBanner } from '~/lib/shared-ui';
 
 interface Props {
   title: string;
@@ -128,6 +129,7 @@ const gaId = import.meta.env.PUBLIC_GA_ID as string | undefined;
 const cfBeaconToken = import.meta.env.PUBLIC_CF_BEACON_TOKEN as string | undefined;
 const gscVerification = import.meta.env.PUBLIC_GSC_VERIFICATION as string | undefined;
 const adsenseClient = import.meta.env.PUBLIC_ADSENSE_CLIENT as string | undefined;
+const consentBannerActive = shouldShowConsentBanner(import.meta.env);
 
 // Consent banner labels: wiki locales derive them from the locale JSON
 // (hardcoded English fallbacks for a locale whose JSON hasn't been translated
@@ -335,8 +337,8 @@ const privacyLabel = consent?.privacyLabel ?? footerStrings.privacyPolicy ?? 'Pr
   </head>
   <body class="min-h-screen bg-background text-foreground antialiased">
     <slot />
-    {/* Consent banner — only rendered when tracking env vars are set. */}
-    {(gaId || adsenseClient) && (
+    {/* 分析或任一广告位启用时显示同意横幅。 */}
+    {consentBannerActive && (
       <CookieConsent
         labels={{
           title: consentLabels.title,

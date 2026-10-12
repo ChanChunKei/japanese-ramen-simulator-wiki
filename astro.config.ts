@@ -5,11 +5,27 @@ import tailwind from '@astrojs/tailwind';
 import icon from 'astro-icon';
 import * as fs from 'node:fs';
 import * as path from 'node:path';
+import { parse as parseToml } from 'smol-toml';
 
 import { locales, defaultLocale } from './src/i18n/routing';
 import { CONTENT_TYPES } from './src/config/navigation';
 import { site as wikiSite } from './src/config/site';
 import { fallbackDetailPaths } from './src/lib/fallback-paths';
+
+// Direct Upload 的本地与 CI 构建也从仓库配置读取公开变量。
+// 只导入 PUBLIC_* 与站点地址，不把私有配置送入浏览器构建。
+const wranglerPath = path.resolve('./wrangler.toml');
+if (fs.existsSync(wranglerPath)) {
+  const vars = parseToml(fs.readFileSync(wranglerPath, 'utf8')).vars;
+  if (vars && typeof vars === 'object' && !Array.isArray(vars)) {
+    for (const [key, value] of Object.entries(vars)) {
+      if (typeof value !== 'string') continue;
+      if (key.startsWith('PUBLIC_')) process.env[key] = value;
+      // 保留受控预览通过环境变量覆盖 SITE_URL 的能力。
+      if (key === 'SITE_URL') process.env.SITE_URL ??= value;
+    }
+  }
+}
 
 /**
  * Build a map of page path → lastmod ISO date, read from MDX frontmatter

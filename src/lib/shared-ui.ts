@@ -46,3 +46,17 @@ export function currentSharedStrings(currentLocale: string | undefined): SharedS
  */
 export const CONSENT_STORAGE_KEY = 'aw-cookie-consent';
 export const CONSENT_ACCEPTED_EVENT = 'aw:consent-accepted';
+
+/** 分析或广告已启用时，各组件统一等待访客同意。 */
+export function shouldShowConsentBanner(env: Record<string, unknown>): boolean {
+  return !!(
+    env.PUBLIC_GA_ID ||
+    env.PUBLIC_ADSENSE_CLIENT ||
+    Object.entries(env).some(
+      ([key, value]) =>
+        key.startsWith('PUBLIC_ADSTERRA_SLOT_') &&
+        typeof value === 'string' &&
+        value.trim().length > 0,
+    )
+  );
+}

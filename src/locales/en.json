@@ -441,7 +441,7 @@
       "fanTitle": "Independent fan reference"
     },
     "privacy": {
-      "introduction": "{siteName} is a static reference hosted on Cloudflare Pages. No account is required. This notice describes the features enabled for our launch edition.",
+      "introduction": "{siteName} is a static reference hosted on Cloudflare Pages. No account is required. This notice describes the services currently enabled on the site.",
       "sections": [
         {
           "title": "Hosting requests",
@@ -452,14 +452,18 @@
           "title": "Search and local preferences",
           "body": "Pagefind search loads an index from this site and searches in your browser. Theme preferences and article helpfulness responses are stored locally in the browser; the current site has no server endpoint receiving those responses.",
           "items": [
-            "You can remove local preferences through your browser’s site-data controls.",
+            "Your advertising consent and mobile-ad dismissal choices are also stored locally. You can reset these choices through your browser’s site-data controls.",
             "No wiki account or sign-in is needed to read or search."
           ]
         },
         {
-          "title": "Optional services",
-          "body": "Advertising, Google Analytics, Cloudflare Web Analytics and Giscus comments are not configured in the launch edition. Their template components remain available for a future explicit setup; enabling them requires reviewing this notice.",
-          "items": []
+          "title": "Advertising and consent",
+          "body": "This site displays Adsterra banner and native ads after you accept the consent notice. Selecting Decline leaves these ads unloaded. Advertising partners may process device and request information and use cookies or similar technologies to deliver and measure ads; their own privacy policies apply.",
+          "items": [
+            "Read Adsterra’s privacy policy at https://adsterra.com/privacy-policy/.",
+            "To change your choice, clear this site’s stored data and reload the page. The mobile bottom banner can also be dismissed separately.",
+            "Google Analytics, Cloudflare Web Analytics and Giscus comments are not currently configured."
+          ]
         },
         {
           "title": "External links",

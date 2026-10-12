@@ -17,8 +17,10 @@ const paths = [];
 function walk(dir) {
   for (const entry of fs.readdirSync(dir, { withFileTypes: true })) {
     const file = path.join(dir, entry.name);
-    if (entry.isDirectory()) walk(file);
-    else if (entry.name.endsWith('.html')) {
+    if (entry.isDirectory()) {
+      // 广告 HTML 是 iframe 素材入口，不作为 Wiki 内容页审计。
+      if (path.relative('dist', file) !== 'ads') walk(file);
+    } else if (entry.name.endsWith('.html')) {
       const relative = path.relative('dist', file).replaceAll('\\', '/');
       paths.push(
         relative === 'index.html'
