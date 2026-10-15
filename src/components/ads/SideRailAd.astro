@@ -1,0 +1,44 @@
+---
+/** 两侧固定广告只在正文外有完整留白时展示，右侧窄桌面回到目录下面。 */
+import AdsterraSlot from './AdsterraSlot.astro';
+interface Props {
+  side: 'left' | 'right';
+}
+const { side } = Astro.props;
+const height = side === 'left' ? 600 : 300;
+const name = `sidebar-160x${height}`;
+const enabled = !!import.meta.env[`PUBLIC_ADSTERRA_SLOT_SIDEBAR_160X${height}`];
+---
+
+{
+  enabled && (
+    <div class:list={['adsterra-rail', `adsterra-rail-${side}`]}>
+      <AdsterraSlot name={name} width={160} height={height} compact />
+    </div>
+  )
+}
+<style>
+  .adsterra-rail-left {
+    display: none;
+  }
+  @media (min-width: 1680px) and (min-height: 480px) {
+    .adsterra-rail-right {
+      display: block;
+      position: fixed;
+      top: var(--wiki-sticky-top, 5rem);
+      width: 160px;
+    }
+    .adsterra-rail-right {
+      right: calc(50% - 824px);
+    }
+  }
+  @media (min-width: 1680px) and (min-height: 768px) {
+    .adsterra-rail-left {
+      display: block;
+      position: fixed;
+      top: var(--wiki-sticky-top, 5rem);
+      left: calc(50% - 824px);
+      width: 160px;
+    }
+  }
+</style>

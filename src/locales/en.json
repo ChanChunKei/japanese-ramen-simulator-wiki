@@ -38,7 +38,7 @@
     "share": "Share",
     "copyLink": "Copy link",
     "copied": "Copied!",
-    "consentText": "We use cookies for analytics and ads to keep this site free.",
+    "consentText": "Allow Google Analytics cookies to help us understand site usage. Your choice applies to analytics; Adsterra ads load automatically.",
     "accept": "Accept",
     "decline": "Decline",
     "consentTitle": "Cookies",
@@ -452,16 +452,16 @@
           "title": "Search and local preferences",
           "body": "Pagefind search loads an index from this site and searches in your browser. Theme preferences and article helpfulness responses are stored locally in the browser; the current site has no server endpoint receiving those responses.",
           "items": [
-            "Your analytics and advertising consent and mobile-ad dismissal choices are also stored locally. You can reset these choices through your browser’s site-data controls.",
+            "Your analytics consent choice is also stored locally. You can reset this choice through your browser’s site-data controls.",
             "No wiki account or sign-in is needed to read or search."
           ]
         },
         {
-          "title": "Advertising and consent",
-          "body": "This site displays Adsterra banner and native ads after you accept the consent notice. Selecting Decline leaves these ads unloaded. Advertising partners may process device and request information and use cookies or similar technologies to deliver and measure ads; their own privacy policies apply.",
+          "title": "Advertising",
+          "body": "This site displays Adsterra banner and native ads automatically, independently of your Google Analytics consent choice. Selecting Decline disables Google Analytics; it does not disable Adsterra ads. Advertising partners may process device and request information and use cookies or similar technologies to deliver and measure ads; their own privacy policies apply.",
           "items": [
             "Read Adsterra’s privacy policy at https://adsterra.com/privacy-policy/.",
-            "To change your choice, clear this site’s stored data and reload the page. The mobile bottom banner can also be dismissed separately.",
+            "The top banner stays below the navigation. Fixed-size ads are shown only where their original dimensions fit.",
             "Giscus comments are not currently configured."
           ]
         },

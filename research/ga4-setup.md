@@ -1,5 +1,7 @@
 # GA4 接入记录
 
+> 2026-10-15：GA4 继续保持同意后加载；Adsterra 按用户新要求独立自动展示。下列 10 月 12 日记录中的“统一同意机制”是当时状态，当前广告行为见 [广告更新](adsterra-2026-10-15-update.md)。
+
 日期：2026-10-12。衡量 ID：`G-G7WDL44JEJ`，来自用户提供的本站 Google tag 代码。
 
 配置唯一来源为 `wrangler.toml [vars].PUBLIC_GA_ID`。复用 `BaseLayout.astro` 中现有的异步 gtag.js 加载器和 `CookieConsent.astro`，执行 `gtag('js', new Date())` 与 `gtag('config', gaId)`，不在各页面重复插入统计代码。

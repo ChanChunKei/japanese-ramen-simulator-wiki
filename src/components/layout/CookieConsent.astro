@@ -1,24 +1,8 @@
 ---
 /**
- * CookieConsent — GDPR/ePrivacy consent banner that actually GATES tracking.
- *
- * How it works (with BaseLayout):
- *   - BaseLayout no longer injects GA / AdSense statically. Instead it defines
- *     `window.__awLoadTrackers()` which injects them dynamically.
- *   - 分析或任一广告位启用、且访客尚未选择时显示横幅。
- *   - Accept  → store 'accepted', call __awLoadTrackers(), remove banner.
- *   - Decline → store 'declined', trackers never load (this session & future).
- *   - Returning visitors with a stored choice never see the banner again.
- *
- * Other consent-gated mounts (AdsterraSlot's deferred iframes, the mobile
- * anchor ad) can't reach __awLoadTrackers, so whenever consent becomes
- * known-accepted this script also dispatches the `aw:consent-accepted`
- * document event. The script below compiles as its own module — it CANNOT
- * see frontmatter imports — so the event/storage names are hardcoded here;
- * canonical values live in src/lib/shared-ui.ts, and tests/consent.test.ts
- * pins this file's copies (plus AdsterraSlot's and MobileAnchorAd's) to them.
- *
- * 默认关闭：所有分析和广告配置均为空时，不渲染横幅或相关脚本。
+ * 统计同意横幅：GA / AdSense 经 __awLoadTrackers 同意后加载。
+ * Adsterra 独立自动加载，不由此横幅控制。保存的选择用于后续访问。
+ * 浏览器模块不能读取 frontmatter，字面量由 consent.test.ts 校验。
  */
 interface Props {
   /** i18n labels. */
@@ -90,8 +74,7 @@ const { labels, privacyHref, privacyLabel } = Astro.props;
       }
     })();
 
-    // Tell consent-gated third-party mounts (deferred Adsterra iframes) that
-    // loading may start. Safe to fire repeatedly — consumers are idempotent.
+    // 广播统计同意事件，供可选统计集成使用。
     const announceAccepted = () => {
       document.dispatchEvent(new CustomEvent(ACCEPTED_EVENT));
     };

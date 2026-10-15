@@ -139,7 +139,7 @@ const consentLabels = consent
   ? { title: consent.title, text: consent.text, accept: consent.accept, decline: consent.decline }
   : {
       title: sharedStrings.consentTitle ?? 'Cookies',
-      text: sharedStrings.consentText ?? 'We use cookies for analytics and ads.',
+      text: sharedStrings.consentText ?? 'Optional analytics cookies load only after you accept.',
       accept: sharedStrings.accept ?? 'Accept',
       decline: sharedStrings.decline ?? 'Decline',
     };
@@ -337,7 +337,7 @@ const privacyLabel = consent?.privacyLabel ?? footerStrings.privacyPolicy ?? 'Pr
   </head>
   <body class="min-h-screen bg-background text-foreground antialiased">
     <slot />
-    {/* 分析或任一广告位启用时显示同意横幅。 */}
+    {/* GA 或 AdSense 启用时显示同意横幅，Adsterra 独立自动加载。 */}
     {consentBannerActive && (
       <CookieConsent
         labels={{

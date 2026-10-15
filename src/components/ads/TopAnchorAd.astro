@@ -1,0 +1,20 @@
+---
+/** 全站顶部常驻，独占 320×50 单元；导航和广告均保留正常文档空间。 */
+import AdsterraSlot from './AdsterraSlot.astro';
+const enabled = !!import.meta.env.PUBLIC_ADSTERRA_SLOT_STICKY_320X50;
+---
+
+{
+  enabled && (
+    <>
+      <div id="top-adsterra" class="sticky top-14 z-30 border-b border-border bg-background py-1">
+        <AdsterraSlot name="sticky-320x50" width={320} height={50} label={false} compact />
+      </div>
+      <style
+        set:html={
+          ':root{--wiki-sticky-top:8.5rem}html{scroll-padding-top:8rem}#main .prose :is(h2,h3,h4){scroll-margin-top:.75rem}'
+        }
+      />
+    </>
+  )
+}

@@ -161,7 +161,8 @@
   #reading-progress,
   #cookie-consent,
   #sticky-banner,
-  #mobile-anchor-ad,
+  #top-adsterra,
+  [data-adsterra-slot],
   [data-helpful-root],
   [data-share-root] {
     display: none !important;

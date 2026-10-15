@@ -73,7 +73,7 @@ Content layer (src/content, src/locales)                   — fully replace per
 
 广告系统基于 Google AdSense,3 个广告位(Sticky / Sidebar / InContent)各一个 `<AdSenseSlot position="...">` 组件。`AdSenseSlot` 根据 `position` 读对应的 `PUBLIC_ADSENSE_SLOT_*` 环境变量,渲染 `<ins class="adsbygoogle">` 标签。`PUBLIC_ADSENSE_CLIENT` 或对应 slot ID 为空时组件 `return null` 不渲染(保 Lighthouse 4×100 开箱契约)。AdSense loader 由 `BaseLayout.astro` 在 `<head>` 注入,仅当 `PUBLIC_ADSENSE_CLIENT` 有值时加载。详见 PRD §10。
 
-Adsterra(v2.26.0 起)是并存的第二广告网络:`AdsterraSlot`(每单元一个 `public/ads/<name>.html` + sandbox iframe,env `PUBLIC_ADSTERRA_SLOT_<NAME>` 门控,空=不渲染,与 GA/AdSense 同一同意门控)+ `MobileAnchorAd`(v2.28.0,文章页 320×50 底部锚位,env `PUBLIC_ADSTERRA_SLOT_STICKY_320X50`)。预挂位总清单与接入教程见 `docs/ads.md`,架构见 PRD §10.7,env 全表见 PRD 附录 A.2。
+本站 Adsterra 广告按用户 2026-10-15 要求默认加载，与 GA/AdSense 同意开关独立；每页每码一处。`AdsterraSlot` 使用独立 `public/ads/<name>.html` + sandbox iframe，env `PUBLIC_ADSTERRA_SLOT_<NAME>` 为空不渲染。`TopAnchorAd` 全站顶部 320×50，`SideRailAd` 管理文章页两侧原尺寸广告。GA/AdSense 仍需同意。预挂位总清单与接入教程见 `docs/ads.md`,架构见 PRD §10.7,env 全表见 PRD 附录 A.2。
 
 ## Conversational Content Authoring (AI-native page generation)
 

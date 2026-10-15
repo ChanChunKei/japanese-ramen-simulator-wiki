@@ -49,7 +49,7 @@ npx wrangler pages deploy dist --project-name japanese-ramen-simulator-wiki --br
 pnpm check-sitemap https://japaneseramensimulatorwikis.wiki
 ```
 
-部署认证仅保存在本机或受控环境，不进入仓库。用户已在Spaceship购买正式域名，正式版本已上线；旧Pages地址和www的301规则待用户在Cloudflare控制台启用。已按用户提供的代码接入Adsterra四种广告位，详见 `research/adsterra-setup.md`。GA4已配置用户提供的衡量ID `G-G7WDL44JEJ`，通过现有组件在访客同意后加载，接入与验收见 `research/ga4-setup.md`；评论未配置，GSC所有权验证与sitemap提交仍待完成。
+部署认证仅保存在本机或受控环境，不进入仓库。用户已在Spaceship购买正式域名，正式版本已上线；旧Pages地址和www的301规则待用户在Cloudflare控制台启用。已按用户提供的代码接入Adsterra七种广告位，默认展示且每页每码一处；位置与验收见 `research/adsterra-2026-10-15-update.md`，首轮历史记录为 `research/adsterra-setup.md`。GA4已配置用户提供的衡量ID `G-G7WDL44JEJ`，通过现有组件在访客同意后加载，接入与验收见 `research/ga4-setup.md`；评论未配置，GSC所有权验证与sitemap提交仍待完成。
 
 ## 内容与授权
 

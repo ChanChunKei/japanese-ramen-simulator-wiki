@@ -148,6 +148,8 @@ const dateFormatter = new Intl.DateTimeFormat(locale, {
       }
     </section>
 
+    <AdsterraSlot name="native-banner" width={700} height={240} />
+
     <ScreenshotStrip
       title={screenshots.title}
       description={screenshots.description}
@@ -176,31 +178,45 @@ const dateFormatter = new Intl.DateTimeFormat(locale, {
               recent.length === 0 ? (
                 <p class="text-sm text-muted-foreground">{shared.noArticles}</p>
               ) : (
-                recent.map((entry) => {
+                recent.map((entry, index) => {
                   const parsed = parseEntryId(entry.id);
                   if (!parsed) return null;
                   const modified = entry.data.lastModified ?? entry.data.date;
                   return (
-                    <a
-                      href={detailPath(parsed.category, parsed.slug, locale)}
-                      class="editorial-recent-link"
-                    >
-                      {entry.data.image && (
-                        <ArticleCover
-                          src={entry.data.image}
-                          alt={entry.data.title}
-                          class="mb-4 aspect-video w-full rounded-sm object-cover"
-                        />
+                    <Fragment>
+                      <a
+                        href={detailPath(parsed.category, parsed.slug, locale)}
+                        class="editorial-recent-link"
+                      >
+                        {entry.data.image && (
+                          <ArticleCover
+                            src={entry.data.image}
+                            alt={entry.data.title}
+                            class="editorial-recent-image aspect-video w-full rounded-sm object-cover"
+                          />
+                        )}
+                        <div class="editorial-recent-copy">
+                          <span class="editorial-recent-category">
+                            {categoryLabel(parsed.category)}
+                          </span>
+                          <h3>{entry.data.title}</h3>
+                          <p class="line-clamp-2">{entry.data.description}</p>
+                          <time datetime={modified.toISOString()}>
+                            {shared.lastUpdated}: {dateFormatter.format(modified)}
+                          </time>
+                        </div>
+                      </a>
+                      {index === 1 && (
+                        <div class="editorial-feed-ad">
+                          <div class="lg:hidden">
+                            <AdsterraSlot name="sidebar-300x250" width={300} height={250} />
+                          </div>
+                          <div class="hidden lg:block">
+                            <AdsterraSlot name="footer-468x60" width={468} height={60} />
+                          </div>
+                        </div>
                       )}
-                      <span class="editorial-recent-category">
-                        {categoryLabel(parsed.category)}
-                      </span>
-                      <h3>{entry.data.title}</h3>
-                      <p class="line-clamp-2">{entry.data.description}</p>
-                      <time datetime={modified.toISOString()}>
-                        {shared.lastUpdated}: {dateFormatter.format(modified)}
-                      </time>
-                    </a>
+                    </Fragment>
                   );
                 })
               )
@@ -251,8 +267,6 @@ const dateFormatter = new Intl.DateTimeFormat(locale, {
       )
     }
 
-    <AdsterraSlot name="native-banner" width={700} height={240} />
-
     {
       faq.items.length > 0 && (
         <div class="editorial-faq">
@@ -296,5 +310,6 @@ const dateFormatter = new Intl.DateTimeFormat(locale, {
         </section>
       )
     }
+    <AdsterraSlot name="incontent-728x90" width={728} height={90} hideOnMobile />
   </div>
 </LocaleLayout>

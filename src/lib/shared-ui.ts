@@ -33,11 +33,8 @@ export function currentSharedStrings(currentLocale: string | undefined): SharedS
 }
 
 /**
- * Consent wiring shared by CookieConsent.astro (dispatches) and the
- * AdsterraSlot.astro + MobileAnchorAd.astro inline scripts (consume —
- * those scripts are untranspiled and cannot import, so they hardcode
- * these values). tests/consent.test.ts pins every duplicate to these
- * canonical exports — rename only together.
+ * 同意选择仅用于 GA 和 AdSense。CookieConsent 的浏览器脚本保留这些
+ * 字面量，tests/consent.test.ts 保证它们与此处导出保持一致。
  *
  * - CONSENT_STORAGE_KEY: localStorage flag written by CookieConsent
  *   ('accepted' | 'declined').
@@ -47,16 +44,7 @@ export function currentSharedStrings(currentLocale: string | undefined): SharedS
 export const CONSENT_STORAGE_KEY = 'aw-cookie-consent';
 export const CONSENT_ACCEPTED_EVENT = 'aw:consent-accepted';
 
-/** 分析或广告已启用时，各组件统一等待访客同意。 */
+/** Adsterra 自动加载；只有 GA 或 AdSense 启用时才显示同意横幅。 */
 export function shouldShowConsentBanner(env: Record<string, unknown>): boolean {
-  return !!(
-    env.PUBLIC_GA_ID ||
-    env.PUBLIC_ADSENSE_CLIENT ||
-    Object.entries(env).some(
-      ([key, value]) =>
-        key.startsWith('PUBLIC_ADSTERRA_SLOT_') &&
-        typeof value === 'string' &&
-        value.trim().length > 0,
-    )
-  );
+  return !!(env.PUBLIC_GA_ID || env.PUBLIC_ADSENSE_CLIENT);
 }

@@ -1,0 +1,435 @@
+{
+  "checkedAt": "2026-10-15T06:16:22.903Z",
+  "base": "http://127.0.0.1:4331",
+  "simulatedCreatives": true,
+  "cases": [
+    {
+      "viewport": 1920,
+      "page": "/",
+      "adsWithoutConsent": true,
+      "googleBeforeConsent": 0,
+      "slots": [
+        {
+          "source": "/ads/sticky-320x50.html",
+          "width": 320,
+          "height": 50
+        },
+        {
+          "source": "/ads/native-banner.html",
+          "width": 700,
+          "height": 210
+        },
+        {
+          "source": "/ads/footer-468x60.html",
+          "width": 468,
+          "height": 60
+        },
+        {
+          "source": "/ads/incontent-728x90.html",
+          "width": 728,
+          "height": 90
+        }
+      ],
+      "noOverflow": true,
+      "errors": []
+    },
+    {
+      "viewport": 1920,
+      "page": "/cooking/beer/",
+      "adsWithoutConsent": true,
+      "googleBeforeConsent": 0,
+      "slots": [
+        {
+          "source": "/ads/sticky-320x50.html",
+          "width": 320,
+          "height": 50
+        },
+        {
+          "source": "/ads/incontent-728x90.html",
+          "width": 728,
+          "height": 90
+        },
+        {
+          "source": "/ads/footer-468x60.html",
+          "width": 468,
+          "height": 60
+        },
+        {
+          "source": "/ads/native-banner.html",
+          "width": 700,
+          "height": 210
+        },
+        {
+          "source": "/ads/sidebar-160x300.html",
+          "width": 160,
+          "height": 300
+        },
+        {
+          "source": "/ads/sidebar-160x600.html",
+          "width": 160,
+          "height": 600
+        }
+      ],
+      "noOverflow": true,
+      "errors": []
+    },
+    {
+      "viewport": 1440,
+      "page": "/",
+      "adsWithoutConsent": true,
+      "googleBeforeConsent": 0,
+      "slots": [
+        {
+          "source": "/ads/sticky-320x50.html",
+          "width": 320,
+          "height": 50
+        },
+        {
+          "source": "/ads/native-banner.html",
+          "width": 700,
+          "height": 210
+        },
+        {
+          "source": "/ads/footer-468x60.html",
+          "width": 468,
+          "height": 60
+        },
+        {
+          "source": "/ads/incontent-728x90.html",
+          "width": 728,
+          "height": 90
+        }
+      ],
+      "noOverflow": true,
+      "errors": []
+    },
+    {
+      "viewport": 1440,
+      "page": "/cooking/beer/",
+      "adsWithoutConsent": true,
+      "googleBeforeConsent": 0,
+      "slots": [
+        {
+          "source": "/ads/sticky-320x50.html",
+          "width": 320,
+          "height": 50
+        },
+        {
+          "source": "/ads/incontent-728x90.html",
+          "width": 728,
+          "height": 90
+        },
+        {
+          "source": "/ads/footer-468x60.html",
+          "width": 468,
+          "height": 60
+        },
+        {
+          "source": "/ads/native-banner.html",
+          "width": 700,
+          "height": 210
+        },
+        {
+          "source": "/ads/sidebar-160x300.html",
+          "width": 160,
+          "height": 300
+        }
+      ],
+      "noOverflow": true,
+      "errors": []
+    },
+    {
+      "viewport": 1024,
+      "page": "/",
+      "adsWithoutConsent": true,
+      "googleBeforeConsent": 0,
+      "slots": [
+        {
+          "source": "/ads/sticky-320x50.html",
+          "width": 320,
+          "height": 50
+        },
+        {
+          "source": "/ads/native-banner.html",
+          "width": 700,
+          "height": 210
+        },
+        {
+          "source": "/ads/footer-468x60.html",
+          "width": 468,
+          "height": 60
+        },
+        {
+          "source": "/ads/incontent-728x90.html",
+          "width": 728,
+          "height": 90
+        }
+      ],
+      "noOverflow": true,
+      "errors": []
+    },
+    {
+      "viewport": 1024,
+      "page": "/cooking/beer/",
+      "adsWithoutConsent": true,
+      "googleBeforeConsent": 0,
+      "slots": [
+        {
+          "source": "/ads/sticky-320x50.html",
+          "width": 320,
+          "height": 50
+        },
+        {
+          "source": "/ads/incontent-728x90.html",
+          "width": 728,
+          "height": 90
+        },
+        {
+          "source": "/ads/footer-468x60.html",
+          "width": 468,
+          "height": 60
+        },
+        {
+          "source": "/ads/native-banner.html",
+          "width": 700,
+          "height": 210
+        },
+        {
+          "source": "/ads/sidebar-160x300.html",
+          "width": 160,
+          "height": 300
+        }
+      ],
+      "noOverflow": true,
+      "errors": []
+    },
+    {
+      "viewport": 768,
+      "page": "/",
+      "adsWithoutConsent": true,
+      "googleBeforeConsent": 0,
+      "slots": [
+        {
+          "source": "/ads/sticky-320x50.html",
+          "width": 320,
+          "height": 50
+        },
+        {
+          "source": "/ads/native-banner.html",
+          "width": 700,
+          "height": 210
+        },
+        {
+          "source": "/ads/sidebar-300x250.html",
+          "width": 300,
+          "height": 250
+        }
+      ],
+      "noOverflow": true,
+      "errors": []
+    },
+    {
+      "viewport": 768,
+      "page": "/cooking/beer/",
+      "adsWithoutConsent": true,
+      "googleBeforeConsent": 0,
+      "slots": [
+        {
+          "source": "/ads/sticky-320x50.html",
+          "width": 320,
+          "height": 50
+        },
+        {
+          "source": "/ads/sidebar-300x250.html",
+          "width": 300,
+          "height": 250
+        },
+        {
+          "source": "/ads/footer-468x60.html",
+          "width": 468,
+          "height": 60
+        },
+        {
+          "source": "/ads/native-banner.html",
+          "width": 700,
+          "height": 210
+        }
+      ],
+      "noOverflow": true,
+      "errors": []
+    },
+    {
+      "viewport": 500,
+      "page": "/",
+      "adsWithoutConsent": true,
+      "googleBeforeConsent": 0,
+      "slots": [
+        {
+          "source": "/ads/sticky-320x50.html",
+          "width": 320,
+          "height": 50
+        },
+        {
+          "source": "/ads/native-banner.html",
+          "width": 468,
+          "height": 480
+        },
+        {
+          "source": "/ads/sidebar-300x250.html",
+          "width": 300,
+          "height": 250
+        }
+      ],
+      "noOverflow": true,
+      "errors": []
+    },
+    {
+      "viewport": 500,
+      "page": "/cooking/beer/",
+      "adsWithoutConsent": true,
+      "googleBeforeConsent": 0,
+      "slots": [
+        {
+          "source": "/ads/sticky-320x50.html",
+          "width": 320,
+          "height": 50
+        },
+        {
+          "source": "/ads/sidebar-300x250.html",
+          "width": 300,
+          "height": 250
+        },
+        {
+          "source": "/ads/native-banner.html",
+          "width": 468,
+          "height": 480
+        }
+      ],
+      "noOverflow": true,
+      "errors": []
+    },
+    {
+      "viewport": 390,
+      "page": "/",
+      "adsWithoutConsent": true,
+      "googleBeforeConsent": 0,
+      "slots": [
+        {
+          "source": "/ads/sticky-320x50.html",
+          "width": 320,
+          "height": 50
+        },
+        {
+          "source": "/ads/native-banner.html",
+          "width": 358,
+          "height": 480
+        },
+        {
+          "source": "/ads/sidebar-300x250.html",
+          "width": 300,
+          "height": 250
+        }
+      ],
+      "noOverflow": true,
+      "errors": []
+    },
+    {
+      "viewport": 390,
+      "page": "/cooking/beer/",
+      "adsWithoutConsent": true,
+      "googleBeforeConsent": 0,
+      "slots": [
+        {
+          "source": "/ads/sticky-320x50.html",
+          "width": 320,
+          "height": 50
+        },
+        {
+          "source": "/ads/sidebar-300x250.html",
+          "width": 300,
+          "height": 250
+        },
+        {
+          "source": "/ads/native-banner.html",
+          "width": 358,
+          "height": 480
+        }
+      ],
+      "noOverflow": true,
+      "errors": []
+    },
+    {
+      "viewport": 320,
+      "page": "/",
+      "adsWithoutConsent": true,
+      "googleBeforeConsent": 0,
+      "slots": [
+        {
+          "source": "/ads/sticky-320x50.html",
+          "width": 320,
+          "height": 50
+        },
+        {
+          "source": "/ads/native-banner.html",
+          "width": 288,
+          "height": 480
+        },
+        {
+          "source": "/ads/sidebar-300x250.html",
+          "width": 300,
+          "height": 250
+        }
+      ],
+      "noOverflow": true,
+      "errors": []
+    },
+    {
+      "viewport": 320,
+      "page": "/cooking/beer/",
+      "adsWithoutConsent": true,
+      "googleBeforeConsent": 0,
+      "slots": [
+        {
+          "source": "/ads/sticky-320x50.html",
+          "width": 320,
+          "height": 50
+        },
+        {
+          "source": "/ads/sidebar-300x250.html",
+          "width": 300,
+          "height": 250
+        },
+        {
+          "source": "/ads/native-banner.html",
+          "width": 288,
+          "height": 480
+        }
+      ],
+      "noOverflow": true,
+      "errors": []
+    },
+    {
+      "viewport": "1920×700 → 1920×900",
+      "initialAds": 5,
+      "resizedAds": 6,
+      "uniqueRequests": 6
+    },
+    {
+      "consent": "declined",
+      "googleSdkRequests": 0,
+      "adRequests": 4,
+      "errors": []
+    },
+    {
+      "consent": "accepted",
+      "googleSdkRequests": 1,
+      "adRequests": 4,
+      "errors": []
+    },
+    {
+      "consent": "点击同意",
+      "googleSdkRequests": 1
+    }
+  ],
+  "passed": true
+}

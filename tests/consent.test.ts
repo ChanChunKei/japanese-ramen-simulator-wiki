@@ -1,15 +1,4 @@
-/**
- * Consent-literal contract — CONSENT_STORAGE_KEY / CONSENT_ACCEPTED_EVENT
- * are canonically exported from src/lib/shared-ui.ts but DUPLICATED as
- * string literals in three component scripts: CookieConsent's bundled
- * module cannot see frontmatter imports, and AdsterraSlot / MobileAnchorAd
- * run untranspiled is:inline scripts that cannot import at all.
- *
- * fail-closed direction: any single-sided rename means consumers can no
- * longer read the stored choice and the accept event never fires — ads
- * silently never load. This suite pins every duplicate to the canonical
- * export so a partial rename goes red instead.
- */
+/** 统计仍需同意，Adsterra 默认加载；浏览器脚本的同意常量保持一致。 */
 import { readFileSync } from 'node:fs';
 import { join, dirname } from 'node:path';
 import { fileURLToPath } from 'node:url';
@@ -19,10 +8,10 @@ import { shouldShowConsentBanner } from '../src/lib/shared-ui';
 const root = join(dirname(fileURLToPath(import.meta.url)), '..');
 const read = (rel: string) => readFileSync(join(root, rel), 'utf8');
 
-describe('广告单独启用时的同意横幅', () => {
-  test('仅 Adsterra 启用时需要同意，不依赖 GA 或 AdSense', () => {
+describe('统计与广告的同意边界', () => {
+  test('仅 Adsterra 启用时不显示同意横幅', () => {
     expect(shouldShowConsentBanner({ PUBLIC_ADSTERRA_SLOT_NATIVE_BANNER: '自有广告位' })).toBe(
-      true,
+      false,
     );
   });
 
@@ -43,16 +32,6 @@ const CONSUMERS: { file: string; keyRe: RegExp; eventRe: RegExp }[] = [
     file: 'src/components/layout/CookieConsent.astro',
     keyRe: /const KEY = '([^']+)'/,
     eventRe: /const ACCEPTED_EVENT = '([^']+)'/,
-  },
-  {
-    file: 'src/components/ads/AdsterraSlot.astro',
-    keyRe: /var CONSENT_KEY = '([^']+)'/,
-    eventRe: /var CONSENT_EVENT = '([^']+)'/,
-  },
-  {
-    file: 'src/components/ads/MobileAnchorAd.astro',
-    keyRe: /var CONSENT_KEY = '([^']+)'/,
-    eventRe: /var CONSENT_EVENT = '([^']+)'/,
   },
 ];
 

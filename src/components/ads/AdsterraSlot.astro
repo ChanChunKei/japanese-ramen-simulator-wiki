@@ -1,164 +1,119 @@
 ---
 /**
- * AdsterraSlot — an Adsterra ad unit mounted in a sandboxed iframe.
- *
- * Adsterra banner scripts all configure themselves through the shared
- * `window.atOptions` global, so two units inlined on one page clobber each
- * other (slot B renders with slot A's config). Every unit therefore lives in
- * its own static html file under `public/ads/` — `<name>.html`, holding
- * exactly the snippet from the Adsterra dashboard (Ad Units → GET CODE) —
- * and this component mounts it in an iframe. The sandbox omits
- * `allow-top-navigation` (some mobile creatives try to navigate the whole
- * page away) — but with `allow-scripts` + `allow-same-origin` both present
- * (creatives need them to render), the sandbox is layout containment and
- * navigation friction, NOT a hard security boundary against a malicious
- * creative; true isolation would take a separate origin. Full rationale:
- * docs/ads.md 「广告位怎么挂（独立文件 + iframe 隔离）」.
- *
- * Gated on PUBLIC_ADSTERRA_SLOT_<NAME> (name upper-cased, hyphens become
- * underscores — `sidebar-300x250` → `PUBLIC_ADSTERRA_SLOT_SIDEBAR_300X250`).
- * Empty = nothing rendered, the same env contract as the AdSense slots. The
- * html file itself is not build inputs — also create it in `public/ads/` or
- * the iframe 404s as an empty box.
- *
- * 同意横幅由分析或任一 Adsterra 广告位启用；三处组件共用同一判断。
- * 广告 iframe 先只保存 data-src，访客同意后才加载。
- * 隐藏或容不下原始尺寸的广告不加载；原生广告按实际内容高度展开。
- * 所有广告配置为空时不渲染广告或其加载脚本。
+ * 每个固定尺寸广告使用独立 HTML 和 window，避免 atOptions 互相覆盖。
+ * 环境变量为空则不输出；已配置广告自动加载，与 GA 的同意选择独立。
+ * 隐藏或容不下原尺寸的广告不请求，原生广告高度随素材调整。
+ * sandbox 限制顶层跳转，但同源且允许脚本，并非恶意素材的安全边界。
  */
+import { currentSharedStrings } from '~/lib/shared-ui';
+
 interface Props {
-  /** Slot name = html filename stem under public/ads/ (e.g. `sidebar-300x250`). */
   name: string;
-  /** Creative width in px — keep in sync with the unit's Adsterra size. */
   width: number;
-  /** Creative height in px — keep in sync with the unit's Adsterra size. */
   height: number;
-  /** Set to `false` to hide the "Advertisement" label (labels default on). */
   label?: boolean;
-  /**
-   * 宽横幅只在 xl 及以上显示，确保侧栏存在时仍能容纳原始尺寸。
-   * 固定尺寸素材不缩放，窄屏通过响应式原生广告补充。
-   */
   hideOnMobile?: boolean;
+  compact?: boolean;
+  /** 正文广告在加载前移动到指定的直接段落之后，不改写 MDX。 */
+  afterParagraph?: number;
 }
-
-import { currentSharedStrings, shouldShowConsentBanner } from '~/lib/shared-ui';
-
-const { name, width, height, label = true, hideOnMobile = false } = Astro.props;
+const {
+  name,
+  width,
+  height,
+  label = true,
+  hideOnMobile = false,
+  compact = false,
+  afterParagraph,
+} = Astro.props;
 const envKey = `PUBLIC_ADSTERRA_SLOT_${name.replace(/-/g, '_').toUpperCase()}`;
 const show = !!import.meta.env[envKey];
-const consentBannerActive = shouldShowConsentBanner(import.meta.env);
 const isNative = name === 'native-banner';
-const iframeSrc = `/ads/${name}.html`;
-const sharedStrings = currentSharedStrings(Astro.currentLocale);
-const adLabel = sharedStrings.adLabel ?? 'Advertisement';
+const adLabel = currentSharedStrings(Astro.currentLocale).adLabel ?? 'Advertisement';
 ---
 {
   show && (
-    <>
-      <div
-        class:list={[
-          'my-8 w-full flex-col items-center justify-center',
-          hideOnMobile ? (width >= 728 ? 'hidden xl:flex' : 'hidden md:flex') : 'flex',
-        ]}
-      >
-        {label && (
-          <span class="mb-1 text-[10px] uppercase tracking-wider text-muted-foreground">{adLabel}</span>
-        )}
-        <iframe
-          src={consentBannerActive ? undefined : iframeSrc}
-          data-src={consentBannerActive ? iframeSrc : undefined}
-          data-adsterra-defer={consentBannerActive ? '1' : undefined}
-          data-adsterra-native={isNative ? '1' : undefined}
-          data-adsterra-min-width={isNative ? 0 : width}
-          style={`width:100%;max-width:${width}px;height:${height}px;border:0`}
-          loading="lazy"
-          sandbox="allow-scripts allow-same-origin allow-popups allow-forms"
-          title={adLabel}
-        />
-      </div>
-      {consentBannerActive && (
-        <script is:inline>
-          /* ES2018 only (no optional chaining / nullish coalescing / optional
-             catch binding) — runs untranspiled in the HTML, old webviews parse
-             it. Consent-gated deferred load: promotes data-src → src on every
-             pending Adsterra iframe once the visitor has consented. Declined
-             or unchosen → never loads (same contract as __awLoadTrackers for
-             GA/AdSense). Idempotent: each slot ships one copy of this script;
-             only iframes still carrying data-adsterra-defer are touched.
-             Event + storage key mirror src/lib/shared-ui.ts (inline scripts
-             can't import; tests/consent.test.ts pins the duplicates). */
-          (function () {
-            var CONSENT_KEY = 'aw-cookie-consent';
-            var CONSENT_EVENT = 'aw:consent-accepted';
-            var accepted = false;
-            var activate = function () {
-              var pending = document.querySelectorAll('iframe[data-adsterra-defer]');
-              for (var i = 0; i < pending.length; i++) {
-                var frame = pending[i];
-                // 隐藏或容不下原始尺寸的广告位不发起广告请求。
-                var rect = frame.getBoundingClientRect();
-                var minimumWidth = Number(frame.getAttribute('data-adsterra-min-width'));
-                if (rect.height === 0 || rect.width + 0.5 < minimumWidth) continue;
-                var src = frame.getAttribute('data-src');
-                if (src) {
-                  frame.src = src;
-                }
-                frame.removeAttribute('data-adsterra-defer');
-                frame.removeAttribute('data-src');
-              }
-            };
-            var accept = function () {
-              accepted = true;
-              activate();
-              // 手机底部广告先解除隐藏，再加载其中的广告。
-              requestAnimationFrame(activate);
-            };
-            window.addEventListener('resize', function () {
-              if (accepted) activate();
-            });
-            var wire = function () {
-              // iframe 内原生广告发生排版变化时同步高度，监听只安装一次。
-              var nativeFrames = document.querySelectorAll('iframe[data-adsterra-native]');
-              for (var j = 0; j < nativeFrames.length; j++) {
-                (function (frame) {
-                  if (frame.getAttribute('data-adsterra-resize') === '1') return;
-                  frame.setAttribute('data-adsterra-resize', '1');
-                  frame.addEventListener('load', function () {
-                    var doc = frame.contentDocument;
-                    var container = doc && doc.querySelector('[id^="container-"]');
-                    if (!container) return;
-                    var resize = function () {
-                      var height = Math.ceil(container.getBoundingClientRect().height);
-                      if (height > 0) frame.style.height = height + 'px';
-                    };
-                    if (typeof ResizeObserver !== 'undefined') {
-                      new ResizeObserver(resize).observe(container);
-                    }
-                    resize();
-                  });
-                })(nativeFrames[j]);
-              }
-              var stored = null;
-              try {
-                stored = localStorage.getItem(CONSENT_KEY);
-              } catch (e) {
-                /* storage unavailable — treat as no consent yet */
-              }
-              if (stored === 'accepted') {
-                accept();
-                return;
-              }
-              document.addEventListener(CONSENT_EVENT, accept);
-            };
-            if (document.readyState === 'loading') {
-              document.addEventListener('DOMContentLoaded', wire);
-            } else {
-              wire();
-            }
-          })();
-        </script>
+    <div
+      data-adsterra-slot={name}
+      data-adsterra-after-paragraph={afterParagraph}
+      data-pagefind-ignore
+      class:list={[
+        'w-full flex-col items-center justify-center not-prose',
+        !compact && 'my-8',
+        hideOnMobile ? (width >= 728 ? 'hidden lg:flex' : 'hidden md:flex') : 'flex',
+      ]}
+    >
+      {label && (
+        <span class="mb-1 text-[10px] uppercase tracking-wider text-muted-foreground">{adLabel}</span>
       )}
-    </>
+      <iframe
+        data-src={`/ads/${name}.html`}
+        data-adsterra-defer="1"
+        data-adsterra-native={isNative ? '1' : undefined}
+        data-adsterra-min-width={isNative ? 0 : width}
+        style={`width:100%;max-width:${width}px;height:${height}px;border:0`}
+        loading="lazy"
+        sandbox="allow-scripts allow-same-origin allow-popups allow-forms"
+        title={adLabel}
+      />
+    </div>
+  )
+}
+{
+  show && (
+    <script is:inline>
+      // 原样交付浏览器，保持 ES2018 语法；全页只安装一组监听。
+      (function () {
+        if (window.__awAdsterraReady) return;
+        window.__awAdsterraReady = true;
+        var activate = function () {
+          var pending = document.querySelectorAll('iframe[data-adsterra-defer]');
+          for (var i = 0; i < pending.length; i++) {
+            var frame = pending[i];
+            var rect = frame.getBoundingClientRect();
+            var minimumWidth = Number(frame.getAttribute('data-adsterra-min-width'));
+            if (rect.height === 0 || rect.width + 0.5 < minimumWidth) continue;
+            var src = frame.getAttribute('data-src');
+            if (src) frame.src = src;
+            frame.removeAttribute('data-adsterra-defer');
+            frame.removeAttribute('data-src');
+          }
+        };
+        var wire = function () {
+          // 先放置正文广告，再加载 iframe，避免移动已加载节点造成重复请求。
+          var inserts = document.querySelectorAll('[data-adsterra-after-paragraph]');
+          var body = document.querySelector('[data-pagefind-body]');
+          for (var i = 0; body && i < inserts.length; i++) {
+            var paragraphs = [];
+            for (var j = 0; j < body.children.length; j++) {
+              if (body.children[j].tagName === 'P') paragraphs.push(body.children[j]);
+            }
+            var index = Number(inserts[i].getAttribute('data-adsterra-after-paragraph')) - 1;
+            var target = paragraphs[index];
+            if (target) target.insertAdjacentElement('afterend', inserts[i].parentElement);
+          }
+          var nativeFrames = document.querySelectorAll('iframe[data-adsterra-native]');
+          for (var n = 0; n < nativeFrames.length; n++) {
+            (function (frame) {
+              frame.addEventListener('load', function () {
+                var doc = frame.contentDocument;
+                var container = doc && doc.querySelector('[id^="container-"]');
+                if (!container) return;
+                var resize = function () {
+                  var height = Math.ceil(container.getBoundingClientRect().height);
+                  if (height > 0) frame.style.height = height + 'px';
+                };
+                if (typeof ResizeObserver !== 'undefined') new ResizeObserver(resize).observe(container);
+                resize();
+              });
+            })(nativeFrames[n]);
+          }
+          activate();
+          window.addEventListener('resize', activate);
+        };
+        if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', wire);
+        else wire();
+      })();
+    </script>
   )
 }
