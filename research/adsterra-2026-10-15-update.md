@@ -30,6 +30,20 @@
 
 浏览器检查验证广告默认加载、GA 同意边界、可见广告每码只请求一次、隐藏广告不请求、原尺寸、Native 高度、正文插入位置、顶部常驻、标题锚点避让、两侧广告与正文及目录无重叠、无横向溢出、无脚本错误。证据为 `adsterra-2026-10-15-audit.json`，截图在 `qa/ads/2026-10-15/`，均明确标记模拟素材。
 
-模拟检查不制造真实广告展示或点击，不能证明广告平台真实填充或计费。此前站主已确认关闭 VPN 后能够看到广告；这次不把网络导致的 403 当作组件故障。正式发布后将核对部署提交标记、广告入口和同样的模拟行为。
+模拟检查不制造真实广告展示或点击，不能证明广告平台真实填充或计费。此前站主已确认关闭 VPN 后能够看到广告；这次不把网络导致的 403 当作组件故障。正式部署提交标记和广告入口已核对，结果见下表。
 
 依据：[Adsterra Banner 官方说明](https://adsterra.com/blog/how-banner-ads-make-money/)关于同页不同广告位使用不同代码及固定素材尺寸的说明。首轮历史记录保留在 `adsterra-setup.md`；本文件描述当前版本。
+
+
+## 正式发布
+
+功能提交：`74e847e6534298963c9a42337cb6099a03dff32d`。已发布至 [正式域名](https://japaneseramensimulatorwikis.wiki/)，固定部署为 [721f54b6](https://721f54b6.japanese-ramen-simulator-wiki.pages.dev)。
+
+| 项目 | 结果 |
+|---|---|
+| 公网入口 | 首页、文章、隐私政策、部署标记、七个广告 HTML，共 11 个地址返回 200；广告源代码与本地一致，并具备 noindex 与 frame-ancestors 响应头 |
+| 部署标记 | 与功能提交完整 SHA 一致 |
+| 线上浏览器 | 与本地同样的 18 组模拟行为检查全部通过，原始证据为 `adsterra-2026-10-15-production-audit.json` |
+| GitHub | [CI 成功](https://github.com/ChanChunKei/japanese-ramen-simulator-wiki/actions/runs/38691578426)、[IndexNow 成功](https://github.com/ChanChunKei/japanese-ramen-simulator-wiki/actions/runs/38691677194) |
+
+公网入口证据为 `adsterra-2026-10-15-production-endpoints.json`。截图目录中的最终图片来自正式网址的模拟检查。生产浏览器仍使用模拟广告响应，不向 Adsterra 制造实际展示或点击。仅保存检测结果与模拟截图，不保存 Cookie 或访客标识。

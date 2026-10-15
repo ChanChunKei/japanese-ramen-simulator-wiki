@@ -1,0 +1,62 @@
+{
+  "checkedAt": "2026-10-15T06:20:07.930706+00:00",
+  "commit": "74e847e6534298963c9a42337cb6099a03dff32d",
+  "passed": true,
+  "checks": [
+    {
+      "path": "/.well-known/anvilwiki-deploy.txt",
+      "status": 200,
+      "noindex": true
+    },
+    {
+      "path": "/",
+      "status": 200,
+      "noindex": false
+    },
+    {
+      "path": "/cooking/beer/",
+      "status": 200,
+      "noindex": false
+    },
+    {
+      "path": "/privacy-policy/",
+      "status": 200,
+      "noindex": false
+    },
+    {
+      "path": "/ads/footer-468x60.html",
+      "status": 200,
+      "noindex": true
+    },
+    {
+      "path": "/ads/incontent-728x90.html",
+      "status": 200,
+      "noindex": true
+    },
+    {
+      "path": "/ads/native-banner.html",
+      "status": 200,
+      "noindex": true
+    },
+    {
+      "path": "/ads/sidebar-160x300.html",
+      "status": 200,
+      "noindex": true
+    },
+    {
+      "path": "/ads/sidebar-160x600.html",
+      "status": 200,
+      "noindex": true
+    },
+    {
+      "path": "/ads/sidebar-300x250.html",
+      "status": 200,
+      "noindex": true
+    },
+    {
+      "path": "/ads/sticky-320x50.html",
+      "status": 200,
+      "noindex": true
+    }
+  ]
+}
